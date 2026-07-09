@@ -78,7 +78,7 @@
         "MedianAE": 37.22322867317928,
         "R2": 0.9252188577965406,
         "best_iteration": 632,
-        "wall_seconds": 19.0
+        "wall_seconds": 18.8
       },
       "cat_q50": {
         "MAE": 69.87952913206311,
@@ -88,7 +88,7 @@
         "MedianAE": 24.574633558048276,
         "R2": 0.9302112324481102,
         "best_iteration": 1119,
-        "wall_seconds": 3.8
+        "wall_seconds": 3.5
       },
       "knn_geo": {
         "MAE": 186.17017773233633,
@@ -133,7 +133,7 @@
         "MedianAE": 26.544635963558676,
         "R2": 0.9529553318866393,
         "best_iteration": 1703,
-        "wall_seconds": 5.4
+        "wall_seconds": 5.5
       },
       "knn_geo": {
         "MAE": 202.42728064605006,
@@ -168,7 +168,7 @@
         "MedianAE": 37.586548361809264,
         "R2": 0.6692253485204415,
         "best_iteration": 1345,
-        "wall_seconds": 36.7
+        "wall_seconds": 36.5
       },
       "cat_q50": {
         "MAE": 91.50142436561282,
@@ -178,7 +178,7 @@
         "MedianAE": 23.953024775654967,
         "R2": 0.7230324797746229,
         "best_iteration": 2316,
-        "wall_seconds": 7.2
+        "wall_seconds": 7.1
       },
       "knn_geo": {
         "MAE": 224.22255106537887,
@@ -213,7 +213,7 @@
         "MedianAE": 32.19048035918104,
         "R2": 0.8626384245986838,
         "best_iteration": 1293,
-        "wall_seconds": 35.6
+        "wall_seconds": 35.1
       },
       "cat_q50": {
         "MAE": 82.13902048571562,
@@ -223,7 +223,7 @@
         "MedianAE": 25.889725226160635,
         "R2": 0.896679750728808,
         "best_iteration": 2415,
-        "wall_seconds": 7.9
+        "wall_seconds": 7.7
       },
       "knn_geo": {
         "MAE": 226.89524145045533,
@@ -258,7 +258,7 @@
         "MedianAE": 37.80693982616481,
         "R2": 0.9186924093500896,
         "best_iteration": 1382,
-        "wall_seconds": 38.7
+        "wall_seconds": 37.5
       },
       "cat_q50": {
         "MAE": 72.08229286775443,
@@ -268,7 +268,7 @@
         "MedianAE": 23.701733878638834,
         "R2": 0.9291683576473082,
         "best_iteration": 1666,
-        "wall_seconds": 5.3
+        "wall_seconds": 5.6
       },
       "knn_geo": {
         "MAE": 214.24545187694977,
