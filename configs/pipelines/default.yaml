@@ -1,0 +1,21 @@
+# Default pipeline configuration.
+#
+# Cross-validation, target transformation, training-loop knobs.
+# Inherited by all model configs unless overridden.
+
+target:
+  column: rent
+  transform: log1p        # one of: log1p, identity, log_psf (log1p(rent/sqft))
+
+cv:
+  strategy: group_kfold
+  splits: 5
+  group_key: property_id
+  random_state: 42
+
+training:
+  num_boost_round: 4000   # capped by early stopping
+  early_stopping_rounds: 100
+
+tuning:
+  n_optuna_trials: 30     # 0 = skip tuning, use shipped hyperparams

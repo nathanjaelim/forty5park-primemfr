@@ -1,0 +1,25 @@
+# LightGBM training configuration.
+#
+# `fixed` are static across all runs. `tuned` are loaded from
+# artifacts/best_params.json by default — this file mirrors the Optuna
+# search-space defaults if the artifact is missing.
+
+fixed:
+  objective: regression_l1
+  metric: mae
+  verbosity: -1
+  feature_pre_filter: false
+  num_threads: -1
+
+# Tuned via 50-trial Optuna study; current values mirror
+# artifacts/best_params.json (single source of truth: that file wins if present).
+tuned:
+  learning_rate: 0.04
+  num_leaves: 63
+  min_data_in_leaf: 20
+  feature_fraction: 0.85
+  bagging_fraction: 0.85
+  bagging_freq: 5
+  lambda_l1: 0.1
+  lambda_l2: 0.1
+  max_depth: -1

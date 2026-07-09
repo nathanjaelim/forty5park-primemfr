@@ -1,0 +1,82 @@
+# Graceful-degradation model.
+#
+# One model that handles both regimes via random nullification of historical
+# features during training. Predicts twice at evaluation time:
+#   - full hist:  OOF MAE $89.36, MAPE 4.25%, MedianAPE 2.72%
+#   - null hist:  OOF MAE $185.22, MAPE 9.91%, MedianAPE 7.82%
+# Trades $13 of repricing accuracy for the ability to serve both regimes
+# from a single model endpoint.
+
+name: graceful
+description: Graceful-degradation variant — random hist nullification during training.
+
+pipeline: default
+
+features:
+  # Same feature set as primary (hist features are trained on but randomly
+  # set to NaN for 30% of rows).
+  include_numeric_groups:
+    - unit_structural
+    - property_structural
+    - property_economics
+    - geographic
+    - engineered
+    - historical_lags
+  include_categorical: true
+  include_booleans: true
+  include_ordinal_grade: true
+  include_text_features: true
+  include_target_encoding: true
+
+bases:
+  - name: lgbm_l1
+    trainer: lightgbm
+    hyperparams: lightgbm
+    overrides:
+      objective: regression_l1
+    seed_offset: 0
+
+  - name: cat_q50
+    trainer: catboost
+    hyperparams: catboost
+    overrides:
+      loss_function: "Quantile:alpha=0.5"
+      eval_metric: MAE
+    seed_offset: 2000
+
+  - name: knn_geo
+    trainer: knn
+    hyperparams: knn.geo
+    seed_offset: 5000
+
+  - name: knn_lean
+    trainer: knn
+    hyperparams: knn.lean
+    seed_offset: 6000
+
+meta:
+  type: aug_ridge
+  alpha: 1.0
+  positive: false
+  fit_intercept: true
+  context_features:
+    - log_sqft
+    - beds
+    - year_built
+
+training:
+  nullification:
+    enabled: true
+    columns:
+      - hist_rent_lag_1m
+      - hist_rent_lag_3m
+      - hist_rent_lag_12m
+      - hist_rent_lag_24m
+      - hist_rent_yoy
+    fraction: 0.30
+    seed: 20260501
+
+artifacts:
+  state_path: artifacts/stacking_scratch/oof_state.graceful.pkl
+  metrics_path: artifacts/metrics.graceful.json
+  predictions_path: artifacts/oof_predictions.graceful.parquet

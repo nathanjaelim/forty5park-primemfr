@@ -1,0 +1,48 @@
+{
+  "_meta": {
+    "description": "Reference latitude/longitude for Atlanta-metro landmarks used as ML feature anchors (haversine distance to landmark).",
+    "purpose": "Feature engineering for the Yardi rent prediction model. Use with rent EDA dataset to compute dist_buckhead, dist_midtown, dist_downtown, dist_airport.",
+    "datum": "WGS84",
+    "units": "decimal degrees (lat positive N, lng negative W in this region)",
+    "compiled_on": "2026-04-29",
+    "compiled_by": "EDA pipeline; see EDA_report.html"
+  },
+  "landmarks": {
+    "buckhead": {
+      "name": "Buckhead",
+      "type": "neighborhood/business district",
+      "latitude": 33.83942,
+      "longitude": -84.37992,
+      "source": "Wikipedia infobox - https://en.wikipedia.org/wiki/Buckhead",
+      "wikipedia_dms": "33°50'22\"N 84°22'48\"W",
+      "notes": "Northern uptown business district; high-end residential and commercial core."
+    },
+    "midtown": {
+      "name": "Midtown Atlanta",
+      "type": "neighborhood/business district",
+      "latitude": 33.7868014,
+      "longitude": -84.3795169,
+      "source": "Wikipedia infobox - https://en.wikipedia.org/wiki/Midtown_Atlanta",
+      "wikipedia_dms": "33°47'12\"N 84°22'46\"W",
+      "notes": "High-density commercial/residential corridor along Peachtree St between North Ave and 17th St."
+    },
+    "downtown": {
+      "name": "Downtown Atlanta",
+      "type": "central business district",
+      "latitude": 33.75500,
+      "longitude": -84.39000,
+      "source": "Wikipedia infobox - https://en.wikipedia.org/wiki/Downtown_Atlanta",
+      "wikipedia_dms": "33°45'18\"N 84°23'24\"W",
+      "notes": "Central business district; Five Points / Peachtree Center / GSU."
+    },
+    "atl_airport": {
+      "name": "Hartsfield-Jackson Atlanta International Airport (ATL)",
+      "type": "airport",
+      "latitude": 33.6407,
+      "longitude": -84.4277,
+      "source": "FAA airport reference point; confirmed via Wikipedia / latlong.net",
+      "wikipedia_dms": "33°38'12\"N 84°25'40\"W",
+      "notes": "Largest US employment node south of downtown; commute proximity affects rent pricing."
+    }
+  }
+}

@@ -1,0 +1,69 @@
+# Cold-start model (no historical rent data).
+#
+# For new construction, recent acquisitions, comp pricing — anywhere
+# the (property, unit_type) lacks a rent history.
+# OOF MAE $191.25, MAPE 10.21%, MedianAPE 7.94%, R^2 0.795.
+
+name: cold_start
+description: Cold-start variant — 4-base stack, no historical-rent lags.
+
+pipeline: default
+
+features:
+  # Same as primary, but drops the historical_lags group.
+  include_numeric_groups:
+    - unit_structural
+    - property_structural
+    - property_economics
+    - geographic
+    - engineered
+  include_categorical: true
+  include_booleans: true
+  include_ordinal_grade: true
+  include_text_features: true
+  include_target_encoding: true
+
+bases:
+  - name: lgbm_l1
+    trainer: lightgbm
+    hyperparams: lightgbm
+    overrides:
+      objective: regression_l1
+    seed_offset: 0
+
+  - name: cat_q50
+    trainer: catboost
+    hyperparams: catboost
+    overrides:
+      loss_function: "Quantile:alpha=0.5"
+      eval_metric: MAE
+    seed_offset: 2000
+
+  - name: knn_geo
+    trainer: knn
+    hyperparams: knn.geo
+    seed_offset: 5000
+
+  - name: knn_lean
+    trainer: knn
+    hyperparams: knn.lean
+    seed_offset: 6000
+
+meta:
+  type: aug_ridge
+  alpha: 1.0
+  positive: false
+  fit_intercept: true
+  context_features:
+    - log_sqft
+    - beds
+    - year_built
+
+training:
+  nullification:
+    enabled: false
+
+artifacts:
+  state_path: artifacts/stacking_scratch/oof_state.pkl.coldstart
+  metrics_path: artifacts/metrics.coldstart.json
+  predictions_path: artifacts/oof_predictions.coldstart.parquet

@@ -1,0 +1,52 @@
+# Numeric feature lists.
+#
+# Organized into named groups so model configs can include/exclude
+# whole groups (e.g. cold_start.yaml drops `historical_lags`).
+
+groups:
+  unit_structural:
+    - sqft
+    - beds
+    - baths
+    - unit_garage
+
+  property_structural:
+    - num_units
+    - num_units_subtype
+    - year_built
+    - min_stories
+    - max_stories
+    - number_of_stories
+    - num_buildings
+    - total_parking_spaces
+    - lot_size_in_acres
+    - lot_size_in_square_feet
+
+  property_economics:
+    - occupancy_rate
+    - latest_sale_price_per_sqft
+    - latest_sale_price_per_unit
+    - latest_sale_price_total
+
+  geographic:
+    - latitude
+    - longitude
+    - dist_buckhead_km
+    - dist_midtown_km
+    - dist_downtown_km
+    - dist_atl_airport_km
+    - dist_min_landmark_km
+
+  engineered:
+    - property_age
+
+  # Hist-rent lag features. Per (property_id, unit_type) series anchored to
+  # 2026-03 target. lag_1 = Feb 2026, lag_3 = Dec 2025, lag_12 = Mar 2025,
+  # lag_24 = Mar 2024. yoy = lag_1 / lag_13 - 1. The primary model uses
+  # this group; cold_start.yaml omits it.
+  historical_lags:
+    - hist_rent_lag_1m
+    - hist_rent_lag_3m
+    - hist_rent_lag_12m
+    - hist_rent_lag_24m
+    - hist_rent_yoy

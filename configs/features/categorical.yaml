@@ -1,0 +1,75 @@
+# Categorical, ordinal, and boolean feature lists.
+
+categorical:
+  - unit_type
+  - unit_mix_type
+  - haystacks_unit_type
+  - sub_market
+  - zipcode
+  - county
+  - parking_type
+  - garage
+  - h3_res6
+  - h3_res8
+  - brand
+  - street_type
+  - addr_dir
+
+ordinal_grade:
+  - property_quality
+  - location_quality
+
+booleans:
+  - is_yardi_btr
+  - is_hstx_btr
+  - is_yardi_unittype_btr
+  - is_leased_up
+  - is_mixed_use
+  - is_elevator_served
+  - has_controlled_access
+  - has_fitness_center
+  - has_business_center
+  - has_clubhouse
+  - has_garage
+  - has_media_room
+  - has_townhouse
+  - covered_parking
+  - rent_office
+  - wd_hookup
+  - wd_in_unit
+
+text_booleans:
+  - name_kw_premium
+  - name_kw_midmarket
+  - name_kw_older
+  - name_kw_conversion
+  - name_kw_phase
+  - name_starts_the
+  - name_has_at
+  - name_has_digit
+  - name_has_ampersand
+  - name_claims_premium_subm
+  - name_subm_match
+  - addr_is_peachtree
+  - addr_is_iconic
+  - addr_has_highway
+  - addr_has_suite
+
+text_numerics:
+  - name_len
+  - name_n_words
+  - name_caps_ratio
+  - addr_house_num
+  - addr_house_num_log
+  - addr_n_words
+
+target_encode:
+  # OOF Bayesian-smoothed target encoding columns.
+  - sub_market
+  - zipcode
+  - h3_res6
+  - h3_res8
+  - unit_type
+  - haystacks_unit_type
+  - brand
+  - street_type

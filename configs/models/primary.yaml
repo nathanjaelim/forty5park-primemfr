@@ -1,0 +1,73 @@
+# Primary (repricing) model.
+#
+# 4-base stack with the full historical-rent lag feature group. This is
+# the production model for units with rent history (~86% of portfolio).
+# OOF MAE $76.67, MAPE 3.51%, MedianAPE 1.77%, R^2 0.869.
+
+name: primary
+description: Repricing model — 4-base stack with full historical-rent lags.
+
+# Inherit pipeline knobs from configs/pipelines/default.yaml.
+pipeline: default
+
+features:
+  # Whole groups from configs/features/numeric.yaml.
+  include_numeric_groups:
+    - unit_structural
+    - property_structural
+    - property_economics
+    - geographic
+    - engineered
+    - historical_lags
+  # Whole categorical / boolean blocks from configs/features/categorical.yaml.
+  include_categorical: true
+  include_booleans: true
+  include_ordinal_grade: true
+  include_text_features: true
+  include_target_encoding: true
+
+bases:
+  - name: lgbm_l1
+    trainer: lightgbm
+    hyperparams: lightgbm
+    overrides:
+      objective: regression_l1
+    seed_offset: 0
+
+  - name: cat_q50
+    trainer: catboost
+    hyperparams: catboost
+    overrides:
+      loss_function: "Quantile:alpha=0.5"
+      eval_metric: MAE
+    seed_offset: 2000
+
+  - name: knn_geo
+    trainer: knn
+    hyperparams: knn.geo
+    seed_offset: 5000
+
+  - name: knn_lean
+    trainer: knn
+    hyperparams: knn.lean
+    seed_offset: 6000
+
+meta:
+  type: aug_ridge
+  alpha: 1.0
+  positive: false
+  fit_intercept: true
+  context_features:
+    - log_sqft
+    - beds
+    - year_built
+
+training:
+  nullification:
+    enabled: false
+
+artifacts:
+  state_path: artifacts/stacking_scratch/oof_state.pkl
+  metrics_path: artifacts/metrics.json
+  predictions_path: artifacts/oof_predictions.parquet
+  feature_importance_path: artifacts/feature_importance.csv

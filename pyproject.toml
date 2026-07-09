@@ -1,0 +1,211 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+# ---------------------------------------------------------------------------
+# Project metadata (PEP 621)
+# ---------------------------------------------------------------------------
+
+[project]
+name = "prime-mfr"
+description = "Atlanta multifamily rent prediction pipeline (AVM for Yardi-source data)."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "Proprietary" }
+authors = [
+    { name = "Forty5 Park Data Science", email = "joe@forty5park.com" },
+]
+keywords = ["machine-learning", "real-estate", "avm", "multifamily", "rent-prediction"]
+classifiers = [
+    "License :: Other/Proprietary License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+    "pandas>=2.0",
+    "numpy>=1.24",
+    "pyarrow>=12.0",
+    "scikit-learn>=1.3",
+    "lightgbm>=4.0",
+    "catboost>=1.2",
+    "optuna>=3.4",
+    "h3>=4.0",
+    "pyyaml>=6.0",
+]
+dynamic = ["version"]
+
+[project.optional-dependencies]
+# Kept for compatibility with `pip install -e ".[dev]"`.
+# uv prefers [dependency-groups] below; both are kept in sync.
+dev = [
+    "black>=24.0",
+    "ruff>=0.5",
+    "pytest>=8.0",
+    "pytest-cov>=5.0",
+    "pre-commit>=3.7",
+    "build>=1.2",
+]
+docs = [
+    "mkdocs>=1.6",
+    "mkdocs-material>=9.5",
+]
+
+# ---------------------------------------------------------------------------
+# Dependency groups (PEP 735 — uv-native)
+# ---------------------------------------------------------------------------
+# `uv sync --group dev` installs the group; `uv sync` installs core only.
+
+[dependency-groups]
+dev = [
+    "black>=24.0",
+    "ruff>=0.5",
+    "pytest>=8.0",
+    "pytest-cov>=5.0",
+    "pre-commit>=3.7",
+    "build>=1.2",
+]
+docs = [
+    "mkdocs>=1.6",
+    "mkdocs-material>=9.5",
+]
+
+[project.scripts]
+# Unified CLI — `prime-mfr <subcommand>` (train / status / evaluate / predict / ablate / tune / list)
+prime-mfr = "prime_mfr.cli.main:main"
+# Direct access to the low-level pipeline runner (prep / foldprep / train / meta subcommands)
+prime-mfr-pipeline = "prime_mfr.pipeline.stacked_cv:main"
+# Optuna hyperparameter tuners
+prime-mfr-tune-lgb = "prime_mfr.tuning.lightgbm:main"
+prime-mfr-tune-cb = "prime_mfr.tuning.catboost:main"
+# Post-hoc error segmentation report
+prime-mfr-segment = "prime_mfr.evaluation.error_segmentation:main"
+# Pretraining-table builder (Yardi feed join)
+prime-mfr-pretrain = "prime_mfr.pretraining.build_v2:main"
+
+[project.urls]
+Repository = "https://github.com/forty5park/prime-mfr"
+
+# ---------------------------------------------------------------------------
+# uv — Python package + project manager
+# ---------------------------------------------------------------------------
+# Run `uv sync` to create .venv with core deps; `uv sync --all-groups` for dev.
+# `uv lock` regenerates uv.lock (commit it for reproducible installs).
+
+[tool.uv]
+# Install dev group by default when `uv sync` runs locally.
+default-groups = ["dev"]
+
+# Treat the package as a "package" (build wheels) rather than the default
+# "virtual" project mode. Required because we publish a wheel internally and
+# rely on console_scripts entry points.
+package = true
+
+# ---------------------------------------------------------------------------
+# Setuptools — source layout
+# ---------------------------------------------------------------------------
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["prime_mfr*"]
+
+[tool.setuptools.dynamic]
+version = { attr = "prime_mfr.__version__.__version__" }
+
+# ---------------------------------------------------------------------------
+# Formatting
+# ---------------------------------------------------------------------------
+
+[tool.black]
+line-length = 100
+target-version = ["py310", "py311", "py312"]
+include = '\.pyi?$'
+extend-exclude = '''
+/(
+    \.git
+  | \.venv
+  | venv
+  | __pycache__
+  | artifacts
+  | eda
+  | build
+  | dist
+)/
+'''
+
+# ---------------------------------------------------------------------------
+# Linting
+# ---------------------------------------------------------------------------
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+src = ["src", "tests"]
+extend-exclude = [
+    "artifacts",
+    "eda",
+    "__pycache__",
+    ".venv",
+    "venv",
+    "build",
+    "dist",
+]
+
+[tool.ruff.lint]
+select = [
+    "E",   # pycodestyle errors
+    "W",   # pycodestyle warnings
+    "F",   # pyflakes
+    "I",   # isort
+    "B",   # flake8-bugbear
+    "UP",  # pyupgrade
+]
+ignore = [
+    "E501",  # line too long (handled by black)
+    "E741",  # ambiguous variable name (l, I, O) — common in ML code
+    "B008",  # function call in default argument — pandas/numpy idioms
+    "B905",  # zip() without strict= — lengths are guaranteed equal in our usage
+    "B023",  # loop variable closure — used in tightly-scoped helpers, manually verified
+]
+
+[tool.ruff.lint.isort]
+known-first-party = ["prime_mfr"]
+
+[tool.ruff.lint.per-file-ignores]
+"experiments/*" = ["F401", "F841", "B"]  # research scripts: lenient on unused/bugbear
+"tests/*" = ["F401", "F841"]              # tests: allow unused fixtures/imports
+
+# ---------------------------------------------------------------------------
+# Pytest
+# ---------------------------------------------------------------------------
+
+[tool.pytest.ini_options]
+minversion = "8.0"
+testpaths = ["tests"]
+addopts = [
+    "-ra",
+    "--strict-markers",
+    "--strict-config",
+]
+markers = [
+    "slow: marks tests as slow (deselect with '-m \"not slow\"')",
+    "integration: end-to-end pipeline tests (require artifacts/)",
+]
+
+[tool.coverage.run]
+source = ["src/prime_mfr"]
+omit = ["*/tests/*", "*/__main__.py"]
+
+[tool.coverage.report]
+exclude_lines = [
+    "pragma: no cover",
+    "raise NotImplementedError",
+    "if __name__ == .__main__.:",
+]
