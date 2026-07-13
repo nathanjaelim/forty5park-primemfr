@@ -1,0 +1,4806 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-07-13T16:34:00Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/51295801",
+        "DeKalb:id": "123984",
+        "addr:city": "Decatur",
+        "addr:housenumber": "135B",
+        "addr:postcode": "30030",
+        "addr:street": "Maple Street",
+        "amenity": "bar",
+        "building": "yes",
+        "craft": "brewery",
+        "drink:beer": "draught",
+        "name": "Wild Heaven Beer",
+        "opening_hours": "We,Th 16:00-21:00; Fr 16:00-23:00; Sa 13:00-23:00; Su 14:00-20:09",
+        "outdoor_seating": "yes",
+        "phone": "+1-404-997-8589",
+        "toilets": "yes",
+        "toilets:unisex": "yes",
+        "website": "https://wildheavenbeer.com",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.275718,
+          33.7764682
+        ]
+      },
+      "id": "way/51295801"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/67967674",
+        "addr:housenumber": "2323",
+        "amenity": "bar",
+        "building": "yes",
+        "fax": "+1-404-350-0127",
+        "man_made": "works",
+        "microbrewery": "yes",
+        "name": "Red Brick Brewing Company",
+        "opening_hours": "We-Fr 17:00-20:00;Sa 14:00-17:00",
+        "phone": "+1-404-355-5558",
+        "website": "http://www.atlantabrewing.com/",
+        "wikidata": "Q4816027",
+        "works": "brewery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4346126,
+          33.8183895
+        ]
+      },
+      "id": "way/67967674"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/68986009",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "195",
+        "addr:postcode": "30324",
+        "addr:street": "Ottley Drive",
+        "amenity": "bar",
+        "building": "yes",
+        "fax": "+1-404-214-0936",
+        "man_made": "works",
+        "microbrewery": "yes",
+        "name": "SweetWater Brewing Company",
+        "opening_hours": "We-Fr 17:30-19:30;Sa 14:30-16:30",
+        "phone": "+1-404-691-2537",
+        "source": "yahoo",
+        "website": "https://sweetwaterbrew.com/",
+        "works": "brewery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3811482,
+          33.8080357
+        ]
+      },
+      "id": "way/68986009"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/108653469",
+        "addr:city": "Atlanta",
+        "addr:housename": "464",
+        "addr:housenumber": "466",
+        "addr:postcode": "30312",
+        "addr:street": "Edgewood Avenue Southeast",
+        "addr:unit": "B",
+        "air_conditioning": "yes",
+        "amenity": "bar",
+        "building": "yes",
+        "building:use": "commercial",
+        "contact:facebook": "https://www.facebook.com/loreatl",
+        "contact:instagram": "https://www.instagram.com/lore.atlanta",
+        "cuisine": "international",
+        "lgbtq": "primary",
+        "min_age": "21",
+        "name": "Lore",
+        "source": "image",
+        "website": "https://loreatl.com/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3724915,
+          33.7545333
+        ]
+      },
+      "id": "way/108653469"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/108653470",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "466",
+        "addr:postcode": "30312",
+        "addr:street": "Edgewood Avenue Southeast",
+        "amenity": "bar",
+        "building": "yes",
+        "building:use": "commercial",
+        "check_date": "2023-09-03",
+        "contact:facebook": "SisterLouisasChurch",
+        "contact:twitter": "sisterlouisa",
+        "name": "Sister Louisa's Church of the Living Room & Ping Pong Emporium",
+        "opening_hours": "Mo-Sa 17:00-03:00; Su 17:00-00:00",
+        "phone": "+1-404-522-8275",
+        "source": "image",
+        "website": "http://sisterlouisaschurch.com/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3723533,
+          33.7544819
+        ]
+      },
+      "id": "way/108653470"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/108671760",
+        "addr:housenumber": "420",
+        "addr:street": "Edgewood Avenue Southeast",
+        "amenity": "bar",
+        "building": "yes",
+        "building:use": "commercial",
+        "source": "image",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3739114,
+          33.7545039
+        ]
+      },
+      "id": "way/108671760"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/108693218",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "483",
+        "addr:postcode": "30312",
+        "addr:state": "GA",
+        "addr:street": "Edgewood Avenue Southeast",
+        "amenity": "bar",
+        "building": "yes",
+        "building:use": "commercial",
+        "name": "Soundtable",
+        "source": "image",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3718028,
+          33.7541221
+        ]
+      },
+      "id": "way/108693218"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/145876013",
+        "addr:city": "Sandy Springs",
+        "addr:housenumber": "5825",
+        "addr:postcode": "30328",
+        "addr:street": "Roswell Road",
+        "air_conditioning": "yes",
+        "amenity": "bar",
+        "building": "yes",
+        "building:levels": "1",
+        "indoor_seating": "yes",
+        "microbrewery": "yes",
+        "name": "Mutation Brewing",
+        "opening_hours": "Tu-Th 11:00-22:00, Fr,Sa 11:00-24:00, Su 11:00-20:00",
+        "outdoor_seating": "yes",
+        "smoking": "no",
+        "source": "local knowledge",
+        "vacant": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3789206,
+          33.9143848
+        ]
+      },
+      "id": "way/145876013"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/208159806",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "870",
+        "addr:postcode": "30306",
+        "addr:street": "North Highland Avenue Northeast",
+        "amenity": "bar",
+        "building": "yes",
+        "name": "Dads",
+        "source": "bing_imagery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3530496,
+          33.7783236
+        ]
+      },
+      "id": "way/208159806"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/208355679",
+        "access": "permit",
+        "addr:city": "Atlanta",
+        "addr:floor": "G;1",
+        "addr:housenumber": "650",
+        "addr:postcode": "30308",
+        "addr:street": "Peachtree Street Northeast",
+        "amenity": "bar",
+        "building": "retail",
+        "building:levels": "1",
+        "check_date": "2024-11-25",
+        "email": "sales@foxtheatre.org",
+        "level": "0;1",
+        "name": "The Marquee Club",
+        "operator": "Fox Theatre",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1 404-881-2100",
+        "source": "bing_imagery",
+        "website": "https://www.foxtheatre.org/lexus-marquee-club",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3850877,
+          33.772791
+        ]
+      },
+      "id": "way/208355679"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/217805608",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "1123",
+        "addr:postcode": "30307",
+        "addr:state": "GA",
+        "addr:street": "Euclid Avenue Northeast",
+        "amenity": "bar",
+        "building": "yes",
+        "music": "live music venue",
+        "name": "Aisle 5",
+        "source": "bing_imagery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3502481,
+          33.7642272
+        ]
+      },
+      "id": "way/217805608"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/226572592",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "2069",
+        "addr:postcode": "30324",
+        "addr:street": "Cheshire Bridge Road",
+        "amenity": "bar",
+        "building": "yes",
+        "check_date": "2025-11-14",
+        "name": "The Heretic",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3552782,
+          33.8114485
+        ]
+      },
+      "id": "way/226572592"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/226581495",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "1578",
+        "addr:postcode": "30324",
+        "addr:state": "GA",
+        "addr:street": "Piedmont Avenue Northeast",
+        "amenity": "bar",
+        "brewery": "various",
+        "building": "yes",
+        "check_date": "2026-01-21",
+        "contact:facebook": "https://www.facebook.com/SmithsOldeBar",
+        "contact:instagram": "https://www.instagram.com/smithsoldebar/",
+        "email": "sobatlmanager@gmail.com",
+        "min_age": "21",
+        "name": "Smith's Olde Bar",
+        "not:brand:wikidata": "Q7544856",
+        "opening_hours": "Mo-Th 11:30-01:00; Fr 11:30-03:00; Sa 10:00-03:00; Su 10:00-24:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1-404-875-1522",
+        "website": "https://www.sobatl.com/",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3688018,
+          33.7977064
+        ]
+      },
+      "id": "way/226581495"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/230684250",
+        "amenity": "bar",
+        "brewery": "yes",
+        "building": "commercial",
+        "name": "Northside Tavern",
+        "source": "Bing",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4120473,
+          33.7835945
+        ]
+      },
+      "id": "way/230684250"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/230878030",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "3245",
+        "addr:postcode": "30305",
+        "addr:street": "Roswell Road",
+        "amenity": "bar",
+        "building": "yes",
+        "name": "Buckhead Saloon",
+        "phone": "+1-404-963-7739",
+        "website": "https://buckheadsaloonatlanta.com/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3787746,
+          33.8431541
+        ]
+      },
+      "id": "way/230878030"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/230878031",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "3182",
+        "addr:postcode": "30305",
+        "addr:street": "Roswell Road",
+        "amenity": "bar",
+        "building": "yes",
+        "name": "The Lost Dog Tavern",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3794731,
+          33.8420382
+        ]
+      },
+      "id": "way/230878031"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/230878042",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "3188",
+        "addr:postcode": "30305",
+        "addr:street": "Roswell Road",
+        "amenity": "bar",
+        "building": "yes",
+        "name": "Hangovers",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3792318,
+          33.8422245
+        ]
+      },
+      "id": "way/230878042"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/230878044",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "3184",
+        "addr:postcode": "30305",
+        "addr:street": "Roswell Road",
+        "amenity": "bar",
+        "building": "yes",
+        "name": "Dive Bar",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3792025,
+          33.8420845
+        ]
+      },
+      "id": "way/230878044"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/230878045",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "3180",
+        "addr:postcode": "30305",
+        "addr:street": "Roswell Road",
+        "amenity": "bar",
+        "building": "yes",
+        "name": "The Red Door Tavern",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3792438,
+          33.8419446
+        ]
+      },
+      "id": "way/230878045"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/230989702",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "56",
+        "addr:postcode": "30305",
+        "addr:street": "east Andrews Drive Northwest",
+        "amenity": "bar",
+        "building": "yes",
+        "name": "East Andrews",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3807236,
+          33.8430408
+        ]
+      },
+      "id": "way/230989702"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/230991439",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "3223",
+        "addr:postcode": "30305",
+        "addr:street": "Cains Hill Place Northwest",
+        "amenity": "bar",
+        "building": "yes",
+        "name": "Churchill's",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3802558,
+          33.8426095
+        ]
+      },
+      "id": "way/230991439"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/230991440",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "30",
+        "addr:postcode": "30305",
+        "addr:street": "Irby Avenue Northwest",
+        "amenity": "bar",
+        "building": "yes",
+        "name": "The Pool Hall",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3803742,
+          33.840966
+        ]
+      },
+      "id": "way/230991440"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/230991441",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "34",
+        "addr:street": "Irby Avenue Northwest",
+        "amenity": "bar",
+        "building": "yes",
+        "name": "Park Bench",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3806558,
+          33.8410023
+        ]
+      },
+      "id": "way/230991441"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/230991443",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "34",
+        "addr:postcode": "30305",
+        "addr:street": "Irby Avenue Northwest",
+        "amenity": "bar",
+        "building": "yes",
+        "name": "Stagecoach",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.38055,
+          33.8409934
+        ]
+      },
+      "id": "way/230991443"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/230992260",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "3167",
+        "addr:postcode": "30305",
+        "addr:street": "Roswell Road",
+        "amenity": "bar",
+        "building": "yes",
+        "name": "Kramer's",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3786478,
+          33.8415663
+        ]
+      },
+      "id": "way/230992260"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/231748285",
+        "amenity": "bar",
+        "building": "yes",
+        "check_date": "2025-11-14",
+        "name": "BJ Rooster's",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3559755,
+          33.8112738
+        ]
+      },
+      "id": "way/231748285"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/231822721",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "41",
+        "addr:postcode": "30305",
+        "addr:street": "Irby Avenue Northwest",
+        "amenity": "bar",
+        "building": "yes",
+        "name": "Five Paces Inn",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3802229,
+          33.8415191
+        ]
+      },
+      "id": "way/231822721"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/234933272",
+        "addr:city": "Atlanta",
+        "addr:floor": "1",
+        "addr:housenumber": "1035",
+        "addr:postcode": "30309",
+        "addr:street": "Peachtree Street Northeast",
+        "amenity": "bar",
+        "building": "retail",
+        "building:levels": "1",
+        "check_date": "2025-10-04",
+        "cocktails": "yes",
+        "level": "1",
+        "name": "Prime Cigar Bar",
+        "opening_hours": "Mo-Th 11:00-02:00; Fr-Sa 11:00-03:00; Su 11:00-24:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1 404-941-7130",
+        "roof:shape": "flat",
+        "smoking": "designated",
+        "source": "bing_imagery",
+        "website": "https://primecigaratl.com/",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3835811,
+          33.7828952
+        ]
+      },
+      "id": "way/234933272"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/269192436",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "279",
+        "addr:postcode": "30324",
+        "addr:street": "Ottley Drive Northeast",
+        "amenity": "bar",
+        "building": "yes",
+        "name": "Painted Pickle",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3776527,
+          33.811608
+        ]
+      },
+      "id": "way/269192436"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/269843382",
+        "addr:city": "Atlanta",
+        "addr:floor": "G;1",
+        "addr:housenumber": "1100",
+        "addr:postcode": "30309",
+        "addr:street": "Crescent Avenue Northeast",
+        "amenity": "bar",
+        "building": "retail",
+        "building:levels": "1",
+        "check_date": "2025-07-24",
+        "contact:instagram": "https://www.instagram.com/sevenmidtown/",
+        "level": "0;1",
+        "name": "Seven Midtown",
+        "opening_hours": "Th-Sa 22:00-03:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1 404-312-2234",
+        "roof:shape": "flat",
+        "website": "https://sevenmidtown.com/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3845616,
+          33.7846865
+        ]
+      },
+      "id": "way/269843382"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/269843383",
+        "addr:city": "Atlanta",
+        "addr:floor": "G;1",
+        "addr:housenumber": "1104",
+        "addr:postcode": "30309",
+        "addr:street": "Crescent Avenue Northeast",
+        "amenity": "bar",
+        "building": "retail",
+        "building:levels": "1",
+        "check_date": "2025-07-24",
+        "level": "0;1",
+        "lgbtq": "primary",
+        "name": "My Sister's Room",
+        "opening_hours": "We-Sa 22:00-02:00; Su 20:00-24:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1 678-705-4585",
+        "roof:levels": "0",
+        "roof:shape": "flat",
+        "website": "https://www.mysistersroom.com/",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3846032,
+          33.7848437
+        ]
+      },
+      "id": "way/269843383"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/269991850",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "710",
+        "addr:postcode": "30306",
+        "addr:street": "Ponce de Leon Avenue Northeast",
+        "amenity": "bar",
+        "building": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3643005,
+          33.7736684
+        ]
+      },
+      "id": "way/269991850"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/270876725",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "727",
+        "addr:postcode": "30316",
+        "addr:state": "GA",
+        "addr:street": "Wylie Street Southeast",
+        "amenity": "bar",
+        "building": "yes",
+        "building:levels": "1",
+        "name": "97 Estoria",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3634553,
+          33.7520114
+        ]
+      },
+      "id": "way/270876725"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/272194539",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "1039",
+        "addr:postcode": "30315",
+        "addr:street": "Grant Street Southeast",
+        "addr:unit": "C10",
+        "amenity": "bar",
+        "building": "yes",
+        "name": "Buteco",
+        "outdoor_seating": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3770507,
+          33.7250431
+        ]
+      },
+      "id": "way/272194539"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/312679229",
+        "abandoned:building": "yes",
+        "addr:city": "Stone Mountain",
+        "addr:housenumber": "1054",
+        "addr:postcode": "30083",
+        "addr:state": "GA",
+        "addr:street": "Main Street",
+        "amenity": "bar",
+        "building": "yes",
+        "name": "Bev's Place",
+        "phone": "+1-770-469-7877",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1713816,
+          33.8110893
+        ]
+      },
+      "id": "way/312679229"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/352910263",
+        "addr:floor": "G;1",
+        "addr:housenumber": "2755",
+        "addr:street": "Canton Road",
+        "air_conditioning": "yes",
+        "amenity": "bar",
+        "brewery": "various",
+        "building": "retail",
+        "check_date": "2025-11-04",
+        "cuisine": "american",
+        "email": "info@bar44atl.com",
+        "level": "0;1",
+        "name": "Bar 44",
+        "opening_hours": "Mo,Th 18:00+, Fr 18:00-02:30, Sa 12:00-02:30, Su 12:00-24:00",
+        "outdoor_seating": "no",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+1 678-401-2714",
+        "restaurant": "yes",
+        "website": "https://www.bar44atl.com/",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.528414,
+          34.018704
+        ]
+      },
+      "id": "way/352910263"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/365224662",
+        "addr:city": "Roswell",
+        "addr:housenumber": "1143",
+        "addr:postcode": "30075",
+        "addr:state": "GA",
+        "addr:street": "Alpharetta Highway",
+        "amenity": "bar",
+        "building": "yes",
+        "name": "Pure Taqueria",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3547673,
+          34.02972
+        ]
+      },
+      "id": "way/365224662"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/365589896",
+        "addr:city": "Roswell",
+        "addr:housenumber": "1001",
+        "addr:postcode": "30075",
+        "addr:state": "GA",
+        "addr:street": "Alpharetta Highway",
+        "amenity": "bar",
+        "building": "yes",
+        "building:levels": "1",
+        "name": "Standard at Roswell",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3605738,
+          34.0256327
+        ]
+      },
+      "id": "way/365589896"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/387565249",
+        "addr:city": "Buford",
+        "addr:housenumber": "3250",
+        "addr:postcode": "30519",
+        "addr:state": "GA",
+        "addr:street": "Woodward Crossing Boulevard",
+        "amenity": "bar",
+        "building": "yes",
+        "name": "Taco Mac Mall of Geogia",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.9838089,
+          34.0682296
+        ]
+      },
+      "id": "way/387565249"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/388296377",
+        "amenity": "bar",
+        "building": "yes",
+        "name": "PK-TUNN Lounge Bar & Grille",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.0498237,
+          34.0326495
+        ]
+      },
+      "id": "way/388296377"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/392475860",
+        "addr:city": "Loganville",
+        "addr:housenumber": "540",
+        "addr:postcode": "30052",
+        "addr:state": "GA",
+        "addr:street": "Athens Highway",
+        "amenity": "bar",
+        "building": "yes",
+        "name": "Atmosphere Sports Bar",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.9346981,
+          33.8542803
+        ]
+      },
+      "id": "way/392475860"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/431683059",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "427",
+        "addr:state": "GA",
+        "addr:street": "Edgewood Avenue Northeast",
+        "amenity": "bar",
+        "building": "yes",
+        "name": "Joystick Game Bar",
+        "wheelchair": "limited",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3736152,
+          33.7541471
+        ]
+      },
+      "id": "way/431683059"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/431683060",
+        "amenity": "bar",
+        "building": "yes",
+        "name": "Delightful Eatz",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3737738,
+          33.7541488
+        ]
+      },
+      "id": "way/431683060"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/431702347",
+        "amenity": "bar",
+        "building": "yes",
+        "name": "Clues and Cocktails",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3773329,
+          33.7556724
+        ]
+      },
+      "id": "way/431702347"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/536678382",
+        "amenity": "bar",
+        "name": "The Side Bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3899455,
+          33.7567323
+        ]
+      },
+      "id": "node/536678382"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/559995449",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "915",
+        "addr:postcode": "30339",
+        "addr:state": "GA",
+        "addr:street": "Battery Avenue Southeast",
+        "amenity": "bar",
+        "building": "commercial",
+        "building:levels": "1",
+        "building:material": "brick",
+        "contact:website": "https://cruawinebar.com/locations/atlanta-georgia-the-battery/",
+        "name": "CRÚ Food & Wine Bar",
+        "opening_hours": "Su-Th 11:30-22:00; Fr-Sa 11:30-23:00",
+        "outdoor_seating": "yes",
+        "phone": "+1-770-485-9463",
+        "website": "http://www.cruawinebar.com/locations_atlanta.html",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4700409,
+          33.8885991
+        ]
+      },
+      "id": "way/559995449"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/605429121",
+        "addr:city": "Cartersville",
+        "addr:housenumber": "20",
+        "addr:postcode": "30120",
+        "addr:state": "GA",
+        "addr:street": "West Main Street",
+        "amenity": "bar",
+        "building": "yes",
+        "building:levels": "1",
+        "building:material": "brick",
+        "contact:website": "https://www.oldhavanacigar.com/cartersville",
+        "name": "Old Havana Cigar Bar",
+        "phone": "+1-770-382-7942",
+        "website": "https://www.oldhavanacigar.com/cartersville",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.7960415,
+          34.1647607
+        ]
+      },
+      "id": "way/605429121"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/616525074",
+        "addr:city": "Smyrna",
+        "addr:housenumber": "2860",
+        "addr:postcode": "30080",
+        "addr:state": "GA",
+        "addr:street": "Atlanta Road Southeast",
+        "air_conditioning": "yes",
+        "amenity": "bar",
+        "contact:facebook": "https://www.facebook.com/Vintage-Tavern-162483610474041/",
+        "indoor_seating": "yes",
+        "name": "Vintage Tavern",
+        "opening_hours": "Mo-We 11:00-02:30, Th,Fr 11:00-04:00, Sa 11:00-03:00, Su 11:00-04:00",
+        "outdoor_seating": "no",
+        "phone": "+1 770-803-9793",
+        "smoking": "no",
+        "website": "https://www.vintagetavern.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.5148887,
+          33.8837384
+        ]
+      },
+      "id": "node/616525074"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/702301448",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "2142",
+        "addr:postcode": "30319",
+        "addr:state": "GA",
+        "addr:street": "Johnson Ferry Road Northeast",
+        "amenity": "bar",
+        "building": "yes",
+        "name": "The Righteous Room",
+        "opening_hours": "Mo-We 11:30-2:00, Th-Sa 11:30-3:00, Su 12:30-2:00",
+        "phone": "+1-770-559-5678",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3257718,
+          33.8925083
+        ]
+      },
+      "id": "way/702301448"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/707480057",
+        "addr:city": "Covington",
+        "addr:housenumber": "7189",
+        "addr:postcode": "30014",
+        "addr:state": "GA",
+        "addr:street": "Turner Lake Road",
+        "amenity": "bar",
+        "building": "commercial",
+        "min_age": "21",
+        "name": "Five O'clock Sports Bar & Grill",
+        "opening_hours": "Mo 11:00-22:00; Tu-We 11:00-24:00; Th-Sa 11:00-2:00; Su 12:30-22:00",
+        "website": "https://www.fiveoclocksportsbarandgrill.com/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.8789182,
+          33.6035241
+        ]
+      },
+      "id": "way/707480057"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/737362869",
+        "amenity": "bar",
+        "building": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3710614,
+          33.7519751
+        ]
+      },
+      "id": "way/737362869"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/841048597",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "254",
+        "addr:postcode": "30303",
+        "addr:state": "GA",
+        "addr:street": "Auburn Avenue Northeast",
+        "amenity": "bar",
+        "building": "yes",
+        "name": "Pal's Lounge",
+        "not:brand:wikidata": "Q7126094",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3793233,
+          33.7557156
+        ]
+      },
+      "id": "way/841048597"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/860727451",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "265",
+        "addr:postcode": "30303",
+        "addr:state": "GA",
+        "addr:street": "Peachtree Center Avenue Northeast",
+        "amenity": "bar",
+        "brewery": "yes",
+        "check_date": "2024-05-22",
+        "name": "Pulse Bar",
+        "opening_hours": "16:00-24:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.384881,
+          33.76166
+        ]
+      },
+      "id": "node/860727451"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/870569674",
+        "amenity": "bar",
+        "building": "yes",
+        "name": "Sidebar",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3898315,
+          33.7568094
+        ]
+      },
+      "id": "way/870569674"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/885988324",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "1140",
+        "addr:postcode": "30309",
+        "addr:state": "GA",
+        "addr:street": "Crescent Avenue Northeast",
+        "amenity": "bar",
+        "building": "retail",
+        "building:levels": "2",
+        "check_date": "2026-03-23",
+        "contact:facebook": "https://www.facebook.com/verandaatl/",
+        "contact:instagram": "https://www.instagram.com/verandaatl/",
+        "email": "theverandaatl@gmail.com",
+        "name": "Veranda",
+        "opening_hours": "Mo-We,Su off; Th 21:00-02:00; Fr-Sa 21:00-03:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1 404-590-3882",
+        "source": "EsriWorldImagery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.384547,
+          33.7858799
+        ]
+      },
+      "id": "way/885988324"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/933018826",
+        "addr:city": "Marietta",
+        "addr:housenumber": "138",
+        "addr:postcode": "30067",
+        "addr:state": "GA",
+        "addr:street": "Powers Ferry Road Southeast",
+        "air_conditioning": "yes",
+        "amenity": "bar",
+        "building": "retail",
+        "check_date": "2026-02-07",
+        "contact:instagram": "https://www.instagram.com/rustybarrelusa/",
+        "cuisine": "american",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "The Rusty Barrel Bar & Grill",
+        "opening_hours": "Mo-Sa 11:00-03:00, Su 11:00-24:00",
+        "outdoor_seating": "yes",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1 678-503-2385",
+        "restaurant": "yes",
+        "short_name": "The Rusty Barrel",
+        "smoking": "yes",
+        "source": "microsoft/BuildingFootprints",
+        "toilets": "yes",
+        "website": "https://www.rustybarrelusa.com/",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.5070535,
+          33.9482385
+        ]
+      },
+      "id": "way/933018826"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/961279742",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "488",
+        "addr:postcode": "30316",
+        "addr:state": "GA",
+        "addr:street": "Flat Shoals Avenue Southeast",
+        "amenity": "bar",
+        "building": "retail",
+        "check_date": "2025-11-16",
+        "cuisine": "american",
+        "email": "info@badearl.com",
+        "min_age": "21",
+        "name": "The Earl",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1-404-522-3950",
+        "restaurant": "yes",
+        "website": "https://badearl.com/",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3459052,
+          33.7409828
+        ]
+      },
+      "id": "way/961279742"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/961280520",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "529",
+        "addr:postcode": "30316",
+        "addr:state": "GA",
+        "addr:street": "Flat Shoals Avenue Southeast",
+        "amenity": "bar",
+        "name": "529 Bar",
+        "website": "https://www.529atl.com/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3452623,
+          33.7399078
+        ]
+      },
+      "id": "way/961280520"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/961280995",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "437",
+        "addr:postcode": "30307",
+        "addr:state": "GA",
+        "addr:street": "Moreland Avenue Northeast",
+        "amenity": "bar",
+        "building": "yes",
+        "min_age": "21",
+        "name": "Star Community Bar",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.348824,
+          33.7662837
+        ]
+      },
+      "id": "way/961280995"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/961286561",
+        "addr:city": "Jonesboro",
+        "addr:postcode": "30236",
+        "addr:state": "GA",
+        "addr:street": "North Main Street",
+        "amenity": "bar",
+        "building": "yes",
+        "name": "Furnace 41",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3660747,
+          33.5438841
+        ]
+      },
+      "id": "way/961286561"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/961321801",
+        "addr:city": "Snellville",
+        "addr:housenumber": "3555",
+        "addr:postcode": "30039",
+        "addr:state": "GA",
+        "addr:street": "Centerville Highway",
+        "amenity": "bar",
+        "building": "yes",
+        "name": "Humidor Cigar Bar & Lounge",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.0439965,
+          33.8018909
+        ]
+      },
+      "id": "way/961321801"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/961498596",
+        "addr:city": "Tucker",
+        "addr:housenumber": "3976",
+        "addr:postcode": "30084",
+        "addr:state": "GA",
+        "addr:street": "Lawrenceville Highway",
+        "amenity": "bar",
+        "building": "yes",
+        "name": "MoonShadow Tavern",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2190632,
+          33.8506411
+        ]
+      },
+      "id": "way/961498596"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1010313803",
+        "amenity": "bar",
+        "building": "yes",
+        "name": "RPM Full Service Patio Pub & Grill",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.800082,
+          33.3762125
+        ]
+      },
+      "id": "way/1010313803"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1010670054",
+        "addr:city": "Douglasville",
+        "addr:housenumber": "6732",
+        "addr:postcode": "30134",
+        "addr:state": "GA",
+        "addr:street": "Spring Street",
+        "amenity": "bar",
+        "building": "yes",
+        "name": "Reserve on Spring Taproom and Wine Bar",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.7500425,
+          33.748597
+        ]
+      },
+      "id": "way/1010670054"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1103022892",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "60",
+        "addr:postcode": "30312",
+        "addr:state": "GA",
+        "addr:street": "Georgia Avenue",
+        "amenity": "bar",
+        "brewery": "yes",
+        "building": "yes",
+        "microbrewery": "yes",
+        "name": "Halfway Crooks Beer",
+        "opening_hours": "Mo-Th 16:00-22:00; Fr-Sa 11:30-23:00; Su 11:30-22:00",
+        "website": "https://halfwaycrooks.beer/",
+        "works": "brewery",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3858166,
+          33.7370413
+        ]
+      },
+      "id": "way/1103022892"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1104944110",
+        "addr:city": "Avondale Estates",
+        "addr:housenumber": "38A",
+        "addr:postcode": "30002",
+        "addr:street": "North Avondale Road",
+        "amenity": "bar",
+        "drink:beer": "only",
+        "name": "The Beer Growler",
+        "opening_hours": "Mo 16:00+; Tu-Th 11:00-21:00; Fr-Sa 11:00-23:00; Su 12:30-18:00",
+        "shop": "alcohol"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2713655,
+          33.7758276
+        ]
+      },
+      "id": "node/1104944110"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1128107933",
+        "addr:city": "Newnan",
+        "addr:country": "US",
+        "addr:housenumber": "19",
+        "addr:postcode": "30263-2050",
+        "addr:state": "GA",
+        "addr:street": "West Court Square",
+        "amenity": "bar",
+        "building": "yes",
+        "email": "alamomusicbooking@gmail.com",
+        "name": "The Alamo",
+        "phone": "+1 770 254 1474",
+        "website": "https://www.facebook.com/thealamonewnan",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.8007048,
+          33.3750968
+        ]
+      },
+      "id": "way/1128107933"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1128110840",
+        "amenity": "bar",
+        "building": "yes",
+        "name": "Beez Freeze",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.5538118,
+          33.3019488
+        ]
+      },
+      "id": "way/1128110840"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1139929666",
+        "amenity": "bar",
+        "name": "Royal Peacock Lounge",
+        "opening_hours": "Fr-Su 10:00-04:00; Mo-Th off"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3816274,
+          33.7556803
+        ]
+      },
+      "id": "node/1139929666"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1154835801",
+        "addr:city": "Covington",
+        "addr:housenumber": "9148",
+        "addr:postcode": "30014",
+        "addr:state": "GA",
+        "addr:street": "US Highway 278",
+        "amenity": "bar",
+        "building": "yes",
+        "name": "Tubby Tom's Sports Bar & Grill",
+        "phone": "+1-678-712-6166",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.8325737,
+          33.5985501
+        ]
+      },
+      "id": "way/1154835801"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1237985324",
+        "addr:housenumber": "1136",
+        "amenity": "bar",
+        "name": "Euclid Yacht Club",
+        "website": "http://theeayc.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3501136,
+          33.7648449
+        ]
+      },
+      "id": "node/1237985324"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1242214147",
+        "addr:housenumber": "565",
+        "addr:street": "Main Street Northeast",
+        "amenity": "bar",
+        "name": "Tongue & Groove",
+        "website": "https://www.tandgonline.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3687794,
+          33.8223388
+        ]
+      },
+      "id": "node/1242214147"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1249954423",
+        "addr:housenumber": "2450",
+        "addr:street": "Piedmont Road Northeast",
+        "amenity": "bar",
+        "name": "Wet Willies",
+        "website": "https://wetwilliesfranchise.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3676558,
+          33.8229551
+        ]
+      },
+      "id": "node/1249954423"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1252172706",
+        "addr:city": "Kennesaw",
+        "addr:floor": "G;1",
+        "addr:housenumber": "780",
+        "addr:postcode": "30144",
+        "addr:state": "GA",
+        "addr:street": "Cobb Place Boulevard",
+        "amenity": "bar",
+        "brewery": "yes",
+        "building": "retail",
+        "building:levels": "2",
+        "check_date": "2024-12-06",
+        "email": "philalexi54@gmail.com",
+        "level": "0;1",
+        "name": "Sivas Tavern",
+        "opening_hours": "Mo-Th 15:00-02:00; Fr-Sa 15:00-03:00; Su 12:00-24:00",
+        "payment:cash": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+1 770-795-9472",
+        "smoking": "hookah",
+        "source": "microsoft/BuildingFootprints",
+        "website": "https://www.sivaskennesaw.com",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.5688392,
+          34.007644
+        ]
+      },
+      "id": "way/1252172706"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1253884698",
+        "addr:housenumber": "485",
+        "addr:postcode": "30316",
+        "addr:street": "Flat Shoals Avenue Southeast",
+        "amenity": "bar",
+        "name": "East Side Lounge",
+        "website": "http://www.eastsidelounge.net/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3462601,
+          33.7407694
+        ]
+      },
+      "id": "node/1253884698"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1296688357",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "159",
+        "addr:postcode": "30313",
+        "addr:state": "GA",
+        "addr:street": "Northside Drive NW",
+        "air_conditioning": "yes",
+        "amenity": "bar",
+        "bar": "yes",
+        "building": "yes",
+        "internet_access": "wlan",
+        "name": "Nest on Four",
+        "opening_hours": "Mo-Su 11:00-00:00",
+        "phone": "+1 404 223 4414",
+        "website": "https://nestonfouratlanta.com/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4005164,
+          33.7589621
+        ]
+      },
+      "id": "way/1296688357"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1302340428",
+        "addr:city": "Atlanta",
+        "addr:floor": "G;1",
+        "addr:housenumber": "2160",
+        "addr:postcode": "30324",
+        "addr:state": "GA",
+        "addr:street": "Monroe Drive Northeast",
+        "alt_name": "Cirque Southern Cuisine",
+        "amenity": "bar",
+        "amenity_1": "parking",
+        "check_date": "2026-04-04",
+        "level": "0;1",
+        "name": "Cirque - Daiquiri Bar & Grill",
+        "opening_hours": "Mo-Th 12:00-01:00; Fr-Sa 12:00-02:30; Su 12:00-00:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1-404-996-2482",
+        "website": "https://cirqueatlanta.com/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3700338,
+          33.8109643
+        ]
+      },
+      "id": "node/1302340428"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1385176477",
+        "addr:state": "GA",
+        "amenity": "bar",
+        "building": "yes",
+        "ele": "215",
+        "gnis:feature_id": "345803",
+        "name": "Goat Island Tavern",
+        "source": "USGS Geonames",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.9672298,
+          33.2953822
+        ]
+      },
+      "id": "way/1385176477"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1392437092",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "180",
+        "addr:postcode": "30312",
+        "addr:state": "GA",
+        "addr:street": "Carroll Street Southeast",
+        "amenity": "bar",
+        "building": "yes",
+        "building:levels": "2",
+        "name": "Milltown Arms Tavern",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3679145,
+          33.7496308
+        ]
+      },
+      "id": "way/1392437092"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1430345545",
+        "amenity": "bar",
+        "building": "yes",
+        "name": "Shawn O'Brian's",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.9018456,
+          33.3846808
+        ]
+      },
+      "id": "way/1430345545"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1748936394",
+        "amenity": "bar",
+        "name": "Cockpit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3684433,
+          33.7418767
+        ]
+      },
+      "id": "node/1748936394"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1920913284",
+        "addr:city": "Doraville",
+        "addr:country": "US",
+        "addr:housenumber": "3541",
+        "addr:postcode": "30341",
+        "addr:state": "GA",
+        "addr:street": "Chamblee Tucker Road",
+        "amenity": "bar",
+        "check_date": "2026-03-22",
+        "check_date:opening_hours": "2026-03-22",
+        "cuisine": "american;breakfast;burger;chicken;coffee_shop;fish_and_chips;hotdog",
+        "email": "mrcues88@gmail.com",
+        "level": "0",
+        "name": "Mr. Cue's II Billiards",
+        "opening_hours": "Mo-We 11:30-02:30; Th-Fr 11:30-03:00; Sa 12:00-03:00; Su 12:00-02:30",
+        "phone": "+1-770-454-7665",
+        "website": "https://mrcues2.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2482745,
+          33.8845018
+        ]
+      },
+      "id": "node/1920913284"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2184856635",
+        "amenity": "bar",
+        "name": "Dad's"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3530248,
+          33.7783348
+        ]
+      },
+      "id": "node/2184856635"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2184961226",
+        "amenity": "bar",
+        "name": "Dark Horse Tavern",
+        "source": "local_knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3526593,
+          33.7768237
+        ]
+      },
+      "id": "node/2184961226"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2210733684",
+        "amenity": "bar",
+        "name": "Krog Bar",
+        "source": "local_knowledge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3645264,
+          33.7562632
+        ]
+      },
+      "id": "node/2210733684"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2277885156",
+        "addr:city": "Atlanta",
+        "addr:floor": "G;1",
+        "addr:housenumber": "227",
+        "addr:postcode": "30309",
+        "addr:state": "GA",
+        "addr:street": "10th Street Northeast",
+        "amenity": "bar",
+        "brewery": "yes",
+        "check_date": "2025-10-06",
+        "contact:email": "alan@lukem31.sg-host.com",
+        "contact:phone": "+1-404-892-5786",
+        "contact:website": "https://blakesontheparkatl.com/",
+        "level": "0;1",
+        "lgbtq": "primary",
+        "lgbtq:men": "primary",
+        "min_age": "21",
+        "name": "Blake's on the Park",
+        "opening_hours": "Mo-Fr 17:00-27:00; Sa 14:00-27:00; Su 14:00-24:30",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3799211,
+          33.7816659
+        ]
+      },
+      "id": "node/2277885156"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2390850313",
+        "addr:floor": "G;1",
+        "addr:housenumber": "1180",
+        "addr:street": "Peachtree Street Northeast",
+        "addr:suite": "A",
+        "air_conditioning": "yes",
+        "amenity": "bar",
+        "bar": "yes",
+        "brewery": "various",
+        "check_date": "2025-07-22",
+        "contact:instagram": "https://www.instagram.com/pourtaproom_midtown/",
+        "cuisine": "american",
+        "level": "0;1",
+        "microbrewery": "no",
+        "name": "Pour Taproom Atlanta",
+        "opening_hours": "Mo-Th 11:00-23:00; Fr-Sa 11:00-24:00; Su 11:00-21:00",
+        "outdoor_seating": "yes",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "restaurant": "yes",
+        "smoking": "no",
+        "source": "local_knowledge",
+        "website": "https://pourtaproomatlanta.com/midtown-location/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3835498,
+          33.7869191
+        ]
+      },
+      "id": "node/2390850313"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2390865213",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "1058",
+        "addr:postcode": "30318",
+        "addr:state": "GA",
+        "addr:street": "Howell Mill Road Northwest",
+        "amenity": "bar",
+        "brewery": "no",
+        "name": "Northside Tavern",
+        "outdoor_seating": "yes",
+        "phone": "+1-404-874-8745",
+        "source": "local_knowledge",
+        "website": "https://northsidetavern.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4120813,
+          33.7836184
+        ]
+      },
+      "id": "node/2390865213"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2408222917",
+        "amenity": "bar",
+        "name": "SixesTavern"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.5483132,
+          34.175342
+        ]
+      },
+      "id": "node/2408222917"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2661489026",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "150",
+        "addr:postcode": "30303",
+        "addr:state": "GA",
+        "addr:street": "Walton Street Northwest",
+        "amenity": "bar",
+        "name": "Park Bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.392804,
+          33.7581942
+        ]
+      },
+      "id": "node/2661489026"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2760786190",
+        "addr:housename": "Clubhouse",
+        "addr:housenumber": "123",
+        "addr:postcode": "30306",
+        "addr:street": "Monroe Drive",
+        "amenity": "bar",
+        "designation": "Smoking Friendly Bar",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Nineteeth Hole"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3764999,
+          33.800421
+        ]
+      },
+      "id": "node/2760786190"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2760845727",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "520",
+        "addr:postcode": "30316",
+        "addr:street": "Flat Shoals Avenue Southeast",
+        "amenity": "bar",
+        "name": "Trophy Room",
+        "opening_hours": "Mo-Sa 18:00-03:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3450572,
+          33.7400225
+        ]
+      },
+      "id": "node/2760845727"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2856152518",
+        "amenity": "bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2321206,
+          33.9546193
+        ]
+      },
+      "id": "node/2856152518"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2980393275",
+        "addr:city": "Marietta",
+        "addr:housenumber": "2359",
+        "addr:postcode": "30067",
+        "addr:state": "GA",
+        "addr:street": "Windy Hill Road Southeast",
+        "amenity": "bar",
+        "name": "Sportsline Bar & Grille",
+        "opening_hours": "Mo-Su 11:00-02:00",
+        "phone": "+1-770-226-0111",
+        "website": "http://www.sportslineatl.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4856754,
+          33.9045982
+        ]
+      },
+      "id": "node/2980393275"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3019412885",
+        "addr:city": "Smyrna",
+        "addr:housenumber": "1995",
+        "addr:postcode": "30080",
+        "addr:state": "GA",
+        "addr:street": "Windy Hill Road Southeast",
+        "amenity": "bar",
+        "name": "J's Lounge",
+        "opening_hours": "Su 16:00-24:00; Mo-Fr 17:00-03:00; Sa 16:00-03:00",
+        "phone": "+1-678-383-6164",
+        "website": "http://www.js-lounge.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.496582,
+          33.8982127
+        ]
+      },
+      "id": "node/3019412885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3529207109",
+        "amenity": "bar",
+        "name": "Topps Bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.7648465,
+          33.7252694
+        ]
+      },
+      "id": "node/3529207109"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3532059467",
+        "amenity": "bar",
+        "name": "Taco Mac",
+        "toilets:wheelchair": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.7652236,
+          33.7244287
+        ]
+      },
+      "id": "node/3532059467"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3957482013",
+        "addr:city": "Sugar Hill",
+        "addr:housenumber": "4450",
+        "addr:postcode": "30518",
+        "addr:state": "GA",
+        "addr:street": "Nelson Brogdon Boulevard North East",
+        "amenity": "bar",
+        "name": "Twisted Tavern"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.0159789,
+          34.0974035
+        ]
+      },
+      "id": "node/3957482013"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3998529988",
+        "addr:city": "Holly Springs",
+        "addr:housenumber": "132",
+        "addr:postcode": "30115",
+        "addr:state": "GA",
+        "addr:street": "West Mountain Oak Street",
+        "amenity": "bar",
+        "level": "2",
+        "name": "Laird's Bar and Grill",
+        "smoking": "isolated"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.5084916,
+          34.1753679
+        ]
+      },
+      "id": "node/3998529988"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4840591058",
+        "addr:city": "Doraville",
+        "addr:housenumber": "6363",
+        "addr:postcode": "30360",
+        "addr:state": "GA",
+        "addr:street": "Peachtree Industrial Boulevard",
+        "amenity": "bar",
+        "name": "Oasis Goodtime Emporium",
+        "opening_hours": "Mo-Fr 11:30-04:00; Sa 11:30-03:00; Su 12:30-03:00",
+        "outdoor_seating": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2815314,
+          33.9213441
+        ]
+      },
+      "id": "node/4840591058"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4879481766",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "99",
+        "addr:postcode": "30307",
+        "addr:state": "GA",
+        "addr:street": "Krog Street Northeast",
+        "amenity": "bar",
+        "check_date": "2023-09-03",
+        "name": "Hop City Bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3638692,
+          33.7570559
+        ]
+      },
+      "id": "node/4879481766"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4879481815",
+        "amenity": "bar",
+        "name": "The Tap"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3663093,
+          33.7730641
+        ]
+      },
+      "id": "node/4879481815"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4931682649",
+        "addr:city": "Tucker",
+        "addr:country": "US",
+        "addr:housenumber": "2316",
+        "addr:postcode": "30084",
+        "addr:state": "GA",
+        "addr:street": "Main Street",
+        "amenity": "bar",
+        "name": "The Local 7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2144507,
+          33.8527018
+        ]
+      },
+      "id": "node/4931682649"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4946431921",
+        "amenity": "bar",
+        "name": "Maison Mathis",
+        "name:en": "Maison Mathis"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4199673,
+          33.6378353
+        ]
+      },
+      "id": "node/4946431921"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5276555551",
+        "amenity": "bar",
+        "name": "Piano Bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4397203,
+          33.6409209
+        ]
+      },
+      "id": "node/5276555551"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5815361926",
+        "amenity": "bar",
+        "name": "Gaja",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3463186,
+          33.740555
+        ]
+      },
+      "id": "node/5815361926"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5815399055",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "1263",
+        "addr:postcode": "30316",
+        "addr:state": "GA",
+        "addr:street": "Glenwood Avenue Southeast",
+        "amenity": "bar",
+        "name": "The Glenwood",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3461245,
+          33.7400514
+        ]
+      },
+      "id": "node/5815399055"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5944637255",
+        "addr:city": "Johns Creek",
+        "addr:housenumber": "11950",
+        "addr:postcode": "30005",
+        "addr:state": "GA",
+        "addr:street": "Jones Bridge Road",
+        "amenity": "bar",
+        "contact:website": "https://joesjohnscreek.com/",
+        "name": "Joe's Sports Bar and Grill",
+        "opening_hours": "Mo-We 11:00-24:00; Th-Su 11:00-02:00",
+        "phone": "+1-770-674-1189",
+        "website": "https://joesjohnscreek.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2048618,
+          34.071004
+        ]
+      },
+      "id": "node/5944637255"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6225706385",
+        "amenity": "bar",
+        "name": "Ormsby’s"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4120393,
+          33.7857639
+        ]
+      },
+      "id": "node/6225706385"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6266313287",
+        "addr:postcode": "30342",
+        "amenity": "bar",
+        "internet_access": "wlan",
+        "name": "The IVY"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3819611,
+          33.8564562
+        ]
+      },
+      "id": "node/6266313287"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6352672915",
+        "addr:city": "Marietta",
+        "addr:floor": "G;1",
+        "addr:housenumber": "2217",
+        "addr:postcode": "30062",
+        "addr:state": "GA",
+        "addr:street": "Roswell Road",
+        "amenity": "bar",
+        "billiards:pool": "yes",
+        "branch": "Marietta",
+        "brewery": "various",
+        "check_date": "2026-02-03",
+        "contact:facebook": "https://www.facebook.com/@MazzysMarietta/?hr=1",
+        "cuisine": "american",
+        "email": "marietta@mazzys.com",
+        "level": "0;1",
+        "name": "Mazzy's",
+        "opening_hours": "Mo-Fr 11:00-02:00, Sa 12:00-02:00, Su 12:00-00:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1-678-213-1688",
+        "restaurant": "yes",
+        "website": "https://mazzys.com/marietta/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4884944,
+          33.9715456
+        ]
+      },
+      "id": "node/6352672915"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6382233945",
+        "addr:street": "Battery Avenue Southeast",
+        "addr:unit": "610",
+        "amenity": "bar",
+        "level": "1",
+        "name": "PBR Atlanta: A Coors Banquet Bar",
+        "opening_hours": "Fr-Sa 20:00-02:00",
+        "website": "https://liveatthebatteryatlanta.com/eat-and-drink/pbr-atlanta"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4691952,
+          33.8893661
+        ]
+      },
+      "id": "node/6382233945"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6385712184",
+        "addr:postcode": "30339",
+        "addr:street": "Battery Avenue Southeast",
+        "addr:unit": "1000",
+        "amenity": "bar",
+        "name": "Burn by Rocky Patel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4699866,
+          33.8894703
+        ]
+      },
+      "id": "node/6385712184"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6414923199",
+        "addr:city": "Atlanta",
+        "addr:floor": "G;1",
+        "addr:housenumber": "893",
+        "addr:postcode": "30309",
+        "addr:state": "GA",
+        "addr:street": "Peachtree Street Northeast",
+        "amenity": "bar",
+        "check_date": "2025-10-03",
+        "contact:instagram": "https://www.instagram.com/bulldogsbaratl/",
+        "level": "0;1",
+        "lgbtq": "primary",
+        "name": "Bulldog's Bar",
+        "opening_hours": "Mo-Sa 14:00-03:00; Su 12:00-24:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1-404-872-3028",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3840397,
+          33.7790254
+        ]
+      },
+      "id": "node/6414923199"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6568335403",
+        "addr:city": "Monroe",
+        "addr:housenumber": "114",
+        "addr:postcode": "30655",
+        "addr:state": "GA",
+        "addr:street": "South Broad Street",
+        "amenity": "bar",
+        "contact:facebook": "https://www.facebook.com/oakandvinemonroe/",
+        "email": "oakandvinemonroe@gmail.com",
+        "name": "Oak & Vine",
+        "phone": "+1-404-782-8257"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.7132656,
+          33.7943443
+        ]
+      },
+      "id": "node/6568335403"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6595219306",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "1051",
+        "addr:postcode": "30306",
+        "addr:state": "GA",
+        "addr:street": "Ponce de Leon Avenue Northeast",
+        "amenity": "bar",
+        "name": "The Righteous Room",
+        "opening_hours": "Su 12:30-24:00, Mo-Th 11:30-2:00, Fr-Sa 11:30-3:00",
+        "phone": "+1-404-874-0939",
+        "website": "http://www.stayrighteous.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3529817,
+          33.7734475
+        ]
+      },
+      "id": "node/6595219306"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6726091166",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "2263",
+        "addr:postcode": "30324",
+        "addr:state": "GA",
+        "addr:street": "Cheshire Bridge Road  NE",
+        "amenity": "bar",
+        "name": "Blu Lagoon Bar and Bistro",
+        "opening_hours": "Mo-Su 03:00-15:00",
+        "phone": "+1-404-254-5346",
+        "type": "Bar And Cigar",
+        "website": "http://blulagoonatlanta.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3517492,
+          33.8170292
+        ]
+      },
+      "id": "node/6726091166"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7172046265",
+        "addr:housenumber": "925",
+        "addr:street": "Battery Avenue Southeast",
+        "addr:unit": "1100",
+        "amenity": "bar",
+        "brewery": "yes",
+        "name": "TAPS@PH'EAST",
+        "website": "https://tapsatpheast.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4705825,
+          33.8879092
+        ]
+      },
+      "id": "node/7172046265"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7319661365",
+        "addr:city": "Braswell",
+        "addr:housenumber": "6993",
+        "addr:postcode": "30153",
+        "addr:state": "GA",
+        "addr:street": "Braswell Mountain Road",
+        "amenity": "bar",
+        "contact:facebook": "https://www.facebook.com/Big-Als-Down-the-Hatch-Saloon-228659247260004/",
+        "name": "Big Al's Down the Hatch Saloon",
+        "opening_hours": "Fr-Sa 08:00-04:00",
+        "phone": "+1-678-757-8444"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.96217,
+          33.9893224
+        ]
+      },
+      "id": "node/7319661365"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7435155801",
+        "addr:city": "Tallapoosa",
+        "addr:housenumber": "10",
+        "addr:postcode": "30176",
+        "addr:state": "GA",
+        "addr:street": "West Alabama Street",
+        "amenity": "bar",
+        "contact:facebook": "https://www.facebook.com/asmalltownlegend/",
+        "name": "Johnny's Bar",
+        "phone": "+1-770-574-2922"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.2877596,
+          33.7439152
+        ]
+      },
+      "id": "node/7435155801"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7792796285",
+        "addr:housenumber": "661",
+        "addr:street": "Auburn Avenue Northeast",
+        "amenity": "bar",
+        "name": "Pour Taproom"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.365444,
+          33.7562599
+        ]
+      },
+      "id": "node/7792796285"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7947152350",
+        "addr:city": "Johns Creek",
+        "addr:housenumber": "8465",
+        "addr:postcode": "30022",
+        "addr:state": "GA",
+        "addr:street": "Holcomb Bridge Road",
+        "addr:unit": "550",
+        "amenity": "bar",
+        "brand": "Snook's Grill & Cocktails",
+        "brand:wikidata": "Q64760354",
+        "brewery": "various",
+        "cuisine": "bar_and_grill;italian;american;steak_house;pasta;fish;chicken;seafood;salad;cake",
+        "name": "Snook's Grill & Cocktails",
+        "opening_hours": "Mo-Su 11:00-23:00",
+        "phone": "+1-404-919-4252",
+        "takeaway": "yes",
+        "website": "https://snooksgrillandcocktails.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2710535,
+          33.98806
+        ]
+      },
+      "id": "node/7947152350"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8116743037",
+        "addr:city": "Atlanta",
+        "addr:floor": "G",
+        "addr:housenumber": "17",
+        "addr:postcode": "30303",
+        "addr:state": "GA",
+        "addr:street": "Andrew Young International Boulevard",
+        "amenity": "bar",
+        "brewery": "various;no",
+        "check_date": "2025-10-31",
+        "cocktails": "yes",
+        "description": "Secret phone number required for entry",
+        "level": "0",
+        "min_age": "21",
+        "name": "Red Phone Booth",
+        "opening_hours": "Mo-Sa 16:00-01:00; Su 16:00-24:00",
+        "outdoor_seating": "no",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "smoking": "yes",
+        "source": "local knowledge;survey",
+        "website": "https://redphonebooth.com/atlanta/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.386898,
+          33.7595892
+        ]
+      },
+      "id": "node/8116743037"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8197438187",
+        "amenity": "bar",
+        "name": "Locker Club"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3716369,
+          33.7540764
+        ]
+      },
+      "id": "node/8197438187"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8197438188",
+        "amenity": "bar",
+        "name": "Old Fourth"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3716339,
+          33.7541737
+        ]
+      },
+      "id": "node/8197438188"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8197442017",
+        "amenity": "bar",
+        "name": "Church Annex"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.371551,
+          33.7541932
+        ]
+      },
+      "id": "node/8197442017"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8901896944",
+        "amenity": "bar",
+        "name": "The Bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4256742,
+          33.6407275
+        ]
+      },
+      "id": "node/8901896944"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9270199577",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "1544",
+        "addr:postcode": "30324",
+        "addr:state": "GA",
+        "addr:street": "Piedmont Avenue Northeast",
+        "air_conditioning": "yes",
+        "amenity": "bar",
+        "internet_access": "no",
+        "level": "1",
+        "lgbtq": "primary",
+        "microbrewery": "no",
+        "min_age": "21",
+        "name": "The Hideaway",
+        "outdoor_seating": "no",
+        "phone": "+1-404-874-8247",
+        "smoking": "isolated"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.371752,
+          33.7982222
+        ]
+      },
+      "id": "node/9270199577"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9576903560",
+        "addr:city": "Marietta",
+        "addr:floor": "G;1",
+        "addr:housenumber": "1311",
+        "addr:postcode": "30068",
+        "addr:state": "GA",
+        "addr:street": "Johnson Ferry Road Northeast",
+        "air_conditioning": "yes",
+        "amenity": "bar",
+        "brewery": "no",
+        "check_date": "2025-01-26",
+        "contact:facebook": "https://www.facebook.com/StemWineBar",
+        "contact:instagram": "https://www.instagram.com/stemwinebar/",
+        "contact:website": "https://www.stemwinebar.com/",
+        "drink:wine": "yes",
+        "level": "0;1",
+        "microbrewery": "no",
+        "min_age": "21",
+        "name": "Stem Wine Bar",
+        "opening_hours": "Tu-Th 17:00-21:00; Fr-Sa 17:00-22:00",
+        "outdoor_seating": "no",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1-678-214-6888",
+        "smoking": "no",
+        "website": "https://www.stemwinebar.com/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4282788,
+          33.9798055
+        ]
+      },
+      "id": "node/9576903560"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9685274462",
+        "addr:city": "Cumming",
+        "addr:postcode": "30040",
+        "addr:state": "GA",
+        "addr:street": "5446 Bethelview Rd, #102",
+        "air_conditioning": "yes",
+        "amenity": "bar",
+        "check_date": "2024-09-13",
+        "country": "USA",
+        "name": "Castleberry Ale House",
+        "opening_hours": "Mo-Sa 11:00-02:00; Su 12:00-02:00",
+        "outdoor_seating": "yes",
+        "payment:cash": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+1-770-292-9999",
+        "website": "https://castleberryalehouse.com",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1890731,
+          34.173431
+        ]
+      },
+      "id": "node/9685274462"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9789181486",
+        "amenity": "bar",
+        "name": "El Ocho Billiards"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3351095,
+          33.8364657
+        ]
+      },
+      "id": "node/9789181486"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9789181487",
+        "amenity": "bar",
+        "name": "Confetis Restaurant & Bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.335485,
+          33.8368578
+        ]
+      },
+      "id": "node/9789181487"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9789181489",
+        "amenity": "bar",
+        "name": "The Pink Pony"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3370728,
+          33.8349061
+        ]
+      },
+      "id": "node/9789181489"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9798955088",
+        "addr:housenumber": "1265",
+        "addr:street": "West Spring Street",
+        "addr:unit": "D",
+        "air_conditioning": "yes",
+        "amenity": "bar",
+        "brewery": "yes;various",
+        "check_date": "2024-11-11",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "internet_access:ssid": "The Stout Brothers",
+        "microbrewery": "no",
+        "name": "The Stout Brothers",
+        "opening_hours": "Mo-Th 11:00-21:00; Fr,Sa 11:00-22:30; Su 11:00-20:00",
+        "outdoor_seating": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "smoking": "no",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.5153322,
+          33.88378
+        ]
+      },
+      "id": "node/9798955088"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9902227644",
+        "addr:city": "Forest Park",
+        "addr:housenumber": "16",
+        "addr:postcode": "30297",
+        "addr:state": "GA",
+        "addr:street": "Forest Parkway Bldg",
+        "amenity": "bar",
+        "name": "Don Burrito Grill",
+        "opening_hours": "Mo-Su 07:00-16:00",
+        "phone": "+1 404-361-6564",
+        "website": "https://www.facebook.com/pages/Don-Burrito-Grill/196041073852379"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.397113,
+          33.6206623
+        ]
+      },
+      "id": "node/9902227644"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9902311179",
+        "amenity": "bar",
+        "name": "Hammer's Good Time Emporium",
+        "phone": "+1 404-768-5200",
+        "website": "https://www.facebook.com/Hammers-Goodtime-Emporium-Trivia-Page-660284794080917/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4186154,
+          33.6585984
+        ]
+      },
+      "id": "node/9902311179"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9995265018",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "1308",
+        "addr:postcode": "30316",
+        "addr:state": "GA",
+        "addr:street": "Glenwood Avenue Southeast",
+        "amenity": "bar",
+        "brewery": "yes",
+        "food": "yes",
+        "name": "Hippin' Hops",
+        "opening_hours": "We-Th 17:00-23:00; Fr 17:00-00:00; Sa 12:00-00:00; Su 12:00-22:00",
+        "phone": "+1 678-713-2739",
+        "website": "https://www.hippinhopsbrewery.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3447766,
+          33.7402333
+        ]
+      },
+      "id": "node/9995265018"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10054465559",
+        "air_conditioning": "yes",
+        "amenity": "bar",
+        "indoor_seating": "yes",
+        "level": "1",
+        "name": "The Village Hideout",
+        "opening_hours": "Tu-Th 16:00-22:00; Fr 16:00-23:00; Sa 13:00-23:00; Su 13:00-21:00",
+        "outdoor_seating": "yes",
+        "smoking": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.5161764,
+          33.8844507
+        ]
+      },
+      "id": "node/10054465559"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10055032917",
+        "amenity": "bar",
+        "name": "The SOS Tiki Bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2951547,
+          33.7742331
+        ]
+      },
+      "id": "node/10055032917"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10817129456",
+        "addr:floor": "G;1",
+        "addr:housenumber": "3372",
+        "addr:street": "Canton Road Northeast",
+        "addr:unit": "140",
+        "air_conditioning": "yes",
+        "amenity": "bar",
+        "check_date": "2025-07-28",
+        "level": "0;1",
+        "microbrewery": "no",
+        "name": "Cue's Billiards",
+        "opening_hours": "Mo-Fr 11:30-02:00; Sa 12:00-03:00; Su 12:00-24:00",
+        "outdoor_seating": "no",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+1 770-425-1101",
+        "website": "https://www.cuesbilliards.com/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.5264083,
+          34.0337767
+        ]
+      },
+      "id": "node/10817129456"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11094544239",
+        "access": "private",
+        "amenity": "bar",
+        "check_date": "2023-08-06",
+        "name": "Admirals Club",
+        "operator": "American Airlines"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4425403,
+          33.6415916
+        ]
+      },
+      "id": "node/11094544239"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11125354076",
+        "addr:city": "Marietta",
+        "addr:floor": "1",
+        "addr:housenumber": "2000",
+        "addr:postcode": "30067",
+        "addr:street": "Powers Ferry Road Southeast",
+        "addr:unit": "1200",
+        "amenity": "bar",
+        "check_date": "2026-01-17",
+        "level": "1",
+        "name": "The Monticello",
+        "phone": "+1-770-702-7078"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4651441,
+          33.9060508
+        ]
+      },
+      "id": "node/11125354076"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11179182281",
+        "addr:city": "Tucker",
+        "addr:housenumber": "4720",
+        "addr:postcode": "30084",
+        "addr:state": "GA",
+        "addr:street": "Stone Drive",
+        "addr:unit": "Suite A",
+        "amenity": "bar",
+        "brewery": "yes;various",
+        "name": "Pontoon Brewing Company The Lodge"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1966246,
+          33.8384773
+        ]
+      },
+      "id": "node/11179182281"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11225963220",
+        "addr:housenumber": "2718",
+        "addr:street": "Summers Street Northwest",
+        "amenity": "bar",
+        "brewery": "yes",
+        "check_date": "2024-02-29",
+        "name": "SuBourbon Bar & Social Club",
+        "opening_hours": "17:00-02:30",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+1 770-726-2163",
+        "website": "https://www.subourbonbar.com/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.6135396,
+          34.019886
+        ]
+      },
+      "id": "node/11225963220"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11230225937",
+        "addr:housenumber": "357",
+        "addr:street": "Edgewood Avenue Northeast",
+        "amenity": "bar",
+        "name": "Noni's"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3758902,
+          33.7542642
+        ]
+      },
+      "id": "node/11230225937"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11255280688",
+        "addr:floor": "G;1",
+        "addr:housenumber": "1510-G",
+        "addr:street": "Piedmont Ave NE, Atlanta, GA 30324",
+        "amenity": "bar",
+        "brewery": "various",
+        "check_date": "2026-01-21",
+        "level": "0;1",
+        "lgbtq": "primary",
+        "name": "Felix's",
+        "opening_hours": "Mo-Th 15:00-02:30; Fr-Sa 12:00-02:30; Su 12:30-24:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1-404-249-7899",
+        "website": "https://www.felixsatlanta.info/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3710687,
+          33.7966008
+        ]
+      },
+      "id": "node/11255280688"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11262644482",
+        "amenity": "bar",
+        "name": "Porterdale Bar and Grill"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.9031664,
+          33.5658693
+        ]
+      },
+      "id": "node/11262644482"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11440010578",
+        "amenity": "bar",
+        "name": "Beer Growler"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.331313,
+          33.860942
+        ]
+      },
+      "id": "node/11440010578"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11500327580",
+        "addr:city": "Woodstock",
+        "addr:housenumber": "101",
+        "addr:postcode": "30189",
+        "addr:state": "GA",
+        "addr:street": "Emma Lane",
+        "amenity": "bar",
+        "billiards": "yes",
+        "name": "Big Shots Billiards"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.5478404,
+          34.087192
+        ]
+      },
+      "id": "node/11500327580"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11551855665",
+        "amenity": "bar",
+        "name": "Vintage Tasting Room"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.9873131,
+          33.956289
+        ]
+      },
+      "id": "node/11551855665"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11670461489",
+        "addr:housenumber": "2825",
+        "addr:street": "South Main Street Northwest",
+        "addr:unit": "300",
+        "amenity": "bar",
+        "check_date": "2024-02-27",
+        "name": "Bernie's Social Bar",
+        "opening_hours": "We-Th 16:00-21:00; Fr 16:00-22:00; Sa 11:00-22:00; Su 11:00-21:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1 770-627-2297",
+        "website": "https://www.berniessocialbar.com/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.6155608,
+          34.0224788
+        ]
+      },
+      "id": "node/11670461489"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11725460009",
+        "amenity": "bar",
+        "name": "CRU Hookah Lounge",
+        "smoking": "dedicated",
+        "website": "https://crulounge.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4029379,
+          33.7465075
+        ]
+      },
+      "id": "node/11725460009"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11736934434",
+        "amenity": "bar",
+        "indoor_seating": "yes",
+        "name": "Lingering Shade Social Club",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3650448,
+          33.7577819
+        ]
+      },
+      "id": "node/11736934434"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11754487746",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "110",
+        "addr:postcode": "30313",
+        "addr:street": "Centennial Olympic Park Drive",
+        "amenity": "bar",
+        "name": "Fellaship ATL",
+        "smoking": "yes",
+        "website": "https://www.fellashipatl.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3990701,
+          33.752088
+        ]
+      },
+      "id": "node/11754487746"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11772715530",
+        "addr:city": "Atlanta",
+        "addr:floor": "G;1",
+        "addr:housenumber": "156",
+        "addr:postcode": "30303",
+        "addr:state": "GA",
+        "addr:street": "Forsyth Street Southwest",
+        "addr:unit": "A",
+        "amenity": "bar",
+        "check_date": "2024-10-24",
+        "level": "0;1",
+        "name": "Speakeasy Lounge",
+        "opening_hours": "Mo-Th 00:00-02:00,21:00-24:00; Fr 00:00-02:00,21:00-24:00; Sa 00:00-03:00,21:00-24:00; Su 18:00-24:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1 404-522-9509",
+        "website": "http://www.speakeasylounge.net/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3952481,
+          33.7502683
+        ]
+      },
+      "id": "node/11772715530"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11891881879",
+        "addr:city": "Kennesaw",
+        "addr:housenumber": "3655",
+        "addr:postcode": "30144",
+        "addr:state": "GA",
+        "addr:street": "Cherokee Street Northwest",
+        "addr:unit": "#16",
+        "air_conditioning": "yes",
+        "amenity": "bar",
+        "brewery": "yes",
+        "check_date": "2024-05-11",
+        "name": "Owlz Pub",
+        "opening_hours": "Mo-Th 16:00-02:30; Fr-Su 15:00-02:30",
+        "outdoor_seating": "no",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1 770-485-2729",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.6026216,
+          34.0429909
+        ]
+      },
+      "id": "node/11891881879"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11938463500",
+        "amenity": "bar",
+        "indoor_seating": "yes",
+        "name": "Bury the Hatchet",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3807318,
+          33.9313641
+        ]
+      },
+      "id": "node/11938463500"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11959366391",
+        "addr:city": "Stone Mountain",
+        "addr:housenumber": "947",
+        "addr:postcode": "30083",
+        "addr:state": "GA",
+        "addr:street": "Main Street",
+        "amenity": "bar",
+        "disused:building": "yes",
+        "name": "Stone Mountain Public House"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1703844,
+          33.8074847
+        ]
+      },
+      "id": "node/11959366391"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11959366399",
+        "amenity": "bar",
+        "name": "The Vibrary"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1707561,
+          33.8083331
+        ]
+      },
+      "id": "node/11959366399"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12033799533",
+        "addr:city": "Monroe",
+        "addr:housenumber": "1480",
+        "addr:postcode": "30655",
+        "addr:state": "ga",
+        "addr:street": "US 78",
+        "amenity": "bar",
+        "brewery": "various;yes",
+        "contact:facebook": "Stadium Lounge",
+        "min_age": "0",
+        "name": "Stadium Lounge",
+        "opening_hours": "Mo-Su 08:00-23:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.6801515,
+          33.8130005
+        ]
+      },
+      "id": "node/12033799533"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12164456331",
+        "amenity": "bar",
+        "check_date": "2024-09-08",
+        "level": "0",
+        "name": "The Well",
+        "payment:cash": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1462575,
+          34.2171397
+        ]
+      },
+      "id": "node/12164456331"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12242161554",
+        "addr:floor": "G;1",
+        "addr:housenumber": "3080",
+        "addr:street": "Jonquil Drive",
+        "air_conditioning": "yes",
+        "amenity": "bar",
+        "check_date": "2026-04-10",
+        "craft": "brewery",
+        "drink:mead": "yes",
+        "email": "sales@vikingalchemist.com",
+        "indoor_seating": "yes",
+        "level": "0;1",
+        "name": "Viking Alchemist Meadery",
+        "opening_hours": "Th,Fr 17:00-22:00; Sa 12:00-22:00; Su 13:00-18:00",
+        "outdoor_seating": "yes",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1-678-858-2813",
+        "smoking": "no",
+        "website": "https://www.vikingalchemist.com/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.5040998,
+          33.877943
+        ]
+      },
+      "id": "node/12242161554"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12287001738",
+        "addr:housenumber": "110",
+        "addr:street": "Marietta Street Northwest",
+        "amenity": "bar",
+        "check_date": "2024-10-24",
+        "email": "glennsskylounge@lvmgt.com",
+        "name": "Skylounge At Glenn",
+        "opening_hours": "Mo-Th 16:00-21:00; Fr-Sa 18:00-24:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1 404-521-2250",
+        "reservation": "no",
+        "website": "https://glennsskylounge.com/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3930425,
+          33.7570711
+        ]
+      },
+      "id": "node/12287001738"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12370090016",
+        "amenity": "bar",
+        "indoor_seating": "yes",
+        "name": "Chamblee Tap & Market",
+        "outdoor_seating": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2981568,
+          33.8951386
+        ]
+      },
+      "id": "node/12370090016"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12385567623",
+        "addr:floor": "G;1",
+        "addr:housenumber": "931",
+        "addr:street": "Monroe Circle Northeast",
+        "addr:unit": "C-106",
+        "amenity": "bar",
+        "check_date": "2025-10-14",
+        "description": "Popup events venue, available as scheduled.",
+        "level": "0;1",
+        "name": "Popup Atlanta",
+        "operator": "Tapa Tapa",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1 404-481-5226",
+        "website": "https://www.popup-atl.com/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3671662,
+          33.7789289
+        ]
+      },
+      "id": "node/12385567623"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12434292393",
+        "amenity": "bar",
+        "brewery": "yes",
+        "name": "Towerhouse Brewing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.57387,
+          33.0944169
+        ]
+      },
+      "id": "node/12434292393"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12456323024",
+        "amenity": "bar",
+        "name": "Vino Volo",
+        "opening_hours": "Mo-Su 06:30-22:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4426473,
+          33.6440036
+        ]
+      },
+      "id": "node/12456323024"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12509810953",
+        "amenity": "bar",
+        "check_date": "2025-07-24",
+        "name": "Suds & Bottles"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4953238,
+          34.2354256
+        ]
+      },
+      "id": "node/12509810953"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12513355802",
+        "addr:floor": "G;1",
+        "addr:housenumber": "1080",
+        "addr:street": "Peachtree Street Northeast",
+        "addr:unit": "7",
+        "amenity": "bar",
+        "brewery": "various",
+        "check_date": "2025-08-13",
+        "contact:facebook": "https://www.facebook.com/wickedwolfatlanta",
+        "email": "info@wickedwolfatlanta.com",
+        "level": "0;1",
+        "name": "Wicked Wolf Atlanta",
+        "opening_hours": "Mo-Th,Su 11:00-12:00; Fr-Sa 11:00-02:30",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1 770-585-9898",
+        "website": "https://www.wickedwolftavern.com/atlanta",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3844496,
+          33.7834469
+        ]
+      },
+      "id": "node/12513355802"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12549057373",
+        "addr:housenumber": "2316",
+        "addr:street": "Main Street",
+        "amenity": "bar",
+        "name": "High Card Brewery",
+        "website": "https://www.highcardbrewing.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2148413,
+          33.8528753
+        ]
+      },
+      "id": "node/12549057373"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12648693966",
+        "addr:city": "Atlanta",
+        "addr:floor": "G;1",
+        "addr:housenumber": "1492",
+        "addr:postcode": "30309",
+        "addr:state": "GA",
+        "addr:street": "Piedmont Avenue Northeast",
+        "addr:unit": "F",
+        "amenity": "bar",
+        "check_date": "2026-01-21",
+        "level": "0;1",
+        "lgbtq": "primary",
+        "name": "Atlanta Eagle",
+        "opening_hours": "Mo-Th 15:00-02:00; Fr 15:00-03:00; Sa 13:00-03:00; Su 13:00-23:59",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1-404-999-3826",
+        "website": "https://atlantaeagle.com/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3711336,
+          33.7961866
+        ]
+      },
+      "id": "node/12648693966"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12648693968",
+        "addr:floor": "G;1",
+        "addr:housenumber": "1492",
+        "addr:street": "Piedmont Avenue Northeast",
+        "addr:unit": "B",
+        "amenity": "bar",
+        "check_date": "2026-01-21",
+        "level": "0;1",
+        "name": "Mixx Atlanta",
+        "opening_hours": "Mo-Tu off; We-Th 16:00-02:00; Fr-Sa 16:00-03:00; Su 16:00-24:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1-404-228-4372",
+        "website": "https://mixxatlanta.com/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3710344,
+          33.7960373
+        ]
+      },
+      "id": "node/12648693968"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12778581085",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "159",
+        "addr:postcode": "30313",
+        "addr:state": "GA",
+        "addr:street": "Northside Dr. NW",
+        "amenity": "bar",
+        "name": "Highball"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4009327,
+          33.7587257
+        ]
+      },
+      "id": "node/12778581085"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13017969101",
+        "addr:floor": "5",
+        "addr:housenumber": "53",
+        "addr:street": "14th Street Northeast",
+        "amenity": "bar",
+        "brewery": "various",
+        "check_date": "2025-07-23",
+        "cuisine": "american",
+        "level": "4",
+        "location": "roof",
+        "name": "High Note Food & Drink",
+        "opening_hours": "Mo-Th,Su 17:00-22:00; Fr-Sa 17:00-23:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "restaurant": "yes",
+        "website": "https://www.highnoteatl.com/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3859379,
+          33.7860804
+        ]
+      },
+      "id": "node/13017969101"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13017969104",
+        "addr:floor": "G;1",
+        "addr:housenumber": "75",
+        "addr:street": "14th Street Northeast",
+        "amenity": "bar",
+        "check_date": "2025-07-22",
+        "cuisine": "french",
+        "indoor": "yes",
+        "level": "0;1",
+        "name": "Bar Margot",
+        "opening_hours": "Mo-Th,Su 15:00-23:00; Fr-Sa 15:00-24:00",
+        "operator": "Four Seasons Atlanta",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1 404-881-5913",
+        "reservation": "yes",
+        "restaurant": "yes",
+        "website": "http://barmargotatl.com/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3855115,
+          33.7863823
+        ]
+      },
+      "id": "node/13017969104"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13019491856",
+        "addr:floor": "G;1",
+        "addr:housenumber": "1136",
+        "addr:street": "Crescent Avenue Northeast",
+        "amenity": "bar",
+        "check_date": "2025-07-23",
+        "email": "info@embrlounge.com",
+        "level": "0;1",
+        "name": "Embr Lounge",
+        "opening_hours": "Mo off; Tu-Sa 22:00-03:00; Su 17:00-24:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "website": "https://www.embrlounge.com/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3843546,
+          33.7856916
+        ]
+      },
+      "id": "node/13019491856"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13019789376",
+        "addr:housenumber": "48",
+        "addr:street": "13th Street Northeast",
+        "amenity": "bar",
+        "check_date": "2025-07-23",
+        "indoor": "yes",
+        "name": "Bar Moxy",
+        "opening_hours": "15:00-01:00",
+        "operator": "Moxy Atlanta Midtown",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "website": "https://www.marriott.com/en-us/hotels/atlox-moxy-atlanta-midtown/dining/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.385988,
+          33.7858797
+        ]
+      },
+      "id": "node/13019789376"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13021986946",
+        "addr:floor": "G;1",
+        "addr:housenumber": "1080",
+        "addr:street": "Peachtree Street Northeast",
+        "addr:unit": "1",
+        "amenity": "bar",
+        "check_date": "2025-07-24",
+        "cuisine": "asian;tapas",
+        "diet:gluten_free": "limited",
+        "diet:vegetarian": "limited",
+        "level": "0;1",
+        "name": "Blackjack Bar Tapas",
+        "opening_hours": "Mo-Th,Su 17:00-24:00; Fr-Sa 17:00-02:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1 404-748-9675",
+        "restaurant": "yes",
+        "website": "https://www.blackjackbartapas.com/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3842587,
+          33.7842037
+        ]
+      },
+      "id": "node/13021986946"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13036508457",
+        "addr:floor": "G;1",
+        "addr:housenumber": "1340",
+        "addr:street": "West Peachtree Street Northwest",
+        "amenity": "bar",
+        "check_date": "2025-07-29",
+        "contact:instagram": "https://www.instagram.com/avelinebaratl/",
+        "cuisine": "american",
+        "email": "INFO@AVELINEBARATL.COM",
+        "indoor": "yes",
+        "level": "0;1",
+        "name": "Aveline",
+        "opening_hours": "Mo-Th 17:00-23:00; Fr-Sa 17:00-24:00; Su off",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1 404-446-3727",
+        "restaurant": "yes",
+        "website": "https://www.avelinebaratl.com",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3880018,
+          33.7909073
+        ]
+      },
+      "id": "node/13036508457"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13036508458",
+        "addr:housenumber": "1231",
+        "addr:street": "West Peachtree Street Northwest",
+        "amenity": "bar",
+        "brewery": "various",
+        "check_date": "2025-07-29",
+        "contact:instagram": "https://www.instagram.com/1231rooftopbar/",
+        "location": "roof",
+        "name": "1231 Rooftop Bar",
+        "opening_hours": "Mo-Th 17:00-22:00; Fr-Sa 17:00-23:00; Su off",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1 404-685-3690",
+        "restaurant": "yes",
+        "website": "https://www.1231rooftopbar.com/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3876231,
+          33.7884018
+        ]
+      },
+      "id": "node/13036508458"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13036508461",
+        "addr:floor": "G;1",
+        "addr:housenumber": "1302",
+        "addr:street": "West Peachtree Street Northwest",
+        "amenity": "bar",
+        "check_date": "2025-07-29",
+        "cocktails": "yes",
+        "level": "0;1",
+        "name": "May Peel",
+        "opening_hours": "Mo-Tu,Su off; We-Th 18:00-24:00; Fr-Sa 18:00-01:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1 404-737-3030",
+        "website": "https://granadaatlanta.com/dine/may-peel/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3883445,
+          33.7903082
+        ]
+      },
+      "id": "node/13036508461"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13136998275",
+        "amenity": "bar",
+        "name": "Sammy's Midnite Bar & Grill"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.0916212,
+          33.5728164
+        ]
+      },
+      "id": "node/13136998275"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13154480001",
+        "addr:housenumber": "777",
+        "addr:postcode": "30316",
+        "addr:street": "Memorial Drive Southeast",
+        "amenity": "bar",
+        "name": "El Malo",
+        "website": "https://elmaloatl.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3605017,
+          33.7460275
+        ]
+      },
+      "id": "node/13154480001"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13154495101",
+        "addr:housenumber": "661",
+        "addr:postcode": "30312",
+        "addr:street": "Auburn Avenue Northeast",
+        "amenity": "bar",
+        "name": "The James Room"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3653939,
+          33.7564632
+        ]
+      },
+      "id": "node/13154495101"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13154536601",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "1000",
+        "addr:postcode": "30318",
+        "addr:state": "GA",
+        "addr:street": "Marietta Street Northwest",
+        "addr:unit": "250",
+        "amenity": "bar",
+        "club": "yes",
+        "contact:facebook": "https://www.facebook.com/slingshotatl/",
+        "contact:instagram": "https://www.instagram.com/slingshotsocialatl/",
+        "leisure": "amusement_arcade",
+        "name": "Slingshot Social Game Club",
+        "opening_hours": "Mo-Tu off; We-Th 19:00-24:00; Fr 18:00-01:30; Sa 14:00-02:00; Su 15:00-20:00",
+        "website": "https://slingshotgameclub.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4107161,
+          33.7785625
+        ]
+      },
+      "id": "node/13154536601"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13158634421",
+        "amenity": "bar",
+        "check_date": "2025-09-20",
+        "name": "Glacier Ice Bar & Kitchen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2558398,
+          33.9658636
+        ]
+      },
+      "id": "node/13158634421"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13186535220",
+        "addr:floor": "G;1",
+        "addr:housenumber": "1105",
+        "addr:street": "West Peachtree Street Northwest",
+        "amenity": "bar",
+        "check_date": "2025-10-01",
+        "cocktails": "yes",
+        "level": "0;1",
+        "microbrewery": "no",
+        "name": "The Office Bar",
+        "opening_hours": "Mo-Fr 11:00-21:00; Sa-Su 12:00-21:00",
+        "operator": "Epicurian Hotel Atlanta",
+        "outdoor_seating": "no",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1-470-283-2912",
+        "reservation": "no",
+        "restaurant": "yes",
+        "smoking": "no",
+        "website": "https://theofficebaratl.com/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3876001,
+          33.7850567
+        ]
+      },
+      "id": "node/13186535220"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13204950492",
+        "addr:floor": "G;1",
+        "addr:housenumber": "970",
+        "addr:street": "Piedmont Avenue Northeast",
+        "amenity": "bar",
+        "check_date": "2025-10-09",
+        "contact:facebook": "https://www.facebook.com/katscafe.atlanta/",
+        "level": "0;1",
+        "name": "Kat's Cafe",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1-404-347-2263",
+        "restaurant": "yes",
+        "website": "https://www.katscafeatlanta.com/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3808443,
+          33.781105
+        ]
+      },
+      "id": "node/13204950492"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13228144486",
+        "addr:floor": "G;1",
+        "addr:housenumber": "1310",
+        "addr:street": "White Street Southwest",
+        "amenity": "bar",
+        "check_date": "2025-10-12",
+        "level": "0;1",
+        "name": "Boggs Social & Supply",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1-404-600-2963",
+        "short_name": "Boggs Bar",
+        "website": "https://www.boggssocial.com/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4303675,
+          33.7373438
+        ]
+      },
+      "id": "node/13228144486"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13406783619",
+        "addr:floor": "G;1",
+        "amenity": "bar",
+        "check_date": "2025-12-25",
+        "cocktails": "yes",
+        "level": "0;1",
+        "name": "The Gaslight",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "website": "https://www.gaslightsupperclub.com/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3621772,
+          34.0226599
+        ]
+      },
+      "id": "node/13406783619"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13508107666",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "640",
+        "addr:postcode": "30306",
+        "addr:state": "GA",
+        "addr:street": "North Highland Avenue Northeast",
+        "amenity": "bar",
+        "name": "Madeira Park"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3527277,
+          33.7718177
+        ]
+      },
+      "id": "node/13508107666"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13591737012",
+        "addr:city": "Chamblee",
+        "addr:housenumber": "4300",
+        "addr:postcode": "30345",
+        "addr:state": "GA",
+        "addr:street": "Buford Highway",
+        "amenity": "bar",
+        "name": "ACE Atlanta",
+        "website": "https://www.theaceatlanta.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3015484,
+          33.8679603
+        ]
+      },
+      "id": "node/13591737012"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13591850291",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "1020",
+        "addr:postcode": "30310",
+        "addr:state": "GA",
+        "addr:street": "White Street",
+        "addr:unit": "12",
+        "amenity": "bar",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "name": "Sakura Sake Bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4209331,
+          33.7311658
+        ]
+      },
+      "id": "node/13591850291"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13670347301",
+        "addr:housenumber": "3409",
+        "addr:postcode": "30032",
+        "addr:street": "Covington Highway",
+        "amenity": "bar",
+        "check_date": "2026-03-22",
+        "check_date:opening_hours": "2026-03-22",
+        "contact:facebook": "thepoolturtleatl",
+        "contact:instagram": "thepoolturtleatl",
+        "cuisine": "american;breakfast;burger;chicken;pizza;sandwich",
+        "diet:vegan": "yes",
+        "email": "info@thepoolturtle.com",
+        "level": "0",
+        "name": "The Pool Turtle",
+        "opening_hours": "Mo-Sa 11:00-02:00; Su 11:00-00:00",
+        "phone": "+1-404-981-5656",
+        "website": "https://thepoolturtle.com/",
+        "website:menu": "http://thepoolturtle.com/menus"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2530953,
+          33.769958
+        ]
+      },
+      "id": "node/13670347301"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13670372615",
+        "addr:housenumber": "5090",
+        "addr:postcode": "30340",
+        "addr:street": "Buford Highway",
+        "amenity": "bar",
+        "check_date": "2026-03-22",
+        "check_date:opening_hours": "2026-03-22",
+        "cuisine": "asian;beef_bowl;bubble_tea;chicken;chinese;international;noodles",
+        "email": "wynnclub41319@gmail.com",
+        "level": "1",
+        "name": "Wynn Club 永利會所",
+        "opening_hours": "Mo-Su 15:00-00:00",
+        "phone": "+1-470-679-4066",
+        "website": "https://wynnclub41319.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.285667,
+          33.8913655
+        ]
+      },
+      "id": "node/13670372615"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13695828101",
+        "addr:street": "Howell Mill Road Northwest",
+        "amenity": "bar",
+        "name": "The Bar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4125757,
+          33.8030045
+        ]
+      },
+      "id": "node/13695828101"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13706955990",
+        "addr:floor": "G;1",
+        "addr:housenumber": "494",
+        "addr:street": "Plasters Avenue Northeast",
+        "addr:unit": "200",
+        "amenity": "bar",
+        "brewery": "various",
+        "check_date": "2026-04-04",
+        "level": "0;1",
+        "lgbtq": "primary",
+        "name": "Woofs Sports Bar",
+        "opening_hours": "Mo,We-Th 11:30-23:00; Tu off; Fr-Sa 11:30-01:00; Su 11:30-24:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1-404-869-9422",
+        "website": "https://woofsatlanta.com/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3726225,
+          33.8116248
+        ]
+      },
+      "id": "node/13706955990"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13708813968",
+        "addr:floor": "G;1",
+        "amenity": "bar",
+        "check_date": "2026-04-05",
+        "cuisine": "american",
+        "level": "0;1",
+        "name": "Mazzy's Sports Tavern",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "restaurant": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1402088,
+          33.9512515
+        ]
+      },
+      "id": "node/13708813968"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13785861046",
+        "amenity": "bar",
+        "name": "Bo's Tavern"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.8134174,
+          33.8188045
+        ]
+      },
+      "id": "node/13785861046"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13979320001",
+        "addr:housenumber": "209",
+        "addr:street": "Peachtree Street Northeast",
+        "amenity": "bar",
+        "name": "Peachtree Sports Club"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3871329,
+          33.7595697
+        ]
+      },
+      "id": "node/13979320001"
+    }
+  ]
+}

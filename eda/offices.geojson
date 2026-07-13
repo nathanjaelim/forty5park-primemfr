@@ -1,0 +1,5462 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-07-13T16:02:37Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/20131697",
+        "building": "industrial",
+        "company": "medical_equipment",
+        "contact:facebook": "https://www.facebook.com/advancemedicaldesignsinc/",
+        "name": "Advance Medical Designs, Inc.",
+        "office": "company",
+        "type": "multipolygon",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.5348491,
+          33.9798604
+        ]
+      },
+      "id": "relation/20131697"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/34792880",
+        "LandPro08:DE3": "UNDEVELOPED",
+        "LandPro08:LC_NAME": "FOREST",
+        "LandPro08:LU_NAME": "FOREST",
+        "LandPro08:reviewed": "no",
+        "name": "In Touch Studios",
+        "office": "company",
+        "source": "LandPro08",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2637062,
+          33.8911601
+        ]
+      },
+      "id": "way/34792880"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/39083796",
+        "addr:city": "Alpharetta",
+        "addr:country": "US",
+        "addr:housenumber": "5800",
+        "addr:state": "GA",
+        "addr:street": "Windward Parkway",
+        "building": "office",
+        "building:levels": "4",
+        "name": "ADP",
+        "office": "company",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2557248,
+          34.0906544
+        ]
+      },
+      "id": "way/39083796"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/67479886",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "200",
+        "addr:postcode": "30339",
+        "addr:state": "GA",
+        "addr:street": "Galleria Parkway Southeast",
+        "building": "office",
+        "building:levels": "20",
+        "company": "fuel;convenience",
+        "name": "RaceTrac",
+        "office": "company",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4635828,
+          33.8858841
+        ]
+      },
+      "id": "way/67479886"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/158807922",
+        "addr:city": "Norcross",
+        "addr:housenumber": "5550",
+        "addr:postcode": "30092",
+        "addr:state": "GA",
+        "addr:street": "Peachtree Parkway Northwest",
+        "building": "commercial",
+        "building:levels": "6",
+        "name": "The Summit",
+        "office": "company",
+        "smoking": "separated",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.220257,
+          33.9679721
+        ]
+      },
+      "id": "way/158807922"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/164876035",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "10",
+        "addr:postcode": "30309",
+        "addr:state": "GA",
+        "addr:street": "Peachtree Place Northeast",
+        "building": "office",
+        "building:levels": "2",
+        "check_date": "2025-09-24",
+        "company": "energy",
+        "height": "96",
+        "name": "Southern Company Gas",
+        "office": "company",
+        "roof:shape": "flat",
+        "website": "https://www.southerncompanygas.com/",
+        "wheelchair": "yes",
+        "wikipedia": "en:Southern Company Gas",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3871496,
+          33.7810859
+        ]
+      },
+      "id": "way/164876035"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/192937990",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "151",
+        "addr:postcode": "30303",
+        "addr:street": "Ted Turner Drive Northwest",
+        "building": "yes",
+        "name": "Switchyards",
+        "office": "coworking",
+        "source": "bing",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3900045,
+          33.7586042
+        ]
+      },
+      "id": "way/192937990"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/237311235",
+        "addr:city": "Kennesaw",
+        "addr:country": "US",
+        "addr:housenumber": "1950",
+        "addr:postcode": "30144",
+        "addr:street": "Vaughn Road",
+        "building": "commercial",
+        "name": "Novelis Global Research & Technology Center",
+        "office": "company",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.5892681,
+          34.0073502
+        ]
+      },
+      "id": "way/237311235"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/244094458",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "3432",
+        "addr:postcode": "30305",
+        "addr:street": "Piedmont Road Northeast",
+        "building": "commercial",
+        "building:levels": "5",
+        "name": "Atlanta Tech Village",
+        "office": "coworking",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3734219,
+          33.8485549
+        ]
+      },
+      "id": "way/244094458"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/263914653",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "2999",
+        "addr:postcode": "30339",
+        "addr:state": "GA",
+        "addr:street": "Circle 75 Parkway Southeast",
+        "building": "office",
+        "building:colour": "grey",
+        "building:levels": "3",
+        "building:use": "office",
+        "company": "general_contractor",
+        "name": "Brasfield & Gorrie General Contractor",
+        "office": "company",
+        "roof:shape": "flat",
+        "website": "https://www.brasfieldgorrie.com/locations/atlanta-ga/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4699307,
+          33.8952379
+        ]
+      },
+      "id": "way/263914653"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/264847851",
+        "addr:city": "Smyrna",
+        "addr:housenumber": "2430",
+        "addr:postcode": "30080",
+        "addr:state": "GA",
+        "addr:street": "Herodian Way Southeast",
+        "building": "commercial",
+        "name": "SharedSpace Cobb",
+        "office": "coworking",
+        "operator": "SharedSpace",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4746322,
+          33.8929988
+        ]
+      },
+      "id": "way/264847851"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/264981443",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "1750",
+        "addr:postcode": "30339",
+        "addr:state": "GA",
+        "addr:street": "The Exchange Southeast",
+        "building": "office",
+        "building:levels": "2",
+        "check_date": "2026-05-08",
+        "company": "restaurant",
+        "contact:facebook": "https://www.facebook.com/Freshens",
+        "contact:instagram": "https://www.instagram.com/freshens",
+        "email": "facebook@freshens.com",
+        "name": "Freshëns",
+        "office": "company",
+        "phone": "+1 800-633-4519",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4826634,
+          33.9087141
+        ]
+      },
+      "id": "way/264981443"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/264983361",
+        "addr:housenumber": "1985",
+        "addr:street": "North Park Place Southeast",
+        "building": "commercial",
+        "building:levels": "2",
+        "check_date": "2026-05-08",
+        "company": "hospitality",
+        "email": "info@futren.com",
+        "name": "Futren Hospitality",
+        "office": "company",
+        "phone": "+1 770-953-1225",
+        "website": "https://www.futren.com",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4797419,
+          33.9043005
+        ]
+      },
+      "id": "way/264983361"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/267600760",
+        "addr:housenumber": "1755",
+        "addr:street": "McCollum Parkway Northwest",
+        "aeroway": "hangar",
+        "building": "hangar",
+        "company": "aviation",
+        "name": "FlightWorks",
+        "office": "company",
+        "website": "https://www.flightworks.com/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.6036764,
+          34.0156276
+        ]
+      },
+      "id": "way/267600760"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/267600822",
+        "addr:housenumber": "1723",
+        "addr:street": "McCollum Parkway Northwest",
+        "addr:unit": "500",
+        "aeroway": "hangar",
+        "building": "hangar",
+        "company": "aviation",
+        "name": "Hawthorne Global Aviation Services",
+        "office": "company",
+        "phone": "+1-770-422-4300",
+        "website": "https://www.hawthorne.aero/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.6011792,
+          34.0153057
+        ]
+      },
+      "id": "way/267600822"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/267604479",
+        "addr:housenumber": "1270",
+        "addr:street": "Chastain Road",
+        "building": "industrial",
+        "building:levels": "2",
+        "name": "Yamaha Motor Corporation, USA - Kennesaw",
+        "office": "company",
+        "website": "https://yamaha-motor.com/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.5881468,
+          34.0279213
+        ]
+      },
+      "id": "way/267604479"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/269747787",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "1065",
+        "addr:postcode": "30309",
+        "addr:street": "Williams Street Northwest",
+        "amenity": "studio",
+        "building": "industrial",
+        "building:levels": "2",
+        "building:use": "commercial",
+        "name": "Williams Street Productions, LLC.",
+        "office": "company",
+        "short_name": "Williams Street",
+        "studio": "television",
+        "wikipedia": "en:Williams Street",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3901905,
+          33.7837771
+        ]
+      },
+      "id": "way/269747787"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/269747899",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "1206",
+        "addr:postcode": "30309",
+        "addr:street": "Spring Street Northwest",
+        "building": "commercial",
+        "building:levels": "1",
+        "check_date": "2025-09-09",
+        "company": "software_development",
+        "email": "greenlight@freshtix.com",
+        "name": "Ticket Alternative",
+        "office": "company",
+        "phone": "+1 678-701-6114",
+        "website": "https://www.ticketalternative.com/",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3895633,
+          33.7876056
+        ]
+      },
+      "id": "way/269747899"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/271133404",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "678",
+        "addr:street": "Memorial Drive Southeast",
+        "building": "yes",
+        "name": "Switchyards",
+        "office": "coworking",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3653449,
+          33.7469923
+        ]
+      },
+      "id": "way/271133404"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/275601431",
+        "addr:housenumber": "1701",
+        "addr:street": "Ashborough Road Southeast",
+        "building": "commercial",
+        "building:facade": "brick",
+        "building:levels": "2",
+        "building:year_built": "2000",
+        "company": "general_contractor",
+        "name": "Taylor Construction Company",
+        "office": "company",
+        "phone": "+1-770-651-0030",
+        "website": "https://taylorconstruction.com/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.5036104,
+          33.9245286
+        ]
+      },
+      "id": "way/275601431"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/280413366",
+        "addr:housenumber": "2225",
+        "addr:street": "Northwest Parkway Southeast",
+        "building": "commercial",
+        "check_date": "2026-05-14",
+        "company": "medical_equipment",
+        "name": "Erbe, USA",
+        "office": "company",
+        "phone": "+1 770-955-4400",
+        "website": "https://us.erbegroup.com/us-en/",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4860921,
+          33.9188779
+        ]
+      },
+      "id": "way/280413366"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/280459557",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "5200",
+        "addr:postcode": "30349",
+        "addr:state": "GA",
+        "addr:street": "Buffington Road",
+        "building": "yes",
+        "name": "Chick-fil-A, Inc. Headquarters",
+        "office": "company",
+        "website": "https://www.chick-fil-a.com/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4893953,
+          33.6136602
+        ]
+      },
+      "id": "way/280459557"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/280459575",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "5300",
+        "addr:postcode": "30349",
+        "addr:state": "GA",
+        "addr:street": "Buffington Road",
+        "building": "yes",
+        "name": "Chick-fil-A: 5300B",
+        "office": "company",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4982922,
+          33.6105389
+        ]
+      },
+      "id": "way/280459575"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/280459625",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "5300",
+        "addr:postcode": "30349",
+        "addr:state": "GA",
+        "addr:street": "Buffington Road",
+        "building": "yes",
+        "name": "Chick-fil-A: 5300A",
+        "office": "company",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4984199,
+          33.6115767
+        ]
+      },
+      "id": "way/280459625"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/280573160",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "5295",
+        "addr:postcode": "30349",
+        "addr:state": "GA",
+        "addr:street": "Buffington Road",
+        "building": "yes",
+        "name": "Chick-fil-A: Lincoln 100",
+        "office": "company",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.5020543,
+          33.6120831
+        ]
+      },
+      "id": "way/280573160"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/280573161",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "3455",
+        "addr:postcode": "30349",
+        "addr:state": "GA",
+        "addr:street": "Naturally Fresh Boulevard",
+        "building": "yes",
+        "name": "Chick-fil-A: Oakmont B",
+        "office": "company",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.5023211,
+          33.6140186
+        ]
+      },
+      "id": "way/280573161"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/280573162",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "3455",
+        "addr:postcode": "30349",
+        "addr:state": "GA",
+        "addr:street": "Naturally Fresh Boulevard",
+        "building": "yes",
+        "name": "Chick-fil-A: Oakmont A",
+        "office": "company",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.5010114,
+          33.6139178
+        ]
+      },
+      "id": "way/280573162"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/280573224",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "5295",
+        "addr:postcode": "30349",
+        "addr:state": "GA",
+        "addr:street": "Buffington Road",
+        "building": "yes",
+        "name": "Chick-fil-A: Lincoln 200",
+        "office": "company",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.5021214,
+          33.6110677
+        ]
+      },
+      "id": "way/280573224"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/281367545",
+        "building": "yes",
+        "name": "Kemi Construction",
+        "office": "company",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4729291,
+          33.6268437
+        ]
+      },
+      "id": "way/281367545"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/283034042",
+        "addr:housenumber": "605",
+        "addr:street": "Franklin Gateway Southeast",
+        "branch": "USA",
+        "building": "office",
+        "company": "manufacturing_technology",
+        "email": "info@accusentry.com",
+        "name": "AccuSentry Inc.",
+        "office": "company",
+        "opening_hours": "Mo-Fr 08:00-19:00",
+        "phone": "+1-770-850-1700",
+        "website": "https://www.accusentry.com",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.5052308,
+          33.9373656
+        ]
+      },
+      "id": "way/283034042"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/284554947",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "260",
+        "addr:postcode": "30339",
+        "addr:state": "GA",
+        "addr:street": "Interstate North Circle Southeast",
+        "building": "office",
+        "building:levels": "12",
+        "company": "insurance",
+        "name": "Assurant",
+        "office": "company",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4633833,
+          33.9001485
+        ]
+      },
+      "id": "way/284554947"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/286774497",
+        "addr:housenumber": "1025",
+        "addr:street": "Cobb Place Boulevard Northwest",
+        "brand": "Automated Logic",
+        "building": "commercial",
+        "name": "Automated Logic Solutions Center",
+        "office": "company",
+        "operator": "Automated Logic",
+        "website": "https://www.automatedlogic.com/en/company/corporate-offices/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.5851085,
+          34.0058117
+        ]
+      },
+      "id": "way/286774497"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/286774501",
+        "addr:housenumber": "1155",
+        "addr:street": "Roberts Boulevard Northwest",
+        "building": "office",
+        "email": "info@dornier.com",
+        "name": "Dornier MedTech America, Inc.",
+        "office": "company",
+        "phone": "+1 770-426-1315",
+        "website": "https://www.dornier.com/americas/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.5854867,
+          34.003371
+        ]
+      },
+      "id": "way/286774501"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/287205272",
+        "addr:housenumber": "2900",
+        "addr:street": "Delk Road Southeast",
+        "building": "office",
+        "building:levels": "2",
+        "check_date": "2026-01-28",
+        "company": "supermarket",
+        "name": "Publix Atlanta Division Office",
+        "office": "company",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4776034,
+          33.9219447
+        ]
+      },
+      "id": "way/287205272"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/289326085",
+        "building": "yes",
+        "name": "Interfor",
+        "office": "company",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.5922873,
+          33.403179
+        ]
+      },
+      "id": "way/289326085"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/308651200",
+        "addr:housenumber": "1915",
+        "addr:state": "GA",
+        "addr:street": "Vaughn Road",
+        "building": "office",
+        "building:levels": "2",
+        "name": "Odyssey Managed Services",
+        "office": "company",
+        "operator": "Odyssey Logistics",
+        "phone": "+1 770-690-8684",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.5913277,
+          34.0027117
+        ]
+      },
+      "id": "way/308651200"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/340662408",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "55",
+        "addr:postcode": "30328",
+        "addr:street": "Glenlake Parkway Northeast",
+        "building": "yes",
+        "check_date": "2025-12-16",
+        "name": "UPS Corporate Headquarters",
+        "office": "company",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3598103,
+          33.9434854
+        ]
+      },
+      "id": "way/340662408"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/364646971",
+        "addr:city": "Woodstock",
+        "addr:country": "US",
+        "addr:housenumber": "6478",
+        "addr:postcode": "30189",
+        "addr:state": "GA",
+        "addr:street": "Putnam Ford Drive",
+        "building": "office",
+        "building:levels": "2",
+        "name": "Execucourt",
+        "office": "company",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.5623385,
+          34.1115697
+        ]
+      },
+      "id": "way/364646971"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/387218425",
+        "addr:city": "Buford",
+        "addr:housenumber": "100",
+        "addr:postcode": "30518",
+        "addr:state": "GA",
+        "addr:street": "Heraeus Boulevard",
+        "building": "yes",
+        "name": "Heraeus Quartz America Optics",
+        "office": "company",
+        "website": "http://heraeus-quarzglas.com/en/home/Home.aspx",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.0071841,
+          34.1039991
+        ]
+      },
+      "id": "way/387218425"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/388252038",
+        "addr:city": "Norcross",
+        "addr:housenumber": "105",
+        "addr:postcode": "30071",
+        "addr:state": "GA",
+        "addr:street": "Hill Street Northwest",
+        "building": "yes",
+        "description": "Vision Logistics provides a flat-rate, which includes all costs of shipping your vehicle from point A to point B.",
+        "name": "Vision Logistics LLC",
+        "office": "company",
+        "phone": "+1-470-509-6068",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2054758,
+          33.9358338
+        ]
+      },
+      "id": "way/388252038"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/388702704",
+        "addr:city": "Norcross",
+        "addr:housenumber": "5420",
+        "addr:postcode": "30071",
+        "addr:state": "GA",
+        "addr:street": "Peachtree Industrial Boulevard",
+        "building": "yes",
+        "check_date": "2024-07-15",
+        "name": "NAPA Auto Parts Genuine Parts Company",
+        "office": "company",
+        "wheelchair": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2103777,
+          33.9580003
+        ]
+      },
+      "id": "way/388702704"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/389927585",
+        "addr:housenumber": "55",
+        "addr:postcode": "30534",
+        "addr:street": "Impulse Industrial Drive",
+        "building": "industrial",
+        "name": "BTD Manufacturing",
+        "office": "company",
+        "operator": "BTD Manufacturing",
+        "phone": "+1-866-562-3986",
+        "website": "https://btdmfg.com/location/dawsonville-ga/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.0529924,
+          34.3588131
+        ]
+      },
+      "id": "way/389927585"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/392480237",
+        "addr:city": "Alpharetta",
+        "addr:housenumber": "1650",
+        "addr:postcode": "30004",
+        "addr:state": "GA",
+        "addr:street": "Bluegrass Lakes Parkway",
+        "building": "yes",
+        "name": "PBD Worldwide",
+        "note": "global headquarters and distribution center",
+        "office": "company",
+        "phone": "+1 470-769-1000",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2358377,
+          34.1146133
+        ]
+      },
+      "id": "way/392480237"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/400661505",
+        "addr:floor": "G;1",
+        "addr:housenumber": "8636",
+        "addr:street": "Main Street",
+        "building": "commercial",
+        "building:levels": "3",
+        "building:use": "retail",
+        "check_date": "2026-03-28",
+        "contact:facebook": "https://www.facebook.com/madeWDSTK",
+        "contact:instagram": "https://www.instagram.com/mademercantilewdstk/",
+        "level": "0;1",
+        "name": "Made Mercantile",
+        "office": "coworking",
+        "opening_hours": "Mo-Th 13:00-17:00; Fr-Su 11:00-19:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1-678-444-9134",
+        "shop": "gift",
+        "website": "https://www.mademercantile.com/",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.5200048,
+          34.1004244
+        ]
+      },
+      "id": "way/400661505"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/437226893",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "1",
+        "addr:postcode": "30354",
+        "addr:state": "GA",
+        "addr:street": "Porsche Drive",
+        "alt_name": "PCNA",
+        "brand": "Porsche",
+        "brand:wikidata": "Q40993",
+        "building": "commercial",
+        "name": "Porsche Cars North America",
+        "office": "company",
+        "phone": "+1 770 290 3500",
+        "website": "https://www.porsche.com/usa",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3988547,
+          33.6519705
+        ]
+      },
+      "id": "way/437226893"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/489414129",
+        "addr:city": "Douglasville",
+        "addr:housenumber": "3857",
+        "addr:postcode": "30134",
+        "addr:state": "GA",
+        "addr:street": "Bankhead Highway",
+        "building": "yes",
+        "name": "Georgia Portable Buildings Inc.",
+        "office": "company",
+        "opening_hours": "Mo-Fr 09:00-17:00; Sa 10:00-15:00; Su closed",
+        "smoking": "outside",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.6976143,
+          33.7878225
+        ]
+      },
+      "id": "way/489414129"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/489414167",
+        "building": "yes",
+        "name": "Custom Mufflers",
+        "office": "company",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.6981315,
+          33.7872359
+        ]
+      },
+      "id": "way/489414167"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/509491321",
+        "addr:housenumber": "98",
+        "addr:street": "Patterson Road Southwest",
+        "building": "commercial",
+        "building:levels": "2",
+        "name": "TE Certified, Electrical, Plumbing, Heating & Cooling",
+        "office": "company",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.0377778,
+          33.9266663
+        ]
+      },
+      "id": "way/509491321"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/519990264",
+        "building": "yes",
+        "building:levels": "1",
+        "name": "ATL Courier, Inc",
+        "office": "company",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1860779,
+          33.9342005
+        ]
+      },
+      "id": "way/519990264"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/535031273",
+        "name": "Centergy Management",
+        "office": "company"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.389825,
+          33.77722
+        ]
+      },
+      "id": "node/535031273"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/536720727",
+        "addr:city": "Atlanta",
+        "addr:floor": "G;1",
+        "addr:housenumber": "1280",
+        "addr:postcode": "30309",
+        "addr:street": "West Peachtree Street Northwest",
+        "building:levels": "5",
+        "building:part": "office",
+        "check_date": "2025-09-09",
+        "company": "carpet",
+        "description": "Global Headquarters and Showroom",
+        "level": "0;1",
+        "name": "Interface Global Headquarters",
+        "office": "company",
+        "opening_hours": "\"by appointment\"",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1-404-887-5002",
+        "shop": "carpet",
+        "website": "https://shop.interface.com/US/en-US/locationdetails/?locationID=usa-basecamp",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3881233,
+          33.7897108
+        ]
+      },
+      "id": "way/536720727"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/699402745",
+        "addr:city": "Peachtree City",
+        "addr:housenumber": "635",
+        "addr:postcode": "30269",
+        "addr:state": "GA",
+        "addr:street": "Hwy 74 S",
+        "building": "yes",
+        "name": "Osmose Utilities",
+        "office": "company",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.5636938,
+          33.361762
+        ]
+      },
+      "id": "way/699402745"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/702601125",
+        "building": "retail",
+        "name": "Northwest Exterminating",
+        "office": "company",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.002954,
+          33.9180639
+        ]
+      },
+      "id": "way/702601125"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/720355512",
+        "addr:city": "Marietta",
+        "addr:housenumber": "1800",
+        "addr:postcode": "30062-2253",
+        "addr:state": "GA",
+        "addr:street": "West Oak Commons Court Court",
+        "brand": "Birla Carbon",
+        "building": "yes",
+        "check_date": "2025-08-03",
+        "name": "Birla Carbon - Technology Center",
+        "office": "company",
+        "phone": "+1 770-792-9400",
+        "product": "carbon_black",
+        "website": "https://www.birlacarbon.com/",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.5198842,
+          33.9833956
+        ]
+      },
+      "id": "way/720355512"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/744923650",
+        "addr:city": "Carrollton",
+        "addr:housenumber": "1",
+        "addr:postcode": "30119",
+        "addr:state": "GA",
+        "addr:street": "Southwire Drive",
+        "building": "yes",
+        "building:levels": "4",
+        "description": "Head Office",
+        "office": "company",
+        "opening_hours": "24/7",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.0701598,
+          33.5662061
+        ]
+      },
+      "id": "way/744923650"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/744923654",
+        "addr:city": "Carrollton",
+        "addr:housenumber": "840",
+        "addr:postcode": "30117",
+        "addr:state": "GA",
+        "addr:street": "Old Bremen Road",
+        "building": "yes",
+        "name": "Southwire - Tools Division",
+        "office": "company",
+        "opening_hours": "Mo-Fr 07:00-17:00",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.100649,
+          33.6184404
+        ]
+      },
+      "id": "way/744923654"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/769500731",
+        "addr:city": "Cumming",
+        "addr:housenumber": "5295",
+        "addr:postcode": "30041",
+        "addr:state": "GA",
+        "addr:street": "Lake Pointe Center Drive",
+        "building": "industrial",
+        "description": "Manufacturer of Entertainment & Architectural Lighting Controls",
+        "name": "Interactive Technologies",
+        "office": "company",
+        "opening_hours": "Mo-Fr 09:00-17:00",
+        "phone": "+1-678-455-9019",
+        "website": "https://interactive-online.com",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.0573426,
+          34.2497464
+        ]
+      },
+      "id": "way/769500731"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/809266177",
+        "building": "warehouse",
+        "name": "Southern Pipe and Supply",
+        "office": "company",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1131349,
+          33.8911155
+        ]
+      },
+      "id": "way/809266177"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/809266180",
+        "building": "industrial",
+        "name": "Ferguson Fire and Fabricatin",
+        "office": "company",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1138913,
+          33.8921449
+        ]
+      },
+      "id": "way/809266180"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/864705919",
+        "addr:housenumber": "1201",
+        "addr:street": "Roberts Boulevard Northwest",
+        "building": "office",
+        "name": "Lendingpoint",
+        "office": "company",
+        "source": "microsoft/BuildingFootprints",
+        "website": "https://www.lendingpoint.com/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.5877374,
+          34.0035374
+        ]
+      },
+      "id": "way/864705919"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/864705930",
+        "addr:housenumber": "1250",
+        "addr:street": "Roberts Boulevard Northwest",
+        "building": "office",
+        "name": "ESI Steam & Power Special Forces",
+        "office": "company",
+        "source": "microsoft/BuildingFootprints",
+        "website": "https://www.esitenn.com",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.589709,
+          34.0051705
+        ]
+      },
+      "id": "way/864705930"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/871146182",
+        "name": "Georgia Power",
+        "office": "company"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2950592,
+          33.7757073
+        ]
+      },
+      "id": "node/871146182"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/871679393",
+        "building": "yes",
+        "name": "MOBA Corporation",
+        "office": "company",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.545107,
+          33.3452061
+        ]
+      },
+      "id": "way/871679393"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/900499064",
+        "building": "yes",
+        "name": "Mallaghan Ground Support Equipment",
+        "office": "company",
+        "source": "microsoft/BuildingFootprints",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.748226,
+          33.4056385
+        ]
+      },
+      "id": "way/900499064"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/905992750",
+        "building": "yes",
+        "name": "Mercedes-Benz USA",
+        "office": "company",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3629758,
+          33.9334593
+        ]
+      },
+      "id": "way/905992750"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/943416885",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "200",
+        "addr:state": "GA",
+        "addr:street": "17th Street Northwest",
+        "building": "office",
+        "building:levels": "6",
+        "name": "Microsoft Corp.",
+        "office": "company",
+        "roof:shape": "flat",
+        "website": "https://www.microsoft.com",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3944094,
+          33.7908661
+        ]
+      },
+      "id": "way/943416885"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/969454176",
+        "building": "yes",
+        "name": "B&F Iron Co",
+        "office": "company",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4715655,
+          33.6280046
+        ]
+      },
+      "id": "way/969454176"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/984738184",
+        "building": "yes",
+        "building:levels": "2",
+        "name": "Capella Apartment Homes",
+        "office": "company",
+        "phone": "+1 833 782 3080",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2092664,
+          33.8939249
+        ]
+      },
+      "id": "way/984738184"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/992823208",
+        "addr:housenumber": "1250",
+        "addr:street": "Atlanta Industrial Drive",
+        "building": "warehouse",
+        "industrial": "distributor",
+        "layer": "1",
+        "name": "Atlanta Beverage Company",
+        "office": "company",
+        "product": "beer",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.5361155,
+          33.9820175
+        ]
+      },
+      "id": "way/992823208"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/992847389",
+        "addr:housenumber": "922",
+        "addr:street": "Mountain Industrial Drive Northwest",
+        "building": "industrial",
+        "name": "Shaw Stainless & Alloy - Value Added Service Center",
+        "office": "company",
+        "website": "https://stainlessandalloy.com",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.578348,
+          33.9866695
+        ]
+      },
+      "id": "way/992847389"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/992847538",
+        "addr:housenumber": "910",
+        "addr:street": "Mountain Industrial Drive Northwest",
+        "building": "industrial",
+        "company": "manufacture;engineering",
+        "name": "MNA Design",
+        "office": "company",
+        "website": "https://www.mnadesign.com",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.577766,
+          33.986637
+        ]
+      },
+      "id": "way/992847538"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/992871818",
+        "addr:housenumber": "1000",
+        "addr:street": "Gutenberg Drive",
+        "building": "industrial",
+        "name": "Heidelberg, USA, Inc.",
+        "office": "company",
+        "phone": "+1 800-437-7388",
+        "website": "https://www.heidelberg.com/us/en/index.jsp",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.5806095,
+          34.027075
+        ]
+      },
+      "id": "way/992871818"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/992871935",
+        "addr:housenumber": "1045",
+        "addr:street": "Big Shanty Road Northwest",
+        "building": "industrial",
+        "building:levels": "2",
+        "craft": "steel",
+        "email": "myadvantage@teampacesetter.com",
+        "name": "Pacesetter Steel",
+        "office": "company",
+        "phone": "+1-770-919-8000",
+        "website": "https://teampacesetter.com/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.58063,
+          34.0228558
+        ]
+      },
+      "id": "way/992871935"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/992883414",
+        "addr:housenumber": "2060",
+        "addr:street": "Baker Way",
+        "building": "commercial",
+        "name": "United Contractor Services",
+        "office": "company",
+        "opening_hours": "Mo-Fr 08:00-17:00; Sa off; Su off",
+        "phone": "+1 678-445-0539",
+        "website": "https://www.unitedcs.com/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.6115621,
+          34.0466702
+        ]
+      },
+      "id": "way/992883414"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/992884134",
+        "addr:housenumber": "210",
+        "addr:street": "Townpark Drive Northwest",
+        "building": "detached",
+        "building:levels": "2",
+        "name": "Bank of America Mortgage",
+        "office": "company",
+        "operator": "Bank of America",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.5695799,
+          34.0427284
+        ]
+      },
+      "id": "way/992884134"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1056360972",
+        "addr:housenumber": "3400",
+        "addr:street": "Cumberland Boulevard Southeast",
+        "building": "office",
+        "building:levels": "8",
+        "company": "logistics",
+        "name": "HD Supply",
+        "office": "company",
+        "roof:shape": "flat",
+        "website": "https://hdsupply.com",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.453401,
+          33.8787647
+        ]
+      },
+      "id": "way/1056360972"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1087943558",
+        "building": "yes",
+        "name": "Chick-fil-A: Lincoln 300",
+        "office": "company",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.5025794,
+          33.6100096
+        ]
+      },
+      "id": "way/1087943558"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1182111681",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "3550",
+        "addr:postcode": "30326",
+        "addr:state": "GA",
+        "addr:street": "Peachtree Road Northeast",
+        "building": "yes",
+        "building:levels": "13",
+        "name": "One Phipps Plaza",
+        "office": "company",
+        "phone": "+1-404-239-3030",
+        "website": "https://business.simon.com/leasing/one-phipps-plaza",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.362915,
+          33.8537891
+        ]
+      },
+      "id": "way/1182111681"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1273547846",
+        "addr:city": "Kennesaw",
+        "addr:housenumber": "3090",
+        "addr:postcode": "30144",
+        "addr:state": "GA",
+        "addr:street": "Moon Station Road",
+        "commercial": "oil",
+        "landuse": "commercial",
+        "man_made": "distribution_station",
+        "name": "Lance Oil Company",
+        "office": "company",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.6153507,
+          34.0316752
+        ]
+      },
+      "id": "way/1273547846"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1348733016",
+        "addr:city": "Madison",
+        "addr:county": "Morgan",
+        "addr:housenumber": "1121",
+        "addr:postcode": "30650-1470",
+        "addr:state": "GA",
+        "addr:street": "East Avenue",
+        "building": "yes",
+        "name": "Azalea Regional Office",
+        "office": "company",
+        "operator:type": "public",
+        "phone": "+1 706-342-4974",
+        "source": "institute of museum and library services",
+        "website": "https://www.azalealibraries.org/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.453081,
+          33.5952693
+        ]
+      },
+      "id": "way/1348733016"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1379412541",
+        "addr:housenumber": "1394",
+        "addr:street": "Cobb Industrial Way Northeast",
+        "industrial": "depot",
+        "landuse": "industrial",
+        "name": "Custom Disposal",
+        "office": "company",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.531297,
+          33.9825722
+        ]
+      },
+      "id": "way/1379412541"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1391903894",
+        "addr:city": "Decatur",
+        "addr:country": "US",
+        "addr:housenumber": "2984",
+        "addr:postcode": "30034",
+        "addr:state": "GA",
+        "addr:street": "Clifton Springs Road",
+        "building": "yes",
+        "name": "Georgia Correctional industries",
+        "office": "company",
+        "website": "https://www.gci-ga.com/",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2742802,
+          33.6914511
+        ]
+      },
+      "id": "way/1391903894"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1416108100",
+        "addr:city": "Kennesaw",
+        "addr:country": "US",
+        "addr:housenumber": "1009",
+        "addr:state": "GA",
+        "addr:street": "Market Center Drive Northwest",
+        "building": "office",
+        "building:levels": "3",
+        "check_date": "2025-02-23",
+        "name": "Zwick / Rowell",
+        "office": "company",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.5803139,
+          34.0007468
+        ]
+      },
+      "id": "way/1416108100"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1459692261",
+        "addr:housenumber": "903",
+        "addr:street": "White Circle Court Northwest",
+        "branch": "Atlanta",
+        "company": "electrical",
+        "landuse": "industrial",
+        "name": "Pike Electric - Atlanta Regional Office",
+        "office": "company",
+        "website": "https://pikeelectric.com",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.5810694,
+          33.9871997
+        ]
+      },
+      "id": "way/1459692261"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1467731849",
+        "addr:housenumber": "119",
+        "addr:street": "Powers Ferry Road Southeast",
+        "branch": "Marietta",
+        "check_date": "2026-01-08",
+        "landuse": "commercial",
+        "name": "Atlanta Office Suites",
+        "office": "coworking",
+        "opening_hours": "Mo-Fr 11:00-21:00; Sa 10:00-16:00; Su 12:00-17:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1 678-962-7707",
+        "roof:shape": "flat",
+        "website": "https://www.atlantaofficesuites.com/",
+        "wheelchair": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.5090484,
+          33.9495603
+        ]
+      },
+      "id": "way/1467731849"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1532883335",
+        "addr:housenumber": "171",
+        "addr:street": "Marr Avenue Northwest",
+        "company": "construction",
+        "landuse": "industrial",
+        "name": "Herbert Construction Company",
+        "office": "company",
+        "website": "https://herbertconstruction.com",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.5577248,
+          33.9762589
+        ]
+      },
+      "id": "way/1532883335"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2514449961",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "3432",
+        "addr:postcode": "30305",
+        "addr:street": "Piedmont Road Northeast",
+        "name": "BitPay Headquarters",
+        "office": "company",
+        "phone": "+1-855-424-8729",
+        "phone:mnemonic": "+1-855-4-BITPAY",
+        "source": "https://BitPay.com",
+        "website": "https://BitPay.com",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3734664,
+          33.8486648
+        ]
+      },
+      "id": "node/2514449961"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2748003856",
+        "addr:city": "Atlanta",
+        "addr:floor": "G;1",
+        "addr:housenumber": "1372",
+        "addr:postcode": "30309",
+        "addr:street": "Peachtree Street Northeast",
+        "branch": "Peachtree",
+        "brand": "Spaces",
+        "brand:wikidata": "Q87629680",
+        "check_date": "2025-10-23",
+        "level": "0;1",
+        "name": "Spaces Peachtree",
+        "office": "coworking",
+        "opening_hours": "Mo-Fr 08:30-17:00; Sa-Su off",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1-855-217-7205",
+        "website": "https://www.spacesworks.com/atlanta/peachtree/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3863598,
+          33.7919374
+        ]
+      },
+      "id": "node/2748003856"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2853958971",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "1180",
+        "addr:postcode": "30309",
+        "addr:state": "GA",
+        "addr:street": "Peachtree Street Northeast",
+        "addr:unit": "1810",
+        "branch": "Atlanta",
+        "check_date": "2025-07-22",
+        "level": "18",
+        "name": "Timberland Investment Group",
+        "name:pt": "TIG",
+        "office": "company",
+        "official_name": "BTG Pactual Timberland Investment Group",
+        "opening_hours": "08:00-20:00",
+        "operator": "BTG Pactual",
+        "phone": "+1 404-551-4021",
+        "short_name": "TIG",
+        "smoking": "no",
+        "website": "https://www.btgpactual.com/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3837717,
+          33.7869218
+        ]
+      },
+      "id": "node/2853958971"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2957146929",
+        "addr:city": "Atlanta",
+        "addr:floor": "12",
+        "addr:housenumber": "1200",
+        "addr:postcode": "30309",
+        "addr:street": "Peachtree Street Northeast",
+        "branch": "Atlanta",
+        "check_date": "2025-09-04",
+        "name": "Visa",
+        "office": "company",
+        "payment:visa": "yes",
+        "website": "https://usa.visa.com/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3843415,
+          33.7878222
+        ]
+      },
+      "id": "node/2957146929"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3377331694",
+        "addr:floor": "G;1",
+        "addr:housenumber": "3349",
+        "addr:street": "Canton Road Northeast",
+        "addr:unit": "209",
+        "check_date": "2025-08-21",
+        "company": "general_contractor",
+        "level": "0;1",
+        "name": "J&J Construction",
+        "office": "company",
+        "phone": "+1 470-787-2958",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.5284469,
+          34.0325401
+        ]
+      },
+      "id": "node/3377331694"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3520629640",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "2002",
+        "addr:postcode": "30319",
+        "addr:state": "GA",
+        "addr:street": "Summit Boulevard",
+        "addr:unit": "300",
+        "contact:phone": "+1-404-566-4880",
+        "name": "Town & Country Office Cleaning",
+        "office": "company",
+        "opening_hours": "Mo-Fr 08:30-17:00",
+        "website": "https://www.thecleanguysatlanta.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3422983,
+          33.914765
+        ]
+      },
+      "id": "node/3520629640"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3649321015",
+        "addr:city": "Peachtree City",
+        "addr:housenumber": "200",
+        "addr:postcode": "30269",
+        "addr:street": "West Park Drive",
+        "name": "Brookside",
+        "office": "company"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.5923122,
+          33.4007666
+        ]
+      },
+      "id": "node/3649321015"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3870396399",
+        "addr:city": "Norcross",
+        "addr:housenumber": "6200",
+        "addr:postcode": "30092",
+        "addr:state": "GA",
+        "addr:street": "The Corners Parkway Northwest",
+        "name": "Randstad Engineering",
+        "office": "company"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2387051,
+          33.9542623
+        ]
+      },
+      "id": "node/3870396399"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3967082986",
+        "addr:city": "Roswell",
+        "addr:housenumber": "11111",
+        "addr:postcode": "30076",
+        "addr:state": "GA",
+        "addr:street": "Houze Road",
+        "name": "Logic Speak",
+        "office": "company"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3420044,
+          34.0485526
+        ]
+      },
+      "id": "node/3967082986"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4134031689",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "4060",
+        "addr:postcode": "30319",
+        "addr:state": "GA",
+        "addr:street": "Peachtree Road Northeast",
+        "name": "Shred Nations",
+        "office": "company",
+        "phone": "+1-404-220-9869",
+        "website": "https://www.shrednations.com/atlanta/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3420796,
+          33.8585108
+        ]
+      },
+      "id": "node/4134031689"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4447269751",
+        "addr:city": "Newnan",
+        "addr:housenumber": "339",
+        "addr:postcode": "30263",
+        "addr:state": "GA",
+        "addr:street": "Millard Farmer Industrial Boulevard",
+        "name": "Impulse Training Systems",
+        "office": "company",
+        "payment:american_express": "yes",
+        "payment:cash": "yes",
+        "payment:cheque": "yes",
+        "payment:discover_card": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+1-770-253-7037",
+        "website": "http://impulsepower.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.786711,
+          33.4001206
+        ]
+      },
+      "id": "node/4447269751"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4546384595",
+        "addr:city": "Austell",
+        "addr:housenumber": "585",
+        "addr:postcode": "30168",
+        "addr:state": "GA",
+        "addr:street": "Factory Shoals Road",
+        "name": "Christian Brothers Mechanical LLC",
+        "office": "company",
+        "phone": "+1-404-607-9900",
+        "website": "https://christianbrothersmechanical.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.5949113,
+          33.7647901
+        ]
+      },
+      "id": "node/4546384595"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4589677407",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "3340",
+        "addr:postcode": "30326",
+        "addr:state": "GA",
+        "addr:street": "Peachtree Road",
+        "brand": "WeWork",
+        "brand:wikidata": "Q19995004",
+        "fee": "yes",
+        "name": "WeWork",
+        "office": "coworking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3709701,
+          33.8473722
+        ]
+      },
+      "id": "node/4589677407"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4592968277",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "574",
+        "addr:postcode": "30349",
+        "addr:state": "GA",
+        "addr:street": "Airport South Parkway",
+        "name": "EdenFantasys",
+        "office": "company",
+        "opening_hours": "8:00-18:00",
+        "smoking": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4087265,
+          33.6022917
+        ]
+      },
+      "id": "node/4592968277"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4643468359",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "2964",
+        "addr:postcode": "30305",
+        "addr:state": "GA",
+        "addr:street": "Peachtree Road",
+        "name": "Argo Systems Inc",
+        "office": "company"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3828269,
+          33.8356795
+        ]
+      },
+      "id": "node/4643468359"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4643468360",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "2964;2970",
+        "addr:postcode": "30305",
+        "addr:state": "GA",
+        "addr:street": "Peachtree Road",
+        "amenity": "bank",
+        "atm": "yes",
+        "name": "Rentmoney;Iberiabank",
+        "office": "company"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3822791,
+          33.8362542
+        ]
+      },
+      "id": "node/4643468360"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4643468361",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "2964",
+        "addr:postcode": "30305",
+        "addr:state": "GA",
+        "addr:street": "Peachtree Road",
+        "name": "Promove",
+        "office": "company"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3826597,
+          33.8358578
+        ]
+      },
+      "id": "node/4643468361"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4859934236",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "3715",
+        "addr:postcode": "30327",
+        "addr:state": "GA",
+        "addr:street": "Northside Parkway NW Building 300",
+        "addr:unit": "500",
+        "contact:email": "krestrepo@juneaucc.com",
+        "contact:facebook": "https://www.facebook.com/juneauconstructioncompany/",
+        "contact:phone": "+1-404-287-6000",
+        "contact:website": "http://www.juneaucc.com/",
+        "name": "Juneau Construction Company",
+        "office": "company",
+        "opening_hours": "Mo-Su 08:00-17:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4296644,
+          33.8569005
+        ]
+      },
+      "id": "node/4859934236"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4940352818",
+        "addr:city": "Norcross",
+        "addr:housenumber": "6779",
+        "addr:postcode": "30071",
+        "addr:state": "GA",
+        "addr:street": "Crescent Drive",
+        "fax": "+1-770-451-7925",
+        "name": "ON Services, a GES company",
+        "office": "company",
+        "phone": "+1-770-457-0966",
+        "website": "https://onservices.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2332355,
+          33.9094512
+        ]
+      },
+      "id": "node/4940352818"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5012543987",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "3376",
+        "addr:postcode": "30340",
+        "addr:state": "GA",
+        "addr:street": "Hidden Acres Drive",
+        "name": "Care Guide Inc.",
+        "office": "company"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2386351,
+          33.8869445
+        ]
+      },
+      "id": "node/5012543987"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5078843425",
+        "addr:city": "Carrollton",
+        "addr:housenumber": "295",
+        "addr:postcode": "30117",
+        "addr:state": "GA",
+        "addr:street": "Thomas Newell Way",
+        "name": "OmniCall Receptionist",
+        "office": "company",
+        "opening_hours": "24/7",
+        "phone": "+1-888-797-8555",
+        "website": "https://www.omnicall.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -85.0574857,
+          33.5838996
+        ]
+      },
+      "id": "node/5078843425"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5153008653",
+        "addr:city": "Roswell",
+        "addr:housenumber": "920",
+        "addr:postcode": "30076",
+        "addr:state": "GA",
+        "addr:street": "Holcomb Bridge Road",
+        "addr:unit": "400",
+        "name": "Pro Painting & Remodeling, LLC",
+        "office": "company",
+        "opening_hours": "Mo-Fr 08:00-18:00",
+        "payment:american_express": "yes",
+        "payment:cash": "yes",
+        "payment:cheque": "yes",
+        "payment:discover_card": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+1-404-587-4573",
+        "website": "https://www.mypropainting.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3339282,
+          34.0278292
+        ]
+      },
+      "id": "node/5153008653"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5196224746",
+        "addr:floor": "1",
+        "check_date": "2026-05-16",
+        "level": "1",
+        "name": "C&C Market Research",
+        "office": "company",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3407873,
+          33.924726
+        ]
+      },
+      "id": "node/5196224746"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5215552231",
+        "addr:city": "Roswell",
+        "addr:housenumber": "70",
+        "addr:postcode": "30076",
+        "addr:state": "GA",
+        "addr:street": "Mansell Court",
+        "addr:unit": "250",
+        "description": "Cornerstone Support is the premier licensing service and commercial insurance provider to the collection industry.",
+        "name": "Cornerstone Support, Inc.",
+        "office": "company",
+        "opening_hours": "Mo-Fr 08:30-17:30",
+        "phone": "+1-770-587-4595",
+        "website": "https://www.cornerstonesupport.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3311149,
+          34.0411033
+        ]
+      },
+      "id": "node/5215552231"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5334384457",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "1050",
+        "addr:postcode": "30318",
+        "addr:state": "GA",
+        "addr:street": "Techwood Drive Northwest",
+        "brand:wikipedia": "en:Cartoon Network",
+        "name": "Cartoon Network",
+        "office": "company",
+        "start_date": "1992-10-01",
+        "website": "https://www.cartoonnetwork.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3923552,
+          33.7837125
+        ]
+      },
+      "id": "node/5334384457"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5334393374",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "1050",
+        "addr:postcode": "30318",
+        "addr:state": "GA",
+        "addr:street": "Techwood Drive Northwest",
+        "name": "TNT",
+        "office": "company",
+        "opening_hours": "24/7",
+        "start_date": "1988-10-03",
+        "website": "https://www.tntdrama.com/",
+        "wikipedia": "en:TNT (U.S. TV network)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3923365,
+          33.7841142
+        ]
+      },
+      "id": "node/5334393374"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5334393375",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "1050",
+        "addr:postcode": "30318",
+        "addr:state": "GA",
+        "addr:street": "Techwood Drive Northwest",
+        "name": "TruTV",
+        "office": "company",
+        "opening_hours": "24/7",
+        "start_date": "1991-07-01",
+        "website": "https://www.trutv.com/",
+        "wikipedia": "en:TruTV"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3923575,
+          33.7838231
+        ]
+      },
+      "id": "node/5334393375"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5334393376",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "1050",
+        "addr:postcode": "30318",
+        "addr:state": "GA",
+        "addr:street": "Techwood Drive Northwest",
+        "name": "Boomerang",
+        "office": "company",
+        "start_date": "2000-04-01",
+        "website": "https://www.cartoonnetwork.com/games/boomerang/index.html",
+        "wikipedia": "en:Boomerang (TV channel)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3923458,
+          33.7839065
+        ]
+      },
+      "id": "node/5334393376"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5334393378",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "1050",
+        "addr:postcode": "30318",
+        "addr:state": "GA",
+        "addr:street": "Techwood Drive Northwest",
+        "name": "TBS Network",
+        "office": "company",
+        "start_date:WJRJ-TV": "1967-09-01",
+        "start_date:basic_cable_network": "1976-12-17",
+        "website": "https://www.tbs.com/",
+        "wikipedia": "en:TBS (U.S. TV channel)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.392359,
+          33.7833162
+        ]
+      },
+      "id": "node/5334393378"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5345977462",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "1260",
+        "addr:postcode": "30324",
+        "addr:state": "GA",
+        "addr:street": "Weatherstone Drive Northeast",
+        "email": "gatreecompany@gmail.com",
+        "name": "Georgia Tree Company",
+        "office": "company",
+        "phone": "+1-404-418-7628",
+        "website": "https://www.gatreecompany.com/home/service-areas/tree-services-atlanta/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3357748,
+          33.8120009
+        ]
+      },
+      "id": "node/5345977462"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5355010052",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "1500",
+        "addr:postcode": "30318",
+        "addr:state": "GA",
+        "addr:street": "Riveredge Parkway Northwest",
+        "name": "Graphic Packaging PDC",
+        "office": "company",
+        "phone": "+1-770-240-7200"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4354299,
+          33.9079829
+        ]
+      },
+      "id": "node/5355010052"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5419969921",
+        "addr:housenumber": "3057",
+        "addr:postcode": "30097",
+        "addr:street": "Peachtree Industrial Boulevard",
+        "email": "support@gcurv.com",
+        "name": "gCurv Technologies",
+        "office": "company",
+        "website": "https://www.gcurv.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1558685,
+          34.0232949
+        ]
+      },
+      "id": "node/5419969921"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5465584689",
+        "addr:housenumber": "303",
+        "addr:street": "Peachtree Center Avenue Northeast",
+        "addr:unit": "600",
+        "alt_name": "Ingenics Corporation Headquarters",
+        "branch": "Atlanta Headquarters",
+        "check_date": "2025-09-21",
+        "company": "consulting",
+        "email": "contactICA@ingenics.com",
+        "name": "Ingenics Consulting",
+        "office": "company",
+        "phone": "+1 678 528-7042",
+        "website": "https://www.ingenics.com/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.386377,
+          33.7626029
+        ]
+      },
+      "id": "node/5465584689"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5617505922",
+        "addr:housenumber": "2400",
+        "addr:postcode": "30009",
+        "addr:street": "Lakeview Parkway",
+        "name": "Dimension Data",
+        "office": "company"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2896082,
+          34.0588234
+        ]
+      },
+      "id": "node/5617505922"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5648066204",
+        "addr:city": "Newnan",
+        "addr:housenumber": "1039",
+        "addr:postcode": "30265",
+        "addr:state": "GA",
+        "addr:street": "Sullivan Road",
+        "addr:unit": "Suite 200",
+        "description": "Civil Engineering Consultants",
+        "email": "info@intse.com",
+        "name": "Integrated Science & Engineering, Inc",
+        "office": "company",
+        "opening_hours": "Mo-Fr 08:00-17:00",
+        "smoking": "outside"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.7076461,
+          33.4032851
+        ]
+      },
+      "id": "node/5648066204"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5648066205",
+        "addr:city": "Newnan",
+        "addr:housenumber": "1039",
+        "addr:postcode": "30265",
+        "addr:state": "GA",
+        "addr:street": "Sullivan Road",
+        "addr:unit": "Suite 100",
+        "description": "Computer System Service Provider",
+        "name": "CMIT",
+        "office": "company",
+        "smoking": "outside"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.7074691,
+          33.4034149
+        ]
+      },
+      "id": "node/5648066205"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5740429406",
+        "addr:city": "Mableton",
+        "addr:housenumber": "1490",
+        "addr:postcode": "30126",
+        "addr:state": "GA",
+        "addr:street": "Veterans Memorial Highway Southeast",
+        "name": "Riverline Transfer",
+        "office": "company",
+        "opening_hours": "Mo-Fr 06:00-17:00",
+        "payment:cheque": "yes",
+        "payment:credit_cards": "yes",
+        "phone": "+1-404-699-8844",
+        "website": "https://riverlinetransfer.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.5138357,
+          33.7964065
+        ]
+      },
+      "id": "node/5740429406"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5743314413",
+        "addr:city": "Mableton",
+        "addr:housenumber": "1490",
+        "addr:postcode": "30126",
+        "addr:state": "GA",
+        "addr:street": "Veterans Memorial Highway Southeast",
+        "name": "MAD Industries",
+        "office": "company",
+        "opening_hours": "Mo-Fr 06:00-17:00",
+        "payment:cheque": "yes",
+        "payment:credit_cards": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+1-678-383-6089",
+        "website": "https://madindustries.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.5128181,
+          33.7971167
+        ]
+      },
+      "id": "node/5743314413"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5765264695",
+        "addr:city": "Loganville",
+        "addr:housenumber": "1765",
+        "addr:postcode": "30052",
+        "addr:state": "GA",
+        "addr:street": "Highway 81",
+        "name": "Pyramid Concrete Construction",
+        "office": "company",
+        "payment:american_express": "yes",
+        "payment:cash": "yes",
+        "payment:cheque": "yes",
+        "payment:discover_card": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+1-470-210-5685",
+        "website": "https://www.pyramidconcretega.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.8520571,
+          33.7780191
+        ]
+      },
+      "id": "node/5765264695"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5806923243",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "4470",
+        "addr:postcode": "30338",
+        "addr:state": "GA",
+        "addr:street": "Chamblee Dunwoody Road",
+        "addr:unit": "#460",
+        "name": "Sunbelt Business Brokers",
+        "office": "company",
+        "opening_hours": "Mo-Fr 08:00-17:00",
+        "phone": "+1-770-936-9099",
+        "website": "http://sunbeltatlanta.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.317245,
+          33.9210477
+        ]
+      },
+      "id": "node/5806923243"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5863331272",
+        "addr:city": "Decatur",
+        "addr:housenumber": "5302",
+        "addr:postcode": "30035",
+        "addr:state": "GA",
+        "addr:street": "Snapfinger Woods Drive",
+        "name": "ClassOne Equipment",
+        "office": "company",
+        "opening_hours": "Mo-Fr 08:00-17:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1729492,
+          33.7097645
+        ]
+      },
+      "id": "node/5863331272"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5973407851",
+        "addr:housenumber": "8000",
+        "addr:street": "Avalon Boulevard",
+        "addr:unit": "500",
+        "branch": "Alpharetta",
+        "check_date": "2025-02-11",
+        "name": "SAP Ariba Office",
+        "office": "company",
+        "phone": "+1-678-585-7300",
+        "website": "https://www.sap.com/about/company/office-locations/usa.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2740783,
+          34.0705606
+        ]
+      },
+      "id": "node/5973407851"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6029983409",
+        "name": "Generation Orbit",
+        "office": "company"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2658742,
+          33.8927855
+        ]
+      },
+      "id": "node/6029983409"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6069758034",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "800",
+        "addr:postcode": "30339",
+        "addr:state": "GA",
+        "addr:street": "Battery Avenue Southeast",
+        "addr:unit": "100",
+        "branch": "Atlanta",
+        "brand": "Spaces",
+        "brand:wikidata": "Q87629680",
+        "name": "Spaces",
+        "office": "coworking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.46986,
+          33.8898893
+        ]
+      },
+      "id": "node/6069758034"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6177094673",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "1075",
+        "addr:postcode": "30309",
+        "addr:state": "GA",
+        "addr:street": "Peachtree Street Northeast",
+        "addr:unit": "3800",
+        "check_date": "2025-10-01",
+        "company": "consulting",
+        "name": "Boston Consulting Group",
+        "office": "company",
+        "phone": "+1 404 877 5200",
+        "website": "https://www.bcg.com/offices/atlanta/default.aspx",
+        "wheelchair": "yes",
+        "wikidata": "Q135635"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3828621,
+          33.7838879
+        ]
+      },
+      "id": "node/6177094673"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6177094674",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "675",
+        "addr:postcode": "30308",
+        "addr:state": "GA",
+        "addr:street": "Ponce de Leon Avenue Northeast",
+        "addr:unit": "Suite 9700",
+        "name": "Boston Consulting Group",
+        "office": "company",
+        "phone": "+1-404-240-2500",
+        "website": "https://www.bcg.com/offices/brighthouse-atlanta.aspx",
+        "wikidata": "Q135635"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3653476,
+          33.7723214
+        ]
+      },
+      "id": "node/6177094674"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6352586127",
+        "addr:city": "Marietta",
+        "addr:floor": "G;1",
+        "addr:housenumber": "2211",
+        "addr:postcode": "30062",
+        "addr:state": "GA",
+        "addr:street": "Roswell Road",
+        "addr:unit": "104",
+        "branch": "Marietta",
+        "brand": "DoorDash",
+        "brand:wikidata": "Q20714323",
+        "check_date": "2026-02-02",
+        "company": "delivery",
+        "level": "0;1",
+        "name": "DashMart By Doordash",
+        "office": "company",
+        "website": "https://www.doordash.com/convenience/store/2815738",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4902786,
+          33.9703166
+        ]
+      },
+      "id": "node/6352586127"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6610963038",
+        "addr:city": "Alpharetta",
+        "addr:housenumber": "2500",
+        "addr:postcode": "30009",
+        "addr:state": "GA",
+        "addr:street": "Northwinds Parkway",
+        "name": "Pexco",
+        "office": "company",
+        "opening_hours": "Mo-Fr 08:00-17:00",
+        "phone": "+1-404-564-8560",
+        "website": "https://www.pexco.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2857973,
+          34.0604278
+        ]
+      },
+      "id": "node/6610963038"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6610987872",
+        "addr:city": "Alpharetta",
+        "addr:housenumber": "2500",
+        "addr:postcode": "30009",
+        "addr:state": "GA",
+        "addr:street": "Northwinds Parkway",
+        "addr:unit": "472",
+        "name": "Spectrum Plastics Group",
+        "office": "company",
+        "opening_hours": "Mo-Fr 08:00-17:00",
+        "phone": "+1-404-564-8560",
+        "website": "https://www.spectrumplastics.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2854856,
+          34.0601256
+        ]
+      },
+      "id": "node/6610987872"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6661241972",
+        "addr:city": "Atlanta",
+        "addr:postcode": "30303",
+        "addr:state": "GA",
+        "addr:unit": "4400",
+        "name": "McKinsey & Company",
+        "office": "company",
+        "phone": "+1-404-335-3000",
+        "website": "https://www.mckinsey.com/southern-us/atlanta",
+        "wikidata": "Q310207"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.387343,
+          33.7573947
+        ]
+      },
+      "id": "node/6661241972"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6661283973",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "3111",
+        "addr:postcode": "30329",
+        "addr:state": "GA",
+        "addr:street": "Clairmont Road",
+        "addr:unit": "Suite A",
+        "name": "CGI Analytics",
+        "office": "company",
+        "phone": "+1-770-300-9400",
+        "wikidata": "Q310207"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3102271,
+          33.8493599
+        ]
+      },
+      "id": "node/6661283973"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7182945286",
+        "name": "Oasis Management Systems",
+        "office": "company"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.0562141,
+          34.2507386
+        ]
+      },
+      "id": "node/7182945286"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7530638287",
+        "addr:street": "Highway 124",
+        "name": "Stovall Nursery",
+        "office": "company"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.8243195,
+          34.0822096
+        ]
+      },
+      "id": "node/7530638287"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7902934867",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "1105",
+        "addr:postcode": "30309",
+        "addr:state": "GA",
+        "addr:street": "West Peachtree Street Northwest",
+        "addr:unit": "600",
+        "alt_name": "Google Atlanta",
+        "branch": "Atlanta",
+        "brand": "Google",
+        "brand:wikidata": "Q95",
+        "check_date": "2025-09-09",
+        "name": "Google Atlanta",
+        "office": "company",
+        "phone": "+1 404-487-9100",
+        "website": "https://www.google.com/about/careers/applications/locations/atlanta/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3873825,
+          33.7850478
+        ]
+      },
+      "id": "node/7902934867"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7923866935",
+        "name": "Comcast",
+        "office": "company"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4993546,
+          34.234932
+        ]
+      },
+      "id": "node/7923866935"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8207479172",
+        "addr:housenumber": "2658",
+        "addr:street": "Holcomb Bridge Road",
+        "addr:unit": "100",
+        "name": "Power Delivery Products, Inc.",
+        "office": "company",
+        "website": "https://www.powerdeliveryproducts.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2842788,
+          33.9982717
+        ]
+      },
+      "id": "node/8207479172"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8223464665",
+        "addr:city": "Roswell",
+        "addr:housenumber": "2435",
+        "addr:postcode": "30076",
+        "addr:state": "GA",
+        "addr:street": "Old Alabama Road",
+        "email": "gail@locklearinteriors.com",
+        "fax": "+1-770-992-2191",
+        "name": "Locklear Interiors",
+        "office": "company",
+        "phone": "+1-770-992-0318",
+        "website": "https://www.locklearinteriors.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2876411,
+          34.0213074
+        ]
+      },
+      "id": "node/8223464665"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8252741381",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "6205-B",
+        "addr:postcode": "30328",
+        "addr:state": "GA",
+        "addr:street": "Peachtree Dunwoody Road",
+        "name": "Cox Enterprises",
+        "office": "company",
+        "phone": "+1-678-645-0000",
+        "website": "https://coxenterprises.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3501604,
+          33.9249597
+        ]
+      },
+      "id": "node/8252741381"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8266852377",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "3980",
+        "addr:postcode": "30340",
+        "addr:state": "GA",
+        "addr:street": "Dekalb Technology Parkway",
+        "addr:unit": "760",
+        "aerospace:product": "rocket;hypersonic_aircraft",
+        "company": "aerospace",
+        "email": "info@generationorbit.com",
+        "name": "Generation Orbit",
+        "office": "company",
+        "phone": "+1 770 379 8000",
+        "short_name": "GO",
+        "website": "https://generationorbit.com",
+        "wikipedia": "en:Generation Orbit Launch Services"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2647331,
+          33.8918445
+        ]
+      },
+      "id": "node/8266852377"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8266975126",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "5256",
+        "addr:postcode": "30341",
+        "addr:state": "GA",
+        "addr:street": "Peachtree Road",
+        "aerospace:product": "hypersonic_aircraft",
+        "company": "aerospace",
+        "description": "Mach 5 aircraft",
+        "name": "Hermeus",
+        "office": "company",
+        "phone": "+1 470 223 4927",
+        "website": "https://www.hermeus.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3055183,
+          33.8895611
+        ]
+      },
+      "id": "node/8266975126"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8402993201",
+        "name": "The Whorter Companies",
+        "office": "company"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.340653,
+          34.0352963
+        ]
+      },
+      "id": "node/8402993201"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8402993204",
+        "name": "ICAP Health Practices",
+        "office": "company"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3401217,
+          34.0348774
+        ]
+      },
+      "id": "node/8402993204"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8402993207",
+        "name": "The Geary T Newman Agency",
+        "office": "company"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3399299,
+          34.034903
+        ]
+      },
+      "id": "node/8402993207"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8402993209",
+        "name": "The Buckhead Group",
+        "office": "company"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3406837,
+          34.0352979
+        ]
+      },
+      "id": "node/8402993209"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8402993210",
+        "name": "Multi Serv Express",
+        "office": "company"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3398694,
+          34.0355648
+        ]
+      },
+      "id": "node/8402993210"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8402993214",
+        "name": "Creative Career",
+        "office": "company"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3401451,
+          34.0355088
+        ]
+      },
+      "id": "node/8402993214"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9172858546",
+        "addr:floor": "G;1",
+        "addr:housenumber": "540",
+        "addr:street": "Collins Road Northeast",
+        "business": "service",
+        "check_date": "2026-02-27",
+        "description": "Commercial cleaning and facilities maintenance services",
+        "email": "info@cleanstarnational.com",
+        "level": "0;1",
+        "name": "Cleanstar National",
+        "office": "company",
+        "payment:cash": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+1-770-425-6797",
+        "website": "https://www.cleanstarnational.com",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.5346713,
+          33.9919828
+        ]
+      },
+      "id": "node/9172858546"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9172908530",
+        "name": "MORE NORTH AMERICA CORPORATION",
+        "office": "company",
+        "website": "https://more-oxy.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.6131743,
+          34.0108632
+        ]
+      },
+      "id": "node/9172908530"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9590189533",
+        "name": "Georgia Family Care",
+        "office": "company"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.0156627,
+          33.9198375
+        ]
+      },
+      "id": "node/9590189533"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9673011077",
+        "brand": "Regus",
+        "brand:wikidata": "Q761072",
+        "name": "Regus",
+        "office": "coworking"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.0043171,
+          33.8967738
+        ]
+      },
+      "id": "node/9673011077"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9736101489",
+        "addr:city": "Lawrenceville",
+        "addr:housenumber": "279",
+        "addr:state": "GA",
+        "addr:street": "West Crogan Street",
+        "contact:facebook": "https://www.facebook.com/CornerstoneCoworking",
+        "contact:instagram": "cornerstone_coworking",
+        "contact:linkedin": "https://www.linkedin.com/company/cornerstonecoworking",
+        "email": "info@cancollab.com",
+        "internet_access": "wlan",
+        "name": "Cornerstone Coworking",
+        "office": "coworking",
+        "opening_hours": "Mo-Fr 08:00-17:00",
+        "phone": "+1-770-609-2323",
+        "website": "https://cancollab.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.9909763,
+          33.9559966
+        ]
+      },
+      "id": "node/9736101489"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9798533309",
+        "addr:housenumber": "828",
+        "addr:street": "Ralph McGill Boulevard Northeast",
+        "name": "Aftercar",
+        "office": "coworking",
+        "opening_hours": "Mo-Fr 08:00-18:00",
+        "website": "https://aftercarbar.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.360746,
+          33.7677668
+        ]
+      },
+      "id": "node/9798533309"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10090643004",
+        "addr:city": "Lawrenceville",
+        "addr:housenumber": "135",
+        "addr:postcode": "30046",
+        "addr:state": "GA",
+        "addr:street": "Stanley Court",
+        "addr:unit": "108",
+        "name": "RestoPros of Northeast Georgia",
+        "office": "company",
+        "phone": "+1-770-299-2929",
+        "website": "https://restoprosnegeorgia.com/",
+        "wikidata": "Q131379971"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.9731329,
+          33.9583876
+        ]
+      },
+      "id": "node/10090643004"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10106869840",
+        "name": "Moore Power Inc.",
+        "office": "company"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.991454,
+          33.9451261
+        ]
+      },
+      "id": "node/10106869840"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10874102138",
+        "addr:city": "Atlanta",
+        "addr:country": "US",
+        "addr:housenumber": "1100",
+        "addr:postcode": "30309",
+        "addr:state": "GA",
+        "addr:street": "Peachtree Street Northeast",
+        "addr:unit": "200a",
+        "check_date": "2025-07-24",
+        "contact:facebook": "https://www.facebook.com/MoreiraTeamMortgage",
+        "contact:instagram": "https://www.instagram.com/moreirateamga/",
+        "contact:linkedin": "https://www.linkedin.com/company/the-moreira-team",
+        "contact:twitter": "moreira_team",
+        "name": "Moreira Team",
+        "office": "company",
+        "opening_hours": "08:00-20:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1 800-599-1563",
+        "website": "https://moreirateam.com/about-us/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3836801,
+          33.7847518
+        ]
+      },
+      "id": "node/10874102138"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10874103667",
+        "addr:city": "Atlanta",
+        "addr:country": "US",
+        "addr:housenumber": "3",
+        "addr:postcode": "30328",
+        "addr:state": "GA",
+        "addr:street": "Glenlake Parkway Northeast",
+        "name": "Inspire Brands Global Support Center",
+        "office": "company",
+        "phone": "+1-678-514-4100",
+        "website": "https://inspirebrands.com/contact/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3599421,
+          33.9353992
+        ]
+      },
+      "id": "node/10874103667"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11003194355",
+        "addr:housenumber": "400",
+        "addr:street": "West Peachtree Street Northeast",
+        "check_date:currency:XBT": "2023-06-24",
+        "contact:twitter": "waw_mart",
+        "currency:XBT": "yes",
+        "email": "Bigjimhilljameel@gmail.com",
+        "name": "Karam Jameel Mooore",
+        "office": "company",
+        "opening_hours": "24/7",
+        "payment:lightning": "yes",
+        "payment:nfc": "yes",
+        "payment:onchain": "yes",
+        "phone": "+1-678-434-4348",
+        "website": "https://onlinesalesandmarketing.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2290786,
+          33.8242088
+        ]
+      },
+      "id": "node/11003194355"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11125455139",
+        "addr:city": "Marietta",
+        "addr:floor": "2",
+        "addr:housenumber": "2000",
+        "addr:postcode": "30067",
+        "addr:street": "Powers Ferry Road Southeast",
+        "check_date": "2023-08-18",
+        "company": "property_management",
+        "level": "2",
+        "name": "Hopewell International, Inc.",
+        "office": "company"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4652328,
+          33.9060955
+        ]
+      },
+      "id": "node/11125455139"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11253922943",
+        "check_date": "2026-06-04",
+        "name": "Forsyth County Schools Support Services",
+        "office": "company"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1498396,
+          34.2173516
+        ]
+      },
+      "id": "node/11253922943"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11515035176",
+        "name": "Delta Trainf Center",
+        "office": "company"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4220866,
+          33.658327
+        ]
+      },
+      "id": "node/11515035176"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11635924588",
+        "addr:housenumber": "1149",
+        "addr:street": "Ponce de Leon Avenue Northeast",
+        "check_date": "2024-02-17",
+        "name": "The Charles H. Kirbo Building - The Carter Center",
+        "office": "company"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3497283,
+          33.7736046
+        ]
+      },
+      "id": "node/11635924588"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11680303466",
+        "addr:housenumber": "2847",
+        "addr:street": "South Main Street Northwest",
+        "check_date": "2024-02-29",
+        "email": "TheHiveKennesaw@gmail.com",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "name": "The Hive Collaborative Coworking",
+        "office": "coworking",
+        "opening_hours": "24/7",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1 770-757-0521",
+        "website": "https://thehivekennesaw.com/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.6155518,
+          34.0233107
+        ]
+      },
+      "id": "node/11680303466"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11696148343",
+        "addr:housenumber": "3005",
+        "addr:street": "Chastain Meadows Parkway Northwest",
+        "addr:unit": "300",
+        "check_date": "2024-03-05",
+        "name": "Maruho Medical",
+        "office": "company",
+        "website": "https://maruho-medical.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.5531115,
+          34.0232847
+        ]
+      },
+      "id": "node/11696148343"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11696148344",
+        "addr:housenumber": "3005",
+        "addr:street": "Chastain Meadows Parkway Northwest",
+        "addr:unit": "700",
+        "check_date": "2024-03-05",
+        "name": "Immersive Display Solutions, Inc.",
+        "office": "company",
+        "website": "https://www.immersivedisplayinc.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.5536934,
+          34.0239792
+        ]
+      },
+      "id": "node/11696148344"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11696148346",
+        "addr:housenumber": "3025",
+        "addr:street": "Chastain Meadows Parkway Northwest",
+        "addr:unit": "100",
+        "check_date": "2024-03-05",
+        "description": "Responsible for all aspects of Hyundai vehicle sales in the US, including sales strategies, fleet sales, dealer relations, and market representation, including seven regions that work directly with Hyundai retailers on sales and service.",
+        "name": "Hyundai - Southern Regional Office",
+        "office": "company"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.5541286,
+          34.0242875
+        ]
+      },
+      "id": "node/11696148346"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11724659453",
+        "addr:floor": "G;1",
+        "addr:housenumber": "3929",
+        "addr:street": "Canton Road Northeast",
+        "check_date": "2024-07-25",
+        "level": "0;1",
+        "name": "Fontis Mountain Spring Water",
+        "office": "company",
+        "phone": "+1 678-494-1981",
+        "website": "https://fontiswater.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.5299509,
+          34.0466058
+        ]
+      },
+      "id": "node/11724659453"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11773794554",
+        "addr:floor": "G;1",
+        "addr:housenumber": "4796",
+        "addr:street": "Canton Road Northeast",
+        "addr:unit": "100",
+        "check_date": "2025-09-14",
+        "level": "0;1",
+        "name": "Amazing Kitchens Renovation",
+        "office": "company",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "website": "https://amazingkitchenrenovationdesign.com/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.5208436,
+          34.0686752
+        ]
+      },
+      "id": "node/11773794554"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11811627220",
+        "office": "company"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -83.8329983,
+          34.0104089
+        ]
+      },
+      "id": "node/11811627220"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11833843970",
+        "addr:floor": "G;1",
+        "addr:housenumber": "2476",
+        "addr:street": "Canton Road",
+        "check_date": "2026-02-27",
+        "company": "restaurant",
+        "level": "0;1",
+        "name": "La Mara Holdings Human Resoutces",
+        "office": "company",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.5267246,
+          34.0124326
+        ]
+      },
+      "id": "node/11833843970"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11860973431",
+        "name": "Quest Diagnostics",
+        "office": "company"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.255262,
+          33.8321338
+        ]
+      },
+      "id": "node/11860973431"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11887426269",
+        "addr:housenumber": "555",
+        "addr:postcode": "30248",
+        "addr:street": "Price Drive",
+        "name": "Anderson Windows & Doors",
+        "office": "company"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1390492,
+          33.3702132
+        ]
+      },
+      "id": "node/11887426269"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11895490706",
+        "check_date": "2024-05-10",
+        "name": "Allstate Construction",
+        "office": "company"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1366606,
+          34.2105076
+        ]
+      },
+      "id": "node/11895490706"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11900484287",
+        "addr:full": "1 Glenlake Pkwy NE #700, Atlanta, GA, 30328",
+        "description": "Event Management Company | Event Planner",
+        "email": "info@voloevents.com",
+        "name": "VOLO Events Agency, LLC",
+        "office": "company",
+        "phone": "+1-404-495-7700",
+        "website": "https://voloevents.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3599162,
+          33.9341993
+        ]
+      },
+      "id": "node/11900484287"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/11926696027",
+        "check_date": "2024-05-22",
+        "name": "JeDunn Construction",
+        "office": "company"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4769338,
+          33.8685043
+        ]
+      },
+      "id": "node/11926696027"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12009008698",
+        "addr:city": "Atlanta",
+        "addr:full": "715 Peachtree St NE, Suite 100 & 200",
+        "addr:housenumber": "715",
+        "addr:postcode": "30308",
+        "addr:state": "GA",
+        "addr:street": "Peachtree Street Northeast",
+        "addr:unit": "100,200",
+        "check_date": "2024-11-25",
+        "company": "fuel",
+        "delivery": "yes",
+        "description": "Fuel Core gets you fuel quickly and at a good price! You can reach us anytime, day or night! We are your fuel department!",
+        "email": "sales@fuel-core.com",
+        "fuel:diesel": "yes",
+        "name": "Fuel Core",
+        "office": "company",
+        "opening_hours": "Mo-Su 12:00-23:45",
+        "payment:cash": "yes",
+        "payment:credit_card": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:invoice": "yes",
+        "phone": "+1-678-846-2265",
+        "website": "https://fuelcore.net/locations/atlanta",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3840951,
+          33.7741103
+        ]
+      },
+      "id": "node/12009008698"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12078746097",
+        "addr:floor": "G",
+        "addr:housenumber": "1803",
+        "addr:street": "Williams Drive Northeast",
+        "check_date": "2024-07-28",
+        "craft": "security",
+        "level": "0",
+        "name": "Austin Technology Group",
+        "office": "company",
+        "opening_hours": "Mo-Fr 07:30-16:30",
+        "phone": "+1 770-408-0253",
+        "website": "https://austintechgroup.com/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.5302659,
+          33.998026
+        ]
+      },
+      "id": "node/12078746097"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12156153879",
+        "business": "service",
+        "description": "Physician-led aesthetic and wellness clinic offering injectables, medical weight loss, and men’s health services",
+        "healthcare": "clinic",
+        "name": "The Maxim Clinic · Norcross",
+        "office": "company",
+        "phone": "+1-770-937-0937",
+        "website": "https://www.themaximclinic.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1998719,
+          33.9117705
+        ]
+      },
+      "id": "node/12156153879"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12164480310",
+        "check_date": "2024-09-08",
+        "name": "Pop.In",
+        "office": "company"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.145481,
+          34.217071
+        ]
+      },
+      "id": "node/12164480310"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12219438000",
+        "check_date": "2024-10-03",
+        "name": "Atlanta Community Services",
+        "office": "company"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1884441,
+          34.1708904
+        ]
+      },
+      "id": "node/12219438000"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12366198716",
+        "check_date": "2024-11-22",
+        "name": "D2 Development",
+        "office": "company"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3611693,
+          33.9073512
+        ]
+      },
+      "id": "node/12366198716"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12373695478",
+        "addr:housenumber": "715",
+        "addr:street": "Peachtree Street Northeast",
+        "check_date": "2024-11-25",
+        "name": "Honeywell Building Technologies",
+        "office": "company",
+        "operator": "Honeywell International, Inc.",
+        "short_name": "Honeywell",
+        "website": "https://buildings.honeywell.com",
+        "wheelchair": "yes",
+        "wikidata": "Q898208"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3843122,
+          33.7741222
+        ]
+      },
+      "id": "node/12373695478"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12444962587",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "759",
+        "addr:postcode": "30308",
+        "addr:street": "West Peachtree Street Northwest",
+        "addr:unit": "108",
+        "check_date": "2026-01-15",
+        "company": "telecommunications",
+        "name": "AT&T Drive Studio",
+        "office": "company"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3871088,
+          33.7760127
+        ]
+      },
+      "id": "node/12444962587"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12610693314",
+        "check_date": "2025-02-22",
+        "name": "Peppers Construction",
+        "office": "company"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.0504904,
+          34.3447212
+        ]
+      },
+      "id": "node/12610693314"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12641211849",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "600",
+        "addr:postcode": "30339",
+        "addr:state": "GA",
+        "addr:street": "South Galleria Parkway Southeast",
+        "level": "17",
+        "level:ref": "18",
+        "name": "GE Vernova",
+        "office": "company",
+        "website": "https://www.gevernova.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4611818,
+          33.8853066
+        ]
+      },
+      "id": "node/12641211849"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12924935626",
+        "addr:city": "Atlanta",
+        "addr:floor": "G;1",
+        "addr:housenumber": "1201",
+        "addr:street": "Peachtree Street Northeast",
+        "addr:unit": "1st Floor",
+        "brand": "Spaces",
+        "brand:wikidata": "Q87629680",
+        "check_date": "2026-06-10",
+        "level": "0;1",
+        "name": "Spaces Colony Square",
+        "office": "coworking",
+        "opening_hours": "Mo-Fr 08:30-17:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1 855-217-7205",
+        "website": "https://www.spacesworks.com/atlanta/colony-square/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3828297,
+          33.787525
+        ]
+      },
+      "id": "node/12924935626"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12995477721",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "2144",
+        "addr:postcode": "30318",
+        "addr:street": "Hills Avenue Northwest",
+        "company": "sport_team",
+        "contact:facebook": "https://facebook.com/teamnovonordisk",
+        "contact:instagram": "https://instagram.com/teamnovonordisk",
+        "contact:linkedin": "https://www.linkedin.com/company/team-novo-nordisk/",
+        "contact:tiktok": "https://www.tiktok.com/@team_novonordisk",
+        "contact:twitter": "https://twitter.com/teamnovonordisk",
+        "contact:youtube": "https://www.youtube.com/teamnovonordisk",
+        "email": "vassili@teamnovonordisk.com",
+        "name": "Team Novo Nordisk",
+        "office": "company",
+        "sport": "cycling",
+        "website": "https://www.teamnovonordisk.com/",
+        "wikidata": "Q400394",
+        "wikipedia": "en:Team Novo Nordisk"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4315544,
+          33.8140819
+        ]
+      },
+      "id": "node/12995477721"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/12999959729",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "1175",
+        "addr:postcode": "30361",
+        "addr:state": "GA",
+        "addr:street": "Peachtree Street Northeast",
+        "addr:unit": "1000",
+        "branch": "Colony Square",
+        "brand:wikidata": "Q19995004",
+        "check_date": "2025-07-22",
+        "fee": "yes",
+        "name": "WeWork",
+        "office": "coworking",
+        "opening_hours": "24/7",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "website": "https://www.wework.com/buildings/colony-square--atlanta--GA",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3827241,
+          33.7869081
+        ]
+      },
+      "id": "node/12999959729"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13020789714",
+        "addr:city": "Alpharetta",
+        "addr:country": "US",
+        "addr:housenumber": "5910",
+        "addr:postcode": "30005",
+        "addr:state": "Georgia",
+        "addr:street": "Shiloh Road East",
+        "addr:unit": "113",
+        "description": "Elevate your practice with Brain Ultimate TMS – featuring revolutionary cooling technology, multiple FDA-cleared protocols, and comprehensive cloud connectivity.",
+        "name": "Brain Ultimate, Inc.",
+        "office": "company",
+        "website": "https://www.brainultimate.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2026148,
+          34.1206946
+        ]
+      },
+      "id": "node/13020789714"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13117106807",
+        "addr:floor": "G;1",
+        "addr:housenumber": "1737",
+        "addr:street": "Ellsworth Industrial Boulevard Northwest",
+        "addr:unit": "E-5",
+        "check_date": "2025-09-03",
+        "company": "restaurant",
+        "email": "office@rocketfarmrestaurants.com",
+        "level": "0;1",
+        "name": "Rocket Farm Restaurants",
+        "office": "company",
+        "phone": "+1-404-355-5311",
+        "website": "https://www.rocketfarmrestaurants.com/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4262223,
+          33.8023999
+        ]
+      },
+      "id": "node/13117106807"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13124096645",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "1100",
+        "addr:postcode": "30309",
+        "addr:street": "Peachtree Street Northeast",
+        "addr:suite": "200 & 900",
+        "check_date": "2025-09-11",
+        "email": "julie@peachtreeoffices.com",
+        "name": "Peachtree Offices",
+        "office": "coworking",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1 800-684-5774",
+        "website": "https://peachtreeoffices.com/locations/1100-peachtree-midtown/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3835428,
+          33.7846416
+        ]
+      },
+      "id": "node/13124096645"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13174779019",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "1331",
+        "addr:postcode": "30309",
+        "addr:state": "GA",
+        "addr:street": "Spring Street Northwest",
+        "addr:unit": "2500",
+        "check_date": "2025-09-30",
+        "company": "investment",
+        "name": "Invesco",
+        "office": "company",
+        "phone": "+1 404 892 0896",
+        "website": "https://www.invesco.com/corporate/en/home.html",
+        "wheelchair": "yes",
+        "wikipedia": "en:Invesco"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.388868,
+          33.7913599
+        ]
+      },
+      "id": "node/13174779019"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13179151987",
+        "addr:floor": "G;1",
+        "addr:housenumber": "6375",
+        "addr:street": "Spalding Drive",
+        "check_date": "2026-04-05",
+        "company": "general_contractor",
+        "level": "0;1",
+        "name": "B & Z Contracting",
+        "office": "company",
+        "opening_hours": "Mo-Fr 08:00-18:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1-470-268-5897",
+        "website": "https://bzconstruct.com",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.257711,
+          33.9691416
+        ]
+      },
+      "id": "node/13179151987"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13375167473",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "1170",
+        "addr:postcode": "30318",
+        "addr:state": "GA",
+        "addr:street": "Howell Mill Road NW",
+        "addr:unit": "210",
+        "name": "Flock Safety Corporate Office",
+        "office": "company",
+        "phone": "+1-866-901-1781",
+        "website": "https://www.deflock.me/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.412237,
+          33.7857688
+        ]
+      },
+      "id": "node/13375167473"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13387632765",
+        "addr:housenumber": "1420",
+        "addr:street": "White Circle Northwest",
+        "addr:unit": "101",
+        "company": "general_contractor",
+        "name": "Woolard Attman Construction, Inc.",
+        "office": "company",
+        "phone": "+1 770-514-8478",
+        "website": "https://www.woolardattman.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.575699,
+          33.9870815
+        ]
+      },
+      "id": "node/13387632765"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13391955468",
+        "addr:floor": "G;1",
+        "addr:housenumber": "875",
+        "addr:street": "Pickens Industrial Drive Northeast",
+        "branch": "North Atlanta",
+        "check_date": "2025-12-20",
+        "company": "civil_engineering",
+        "level": "0;1",
+        "name": "AquaGuard Foundation Solutions",
+        "office": "company",
+        "opening_hours": "Mo-Fr 07:00-23:00; Sa 08:00-23:00; Su 10:00-23:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1-770-709-6960",
+        "website": "https://www.aquaguard.net/about/meet-the-team/north-atlanta-branch/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.5277706,
+          33.9723663
+        ]
+      },
+      "id": "node/13391955468"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13393652202",
+        "addr:city": "Marietta",
+        "addr:floor": "G;1",
+        "addr:housenumber": "255",
+        "addr:postcode": "30067",
+        "addr:state": "GA",
+        "addr:street": "Village Parkway Northeast",
+        "addr:unit": "230",
+        "check_date": "2025-12-21",
+        "company": "general_contractor",
+        "email": "cm.edison@gmail.com",
+        "level": "0;1",
+        "name": "Steve Edison Homes Inc.",
+        "office": "company",
+        "website": "https://steveedisonhomes.com/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4133274,
+          33.9502643
+        ]
+      },
+      "id": "node/13393652202"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13393652215",
+        "addr:city": "Marietta",
+        "addr:floor": "G;1",
+        "addr:housenumber": "255",
+        "addr:postcode": "30067",
+        "addr:state": "GA",
+        "addr:street": "Village Parkway Northeast",
+        "addr:unit": "630",
+        "check_date": "2025-12-21",
+        "company": "civil_engineering",
+        "contact:facebook": "https://www.facebook.com/@JLancasterInc/?hr=1",
+        "email": "sthomas@jlainc.com",
+        "level": "0;1",
+        "name": "J Lancaster and Associates",
+        "office": "company",
+        "opening_hours": "Mo-Fr 08:30-17:30; Sa-Su off",
+        "phone": "+1 770-955-2421",
+        "website": "http://www.jlainc.com/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4137087,
+          33.9512329
+        ]
+      },
+      "id": "node/13393652215"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13408002371",
+        "addr:city": "Lilburn",
+        "addr:country": "US",
+        "addr:housenumber": "375",
+        "addr:postcode": "30047",
+        "addr:state": "GA",
+        "addr:street": "Rockbridge Road Northwest",
+        "addr:unit": "172- 253",
+        "contact:phone": "+1 770-415-8581",
+        "contact:website": "https://avalontrees.com",
+        "name": "Avalon Tree Services",
+        "office": "company",
+        "opening_hours": "Mo,We-Sa 08:30-17:30; Tu 08:30-18:00; Su off"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1640178,
+          33.8832373
+        ]
+      },
+      "id": "node/13408002371"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13409718225",
+        "addr:floor": "G;1",
+        "addr:housenumber": "1874",
+        "addr:street": "Defoor Avenue Northwest",
+        "check_date": "2025-12-26",
+        "level": "0;1",
+        "name": "Crisp",
+        "office": "company",
+        "website": "https://crisp.co/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4253425,
+          33.8062305
+        ]
+      },
+      "id": "node/13409718225"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13418697375",
+        "addr:floor": "G;1",
+        "addr:housenumber": "1205",
+        "addr:street": "Hayes Industrial Drive Northeast",
+        "check_date": "2025-12-30",
+        "company": "general_contractor",
+        "level": "0;1",
+        "name": "JLS Contracting, Inc.",
+        "office": "company",
+        "opening_hours": "Mo-Fr 07:30-16:30; Sa-Su off",
+        "phone": "+1-678-264-8170",
+        "website": "https://jlscontracting.com",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.5415019,
+          33.9795917
+        ]
+      },
+      "id": "node/13418697375"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13436326279",
+        "addr:city": "Clarkston",
+        "addr:housenumber": "980",
+        "addr:postcode": "30021",
+        "addr:state": "GA",
+        "addr:street": "Rowland Street",
+        "addr:unit": "5140",
+        "check_date": "2026-01-06",
+        "contact:instagram": "https://www.instagram.com/jarvisconcierge/",
+        "currency:XBT": "yes",
+        "name": "Edwin Jarvis",
+        "office": "coworking",
+        "opening_hours": "Mo-Fr 10:00-18:00; Sa 11:00-15:00",
+        "payment:lightning": "yes",
+        "payment:lightning:operator": "square",
+        "payment:lightning_contactless": "no",
+        "payment:onchain": "no",
+        "phone": "+1-678-701-4711",
+        "website": "https://edwinjarvis.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2397613,
+          33.8080245
+        ]
+      },
+      "id": "node/13436326279"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13439921762",
+        "addr:floor": "G;1",
+        "addr:housenumber": "1500",
+        "addr:street": "Roswell Road",
+        "check_date": "2026-01-08",
+        "level": "0;1",
+        "name": "Companies Estate Sales",
+        "office": "company",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.507708,
+          33.9505979
+        ]
+      },
+      "id": "node/13439921762"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13451543060",
+        "addr:city": "Acworth",
+        "addr:housenumber": "3000",
+        "addr:postcode": "30101",
+        "addr:state": "GA",
+        "addr:street": "New McEver Road",
+        "name": "Oldcastle Infrastructure",
+        "office": "company",
+        "website": "https://locator.oldcastleinfrastructure.com/ga/acworth/oldcastle-1.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.6389208,
+          34.0581872
+        ]
+      },
+      "id": "node/13451543060"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13459489117",
+        "addr:city": "Canton",
+        "addr:housenumber": "130",
+        "addr:postcode": "30114",
+        "addr:state": "GA",
+        "addr:street": "East Main Street",
+        "addr:unit": "200",
+        "name": "Thrive Canton at The Jones Building",
+        "office": "coworking",
+        "phone": "+1 470 713 6731",
+        "website": "https://www.thrive-canton.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.490414,
+          34.2370194
+        ]
+      },
+      "id": "node/13459489117"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13472583660",
+        "addr:floor": "G;1",
+        "addr:housenumber": "549-4",
+        "addr:street": "Amsterdam Avenue Northeast",
+        "check_date": "2026-01-20",
+        "company": "general_contractor",
+        "email": "inquiries@jackbiltdevelopment.com",
+        "level": "0;1",
+        "name": "JackBilt Development",
+        "office": "company",
+        "phone": "+1-404-963-6659",
+        "website": "https://jackbiltdevelopment.com/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3693406,
+          33.7879524
+        ]
+      },
+      "id": "node/13472583660"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13503469989",
+        "addr:city": "Alpharetta",
+        "addr:housenumber": "3480",
+        "addr:postcode": "30005",
+        "addr:state": "GA",
+        "addr:street": "Preston Ridge Road",
+        "addr:unit": "Suite 500",
+        "branch": "Alpharetta",
+        "brand": "Lucid Private Offices",
+        "contact:facebook": "https://www.facebook.com/LucidPrivateOffices/",
+        "contact:instagram": "https://www.instagram.com/lucidprivateoffices/",
+        "contact:linkedin": "https://linkedin.com/company/lucidprivateoffices",
+        "contact:youtube": "https://www.youtube.com/@lucidprivateoffices",
+        "email": "Workisgood@lucidprivateoffices.com",
+        "name": "Lucid Private Offices",
+        "office": "coworking",
+        "official_name": "Lucid Private Offices - Alpharetta",
+        "opening_hours": "Mo-Fr 08:30-17:00",
+        "phone": "+1-404-997-3926",
+        "start_date": "2023-02-10",
+        "website": "https://www.lucidprivateoffices.com/georgia/alpharetta/3480-preston-ridge-road/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.258046,
+          34.0731077
+        ]
+      },
+      "id": "node/13503469989"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13505870269",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "3100",
+        "addr:postcode": "30339",
+        "addr:state": "GA",
+        "addr:street": "Interstate North Circle Southeast",
+        "addr:unit": "Suite 200",
+        "branch": "Cumberland / The Battery",
+        "brand": "Lucid Private Offices",
+        "contact:facebook": "https://www.facebook.com/LucidPrivateOffices/",
+        "contact:instagram": "https://www.instagram.com/lucidprivateoffices/",
+        "contact:linkedin": "https://linkedin.com/company/lucidprivateoffices",
+        "contact:youtube": "https://www.youtube.com/@lucidprivateoffices",
+        "email": "Workisgood@lucidprivateoffices.com",
+        "name": "Lucid Private Offices",
+        "office": "coworking",
+        "official_name": "Lucid Private Offices - Cumberland / The Battery",
+        "opening_hours": "Mo-Fr 08:30-17:00",
+        "phone": "+1-470-684-4859",
+        "start_date": "2023-05-08",
+        "website": "https://www.lucidprivateoffices.com/georgia/atlanta/3100-interstate-north-circle/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4637977,
+          33.8977922
+        ]
+      },
+      "id": "node/13505870269"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13506280812",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "3379",
+        "addr:postcode": "30326",
+        "addr:state": "GA",
+        "addr:street": "Peachtree Road Northeast",
+        "addr:unit": "Suite 700",
+        "branch": "Buckhead",
+        "brand": "Lucid Private Offices",
+        "contact:facebook": "https://www.facebook.com/LucidPrivateOffices/",
+        "contact:instagram": "https://www.instagram.com/lucidprivateoffices/",
+        "contact:linkedin": "https://linkedin.com/company/lucidprivateoffices",
+        "contact:youtube": "https://www.youtube.com/@lucidprivateoffices",
+        "email": "Workisgood@lucidprivateoffices.com",
+        "name": "Lucid Private Offices",
+        "office": "coworking",
+        "official_name": "Lucid Private Offices - Buckhead",
+        "opening_hours": "Mo-Fr 08:30-17:00",
+        "phone": "+1-470-664-2872",
+        "start_date": "2024-04-10",
+        "website": "https://www.lucidprivateoffices.com/georgia/atlanta/3379-peachtree-road-northeast/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3657292,
+          33.8477962
+        ]
+      },
+      "id": "node/13506280812"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13513713201",
+        "addr:housenumber": "1125",
+        "addr:postcode": "30024",
+        "addr:street": "Satellite Boulevard Northwest",
+        "internet_access": "wlan",
+        "name": "NSI-MI TECHNOLOGY",
+        "office": "company",
+        "website": "https://www.nsi-mi.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.0709958,
+          34.0143495
+        ]
+      },
+      "id": "node/13513713201"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13517942611",
+        "addr:floor": "G;1",
+        "addr:housenumber": "837",
+        "addr:street": "Liberty Hill Road",
+        "branch": "Marietta - Northwest Atlanta",
+        "check_date": "2026-02-01",
+        "email": "info@meridianga.com",
+        "level": "0;1",
+        "name": "Meridian Restoration",
+        "office": "company",
+        "opening_hours": "Mo-Fr 08:00-16:00; Sa-Su off",
+        "payment:cash": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+1-678-546-2819",
+        "website": "https://www.meridianga.com/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.5262001,
+          34.0088248
+        ]
+      },
+      "id": "node/13517942611"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13683018734",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "2296",
+        "addr:postcode": "30345-2739",
+        "addr:state": "GA",
+        "addr:street": "Henderson Mill Road",
+        "addr:unit": "116",
+        "check_date": "2026-03-26",
+        "currency:XBT": "yes",
+        "name": "Phoenix Fire Systems",
+        "office": "company",
+        "opening_hours": "Mo 08:00-17:40; Tu-Fr 08:00-17:00",
+        "payment:lightning": "yes",
+        "payment:lightning:operator": "square",
+        "payment:lightning_contactless": "no",
+        "payment:onchain": "no",
+        "phone": "+1-855-595-3473",
+        "website": "https://phoenixfiresystems.com/PublicHome"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2594396,
+          33.8522974
+        ]
+      },
+      "id": "node/13683018734"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13689004501",
+        "addr:housenumber": "11465",
+        "addr:postcode": "30097",
+        "addr:street": "Johns Creek Parkway",
+        "internet_access": "wlan",
+        "name": "Saia LTL Freight Corporate Office",
+        "office": "company",
+        "opening_hours": "Mo-Fr 07:30-20:00",
+        "phone": "+1 800-765-7242",
+        "website": "https://saia.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1669471,
+          34.0592042
+        ]
+      },
+      "id": "node/13689004501"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13715178901",
+        "addr:housenumber": "5985",
+        "addr:street": "Cabot Parkway",
+        "check_date": "2026-04-07",
+        "check_date:opening_hours": "2026-04-07",
+        "name": "Computacenter US Integration Center",
+        "office": "company",
+        "opening_hours": "Mo-Fr 07:00-22:00",
+        "website": "http://Computacenter.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2091918,
+          34.1215499
+        ]
+      },
+      "id": "node/13715178901"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13732439740",
+        "addr:housenumber": "3400",
+        "addr:street": "Overton Park Drive Southeast",
+        "addr:unit": "110",
+        "amenity": "bank",
+        "company": "banking",
+        "name": "Synovus",
+        "office": "company",
+        "website": "https://www.synovus.com/locations/usa/ga/atlanta/3400-overton-park-drive-se"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4577408,
+          33.8887644
+        ]
+      },
+      "id": "node/13732439740"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13732439741",
+        "addr:housenumber": "3625",
+        "addr:street": "Cumberland Boulevard Southeast",
+        "addr:unit": "700",
+        "company": "medical_supply",
+        "medical_supply": "dental",
+        "name": "Carestream Dental",
+        "office": "company",
+        "website": "https://www.carestreamdental.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4535123,
+          33.8843902
+        ]
+      },
+      "id": "node/13732439741"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13732439742",
+        "addr:housenumber": "3625",
+        "addr:street": "Cumberland Boulevard Southeast",
+        "addr:unit": "600",
+        "company": "employment_agency",
+        "name": "Randstad",
+        "office": "company",
+        "opening_hours": "Mo-Fr 08:00-17:00",
+        "website": "https://www.randstadusa.com/local/ga/atlanta/1-overton-park/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4533849,
+          33.8842154
+        ]
+      },
+      "id": "node/13732439742"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13759764839",
+        "addr:housenumber": "3330",
+        "addr:street": "Cumberland Boulevard Southeast",
+        "addr:unit": "500",
+        "branch": "100 City View",
+        "brand": "Regus",
+        "brand:wikidata": "Q761072",
+        "name": "Regus Coworking",
+        "office": "coworking",
+        "website": "https://www.regus.com/en/us/2394"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4579031,
+          33.8743618
+        ]
+      },
+      "id": "node/13759764839"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13799781257",
+        "addr:floor": "G;1",
+        "addr:housenumber": "2875",
+        "addr:street": "Spring Hill Parkway Southeast",
+        "check_date": "2026-05-05",
+        "company": "hospitality",
+        "email": "info@buckheadamerica.com",
+        "level": "0;1",
+        "name": "Buckhead America Hospitality",
+        "office": "company",
+        "phone": "+1-678-424-8275",
+        "website": "https://www.buckheadamerica.com/",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4733269,
+          33.882973
+        ]
+      },
+      "id": "node/13799781257"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13807523369",
+        "addr:city": "Atlanta",
+        "addr:floor": "G;1",
+        "addr:housenumber": "1870",
+        "addr:postcode": "30339",
+        "addr:state": "GA",
+        "addr:street": "The Exchange Southeast",
+        "branch": "Cumberland",
+        "check_date": "2026-05-08",
+        "level": "0;1",
+        "name": "Crowne Office Suites Cumberland",
+        "office": "coworking",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+1 770-951-7000",
+        "website": "http://www.crowneofficesuites.com/locations/cumberland",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4786352,
+          33.9059851
+        ]
+      },
+      "id": "node/13807523369"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13937845990",
+        "addr:city": "Marietta",
+        "addr:housenumber": "2470",
+        "addr:postcode": "30067",
+        "addr:state": "GA",
+        "addr:street": "Windy Hill Road Southeast",
+        "addr:unit": "228A",
+        "check_date": "2026-06-14",
+        "contact:email": "info@midwaylimousines.com",
+        "contact:facebook": "https://www.facebook.com/MidwayLimousinesAtlanta/",
+        "currency:XBT": "yes",
+        "name": "Midway Limousine Services",
+        "office": "company",
+        "opening_hours": "24/7",
+        "payment:lightning": "yes",
+        "payment:lightning:operator": "square",
+        "payment:lightning_contactless": "no",
+        "payment:onchain": "no",
+        "phone": "+1-770-980-9161",
+        "website": "https://midwaylimousines.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4826789,
+          33.9017736
+        ]
+      },
+      "id": "node/13937845990"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13955503447",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "3300",
+        "addr:postcode": "30341",
+        "addr:state": "GA",
+        "addr:street": "Buckeye Road",
+        "addr:unit": "401",
+        "check_date": "2026-06-21",
+        "contact:email": "boyzotrucks@gmail.com",
+        "contact:facebook": "https://www.facebook.com/p/Boyzo-Trucks-Inc-61557787125572/",
+        "currency:XBT": "yes",
+        "name": "Boyzo Trucks",
+        "office": "company",
+        "opening_hours": "Mo-Su 08:30-20:00",
+        "payment:lightning": "yes",
+        "payment:lightning:operator": "square",
+        "payment:lightning_contactless": "no",
+        "payment:onchain": "no",
+        "phone": "+1-678-622-2759"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2582837,
+          33.8858835
+        ]
+      },
+      "id": "node/13955503447"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13963360465",
+        "addr:housenumber": "1488",
+        "addr:street": "Bells Ferry Road Northwest",
+        "company": "lighting",
+        "contact:facebook": "https://www.facebook.com/lumienlightingga",
+        "email": "support@lumienlighting.com",
+        "name": "Lumien Lighting",
+        "office": "company",
+        "opening_hours": "Mo-Fr 08:30-17:00",
+        "website": "https://www.lumienlighting.com"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.5539543,
+          33.9869258
+        ]
+      },
+      "id": "node/13963360465"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/13992162701",
+        "addr:housenumber": "131",
+        "addr:postcode": "30340",
+        "addr:street": "Button Gwinnett Drive",
+        "name": "Development and Support Center",
+        "office": "company",
+        "opening_hours": "Mo-Fr 08:00-17:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2468185,
+          33.9250885
+        ]
+      },
+      "id": "node/13992162701"
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-07-13T16:54:15Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/385062916",
+        "LandPro08:DE3": "DEVELOPED",
+        "LandPro08:LC_NAME": "INST_INTENSIVE",
+        "LandPro08:LU_NAME": "INST_INTENSIVE",
+        "LandPro08:reviewed": "no",
+        "addr:city": "Atlanta",
+        "addr:floor": "G;1",
+        "addr:housenumber": "966",
+        "addr:postcode": "30327",
+        "addr:street": "West Paces Ferry Road Northwest",
+        "amenity": "school",
+        "check_date": "2025-11-14",
+        "grades": "0-12",
+        "level": "0;1",
+        "name": "Pace Academy",
+        "operator:type": "private",
+        "phone": "+1 404-262-1345",
+        "source": "LandPro08",
+        "website": "https://www.paceacademy.org/",
+        "wikidata": "Q14686777",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4171468,
+          33.8481004
+        ]
+      },
+      "id": "way/385062916"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/570399562",
+        "amenity": "school",
+        "ele": "306",
+        "name": "Atlanta International School (Sandy Springs Campus)",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2999041,
+          33.9847996
+        ]
+      },
+      "id": "way/570399562"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/571781481",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "2890",
+        "addr:postcode": "30305",
+        "addr:state": "GA",
+        "addr:street": "North Fulton Drive Northeast",
+        "amenity": "school",
+        "ele": "288",
+        "gnis:feature_id": "2345901",
+        "name": "Atlanta International School",
+        "website": "https://www.aischool.org/",
+        "wikidata": "Q4816095",
+        "wikipedia": "en:Atlanta International School",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3791327,
+          33.8338348
+        ]
+      },
+      "id": "way/571781481"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/571848979",
+        "alt_name": "Westminster School;Westminster",
+        "amenity": "school",
+        "ele": "255",
+        "gnis:feature_id": "325093",
+        "name": "The Westminster Schools",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4347504,
+          33.8426519
+        ]
+      },
+      "id": "way/571848979"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1206766111",
+        "amenity": "school",
+        "grades": "K-12",
+        "name": "Fulton Science Academy",
+        "website": "https://fultonscienceacademy.org",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2997739,
+          34.0515043
+        ]
+      },
+      "id": "way/1206766111"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1654775761",
+        "amenity": "school",
+        "name": "Paideia School",
+        "website": "https://www.paideiaschool.org/",
+        "wikidata": "Q7755893"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3403084,
+          33.7735663
+        ]
+      },
+      "id": "node/1654775761"
+    }
+  ]
+}

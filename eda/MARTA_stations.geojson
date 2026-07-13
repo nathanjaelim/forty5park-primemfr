@@ -1,0 +1,1007 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2026-07-10T07:17:57Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/318451223",
+        "bus": "yes",
+        "name": "Five Points",
+        "network": "MARTA",
+        "network:wikidata": "Q1423792",
+        "operator": "Metropolitan Atlanta Rapid Transit Authority",
+        "operator:short": "MARTA",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "subway",
+        "subway": "yes",
+        "website": "https://www.itsmarta.com/Five-Points.aspx",
+        "wikidata": "Q5456094"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3915963,
+          33.7538868
+        ]
+      },
+      "id": "node/318451223"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3113761722",
+        "amenity": "bus_station",
+        "bus": "yes",
+        "name": "Goldsmith Park & Ride",
+        "operator": "MARTA",
+        "public_transport": "station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.1830125,
+          33.8107587
+        ]
+      },
+      "id": "node/3113761722"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4082290806",
+        "name": "Bankhead",
+        "network": "MARTA",
+        "operator": "Metropolitan Atlanta Rapid Transit Authority",
+        "operator:short": "MARTA",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "P4",
+        "station": "subway",
+        "subway": "yes",
+        "website": "https://www.itsmarta.com/Bankhead.aspx",
+        "wikidata": "Q4856286",
+        "wikipedia": "en:Bankhead station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4289408,
+          33.7722571
+        ]
+      },
+      "id": "node/4082290806"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4170221445",
+        "internet_access": "wlan",
+        "name": "Peachtree Center",
+        "network": "MARTA",
+        "operator": "Metropolitan Atlanta Rapid Transit Authority",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "N1",
+        "station": "subway",
+        "subway": "yes",
+        "website": "https://www.itsmarta.com/Peachtree-Center.aspx",
+        "wheelchair": "yes",
+        "wikidata": "Q7157705",
+        "wikipedia": "en:Peachtree Center station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3876126,
+          33.7581455
+        ]
+      },
+      "id": "node/4170221445"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4170391718",
+        "name": "West Lake",
+        "network": "MARTA",
+        "operator": "Metropolitan Atlanta Rapid Transit Authority",
+        "operator:short": "MARTA",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "W4",
+        "station": "subway",
+        "subway": "yes",
+        "website": "https://www.itsmarta.com/West-Lake.aspx",
+        "wikidata": "Q7985673"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4453009,
+          33.7533207
+        ]
+      },
+      "id": "node/4170391718"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4172164012",
+        "addr:city": "Chamblee",
+        "addr:housenumber": "5200",
+        "addr:postcode": "30341",
+        "addr:state": "GA",
+        "addr:street": "New Peachtree Road",
+        "name": "Chamblee",
+        "network": "MARTA",
+        "operator": "Metropolitan Atlanta Rapid Transit Authority",
+        "operator:short": "MARTA",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "NE9",
+        "station": "subway",
+        "subway": "yes",
+        "website": "https://www.itsmarta.com/Chamblee.aspx",
+        "wheelchair": "yes",
+        "wikidata": "Q5069689",
+        "wikipedia": "en:Chamblee station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3063596,
+          33.8874715
+        ]
+      },
+      "id": "node/4172164012"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4172164013",
+        "name": "Doraville",
+        "network": "MARTA",
+        "operator": "Metropolitan Atlanta Rapid Transit Authority",
+        "operator:short": "MARTA",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "NE10",
+        "station": "subway",
+        "subway": "yes",
+        "website": "https://www.itsmarta.com/Doraville.aspx",
+        "wikidata": "Q5297549",
+        "wikipedia": "en:Doraville station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2802057,
+          33.9030174
+        ]
+      },
+      "id": "node/4172164013"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4172164014",
+        "addr:city": "Brookhaven",
+        "addr:housenumber": "4047",
+        "addr:postcode": "30319",
+        "addr:state": "GA",
+        "addr:street": "Peachtree Road Northeast",
+        "name": "Brookhaven",
+        "network": "MARTA",
+        "network:wikidata": "Q1423792",
+        "network:wikipedia": "en:Metropolitan Atlanta Rapid Transit Authority",
+        "operator": "Metropolitan Atlanta Rapid Transit Authority",
+        "operator:short": "MARTA",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "NE8",
+        "station": "subway",
+        "subway": "yes",
+        "website": "https://www.itsmarta.com/Brookhaven.aspx",
+        "wheelchair": "yes",
+        "wikidata": "Q4974625",
+        "wikipedia": "en:Brookhaven/Oglethorpe station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3392787,
+          33.8601971
+        ]
+      },
+      "id": "node/4172164014"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4172164015",
+        "name": "Lenox",
+        "network": "MARTA",
+        "operator": "Metropolitan Atlanta Rapid Transit Authority",
+        "operator:short": "MARTA",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "NE7",
+        "station": "subway",
+        "subway": "yes",
+        "website": "https://www.itsmarta.com/Lenox.aspx",
+        "wikidata": "Q14686697"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3577479,
+          33.8455868
+        ]
+      },
+      "id": "node/4172164015"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4172164016",
+        "name": "Buckhead",
+        "network": "MARTA",
+        "operator": "Metropolitan Atlanta Rapid Transit Authority",
+        "operator:short": "MARTA",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "N7",
+        "station": "subway",
+        "subway": "yes",
+        "website": "https://www.itsmarta.com/Buckhead.aspx",
+        "wheelchair": "yes",
+        "wikidata": "Q4983125"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3684019,
+          33.8489627
+        ]
+      },
+      "id": "node/4172164016"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4172164017",
+        "name": "Medical Center",
+        "network": "MARTA",
+        "operator": "Metropolitan Atlanta Rapid Transit Authority",
+        "operator:short": "MARTA",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "N8",
+        "station": "subway",
+        "subway": "yes",
+        "website": "https://www.itsmarta.com/Medical-Center.aspx",
+        "wikidata": "Q6806281",
+        "wikipedia": "en:Medical Center station (MARTA)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3514569,
+          33.9107658
+        ]
+      },
+      "id": "node/4172164017"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4172168711",
+        "name": "Hamilton E. Holmes",
+        "network": "MARTA",
+        "operator": "Metropolitan Atlanta Rapid Transit Authority",
+        "operator:short": "MARTA",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "W5",
+        "station": "subway",
+        "subway": "yes",
+        "website": "https://www.itsmarta.com/Hamilton-E-Holmes.aspx",
+        "wikidata": "Q5644912"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4699478,
+          33.7545134
+        ]
+      },
+      "id": "node/4172168711"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4172450826",
+        "name": "West End",
+        "network": "MARTA",
+        "operator": "Metropolitan Atlanta Rapid Transit Authority",
+        "operator:short": "MARTA",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "S2",
+        "station": "subway",
+        "subway": "yes",
+        "website": "https://www.itsmarta.com/West-End.aspx",
+        "wikidata": "Q7985056"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4136642,
+          33.7360535
+        ]
+      },
+      "id": "node/4172450826"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4172450827",
+        "name": "Oakland City",
+        "network": "MARTA",
+        "operator": "Metropolitan Atlanta Rapid Transit Authority",
+        "operator:short": "MARTA",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "S3",
+        "station": "subway",
+        "subway": "yes",
+        "website": "https://www.itsmarta.com/Oakland-City.aspx",
+        "wikidata": "Q14686772"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.425187,
+          33.7167992
+        ]
+      },
+      "id": "node/4172450827"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4172450829",
+        "name": "East Point",
+        "network": "MARTA",
+        "operator": "Metropolitan Atlanta Rapid Transit Authority",
+        "operator:short": "MARTA",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "S5",
+        "station": "subway",
+        "subway": "yes",
+        "website": "https://www.itsmarta.com/College-Park.aspx",
+        "wikidata": "Q5329166"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4406902,
+          33.6770378
+        ]
+      },
+      "id": "node/4172450829"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4172450830",
+        "name": "College Park",
+        "network": "MARTA",
+        "operator": "Metropolitan Atlanta Rapid Transit Authority",
+        "operator:short": "MARTA",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "S6",
+        "station": "subway",
+        "subway": "yes",
+        "website": "https://www.itsmarta.com/College-Park.aspx",
+        "wikidata": "Q5146495"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4487904,
+          33.6516643
+        ]
+      },
+      "id": "node/4172450830"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4172450831",
+        "name": "Airport",
+        "network": "MARTA",
+        "operator": "Metropolitan Atlanta Rapid Transit Authority",
+        "operator:short": "MARTA",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "S7",
+        "station": "subway",
+        "subway": "yes",
+        "website": "https://www.itsmarta.com/Airport.aspx",
+        "wheelchair": "yes",
+        "wikidata": "Q4698883",
+        "wikipedia": "en:Airport station (MARTA)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4462272,
+          33.6407121
+        ]
+      },
+      "id": "node/4172450831"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4172450832",
+        "name": "Civic Center",
+        "network": "MARTA",
+        "operator": "Metropolitan Atlanta Rapid Transit Authority",
+        "operator:short": "MARTA",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "N2",
+        "station": "subway",
+        "subway": "yes",
+        "website": "https://www.itsmarta.com/Civic-Center.aspx",
+        "wikidata": "Q5124274"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3875419,
+          33.7665094
+        ]
+      },
+      "id": "node/4172450832"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4172450833",
+        "name": "North Avenue",
+        "network": "MARTA",
+        "operator": "Metropolitan Atlanta Rapid Transit Authority",
+        "operator:short": "MARTA",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "N3",
+        "station": "subway",
+        "subway": "yes",
+        "website": "https://www.itsmarta.com/North-Ave.aspx",
+        "wheelchair": "yes",
+        "wikidata": "Q7054024",
+        "wikipedia": "en:North Avenue station (MARTA)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3867688,
+          33.7716046
+        ]
+      },
+      "id": "node/4172450833"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4172450835",
+        "name": "Arts Center",
+        "network": "MARTA",
+        "operator": "Metropolitan Atlanta Rapid Transit Authority",
+        "operator:short": "MARTA",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "N5",
+        "station": "subway",
+        "subway": "yes",
+        "website": "https://www.itsmarta.com/Arts-Center.aspx",
+        "wheelchair": "yes",
+        "wikidata": "Q4801432"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3873247,
+          33.7891209
+        ]
+      },
+      "id": "node/4172450835"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4172458457",
+        "name": "Avondale",
+        "network": "MARTA",
+        "operator": "Metropolitan Atlanta Rapid Transit Authority",
+        "operator:short": "MARTA",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "E7",
+        "station": "subway",
+        "subway": "yes",
+        "website": "https://www.itsmarta.com/Avondale.aspx",
+        "wikidata": "Q4829296",
+        "wikipedia": "en:Avondale station (MARTA)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2822446,
+          33.7751541
+        ]
+      },
+      "id": "node/4172458457"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4172458489",
+        "name": "King Memorial",
+        "network": "MARTA",
+        "operator": "Metropolitan Atlanta Rapid Transit Authority",
+        "operator:short": "MARTA",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "E2",
+        "station": "subway",
+        "subway": "yes",
+        "website": "https://www.itsmarta.com/King-Memorial.aspx",
+        "wikidata": "Q6411876"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3754514,
+          33.7500081
+        ]
+      },
+      "id": "node/4172458489"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4172458490",
+        "name": "Georgia State",
+        "network": "MARTA",
+        "operator": "Metropolitan Atlanta Rapid Transit Authority",
+        "operator:short": "MARTA",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "E1",
+        "station": "subway",
+        "subway": "yes",
+        "website": "https://www.itsmarta.com/Georgia-State.aspx",
+        "wikidata": "Q5547742",
+        "wikipedia": "en:Georgia State station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3859566,
+          33.7501652
+        ]
+      },
+      "id": "node/4172458490"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4172458491",
+        "name": "Inman Park/Reynoldstown",
+        "network": "MARTA",
+        "operator": "Metropolitan Atlanta Rapid Transit Authority",
+        "operator:short": "MARTA",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "E3",
+        "station": "subway",
+        "subway": "yes",
+        "website": "https://www.itsmarta.com/Inman-Park.aspx",
+        "wheelchair": "yes",
+        "wikidata": "Q6035047"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3523602,
+          33.7578223
+        ]
+      },
+      "id": "node/4172458491"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4172458492",
+        "name": "Edgewood/Candler Park",
+        "network": "MARTA",
+        "operator": "Metropolitan Atlanta Rapid Transit Authority",
+        "operator:short": "MARTA",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "E4",
+        "station": "subway",
+        "subway": "yes",
+        "website": "https://www.itsmarta.com/Edgewood-Candler-Park.aspx",
+        "wikidata": "Q5337879"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3398665,
+          33.7619053
+        ]
+      },
+      "id": "node/4172458492"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4172458493",
+        "name": "East Lake",
+        "network": "MARTA",
+        "operator": "Metropolitan Atlanta Rapid Transit Authority",
+        "operator:short": "MARTA",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "E5",
+        "station": "subway",
+        "subway": "yes",
+        "website": "https://www.itsmarta.com/East-Lake.aspx",
+        "wikidata": "Q5328766"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3128808,
+          33.7651943
+        ]
+      },
+      "id": "node/4172458493"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4172459856",
+        "name": "Kensington",
+        "network": "MARTA",
+        "operator": "Metropolitan Atlanta Rapid Transit Authority",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "E8",
+        "station": "subway",
+        "subway": "yes",
+        "website": "https://www.itsmarta.com/Kensington.aspx",
+        "wikidata": "Q6391424",
+        "wikipedia": "en:Kensington station (MARTA)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2518908,
+          33.7726386
+        ]
+      },
+      "id": "node/4172459856"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4172459857",
+        "name": "Indian Creek",
+        "network": "MARTA",
+        "operator": "Metropolitan Atlanta Rapid Transit Authority",
+        "operator:short": "MARTA",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "E9",
+        "station": "subway",
+        "subway": "yes",
+        "website": "https://www.itsmarta.com/Indian-Creek.aspx",
+        "wikidata": "Q6020135",
+        "wikipedia": "en:Indian Creek station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2297224,
+          33.769837
+        ]
+      },
+      "id": "node/4172459857"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5195035484",
+        "name": "Dunwoody",
+        "network": "MARTA",
+        "operator": "Metropolitan Atlanta Rapid Transit Authority",
+        "operator:short": "MARTA",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "N9",
+        "station": "subway",
+        "subway": "yes",
+        "website": "https://www.itsmarta.com/Dunwoody.aspx",
+        "wikidata": "Q5315809",
+        "wikipedia": "en:Dunwoody station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.34433,
+          33.9210622
+        ]
+      },
+      "id": "node/5195035484"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5195035485",
+        "name": "Sandy Springs",
+        "network": "MARTA",
+        "operator": "Metropolitan Atlanta Rapid Transit Authority",
+        "operator:short": "MARTA",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "N10",
+        "station": "subway",
+        "subway": "yes",
+        "website": "https://www.itsmarta.com/Sandy-Springs.aspx",
+        "wikidata": "Q7417482",
+        "wikipedia": "en:Sandy Springs station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3520404,
+          33.9321993
+        ]
+      },
+      "id": "node/5195035485"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5346180632",
+        "name": "Lakewood/Fort McPherson",
+        "network": "MARTA",
+        "operator": "Metropolitan Atlanta Rapid Transit Authority",
+        "operator:short": "MARTA",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "S4",
+        "station": "subway",
+        "subway": "yes",
+        "website": "https://www.itsmarta.com/Lakewood.aspx",
+        "wikidata": "Q6479366",
+        "wikipedia": "en:Lakewood/Fort McPherson station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4288957,
+          33.7001356
+        ]
+      },
+      "id": "node/5346180632"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5346183223",
+        "addr:housenumber": "255",
+        "addr:street": "Peachtree Street Southwest",
+        "name": "Garnett",
+        "network": "MARTA",
+        "operator": "Metropolitan Atlanta Rapid Transit Authority",
+        "operator:short": "MARTA",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "S1",
+        "station": "subway",
+        "subway": "yes",
+        "website": "https://www.itsmarta.com/Garnett.aspx",
+        "wikidata": "Q5523669",
+        "wikipedia": "en:Garnett station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3961654,
+          33.748163
+        ]
+      },
+      "id": "node/5346183223"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5346206680",
+        "addr:city": "Sandy Springs",
+        "addr:housenumber": "7010",
+        "addr:postcode": "30328",
+        "addr:state": "GA",
+        "addr:street": "Peachtree Dunwoody Road Northeast",
+        "name": "North Springs",
+        "network": "MARTA",
+        "operator": "Metropolitan Atlanta Rapid Transit Authority",
+        "operator:short": "MARTA",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "N11",
+        "station": "subway",
+        "subway": "yes",
+        "website": "https://www.itsmarta.com/North-Springs.aspx",
+        "wikidata": "Q7056809",
+        "wikipedia": "en:North Springs station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3571916,
+          33.9451211
+        ]
+      },
+      "id": "node/5346206680"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5346210486",
+        "name": "Lindbergh Center",
+        "network": "MARTA",
+        "network:wikidata": "Q1423792",
+        "operator": "Metropolitan Atlanta Rapid Transit Authority",
+        "operator:short": "MARTA",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "N6",
+        "station": "subway",
+        "subway": "yes",
+        "website": "https://www.itsmarta.com/Lindbergh.aspx",
+        "wikidata": "Q6552169"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3695494,
+          33.8227538
+        ]
+      },
+      "id": "node/5346210486"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6863544212",
+        "name": "Ashby",
+        "network": "MARTA",
+        "operator": "Metropolitan Atlanta Rapid Transit Authority",
+        "operator:short": "MARTA",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "W3",
+        "station": "subway",
+        "subway": "yes",
+        "website": "https://www.itsmarta.com/Ashby.aspx",
+        "wikidata": "Q4804699"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4173474,
+          33.7564795
+        ]
+      },
+      "id": "node/6863544212"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6863551312",
+        "name": "SEC District",
+        "network": "MARTA",
+        "official_name": "Sports, Entertainment, and Convention District",
+        "operator": "Metropolitan Atlanta Rapid Transit Authority",
+        "operator:short": "MARTA",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "W1",
+        "station": "subway",
+        "subway": "yes",
+        "website": "https://itsmarta.com/Omni.aspx",
+        "wikidata": "Q5289997"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.3975955,
+          33.7561897
+        ]
+      },
+      "id": "node/6863551312"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7745032438",
+        "addr:city": "Atlanta",
+        "addr:housenumber": "503",
+        "addr:postcode": "30314",
+        "addr:street": "Carter Street Northwest",
+        "name": "Vine City",
+        "network": "MARTA",
+        "operator": "Metropolitan Atlanta Rapid Transit Authority",
+        "operator:short": "MARTA",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "W2",
+        "station": "subway",
+        "subway": "yes",
+        "website": "https://www.itsmarta.com/Vine-City.aspx",
+        "wikidata": "Q7932371",
+        "wikipedia": "en:Vine City station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.4040115,
+          33.7565641
+        ]
+      },
+      "id": "node/7745032438"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8140627609",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Decatur",
+        "network": "MARTA",
+        "operator": "Metropolitan Atlanta Rapid Transit Authority",
+        "operator:short": "MARTA",
+        "public_transport": "station",
+        "railway": "station",
+        "railway:ref": "E6",
+        "station": "subway",
+        "subway": "yes",
+        "website": "https://www.itsmarta.com/Decatur.aspx",
+        "wheelchair": "yes",
+        "wikidata": "Q5248764",
+        "wikipedia": "en:Decatur station"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.2960337,
+          33.7746104
+        ]
+      },
+      "id": "node/8140627609"
+    }
+  ]
+}
