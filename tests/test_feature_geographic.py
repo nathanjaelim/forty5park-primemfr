@@ -9,8 +9,11 @@ import pandas as pd
 import pytest
 
 from prime_mfr.features.engineering import (
+    add_airport_zone_feature,
     add_h3_cells,
     add_landmark_distances,
+    add_marta_distance,
+    add_marta_station_density,
     haversine_km,
 )
 
@@ -142,6 +145,195 @@ def test_landmark_distances_missing_coords_handled():
     # Rows 1, 2 have missing coords → NaN.
     assert pd.isna(out["dist_buckhead_km"].iloc[1]) or out["dist_buckhead_km"].iloc[1] >= 0
     assert pd.isna(out["dist_buckhead_km"].iloc[2]) or out["dist_buckhead_km"].iloc[2] >= 0
+
+
+# ---------------------------------------------------------------------------
+# Airport hot-zone categorical
+# ---------------------------------------------------------------------------
+
+# Airport coords per eda/atlanta_landmarks.json (key="atl_airport").
+_AIRPORT_LAT, _AIRPORT_LON = 33.6407, -84.4277
+_KM_PER_DEG_LAT = 111.0  # rough conversion for building test offsets
+
+
+def test_add_airport_zone_feature_adds_column():
+    df = _atlanta_df(10)
+    out = add_airport_zone_feature(df)
+    assert "dist_atl_airport_zone" in out.columns
+
+
+def test_airport_zone_is_categorical_dtype():
+    df = _atlanta_df(10)
+    out = add_airport_zone_feature(df)
+    assert isinstance(out["dist_atl_airport_zone"].dtype, pd.CategoricalDtype)
+    assert set(out["dist_atl_airport_zone"].cat.categories) == {"near", "hot_zone", "far"}
+
+
+def test_airport_zone_near_at_airport_coords():
+    """A property AT the airport (0 km) -> "near" (edges are 9/15 km)."""
+    df = pd.DataFrame({"latitude": [_AIRPORT_LAT], "longitude": [_AIRPORT_LON], "rent": [1500.0]})
+    out = add_airport_zone_feature(df)
+    assert out["dist_atl_airport_zone"].iloc[0] == "near"
+
+
+def test_airport_zone_hot_zone_and_far():
+    """~12km out -> hot_zone (9-15km band); ~20km out -> far (>15km)."""
+    hot_lat = _AIRPORT_LAT + 12.0 / _KM_PER_DEG_LAT
+    far_lat = _AIRPORT_LAT + 20.0 / _KM_PER_DEG_LAT
+    df = pd.DataFrame(
+        {
+            "latitude": [hot_lat, far_lat],
+            "longitude": [_AIRPORT_LON, _AIRPORT_LON],
+            "rent": [2200.0, 1800.0],
+        }
+    )
+    out = add_airport_zone_feature(df)
+    assert out["dist_atl_airport_zone"].iloc[0] == "hot_zone"
+    assert out["dist_atl_airport_zone"].iloc[1] == "far"
+
+
+def test_airport_zone_missing_coords_handled():
+    """Rows with NaN lat/lon get NaN zone, no crash."""
+    df = pd.DataFrame(
+        {
+            "latitude": [_AIRPORT_LAT, np.nan],
+            "longitude": [_AIRPORT_LON, -84.40],
+            "rent": [1500.0, 2000.0],
+        }
+    )
+    out = add_airport_zone_feature(df)
+    assert out["dist_atl_airport_zone"].iloc[0] == "near"
+    assert pd.isna(out["dist_atl_airport_zone"].iloc[1])
+
+
+def test_airport_zone_is_categorical_not_numeric_config():
+    """dist_atl_airport_zone must live in CATEGORICAL_FEATURES, not
+    NUMERIC_FEATURES, and dist_atl_airport_km (continuous) should no
+    longer be in NUMERIC_FEATURES -- it was replaced by this zone."""
+    import prime_mfr.config as config
+
+    assert "dist_atl_airport_zone" in config.CATEGORICAL_FEATURES
+    assert "dist_atl_airport_zone" not in config.NUMERIC_FEATURES
+    assert "dist_atl_airport_km" not in config.NUMERIC_FEATURES
+
+
+# ---------------------------------------------------------------------------
+# MARTA nearest-station distance
+# ---------------------------------------------------------------------------
+
+
+def test_add_marta_distance_adds_column():
+    df = _atlanta_df(10)
+    out = add_marta_distance(df)
+    assert "dist_marta_km" in out.columns
+
+
+def test_marta_distance_is_non_negative():
+    df = _atlanta_df(20)
+    out = add_marta_distance(df)
+    finite = out["dist_marta_km"].dropna()
+    assert (finite >= 0).all()
+
+
+def test_marta_five_points_distance_is_zero_at_station_coords():
+    """A property AT the Five Points station coords (per
+    eda/marta_stations.json, sourced from OSM Overpass) -> dist_marta_km ~ 0."""
+    df = pd.DataFrame(
+        {
+            "latitude": [33.7538868],
+            "longitude": [-84.3915963],
+            "rent": [2000.0],
+        }
+    )
+    out = add_marta_distance(df)
+    assert out["dist_marta_km"].iloc[0] < 0.1
+
+
+def test_marta_distance_le_landmark_distance_downtown():
+    """Downtown sits within ~1km of multiple MARTA stations (Five Points,
+    Georgia State, Peachtree Center), so the nearest-MARTA distance for a
+    downtown property should be small -- well under the distance to
+    Buckhead, a landmark ~9km north."""
+    downtown_lat, downtown_lon = 33.75500, -84.39000
+    df = pd.DataFrame(
+        {
+            "latitude": [downtown_lat],
+            "longitude": [downtown_lon],
+            "rent": [2000.0],
+        }
+    )
+    out = add_marta_distance(add_landmark_distances(df))
+    assert out["dist_marta_km"].iloc[0] < out["dist_buckhead_km"].iloc[0]
+
+
+def test_marta_distance_missing_coords_handled():
+    """Rows with NaN lat/lon don't crash; distance is NaN or non-negative."""
+    df = pd.DataFrame(
+        {
+            "latitude": [33.75, np.nan],
+            "longitude": [-84.39, -84.40],
+            "rent": [1500.0, 2000.0],
+        }
+    )
+    out = add_marta_distance(df)
+    assert np.isfinite(out["dist_marta_km"].iloc[0])
+    assert pd.isna(out["dist_marta_km"].iloc[1]) or out["dist_marta_km"].iloc[1] >= 0
+
+
+# ---------------------------------------------------------------------------
+# MARTA station density
+# ---------------------------------------------------------------------------
+
+# Real coords from eda/marta_stations.json.
+_FIVE_POINTS = (33.7538868, -84.3915963)
+_NORTH_SPRINGS = (33.9451211, -84.3571916)
+
+
+def test_add_marta_station_density_adds_column():
+    df = _atlanta_df(10)
+    out = add_marta_station_density(df)
+    assert "num_marta_stations_within_1mi" in out.columns
+
+
+def test_marta_station_density_is_non_negative_int():
+    df = _atlanta_df(20)
+    out = add_marta_station_density(df)
+    assert (out["num_marta_stations_within_1mi"] >= 0).all()
+    assert pd.api.types.is_integer_dtype(out["num_marta_stations_within_1mi"])
+
+
+def test_marta_station_density_downtown_cluster_beats_isolated_suburb():
+    """Five Points sits <0.5mi from Georgia State/Peachtree Center/Garnett
+    (verified against eda/marta_stations.json), so it should show several
+    stations within 1mi. North Springs' nearest neighbor (Sandy Springs) is
+    ~0.94mi away, so it should show far fewer -- even though both could have
+    a similarly small dist_marta_km (~0), density tells them apart."""
+    df = pd.DataFrame(
+        {
+            "latitude": [_FIVE_POINTS[0], _NORTH_SPRINGS[0]],
+            "longitude": [_FIVE_POINTS[1], _NORTH_SPRINGS[1]],
+            "rent": [2000.0, 1800.0],
+        }
+    )
+    out = add_marta_station_density(df)
+    five_points_count = out["num_marta_stations_within_1mi"].iloc[0]
+    north_springs_count = out["num_marta_stations_within_1mi"].iloc[1]
+    assert five_points_count >= 4, f"expected >=4 stations near Five Points, got {five_points_count}"
+    assert north_springs_count <= 2, f"expected <=2 stations near North Springs, got {north_springs_count}"
+    assert five_points_count > north_springs_count
+
+
+def test_marta_station_density_missing_coords_handled():
+    """Rows with NaN lat/lon get a count of 0, not a crash."""
+    df = pd.DataFrame(
+        {
+            "latitude": [_FIVE_POINTS[0], np.nan],
+            "longitude": [_FIVE_POINTS[1], -84.40],
+            "rent": [2000.0, 1800.0],
+        }
+    )
+    out = add_marta_station_density(df)
+    assert out["num_marta_stations_within_1mi"].iloc[1] == 0
 
 
 # ---------------------------------------------------------------------------

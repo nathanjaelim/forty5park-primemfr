@@ -32,6 +32,7 @@ PROJECT_DIR: Path = Path(__file__).resolve().parents[2]
 RAW_PARQUET: Path = PROJECT_DIR / "pretraining_v2.parquet"
 ENRICHED_PARQUET: Path = PROJECT_DIR / "eda" / "pretraining_enriched_v2.parquet"
 LANDMARKS_JSON: Path = PROJECT_DIR / "eda" / "atlanta_landmarks.json"
+MARTA_STATIONS_JSON: Path = PROJECT_DIR / "eda" / "marta_stations.json"
 
 # Historical rent panel (April-2026 enriched, single-snapshot dump 2026-04-20).
 # 708,825 rows × 7 cols at (property_id, unit_type, period) granularity, monthly
@@ -144,9 +145,23 @@ NUMERIC_FEATURES: list[str] = [
     "longitude",
     "dist_buckhead_km",
     "dist_midtown_km",
-    # dist_downtown_km / dist_atl_airport_km / dist_min_landmark_km removed
-    # 2026-07-15: keeping only buckhead + midtown from the curated-landmark
-    # group. config.LANDMARKS / add_landmark_distances() left as-is.
+    "dist_atl_airport_km",  # re-added 2026-07-15 alongside
+    # dist_atl_airport_zone (categorical, see CATEGORICAL_FEATURES) --
+    # now testing continuous + categorical together, same pattern as the
+    # earlier dist_marta_km + num_marta_stations_within_1mi combo test.
+    # dist_downtown_km / dist_min_landmark_km remain removed (dropped
+    # 2026-07-15 keeping only buckhead + midtown from that pair).
+    # MARTA features removed 2026-07-15 -- tested three configurations
+    # against the $76.38 buckhead+midtown baseline: dist_marta_km alone
+    # ($77.16), dist_marta_km + num_marta_stations_within_1mi ($76.80),
+    # and num_marta_stations_within_1mi alone ($76.61). All three landed
+    # worse than baseline in a consistent (not noise-scattered) ordering,
+    # suggesting MARTA proximity is redundant with signal the model
+    # already gets from buckhead/midtown distance, H3 cells, and
+    # submarket/zip target encoding. add_marta_distance() /
+    # add_marta_station_density() are untouched in engineering.py --
+    # just not consumed here. Revisit if a future feature set changes
+    # this picture.
     # Engineered (added later)
     "property_age",
     # Hist-rent lag features (added 2026-05-01). Per (property_id, unit_type)
@@ -182,6 +197,10 @@ CATEGORICAL_FEATURES: list[str] = [
     "brand",  # extracted from property_name first token(s)
     "street_type",  # extracted from street_address suffix
     "addr_dir",  # NE/NW/SE/SW/N/S/E/W
+    "dist_atl_airport_zone",  # added 2026-07-15: near/hot_zone/far bucketing
+    # of dist_atl_airport_km (see ATL_AIRPORT_ZONE_EDGES above). Categorical,
+    # not ordinal, because the relationship is non-monotonic. Only reaches
+    # lgbm_l1/cat_q50 -- the KNN trainer doesn't consume CATEGORICAL_FEATURES.
 ]
 
 # Boolean text-derived flags (will be added to BOOLEAN_FEATURES at module load
@@ -331,6 +350,16 @@ SQFT_BUCKET_EDGES: tuple[float, ...] = (700.0, 850.0, 1000.0, 1150.0, 1350.0, 17
 # property_age buckets (right edges).
 AGE_BUCKET_EDGES: tuple[float, ...] = (5.0, 15.0, 30.0, 50.0)
 
+# dist_atl_airport_km zone edges (right edges, km). Non-monotonic rent
+# pattern: near-airport is cheaper, a "hot zone" 9-15km out is the most
+# expensive AND most volatile (fewer, pricier outlier properties), then
+# it settles back down and flattens past ~15km. Labels below match these
+# 3 bands; used by add_airport_zone_feature() as a genuine categorical
+# (not ordinal -- "hot_zone" isn't "more" than "near", it's a different
+# regime), so LightGBM/CatBoost can split on it without assuming order.
+ATL_AIRPORT_ZONE_EDGES: tuple[float, float] = (9.0, 15.0)
+ATL_AIRPORT_ZONE_LABELS: tuple[str, str, str] = ("near", "hot_zone", "far")
+
 # ---------------------------------------------------------------------------
 # Property structural / BTR-typology features (added 2026-05-01)
 # ---------------------------------------------------------------------------
@@ -364,6 +393,18 @@ EARTH_RADIUS_KM: float = 6371.0088
 # Iter 1: tried [0.5, 1, 2] -> regressed to $197.38; 2mi overlaps with
 # zip/submarket features. Pruned to 1mi only + add p50 (median) we missed.
 COMPETITOR_RADII: list[tuple[float, str]] = [
+    (1.0, "1mi"),
+]
+
+# MARTA station-density radii (added 2026-07-15). Counts distinct stations
+# within radius -- captures "am I near a multi-station cluster" (e.g.
+# downtown: Five Points/Georgia State/Peachtree Center/Garnett are all
+# <0.5mi apart) vs. "near one isolated station" (most suburban stations,
+# e.g. North Springs' nearest neighbor is ~0.94mi away), which
+# dist_marta_km (nearest-only) can't distinguish. Starting with a single
+# 1mi radius per the COMPETITOR_RADII lesson above (multi-radius regressed
+# there); add more only if this one earns its place.
+MARTA_DENSITY_RADII: list[tuple[float, str]] = [
     (1.0, "1mi"),
 ]
 

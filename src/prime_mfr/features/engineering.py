@@ -71,6 +71,22 @@ def _load_landmarks() -> dict[str, tuple[float, float]]:
     return out
 
 
+def _load_marta_stations() -> list[tuple[float, float]]:
+    """
+    Read MARTA rail station coordinates from the JSON reference file
+    (eda/marta_stations.json, a list of {name, lat, lon, ...} entries —
+    see eda/fetch_marta_stations.py for provenance). Returns an empty
+    list (rather than raising) if the file is missing, so the pipeline
+    degrades gracefully instead of hard-failing on a POI file that's
+    optional relative to the core landmark set.
+    """
+    path = Path(config.MARTA_STATIONS_JSON)
+    if not path.exists():
+        return []
+    raw = json.loads(path.read_text())
+    return [(float(s["lat"]), float(s["lon"])) for s in raw]
+
+
 # ---------------------------------------------------------------------------
 # Static features (no target leakage, no fold awareness)
 # ---------------------------------------------------------------------------
@@ -91,6 +107,134 @@ def add_landmark_distances(df: pd.DataFrame) -> pd.DataFrame:
         )
         cols.append(col)
     df["dist_min_landmark_km"] = df[cols].min(axis=1).astype("float32")
+    return df
+
+
+def add_airport_zone_feature(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Bucket dist_atl_airport_km into a categorical zone: near / hot_zone / far
+    (edges + labels in config.ATL_AIRPORT_ZONE_EDGES / _LABELS).
+
+    Rent vs. distance-to-airport is non-monotonic on this dataset: cheapest
+    right next to the airport, most expensive AND most volatile in a
+    ~9-15km "hot zone", then it settles back down and flattens past ~15km.
+    Encoded as a genuine categorical (not an ordinal int bucket like
+    sqft_bucket/age_bucket) because "hot_zone" isn't ordered relative to
+    "near"/"far" -- it's a different regime, not a bigger/smaller value.
+
+    Computes dist_atl_airport_km internally from config.LANDMARKS'
+    "atl_airport" entry (doesn't require add_landmark_distances() to have
+    run first, and doesn't add dist_atl_airport_km itself to the output --
+    that column isn't in NUMERIC_FEATURES anymore, replaced by this zone).
+
+    Adds:
+        dist_atl_airport_zone : category dtype, one of
+                                 config.ATL_AIRPORT_ZONE_LABELS, or NaN if
+                                 lat/lon missing or "atl_airport" isn't an
+                                 active key in config.LANDMARKS.
+    """
+    if "latitude" not in df.columns or "longitude" not in df.columns:
+        return df
+    if "atl_airport" not in config.LANDMARKS:
+        return df
+    df = df.copy()
+    landmarks = _load_landmarks()
+    airport_lat, airport_lon = landmarks["atl_airport"]
+    dist = haversine_km(
+        df["latitude"].values, df["longitude"].values, airport_lat, airport_lon
+    ).astype("float64")
+
+    edges = np.asarray(config.ATL_AIRPORT_ZONE_EDGES, dtype="float64")
+    labels = list(config.ATL_AIRPORT_ZONE_LABELS)
+    valid = ~np.isnan(dist)
+
+    zone = np.full(len(df), np.nan, dtype=object)
+    idx = np.digitize(dist[valid], bins=edges)  # 0..len(labels)-1
+    zone[valid] = np.asarray(labels, dtype=object)[idx]
+
+    df["dist_atl_airport_zone"] = pd.Categorical(zone, categories=labels)
+    return df
+
+
+def add_marta_distance(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Add great-circle distance (km) to the nearest MARTA rail station.
+
+    Unlike add_landmark_distances (one column per named landmark), this
+    collapses ~37 station coordinates into a single aggregate signal —
+    "how transit-adjacent is this property" — mirroring dist_min_landmark_km.
+    Adding one column per station was considered and rejected per the
+    guidance in docs/geospatial_features.md (35+ near-duplicate distance
+    columns cost training time and invite overfitting for no signal gain
+    over the single nearest-station distance).
+
+    Adds:
+        dist_marta_km : float32, NaN if lat/lon missing or the station
+                         reference file (eda/marta_stations.json) is absent.
+    """
+    if "latitude" not in df.columns or "longitude" not in df.columns:
+        return df
+    df = df.copy()
+    stations = _load_marta_stations()
+    if not stations:
+        df["dist_marta_km"] = np.float32(np.nan)
+        return df
+    dists = np.stack(
+        [
+            haversine_km(df["latitude"].values, df["longitude"].values, lat, lon)
+            for lat, lon in stations
+        ]
+    )
+    df["dist_marta_km"] = dists.min(axis=0).astype("float32")
+    return df
+
+
+def add_marta_station_density(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Count distinct MARTA rail stations within each radius in
+    config.MARTA_DENSITY_RADII.
+
+    Companion to add_marta_distance(): nearest-station distance alone can't
+    tell a downtown property (Five Points/Georgia State/Peachtree
+    Center/Garnett are all <0.5mi of each other) apart from a suburban one
+    near a single isolated station (e.g. North Springs' nearest neighbor is
+    ~0.94mi away) -- both could have a similarly small dist_marta_km, but
+    the former is in a much more transit-dense area.
+
+    Only 37 stations total, so this uses a direct vectorized haversine
+    distance matrix rather than a BallTree (unlike
+    add_competitor_count_features, which needs a tree because it's
+    property-to-property at much larger N). Rows with missing lat/lon
+    naturally get a count of 0 (NaN distances fail every "<= radius"
+    comparison), matching the existing convention in
+    add_competitor_count_features.
+
+    Adds (one column per radius):
+        num_marta_stations_within_{label} : int16
+    e.g. num_marta_stations_within_1mi.
+    """
+    if "latitude" not in df.columns or "longitude" not in df.columns:
+        return df
+    df = df.copy()
+    stations = _load_marta_stations()
+
+    if not stations:
+        for _, label in config.MARTA_DENSITY_RADII:
+            df[f"num_marta_stations_within_{label}"] = np.int16(0)
+        return df
+
+    dists_km = np.stack(
+        [
+            haversine_km(df["latitude"].values, df["longitude"].values, lat, lon)
+            for lat, lon in stations
+        ]
+    )  # shape (n_stations, n_rows)
+
+    for radius_mi, label in config.MARTA_DENSITY_RADII:
+        radius_km = radius_mi * 1.609344
+        within = dists_km <= radius_km  # NaN comparisons -> False
+        df[f"num_marta_stations_within_{label}"] = within.sum(axis=0).astype("int16")
+
     return df
 
 
@@ -632,6 +776,9 @@ from prime_mfr.features.hist_rent import (  # noqa: E402, F401  (re-export)
 def add_static_features(df: pd.DataFrame) -> pd.DataFrame:
     """All transforms that don't depend on the train/test split."""
     df = add_landmark_distances(df)
+    df = add_airport_zone_feature(df)
+    df = add_marta_distance(df)
+    df = add_marta_station_density(df)
     df = add_h3_cells(df)
     df = add_text_features(df)
     df = add_geo_aggregates(df)

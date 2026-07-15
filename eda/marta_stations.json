@@ -1,0 +1,298 @@
+[
+  {
+    "name": "Airport",
+    "lat": 33.6407121,
+    "lon": -84.4462272,
+    "line_ref": "S7",
+    "wikidata": "Q4698883",
+    "source": "OpenStreetMap Overpass API (railway=station, network=MARTA); cached eda/research/MARTA_stations.geojson, fetched 2026-07-10"
+  },
+  {
+    "name": "Arts Center",
+    "lat": 33.7891209,
+    "lon": -84.3873247,
+    "line_ref": "N5",
+    "wikidata": "Q4801432",
+    "source": "OpenStreetMap Overpass API (railway=station, network=MARTA); cached eda/research/MARTA_stations.geojson, fetched 2026-07-10"
+  },
+  {
+    "name": "Ashby",
+    "lat": 33.7564795,
+    "lon": -84.4173474,
+    "line_ref": "W3",
+    "wikidata": "Q4804699",
+    "source": "OpenStreetMap Overpass API (railway=station, network=MARTA); cached eda/research/MARTA_stations.geojson, fetched 2026-07-10"
+  },
+  {
+    "name": "Avondale",
+    "lat": 33.7751541,
+    "lon": -84.2822446,
+    "line_ref": "E7",
+    "wikidata": "Q4829296",
+    "source": "OpenStreetMap Overpass API (railway=station, network=MARTA); cached eda/research/MARTA_stations.geojson, fetched 2026-07-10"
+  },
+  {
+    "name": "Bankhead",
+    "lat": 33.7722571,
+    "lon": -84.4289408,
+    "line_ref": "P4",
+    "wikidata": "Q4856286",
+    "source": "OpenStreetMap Overpass API (railway=station, network=MARTA); cached eda/research/MARTA_stations.geojson, fetched 2026-07-10"
+  },
+  {
+    "name": "Brookhaven",
+    "lat": 33.8601971,
+    "lon": -84.3392787,
+    "line_ref": "NE8",
+    "wikidata": "Q4974625",
+    "source": "OpenStreetMap Overpass API (railway=station, network=MARTA); cached eda/research/MARTA_stations.geojson, fetched 2026-07-10"
+  },
+  {
+    "name": "Buckhead",
+    "lat": 33.8489627,
+    "lon": -84.3684019,
+    "line_ref": "N7",
+    "wikidata": "Q4983125",
+    "source": "OpenStreetMap Overpass API (railway=station, network=MARTA); cached eda/research/MARTA_stations.geojson, fetched 2026-07-10"
+  },
+  {
+    "name": "Chamblee",
+    "lat": 33.8874715,
+    "lon": -84.3063596,
+    "line_ref": "NE9",
+    "wikidata": "Q5069689",
+    "source": "OpenStreetMap Overpass API (railway=station, network=MARTA); cached eda/research/MARTA_stations.geojson, fetched 2026-07-10"
+  },
+  {
+    "name": "Civic Center",
+    "lat": 33.7665094,
+    "lon": -84.3875419,
+    "line_ref": "N2",
+    "wikidata": "Q5124274",
+    "source": "OpenStreetMap Overpass API (railway=station, network=MARTA); cached eda/research/MARTA_stations.geojson, fetched 2026-07-10"
+  },
+  {
+    "name": "College Park",
+    "lat": 33.6516643,
+    "lon": -84.4487904,
+    "line_ref": "S6",
+    "wikidata": "Q5146495",
+    "source": "OpenStreetMap Overpass API (railway=station, network=MARTA); cached eda/research/MARTA_stations.geojson, fetched 2026-07-10"
+  },
+  {
+    "name": "Decatur",
+    "lat": 33.7746104,
+    "lon": -84.2960337,
+    "line_ref": "E6",
+    "wikidata": "Q5248764",
+    "source": "OpenStreetMap Overpass API (railway=station, network=MARTA); cached eda/research/MARTA_stations.geojson, fetched 2026-07-10"
+  },
+  {
+    "name": "Doraville",
+    "lat": 33.9030174,
+    "lon": -84.2802057,
+    "line_ref": "NE10",
+    "wikidata": "Q5297549",
+    "source": "OpenStreetMap Overpass API (railway=station, network=MARTA); cached eda/research/MARTA_stations.geojson, fetched 2026-07-10"
+  },
+  {
+    "name": "Dunwoody",
+    "lat": 33.9210622,
+    "lon": -84.34433,
+    "line_ref": "N9",
+    "wikidata": "Q5315809",
+    "source": "OpenStreetMap Overpass API (railway=station, network=MARTA); cached eda/research/MARTA_stations.geojson, fetched 2026-07-10"
+  },
+  {
+    "name": "East Lake",
+    "lat": 33.7651943,
+    "lon": -84.3128808,
+    "line_ref": "E5",
+    "wikidata": "Q5328766",
+    "source": "OpenStreetMap Overpass API (railway=station, network=MARTA); cached eda/research/MARTA_stations.geojson, fetched 2026-07-10"
+  },
+  {
+    "name": "East Point",
+    "lat": 33.6770378,
+    "lon": -84.4406902,
+    "line_ref": "S5",
+    "wikidata": "Q5329166",
+    "source": "OpenStreetMap Overpass API (railway=station, network=MARTA); cached eda/research/MARTA_stations.geojson, fetched 2026-07-10"
+  },
+  {
+    "name": "Edgewood/Candler Park",
+    "lat": 33.7619053,
+    "lon": -84.3398665,
+    "line_ref": "E4",
+    "wikidata": "Q5337879",
+    "source": "OpenStreetMap Overpass API (railway=station, network=MARTA); cached eda/research/MARTA_stations.geojson, fetched 2026-07-10"
+  },
+  {
+    "name": "Five Points",
+    "lat": 33.7538868,
+    "lon": -84.3915963,
+    "line_ref": null,
+    "wikidata": "Q5456094",
+    "source": "OpenStreetMap Overpass API (railway=station, network=MARTA); cached eda/research/MARTA_stations.geojson, fetched 2026-07-10"
+  },
+  {
+    "name": "Garnett",
+    "lat": 33.748163,
+    "lon": -84.3961654,
+    "line_ref": "S1",
+    "wikidata": "Q5523669",
+    "source": "OpenStreetMap Overpass API (railway=station, network=MARTA); cached eda/research/MARTA_stations.geojson, fetched 2026-07-10"
+  },
+  {
+    "name": "Georgia State",
+    "lat": 33.7501652,
+    "lon": -84.3859566,
+    "line_ref": "E1",
+    "wikidata": "Q5547742",
+    "source": "OpenStreetMap Overpass API (railway=station, network=MARTA); cached eda/research/MARTA_stations.geojson, fetched 2026-07-10"
+  },
+  {
+    "name": "Hamilton E. Holmes",
+    "lat": 33.7545134,
+    "lon": -84.4699478,
+    "line_ref": "W5",
+    "wikidata": "Q5644912",
+    "source": "OpenStreetMap Overpass API (railway=station, network=MARTA); cached eda/research/MARTA_stations.geojson, fetched 2026-07-10"
+  },
+  {
+    "name": "Indian Creek",
+    "lat": 33.769837,
+    "lon": -84.2297224,
+    "line_ref": "E9",
+    "wikidata": "Q6020135",
+    "source": "OpenStreetMap Overpass API (railway=station, network=MARTA); cached eda/research/MARTA_stations.geojson, fetched 2026-07-10"
+  },
+  {
+    "name": "Inman Park/Reynoldstown",
+    "lat": 33.7578223,
+    "lon": -84.3523602,
+    "line_ref": "E3",
+    "wikidata": "Q6035047",
+    "source": "OpenStreetMap Overpass API (railway=station, network=MARTA); cached eda/research/MARTA_stations.geojson, fetched 2026-07-10"
+  },
+  {
+    "name": "Kensington",
+    "lat": 33.7726386,
+    "lon": -84.2518908,
+    "line_ref": "E8",
+    "wikidata": "Q6391424",
+    "source": "OpenStreetMap Overpass API (railway=station, network=MARTA); cached eda/research/MARTA_stations.geojson, fetched 2026-07-10"
+  },
+  {
+    "name": "King Memorial",
+    "lat": 33.7500081,
+    "lon": -84.3754514,
+    "line_ref": "E2",
+    "wikidata": "Q6411876",
+    "source": "OpenStreetMap Overpass API (railway=station, network=MARTA); cached eda/research/MARTA_stations.geojson, fetched 2026-07-10"
+  },
+  {
+    "name": "Lakewood/Fort McPherson",
+    "lat": 33.7001356,
+    "lon": -84.4288957,
+    "line_ref": "S4",
+    "wikidata": "Q6479366",
+    "source": "OpenStreetMap Overpass API (railway=station, network=MARTA); cached eda/research/MARTA_stations.geojson, fetched 2026-07-10"
+  },
+  {
+    "name": "Lenox",
+    "lat": 33.8455868,
+    "lon": -84.3577479,
+    "line_ref": "NE7",
+    "wikidata": "Q14686697",
+    "source": "OpenStreetMap Overpass API (railway=station, network=MARTA); cached eda/research/MARTA_stations.geojson, fetched 2026-07-10"
+  },
+  {
+    "name": "Lindbergh Center",
+    "lat": 33.8227538,
+    "lon": -84.3695494,
+    "line_ref": "N6",
+    "wikidata": "Q6552169",
+    "source": "OpenStreetMap Overpass API (railway=station, network=MARTA); cached eda/research/MARTA_stations.geojson, fetched 2026-07-10"
+  },
+  {
+    "name": "Medical Center",
+    "lat": 33.9107658,
+    "lon": -84.3514569,
+    "line_ref": "N8",
+    "wikidata": "Q6806281",
+    "source": "OpenStreetMap Overpass API (railway=station, network=MARTA); cached eda/research/MARTA_stations.geojson, fetched 2026-07-10"
+  },
+  {
+    "name": "North Avenue",
+    "lat": 33.7716046,
+    "lon": -84.3867688,
+    "line_ref": "N3",
+    "wikidata": "Q7054024",
+    "source": "OpenStreetMap Overpass API (railway=station, network=MARTA); cached eda/research/MARTA_stations.geojson, fetched 2026-07-10"
+  },
+  {
+    "name": "North Springs",
+    "lat": 33.9451211,
+    "lon": -84.3571916,
+    "line_ref": "N11",
+    "wikidata": "Q7056809",
+    "source": "OpenStreetMap Overpass API (railway=station, network=MARTA); cached eda/research/MARTA_stations.geojson, fetched 2026-07-10"
+  },
+  {
+    "name": "Oakland City",
+    "lat": 33.7167992,
+    "lon": -84.425187,
+    "line_ref": "S3",
+    "wikidata": "Q14686772",
+    "source": "OpenStreetMap Overpass API (railway=station, network=MARTA); cached eda/research/MARTA_stations.geojson, fetched 2026-07-10"
+  },
+  {
+    "name": "Peachtree Center",
+    "lat": 33.7581455,
+    "lon": -84.3876126,
+    "line_ref": "N1",
+    "wikidata": "Q7157705",
+    "source": "OpenStreetMap Overpass API (railway=station, network=MARTA); cached eda/research/MARTA_stations.geojson, fetched 2026-07-10"
+  },
+  {
+    "name": "SEC District",
+    "lat": 33.7561897,
+    "lon": -84.3975955,
+    "line_ref": "W1",
+    "wikidata": "Q5289997",
+    "source": "OpenStreetMap Overpass API (railway=station, network=MARTA); cached eda/research/MARTA_stations.geojson, fetched 2026-07-10"
+  },
+  {
+    "name": "Sandy Springs",
+    "lat": 33.9321993,
+    "lon": -84.3520404,
+    "line_ref": "N10",
+    "wikidata": "Q7417482",
+    "source": "OpenStreetMap Overpass API (railway=station, network=MARTA); cached eda/research/MARTA_stations.geojson, fetched 2026-07-10"
+  },
+  {
+    "name": "Vine City",
+    "lat": 33.7565641,
+    "lon": -84.4040115,
+    "line_ref": "W2",
+    "wikidata": "Q7932371",
+    "source": "OpenStreetMap Overpass API (railway=station, network=MARTA); cached eda/research/MARTA_stations.geojson, fetched 2026-07-10"
+  },
+  {
+    "name": "West End",
+    "lat": 33.7360535,
+    "lon": -84.4136642,
+    "line_ref": "S2",
+    "wikidata": "Q7985056",
+    "source": "OpenStreetMap Overpass API (railway=station, network=MARTA); cached eda/research/MARTA_stations.geojson, fetched 2026-07-10"
+  },
+  {
+    "name": "West Lake",
+    "lat": 33.7533207,
+    "lon": -84.4453009,
+    "line_ref": "W4",
+    "wikidata": "Q7985673",
+    "source": "OpenStreetMap Overpass API (railway=station, network=MARTA); cached eda/research/MARTA_stations.geojson, fetched 2026-07-10"
+  }
+]
