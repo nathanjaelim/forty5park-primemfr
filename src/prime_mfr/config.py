@@ -144,9 +144,9 @@ NUMERIC_FEATURES: list[str] = [
     "longitude",
     "dist_buckhead_km",
     "dist_midtown_km",
-    "dist_downtown_km",
-    "dist_airport_km",
-    "dist_min_landmark_km",
+    # dist_downtown_km / dist_atl_airport_km / dist_min_landmark_km removed
+    # 2026-07-15: keeping only buckhead + midtown from the curated-landmark
+    # group. config.LANDMARKS / add_landmark_distances() left as-is.
     # Engineered (added later)
     "property_age",
     # Hist-rent lag features (added 2026-05-01). Per (property_id, unit_type)
@@ -630,8 +630,8 @@ KNN_LEAN_FEATURES: list[str] = [
     "longitude",
     "dist_buckhead_km",
     "dist_midtown_km",
-    "dist_downtown_km",
-    "dist_min_landmark_km",
+    # dist_downtown_km / dist_min_landmark_km removed 2026-07-15, matching
+    # NUMERIC_FEATURES above.
     "sqft",
     "beds",
     "baths",
