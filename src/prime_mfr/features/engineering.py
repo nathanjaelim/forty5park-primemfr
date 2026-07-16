@@ -28,6 +28,7 @@ from __future__ import annotations
 
 import json
 import re
+import warnings
 from collections.abc import Iterable
 from pathlib import Path
 
@@ -81,6 +82,86 @@ def _load_marta_stations() -> list[tuple[float, float]]:
     optional relative to the core landmark set.
     """
     path = Path(config.MARTA_STATIONS_JSON)
+    if not path.exists():
+        return []
+    raw = json.loads(path.read_text())
+    return [(float(s["lat"]), float(s["lon"])) for s in raw]
+
+
+def _load_coffee_shops() -> list[tuple[float, float]]:
+    """
+    Read coffee shop coordinates from the JSON reference file
+    (eda/coffee_shops.json, a list of {name, lat, lon, source} entries —
+    see eda/fetch_coffee_shops.py for provenance). Returns an empty list
+    (rather than raising) if the file is missing, matching
+    _load_marta_stations()'s graceful-degradation pattern.
+    """
+    path = Path(config.COFFEE_SHOPS_JSON)
+    if not path.exists():
+        return []
+    raw = json.loads(path.read_text())
+    return [(float(s["lat"]), float(s["lon"])) for s in raw]
+
+
+def _load_grocery_stores() -> list[tuple[float, float]]:
+    """
+    Read grocery store / supermarket coordinates from the JSON reference
+    file (eda/grocery_stores.json, a list of {name, lat, lon, brand,
+    source} entries — see eda/fetch_grocery_stores.py for provenance).
+    Returns an empty list (rather than raising) if the file is missing,
+    matching _load_marta_stations() / _load_coffee_shops()'s
+    graceful-degradation pattern.
+    """
+    path = Path(config.GROCERY_STORES_JSON)
+    if not path.exists():
+        return []
+    raw = json.loads(path.read_text())
+    return [(float(s["lat"]), float(s["lon"])) for s in raw]
+
+
+def _load_restaurants() -> list[tuple[float, float]]:
+    """
+    Read restaurant coordinates from the JSON reference file
+    (eda/restaurants.json, a list of {name, lat, lon, cuisine, source}
+    entries — see eda/fetch_restaurants.py for provenance). Returns an
+    empty list (rather than raising) if the file is missing, matching
+    _load_marta_stations() / _load_coffee_shops() / _load_grocery_stores()'s
+    graceful-degradation pattern.
+    """
+    path = Path(config.RESTAURANTS_JSON)
+    if not path.exists():
+        return []
+    raw = json.loads(path.read_text())
+    return [(float(s["lat"]), float(s["lon"])) for s in raw]
+
+
+def _load_bars_nightclubs() -> list[tuple[float, float]]:
+    """
+    Read bar/nightclub coordinates from the JSON reference file
+    (eda/bars_nightclubs.json, a list of {name, lat, lon, amenity, source}
+    entries — see eda/fetch_bars_nightclubs.py for provenance). Returns an
+    empty list (rather than raising) if the file is missing, matching
+    _load_marta_stations() / _load_coffee_shops() / _load_grocery_stores()
+    / _load_restaurants()'s graceful-degradation pattern -- notably, this
+    file doesn't exist yet as of 2026-07-16 (needs a live Overpass fetch),
+    so add_bar_density() currently returns all-zero columns.
+    """
+    path = Path(config.BARS_NIGHTCLUBS_JSON)
+    if not path.exists():
+        return []
+    raw = json.loads(path.read_text())
+    return [(float(s["lat"]), float(s["lon"])) for s in raw]
+
+
+def _load_parks() -> list[tuple[float, float]]:
+    """
+    Read park polygon-centroid coordinates from the JSON reference file
+    (eda/parks.json, a list of {name, lat, lon, source} entries — see
+    eda/fetch_parks.py for provenance). Returns an empty list (rather than
+    raising) if the file is missing, matching the other POI loaders'
+    graceful-degradation pattern.
+    """
+    path = Path(config.PARKS_JSON)
     if not path.exists():
         return []
     raw = json.loads(path.read_text())
@@ -156,6 +237,41 @@ def add_airport_zone_feature(df: pd.DataFrame) -> pd.DataFrame:
     return df
 
 
+def add_buckhead_near_flag(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Binary flag: 1.0 if within config.BUCKHEAD_NEAR_THRESHOLD_MI (default
+    6.0mi) of Buckhead, else 0.0. Replaces the continuous dist_buckhead_km
+    in NUMERIC_FEATURES (same "collapse a continuous distance into a
+    single cutoff" pattern as marta_walkable / dist_atl_airport_zone).
+
+    Computes distance internally from config.LANDMARKS' "buckhead" entry
+    (doesn't require add_landmark_distances() to have run first; that
+    function's own dist_buckhead_km output is left in the dataframe but no
+    longer selected into NUMERIC_FEATURES / KNN_LEAN_FEATURES).
+
+    Adds:
+        buckhead_near : float32, 1.0/0.0, or NaN if lat/lon missing or
+                         "buckhead" isn't an active key in config.LANDMARKS.
+    """
+    if "latitude" not in df.columns or "longitude" not in df.columns:
+        return df
+    if "buckhead" not in config.LANDMARKS:
+        return df
+    df = df.copy()
+    landmarks = _load_landmarks()
+    bh_lat, bh_lon = landmarks["buckhead"]
+    dist_km = haversine_km(
+        df["latitude"].values, df["longitude"].values, bh_lat, bh_lon
+    ).astype("float64")
+    dist_mi = dist_km * 0.6213712
+
+    flag = np.full(len(df), np.nan, dtype="float64")
+    valid = ~np.isnan(dist_mi)
+    flag[valid] = (dist_mi[valid] < config.BUCKHEAD_NEAR_THRESHOLD_MI).astype("float64")
+    df["buckhead_near"] = flag.astype("float32")
+    return df
+
+
 def add_marta_distance(df: pd.DataFrame) -> pd.DataFrame:
     """
     Add great-circle distance (km) to the nearest MARTA rail station.
@@ -186,6 +302,104 @@ def add_marta_distance(df: pd.DataFrame) -> pd.DataFrame:
         ]
     )
     df["dist_marta_km"] = dists.min(axis=0).astype("float32")
+    return df
+
+
+def add_marta_distance_zone(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Bucket nearest-MARTA-station distance into a categorical zone using the
+    exact bin edges from the original EDA notebook (eda/research/Yardi EDA -
+    New Geospatial Features.ipynb, cell 22): <0.5mi / 0.5-2.5mi / 2.5-5mi /
+    5-20mi / 20mi+ (edges + labels in config.MARTA_ZONE_EDGES_MI / _LABELS).
+
+    That notebook found rent vs. MARTA distance to be non-monotonic (highest
+    under 0.5mi, dips 2.5-5mi, partially recovers past 5mi) but then encoded
+    the bins as ordered ints (`ordered=True` + `.cat.codes`) anyway. This
+    builds it as a genuine unordered categorical instead -- same pattern as
+    add_airport_zone_feature() -- since an ordinal encoding assumes the
+    non-monotonic bins are still "more/less", which the notebook's own
+    finding contradicts.
+
+    Computes distance internally from _load_marta_stations() (doesn't
+    require add_marta_distance() to have run first, and independent of
+    whether dist_marta_km is currently in NUMERIC_FEATURES).
+
+    Adds:
+        dist_marta_zone : category dtype, one of config.MARTA_ZONE_LABELS,
+                           or NaN if lat/lon missing or no station file.
+    """
+    if "latitude" not in df.columns or "longitude" not in df.columns:
+        return df
+    df = df.copy()
+    stations = _load_marta_stations()
+    labels = list(config.MARTA_ZONE_LABELS)
+
+    if not stations:
+        df["dist_marta_zone"] = pd.Categorical(
+            [np.nan] * len(df), categories=labels
+        )
+        return df
+
+    dists_km = np.stack(
+        [
+            haversine_km(df["latitude"].values, df["longitude"].values, lat, lon)
+            for lat, lon in stations
+        ]
+    )
+    dist_mi = (dists_km.min(axis=0) * 0.6213712).astype("float64")  # km -> mi
+
+    edges = np.asarray(config.MARTA_ZONE_EDGES_MI, dtype="float64")
+    valid = ~np.isnan(dist_mi)
+
+    zone = np.full(len(df), np.nan, dtype=object)
+    idx = np.digitize(dist_mi[valid], bins=edges)  # 0..len(labels)-1
+    zone[valid] = np.asarray(labels, dtype=object)[idx]
+
+    df["dist_marta_zone"] = pd.Categorical(zone, categories=labels)
+    return df
+
+
+def add_marta_walkable_flag(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Binary flag: 1.0 if the nearest MARTA station is within
+    config.MARTA_WALKABLE_THRESHOLD_MI (default 1.0mi), else 0.0.
+
+    Rationale: the Rent-vs-MARTA-distance scatter shows almost all the
+    interesting variance -- highest rents AND every extreme outlier --
+    packed under ~2mi, with a near-flat, noisy mean out to 44mi. A single
+    threshold isolating that near-station cluster may carry more signal
+    per parameter than the continuous distance or the 5-bin zone, both of
+    which tested worse than baseline.
+
+    Computes distance internally from _load_marta_stations() (same
+    self-contained pattern as add_marta_distance_zone / add_marta_distance
+    -- doesn't require either of those to have run first).
+
+    Adds:
+        marta_walkable : float32, 1.0/0.0, or NaN if lat/lon missing or no
+                          station reference file.
+    """
+    if "latitude" not in df.columns or "longitude" not in df.columns:
+        return df
+    df = df.copy()
+    stations = _load_marta_stations()
+
+    if not stations:
+        df["marta_walkable"] = np.float32(np.nan)
+        return df
+
+    dists_km = np.stack(
+        [
+            haversine_km(df["latitude"].values, df["longitude"].values, lat, lon)
+            for lat, lon in stations
+        ]
+    )
+    dist_mi = (dists_km.min(axis=0) * 0.6213712).astype("float64")  # km -> mi
+
+    flag = np.full(len(df), np.nan, dtype="float64")
+    valid = ~np.isnan(dist_mi)
+    flag[valid] = (dist_mi[valid] < config.MARTA_WALKABLE_THRESHOLD_MI).astype("float64")
+    df["marta_walkable"] = flag.astype("float32")
     return df
 
 
@@ -235,6 +449,297 @@ def add_marta_station_density(df: pd.DataFrame) -> pd.DataFrame:
         within = dists_km <= radius_km  # NaN comparisons -> False
         df[f"num_marta_stations_within_{label}"] = within.sum(axis=0).astype("int16")
 
+    return df
+
+
+def add_coffee_shop_density(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Count distinct coffee shops within each radius in
+    config.COFFEE_DENSITY_RADII.
+
+    Walkability/lifestyle-amenity signal, distinct from dist_buckhead_km /
+    dist_midtown_km / submarket -- a walkable retail strip (West Midtown,
+    Old Fourth Ward, Grant Park, etc.) can carry its own premium regardless
+    of distance to those named districts. Same "distance alone can't tell
+    a dense cluster from an isolated single POI apart" motivation as
+    add_marta_station_density().
+
+    299 shops total (see eda/coffee_shops.json / eda/fetch_coffee_shops.py),
+    so this uses the same direct vectorized haversine distance matrix as
+    add_marta_station_density() rather than a BallTree -- still small
+    enough at this N. Rows with missing lat/lon naturally get a count of 0
+    (NaN distances fail every "<= radius" comparison), matching the
+    existing convention in add_competitor_count_features /
+    add_marta_station_density.
+
+    Adds (one column per radius):
+        num_coffee_shops_within_{label} : int16
+    e.g. num_coffee_shops_within_0.5mi.
+    """
+    if "latitude" not in df.columns or "longitude" not in df.columns:
+        return df
+    df = df.copy()
+    shops = _load_coffee_shops()
+
+    if not shops:
+        for _, label in config.COFFEE_DENSITY_RADII:
+            df[f"num_coffee_shops_within_{label}"] = np.int16(0)
+        return df
+
+    dists_km = np.stack(
+        [
+            haversine_km(df["latitude"].values, df["longitude"].values, lat, lon)
+            for lat, lon in shops
+        ]
+    )  # shape (n_shops, n_rows)
+
+    for radius_mi, label in config.COFFEE_DENSITY_RADII:
+        radius_km = radius_mi * 1.609344
+        within = dists_km <= radius_km  # NaN comparisons -> False
+        df[f"num_coffee_shops_within_{label}"] = within.sum(axis=0).astype("int16")
+
+    return df
+
+
+def add_grocery_density(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Count distinct grocery stores / supermarkets within each radius in
+    config.GROCERY_DENSITY_RADII.
+
+    Same walkability/lifestyle-amenity motivation as add_coffee_shop_density,
+    but grocery is a more essential (less discretionary) amenity category --
+    proximity to a grocery store (especially a specific brand like Whole
+    Foods or Trader Joe's) is a well-documented driver of nearby property
+    value, independent of dist_buckhead_km / dist_midtown_km / submarket.
+
+    680 stores total (see eda/grocery_stores.json /
+    eda/fetch_grocery_stores.py), so this uses the same direct vectorized
+    haversine distance matrix as add_coffee_shop_density /
+    add_marta_station_density rather than a BallTree -- still small enough
+    at this N. Rows with missing lat/lon naturally get a count of 0 (NaN
+    distances fail every "<= radius" comparison), matching the existing
+    convention in add_competitor_count_features / add_marta_station_density
+    / add_coffee_shop_density.
+
+    Adds (one column per radius):
+        num_grocery_stores_within_{label} : int16
+    e.g. num_grocery_stores_within_1mi.
+    """
+    if "latitude" not in df.columns or "longitude" not in df.columns:
+        return df
+    df = df.copy()
+    stores = _load_grocery_stores()
+
+    if not stores:
+        for _, label in config.GROCERY_DENSITY_RADII:
+            df[f"num_grocery_stores_within_{label}"] = np.int16(0)
+        return df
+
+    dists_km = np.stack(
+        [
+            haversine_km(df["latitude"].values, df["longitude"].values, lat, lon)
+            for lat, lon in stores
+        ]
+    )  # shape (n_stores, n_rows)
+
+    for radius_mi, label in config.GROCERY_DENSITY_RADII:
+        radius_km = radius_mi * 1.609344
+        within = dists_km <= radius_km  # NaN comparisons -> False
+        df[f"num_grocery_stores_within_{label}"] = within.sum(axis=0).astype("int16")
+
+    return df
+
+
+def add_restaurant_density(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Count distinct restaurants within each radius in
+    config.RESTAURANT_DENSITY_RADII.
+
+    Same walkability/lifestyle-amenity motivation as add_coffee_shop_density
+    / add_grocery_density -- a "dining scene" signal distinct from
+    dist_buckhead_km / dist_midtown_km / submarket. Restaurants are the
+    densest POI category curated so far (3638 vs. 299 coffee shops, 680
+    grocery stores, 37 MARTA stations, metro-wide; see
+    eda/restaurants.json / eda/fetch_restaurants.py), so this uses the same
+    direct vectorized haversine distance matrix as the other density
+    features rather than a BallTree -- still small enough at this N. Rows
+    with missing lat/lon naturally get a count of 0 (NaN distances fail
+    every "<= radius" comparison), matching the existing convention in
+    add_competitor_count_features / add_marta_station_density /
+    add_coffee_shop_density / add_grocery_density.
+
+    Adds (one column per radius):
+        num_restaurants_within_{label} : int16
+    e.g. num_restaurants_within_0.5mi.
+    """
+    if "latitude" not in df.columns or "longitude" not in df.columns:
+        return df
+    df = df.copy()
+    restaurants = _load_restaurants()
+
+    if not restaurants:
+        for _, label in config.RESTAURANT_DENSITY_RADII:
+            df[f"num_restaurants_within_{label}"] = np.int16(0)
+        return df
+
+    dists_km = np.stack(
+        [
+            haversine_km(df["latitude"].values, df["longitude"].values, lat, lon)
+            for lat, lon in restaurants
+        ]
+    )  # shape (n_restaurants, n_rows)
+
+    for radius_mi, label in config.RESTAURANT_DENSITY_RADII:
+        radius_km = radius_mi * 1.609344
+        within = dists_km <= radius_km  # NaN comparisons -> False
+        df[f"num_restaurants_within_{label}"] = within.sum(axis=0).astype("int16")
+
+    return df
+
+
+def add_bar_density(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Count distinct bars/nightclubs within each radius in
+    config.BAR_DENSITY_RADII.
+
+    Same walkability/lifestyle-amenity motivation as add_coffee_shop_density
+    / add_grocery_density / add_restaurant_density -- a "nightlife scene"
+    signal distinct from dist_buckhead_km / dist_midtown_km / submarket.
+    Nightlife is a more discretionary, younger-demographic amenity than
+    dining or groceries, so it may not share their failure mode. Sourced
+    from eda/bars_nightclubs.json (curated from a cached Overpass export
+    at eda/research/bars_nightclubs_raw.geojson -- see
+    eda/fetch_bars_nightclubs.py). Uses the same direct vectorized
+    haversine distance matrix as the other density features rather than a
+    BallTree. Rows with missing lat/lon naturally get a count of 0 (NaN
+    distances fail every "<= radius" comparison), matching the existing
+    convention in add_competitor_count_features / add_marta_station_density
+    / add_coffee_shop_density / add_grocery_density / add_restaurant_density.
+
+    Adds (one column per radius):
+        num_bars_nightclubs_within_{label} : int16
+    e.g. num_bars_nightclubs_within_0.25mi.
+    """
+    if "latitude" not in df.columns or "longitude" not in df.columns:
+        return df
+    df = df.copy()
+    bars = _load_bars_nightclubs()
+
+    if not bars:
+        for _, label in config.BAR_DENSITY_RADII:
+            df[f"num_bars_nightclubs_within_{label}"] = np.int16(0)
+        return df
+
+    dists_km = np.stack(
+        [
+            haversine_km(df["latitude"].values, df["longitude"].values, lat, lon)
+            for lat, lon in bars
+        ]
+    )  # shape (n_bars, n_rows)
+
+    for radius_mi, label in config.BAR_DENSITY_RADII:
+        radius_km = radius_mi * 1.609344
+        within = dists_km <= radius_km  # NaN comparisons -> False
+        df[f"num_bars_nightclubs_within_{label}"] = within.sum(axis=0).astype("int16")
+
+    return df
+
+
+def add_total_poi_density(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Count ALL POIs across the 4 curated categories (coffee shops + grocery
+    stores + restaurants + bars/nightclubs) within each radius in
+    config.TOTAL_POI_DENSITY_RADII, as one combined column rather than 4
+    separate per-category columns.
+
+    Each category tested worse than the $75.46 baseline individually (see
+    NUMERIC_FEATURES history comment), but each is also fairly sparse on
+    its own (e.g. only 196 bars metro-wide vs. 3638 restaurants) --
+    combining them gives a denser, less noisy "general amenity density"
+    signal that might behave differently than any single sparse category.
+
+    Same direct vectorized haversine distance matrix approach as the other
+    density features. Rows with missing lat/lon naturally get a count of 0
+    (NaN distances fail every "<= radius" comparison).
+
+    Adds (one column per radius):
+        num_poi_within_{label} : int16
+    e.g. num_poi_within_0.25mi.
+    """
+    if "latitude" not in df.columns or "longitude" not in df.columns:
+        return df
+    df = df.copy()
+    all_poi = (
+        _load_coffee_shops()
+        + _load_grocery_stores()
+        + _load_restaurants()
+        + _load_bars_nightclubs()
+    )
+
+    if not all_poi:
+        for _, label in config.TOTAL_POI_DENSITY_RADII:
+            df[f"num_poi_within_{label}"] = np.int16(0)
+        return df
+
+    dists_km = np.stack(
+        [
+            haversine_km(df["latitude"].values, df["longitude"].values, lat, lon)
+            for lat, lon in all_poi
+        ]
+    )  # shape (n_poi, n_rows)
+
+    for radius_mi, label in config.TOTAL_POI_DENSITY_RADII:
+        radius_km = radius_mi * 1.609344
+        within = dists_km <= radius_km  # NaN comparisons -> False
+        df[f"num_poi_within_{label}"] = within.sum(axis=0).astype("int16")
+
+    return df
+
+
+def add_park_distance(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Add great-circle distance (km) to the nearest park, using each park's
+    polygon centroid (see eda/parks.json / eda/fetch_parks.py).
+
+    Unlike dist_min_landmark_km (flagged as a bad feature because it
+    conflates "which landmark" with "how far" across directionally
+    distinct landmarks with different rent relationships -- distance to
+    Buckhead vs. distance to the airport mean very different things),
+    parks are a single homogeneous "green space access" category, so
+    nearest-park distance doesn't have that same conflation problem.
+
+    Uses the same direct vectorized haversine distance matrix as the
+    density features (min across parks instead of a threshold count).
+    Rows with missing lat/lon, or if eda/parks.json is missing, get NaN
+    (not 0 -- unlike a count, 0 isn't a meaningful default for a distance).
+
+    Adds:
+        dist_nearest_park_km : float32, or NaN if lat/lon missing or no
+                                 parks loaded.
+    """
+    if "latitude" not in df.columns or "longitude" not in df.columns:
+        return df
+    df = df.copy()
+    parks = _load_parks()
+
+    if not parks:
+        df["dist_nearest_park_km"] = np.nan
+        return df
+
+    dists_km = np.stack(
+        [
+            haversine_km(df["latitude"].values, df["longitude"].values, lat, lon)
+            for lat, lon in parks
+        ]
+    )  # shape (n_parks, n_rows)
+
+    with warnings.catch_warnings():
+        # nanmin warns "All-NaN slice encountered" per-row when lat/lon is
+        # NaN (every distance in that column is NaN too) -- expected, the
+        # result is correctly NaN, just silence the noise.
+        warnings.filterwarnings("ignore", message="All-NaN slice encountered")
+        nearest = np.nanmin(dists_km, axis=0)
+    df["dist_nearest_park_km"] = nearest.astype("float32")
     return df
 
 
@@ -777,8 +1282,17 @@ def add_static_features(df: pd.DataFrame) -> pd.DataFrame:
     """All transforms that don't depend on the train/test split."""
     df = add_landmark_distances(df)
     df = add_airport_zone_feature(df)
+    df = add_buckhead_near_flag(df)
     df = add_marta_distance(df)
+    df = add_marta_distance_zone(df)
+    df = add_marta_walkable_flag(df)
     df = add_marta_station_density(df)
+    df = add_coffee_shop_density(df)
+    df = add_grocery_density(df)
+    df = add_restaurant_density(df)
+    df = add_bar_density(df)
+    df = add_total_poi_density(df)
+    df = add_park_distance(df)
     df = add_h3_cells(df)
     df = add_text_features(df)
     df = add_geo_aggregates(df)

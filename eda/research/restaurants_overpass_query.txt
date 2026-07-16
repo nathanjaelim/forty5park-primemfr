@@ -1,0 +1,44 @@
+// Overpass Turbo query: all restaurants in the Atlanta MSA
+// (Atlanta-Sandy Springs-Roswell, GA MSA — 29-county 2023 OMB delineation)
+// Paste into https://overpass-turbo.eu/ and run.
+
+[out:json][timeout:180];
+area["name"="Georgia"]["admin_level"="4"]["boundary"="administrative"]->.ga;
+(
+  area["name"="Barrow County"]["admin_level"="6"]["boundary"="administrative"](area.ga);
+  area["name"="Bartow County"]["admin_level"="6"]["boundary"="administrative"](area.ga);
+  area["name"="Butts County"]["admin_level"="6"]["boundary"="administrative"](area.ga);
+  area["name"="Carroll County"]["admin_level"="6"]["boundary"="administrative"](area.ga);
+  area["name"="Cherokee County"]["admin_level"="6"]["boundary"="administrative"](area.ga);
+  area["name"="Clayton County"]["admin_level"="6"]["boundary"="administrative"](area.ga);
+  area["name"="Cobb County"]["admin_level"="6"]["boundary"="administrative"](area.ga);
+  area["name"="Coweta County"]["admin_level"="6"]["boundary"="administrative"](area.ga);
+  area["name"="Dawson County"]["admin_level"="6"]["boundary"="administrative"](area.ga);
+  area["name"="DeKalb County"]["admin_level"="6"]["boundary"="administrative"](area.ga);
+  area["name"="Douglas County"]["admin_level"="6"]["boundary"="administrative"](area.ga);
+  area["name"="Fayette County"]["admin_level"="6"]["boundary"="administrative"](area.ga);
+  area["name"="Forsyth County"]["admin_level"="6"]["boundary"="administrative"](area.ga);
+  area["name"="Fulton County"]["admin_level"="6"]["boundary"="administrative"](area.ga);
+  area["name"="Gwinnett County"]["admin_level"="6"]["boundary"="administrative"](area.ga);
+  area["name"="Haralson County"]["admin_level"="6"]["boundary"="administrative"](area.ga);
+  area["name"="Heard County"]["admin_level"="6"]["boundary"="administrative"](area.ga);
+  area["name"="Henry County"]["admin_level"="6"]["boundary"="administrative"](area.ga);
+  area["name"="Jasper County"]["admin_level"="6"]["boundary"="administrative"](area.ga);
+  area["name"="Lamar County"]["admin_level"="6"]["boundary"="administrative"](area.ga);
+  area["name"="Meriwether County"]["admin_level"="6"]["boundary"="administrative"](area.ga);
+  area["name"="Morgan County"]["admin_level"="6"]["boundary"="administrative"](area.ga);
+  area["name"="Newton County"]["admin_level"="6"]["boundary"="administrative"](area.ga);
+  area["name"="Paulding County"]["admin_level"="6"]["boundary"="administrative"](area.ga);
+  area["name"="Pickens County"]["admin_level"="6"]["boundary"="administrative"](area.ga);
+  area["name"="Pike County"]["admin_level"="6"]["boundary"="administrative"](area.ga);
+  area["name"="Rockdale County"]["admin_level"="6"]["boundary"="administrative"](area.ga);
+  area["name"="Spalding County"]["admin_level"="6"]["boundary"="administrative"](area.ga);
+  area["name"="Walton County"]["admin_level"="6"]["boundary"="administrative"](area.ga);
+)->.msa;
+
+(
+  node["amenity"="restaurant"](area.msa);
+  way["amenity"="restaurant"](area.msa);
+  relation["amenity"="restaurant"](area.msa);
+);
+out center tags;

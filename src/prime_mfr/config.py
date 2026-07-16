@@ -33,6 +33,11 @@ RAW_PARQUET: Path = PROJECT_DIR / "pretraining_v2.parquet"
 ENRICHED_PARQUET: Path = PROJECT_DIR / "eda" / "pretraining_enriched_v2.parquet"
 LANDMARKS_JSON: Path = PROJECT_DIR / "eda" / "atlanta_landmarks.json"
 MARTA_STATIONS_JSON: Path = PROJECT_DIR / "eda" / "marta_stations.json"
+COFFEE_SHOPS_JSON: Path = PROJECT_DIR / "eda" / "coffee_shops.json"
+GROCERY_STORES_JSON: Path = PROJECT_DIR / "eda" / "grocery_stores.json"
+RESTAURANTS_JSON: Path = PROJECT_DIR / "eda" / "restaurants.json"
+BARS_NIGHTCLUBS_JSON: Path = PROJECT_DIR / "eda" / "bars_nightclubs.json"
+PARKS_JSON: Path = PROJECT_DIR / "eda" / "parks.json"
 
 # Historical rent panel (April-2026 enriched, single-snapshot dump 2026-04-20).
 # 708,825 rows × 7 cols at (property_id, unit_type, period) granularity, monthly
@@ -144,24 +149,101 @@ NUMERIC_FEATURES: list[str] = [
     "latitude",
     "longitude",
     "dist_buckhead_km",
+    # ^ buckhead_near (binary <6mi flag) tried 2026-07-15 as a replacement,
+    # then reverted same day before testing -- back to the continuous
+    # $75.46-baseline version. add_buckhead_near_flag() /
+    # BUCKHEAD_NEAR_THRESHOLD_MI stay in place, just unused here.
     "dist_midtown_km",
-    "dist_atl_airport_km",  # re-added 2026-07-15 alongside
-    # dist_atl_airport_zone (categorical, see CATEGORICAL_FEATURES) --
-    # now testing continuous + categorical together, same pattern as the
-    # earlier dist_marta_km + num_marta_stations_within_1mi combo test.
+    # dist_atl_airport_km (continuous) removed again 2026-07-15: tested
+    # against the $76.38 baseline in 3 configurations -- zone only $75.46
+    # (best, -$0.92), distance only $76.78 (+$0.40), both together $76.97
+    # (+$0.59, worse than either alone -- redundant encodings of the same
+    # signal rather than complementary). Keeping zone-only
+    # (dist_atl_airport_zone, in CATEGORICAL_FEATURES) as the winner.
     # dist_downtown_km / dist_min_landmark_km remain removed (dropped
     # 2026-07-15 keeping only buckhead + midtown from that pair).
-    # MARTA features removed 2026-07-15 -- tested three configurations
-    # against the $76.38 buckhead+midtown baseline: dist_marta_km alone
-    # ($77.16), dist_marta_km + num_marta_stations_within_1mi ($76.80),
-    # and num_marta_stations_within_1mi alone ($76.61). All three landed
-    # worse than baseline in a consistent (not noise-scattered) ordering,
-    # suggesting MARTA proximity is redundant with signal the model
-    # already gets from buckhead/midtown distance, H3 cells, and
-    # submarket/zip target encoding. add_marta_distance() /
-    # add_marta_station_density() are untouched in engineering.py --
-    # just not consumed here. Revisit if a future feature set changes
-    # this picture.
+    # All MARTA features removed 2026-07-15, reverting to the $75.46
+    # winner (buckhead + midtown + airport zone only). Every MARTA
+    # encoding and combination tried (distance, density, zone, walkable,
+    # and pairings across multiple radii/thresholds) landed at or worse
+    # than baseline, with the closest results ($75.54-$75.57) unstable
+    # enough under small threshold nudges (a 0.1mi change swung MAE by
+    # $0.34) to conclude they were noise, not real signal. Full test
+    # history: distance+density $77.44 (+$1.98), all 3 original encodings
+    # $76.89 (+$1.43), zone only $77.01 (+$1.55), distance+zone $76.57
+    # (+$1.11), density(1mi)+zone $75.66 (+$0.20), density(0.5mi)+zone
+    # $76.08 (+$0.62), walkable alone at 0.5/1/2mi
+    # ($76.67/$76.27/$76.07), walkable(2mi)+density(1mi) $75.54 (+$0.08),
+    # walkable(1mi)+density(2mi) $75.57 (+$0.11), walkable(2.1mi)+
+    # density(1mi) $75.88 (+$0.42), walkable(2mi)+density(2mi) pending.
+    # add_marta_distance() / add_marta_distance_zone() /
+    # add_marta_station_density() / add_marta_walkable_flag() all stay in
+    # engineering.py, just unused here.
+    # All coffee-shop density radii removed 2026-07-15, reverting to the
+    # $75.46 baseline. The 0.25mi -> 0.35mi sanity check settled it: 0.35mi
+    # tested $76.74 (+$1.28), a $0.96 swing from the 0.25mi result ($75.78,
+    # +$0.32) off a 0.1mi radius change -- the same instability pattern
+    # seen with marta_walkable's 2.0mi->2.1mi jump ($0.34 swing), just
+    # larger. Full radius history: 0.25mi $75.78 (+$0.32), 0.35mi $76.74
+    # (+$1.28), 0.5mi $77.15 (+$1.69), 1mi $76.61 (+$1.15) -- no radius
+    # produced a stable, reproducible improvement; the one good-looking
+    # result (0.25mi) doesn't hold up under a small nudge, so it was noise,
+    # not signal. add_coffee_shop_density() / eda/coffee_shops.json /
+    # eda/fetch_coffee_shops.py all stay in place, just unused here.
+    # Grocery density removed 2026-07-15, reverting to the $75.46 baseline.
+    # Both radii tested worse: 1mi $76.52 (+$1.06), 0.25mi $76.97 (+$1.51,
+    # worse still -- as expected, since grocery stores are sparse enough
+    # that 0.25mi collapses nearly every property to a count of 0). Third
+    # POI category (after MARTA and coffee shops) to land the same way
+    # across multiple radii -- consistent evidence that POI density isn't
+    # adding signal this model doesn't already get from dist_buckhead_km/
+    # dist_midtown_km/submarket/zip/h3 cells. add_grocery_density() /
+    # eda/grocery_stores.json / eda/fetch_grocery_stores.py all stay in
+    # place, just unused here.
+    # Restaurant density removed 2026-07-16, reverting to the $75.46
+    # baseline. Both radii tested worse: 0.5mi $76.64 (+$1.18), 0.25mi
+    # $76.24 (+$0.78, better than 0.5mi but still worse than baseline).
+    # Fourth POI density feature (after MARTA, coffee shops, grocery
+    # stores) to land worse than baseline at every radius tried --
+    # consistent evidence across 4 POI categories that this model already
+    # captures whatever "urban/amenity-rich location" signal these
+    # features encode via dist_buckhead_km/dist_midtown_km/submarket/zip/
+    # h3 cells. add_restaurant_density() / eda/restaurants.json /
+    # eda/fetch_restaurants.py all stay in place, just unused here.
+    # Bar/nightclub density within 0.25mi tested 2026-07-16 and removed:
+    # $76.30 (+$0.84 vs the $75.46 baseline), worse. Fifth POI density
+    # feature (after MARTA, coffee shops, grocery stores, restaurants) to
+    # land worse than baseline -- every POI category and radius tried this
+    # session lands worse, reinforcing that dist_buckhead_km/
+    # dist_midtown_km/submarket/zip/h3 cells already capture whatever
+    # "urban/amenity-rich location" signal these features encode.
+    # add_bar_density() / eda/bars_nightclubs.json /
+    # eda/fetch_bars_nightclubs.py all stay in place, just unused here.
+    # Combined POI density within 0.25mi tested 2026-07-16 and removed:
+    # $77.00 (+$1.54 vs the $75.46 baseline) -- worse than every individual
+    # category (coffee $75.78, restaurants $76.24, bars $76.30, grocery
+    # $76.97). Combining the 4 categories into one denser count didn't
+    # help; if anything it's the worst POI result yet. Consistent with the
+    # target-encoding explanation: h3_res8/sub_market/zipcode already
+    # capture hyperlocal rent premiums directly from observed rent, so a
+    # POI count (individual or combined) is at best redundant and at worst
+    # adds noise the model has to spend capacity on. add_total_poi_density()
+    # / eda/coffee_shops.json / eda/grocery_stores.json / eda/restaurants.json
+    # / eda/bars_nightclubs.json all stay in place, just unused here.
+    # Nearest-park distance tested 2026-07-16 and removed: $77.38 (+$1.92
+    # vs the $75.46 baseline) -- the worst result of any feature tried
+    # this session, worse even than the combined POI density feature
+    # (+$1.54). Despite being conceptually different from the POI density
+    # features (a continuous nearest-neighbor distance, not a radius
+    # count, and without dist_min_landmark_km's "which one" conflation
+    # problem), it landed worse still. Likely the same underlying reason
+    # as the others -- h3_res8/sub_market/zipcode already capture whatever
+    # "proximity to desirable green space" signal this measures, via
+    # observed rent rather than an indirect physical-distance proxy -- but
+    # the centroid approximation (a large or oddly-shaped park's centroid
+    # can sit meaningfully off from its actual boundary) may add its own
+    # extra noise on top of that. add_park_distance() / eda/parks.json /
+    # eda/fetch_parks.py all stay in place, just unused here.
     # Engineered (added later)
     "property_age",
     # Hist-rent lag features (added 2026-05-01). Per (property_id, unit_type)
@@ -201,6 +283,9 @@ CATEGORICAL_FEATURES: list[str] = [
     # of dist_atl_airport_km (see ATL_AIRPORT_ZONE_EDGES above). Categorical,
     # not ordinal, because the relationship is non-monotonic. Only reaches
     # lgbm_l1/cat_q50 -- the KNN trainer doesn't consume CATEGORICAL_FEATURES.
+    # dist_marta_zone removed 2026-07-15 to isolate the walkable(1mi) +
+    # density(2mi) test. See the MARTA test history comment in
+    # NUMERIC_FEATURES above.
 ]
 
 # Boolean text-derived flags (will be added to BOOLEAN_FEATURES at module load
@@ -360,6 +445,50 @@ AGE_BUCKET_EDGES: tuple[float, ...] = (5.0, 15.0, 30.0, 50.0)
 ATL_AIRPORT_ZONE_EDGES: tuple[float, float] = (9.0, 15.0)
 ATL_AIRPORT_ZONE_LABELS: tuple[str, str, str] = ("near", "hot_zone", "far")
 
+# dist_marta_km zone edges (right edges, MILES -- matches the original EDA
+# notebook's bins exactly: eda/research/Yardi EDA - New Geospatial
+# Features.ipynb, cell 22, `bins = [0, 0.5, 2.5, 5, 20, inf]`). That
+# notebook found the same kind of non-monotonic pattern as the airport
+# zone (rent highest under 0.5mi, dips 2.5-5mi, partially recovers past
+# 5mi), so this is built as a genuine categorical like
+# dist_atl_airport_zone -- NOT as ordinal int codes, which is what a
+# later cell in that notebook did (against its own earlier finding).
+# dist_marta_km itself is computed in km; add_marta_distance_zone()
+# converts to miles before binning so these edges match the notebook
+# 1:1 without unit-converting the constants themselves.
+MARTA_ZONE_EDGES_MI: tuple[float, float, float, float] = (0.5, 2.5, 5.0, 20.0)
+MARTA_ZONE_LABELS: tuple[str, str, str, str, str] = (
+    "<0.5mi",
+    "0.5-2.5mi",
+    "2.5-5mi",
+    "5-20mi",
+    "20mi+",
+)
+
+# Binary "near a MARTA station" flag threshold (miles). Rationale: the
+# Rent-vs-MARTA-distance scatter shows almost all the interesting
+# variance (highest rents AND every extreme outlier) packed under ~2mi,
+# with a near-flat, noisy mean from ~2mi out to 44mi -- a single
+# threshold isolating the near-station cluster may carry more signal per
+# parameter than the continuous distance or the 5-bin zone (both of which
+# tested worse than baseline; see NUMERIC_FEATURES / CATEGORICAL_FEATURES
+# comments). Tested against the $75.46 baseline at 3 thresholds: 1.0mi
+# $76.27 (+$0.81), 2.0mi $76.07 (+$0.61, best), 0.5mi $76.67 (+$1.21,
+# worst -- too tight, throws away too much of the graded signal). Best
+# combo found was walkable(2mi)+density(1mi radius): $75.54 (+$0.08).
+# Tried the opposite pairing (walkable 1mi + density 2mi) -- tied at
+# $75.57 (+$0.11). Nudged to 2.1mi (still paired with density 1mi) --
+# jumped to $75.88 (+$0.42), a large swing from a tiny threshold change.
+# Back to 2.0mi on 2026-07-15, now paired with density widened to 2mi too
+# (see MARTA_DENSITY_RADII) to check if matching radii is more stable.
+MARTA_WALKABLE_THRESHOLD_MI: float = 2.0
+
+# Binary "near Buckhead" flag threshold (miles). Added 2026-07-15 to
+# replace the continuous dist_buckhead_km with a single cutoff, mirroring
+# marta_walkable's pattern. Untested -- new candidate, not validated
+# against the $75.46 baseline yet.
+BUCKHEAD_NEAR_THRESHOLD_MI: float = 6.0
+
 # ---------------------------------------------------------------------------
 # Property structural / BTR-typology features (added 2026-05-01)
 # ---------------------------------------------------------------------------
@@ -402,11 +531,133 @@ COMPETITOR_RADII: list[tuple[float, str]] = [
 # <0.5mi apart) vs. "near one isolated station" (most suburban stations,
 # e.g. North Springs' nearest neighbor is ~0.94mi away), which
 # dist_marta_km (nearest-only) can't distinguish. Starting with a single
-# 1mi radius per the COMPETITOR_RADII lesson above (multi-radius regressed
+# radius per the COMPETITOR_RADII lesson above (multi-radius regressed
 # there); add more only if this one earns its place.
+# Tested 0.5mi radius 2026-07-15 (vs. the 1mi default): $76.08 (+$0.62 vs
+# the $75.46 baseline), worse than 1mi's $75.66 (+$0.20). Likely too tight
+# -- most non-downtown properties collapse to a count of 0 at 0.5mi,
+# losing the granularity that made the 1mi version useful.
+# Widened to 2.0mi on 2026-07-15 to test alongside a tightened
+# marta_walkable(1mi) -- tied the original pairing ($75.57 vs $75.54, no
+# real difference). Reverted to 1.0mi, tested with walkable(2.1mi) -- that
+# combo jumped to $75.88. Widened to 2.0mi again on 2026-07-15, now paired
+# with walkable also at 2.0mi (see MARTA_WALKABLE_THRESHOLD_MI), matching
+# both radii to test whether that's more stable than mismatched radii.
 MARTA_DENSITY_RADII: list[tuple[float, str]] = [
-    (1.0, "1mi"),
+    (2.0, "2mi"),
 ]
+
+# Coffee shop density radius (added 2026-07-15). Counts distinct coffee
+# shops within radius -- a walkability/lifestyle-amenity signal distinct
+# from dist_buckhead_km / dist_midtown_km / submarket, since a walkable
+# retail strip (e.g. West Midtown, Old Fourth Ward, Grant Park) can carry
+# its own premium regardless of distance to those named districts.
+# Sourced from eda/coffee_shops.json (299 shops, curated from a cached
+# Overpass export at eda/research/cafes.geojson -- see
+# eda/fetch_coffee_shops.py). Coffee shops are much denser than MARTA
+# stations (299 vs. 37, metro-wide), so starting tighter than MARTA's
+# radius: 0.5mi is roughly a 10-minute walk, matching the "amenity within
+# walking distance" framing. Single radius per the COMPETITOR_RADII /
+# MARTA_DENSITY_RADII lesson (multi-radius regressed for competitors).
+# Tested against the $75.46 baseline at 4 radii, all worse than baseline:
+# 0.25mi $75.78 (+$0.32, best), 0.35mi $76.74 (+$1.28), 0.5mi $77.15
+# (+$1.69), 1mi $76.61 (+$1.15). The 0.25mi->0.35mi jump ($0.96 swing off
+# a 0.1mi nudge) showed the same instability pattern as
+# marta_walkable's threshold sensitivity -- the promising 0.25mi result
+# didn't hold up, so coffee density was removed from NUMERIC_FEATURES
+# 2026-07-15 (this radius list itself left as-is, just unused).
+COFFEE_DENSITY_RADII: list[tuple[float, str]] = [
+    (0.35, "0.35mi"),
+]
+
+# Grocery store density radius (added 2026-07-15). Counts distinct
+# grocery stores / supermarkets within radius -- same walkability/
+# lifestyle-amenity motivation as COFFEE_DENSITY_RADII, but grocery is a
+# different (more essential, less discretionary) amenity category, so it
+# may not share coffee density's failure mode. Sourced from
+# eda/grocery_stores.json (680 stores incl. Publix, Kroger, Whole Foods,
+# Trader Joe's, etc., curated from a cached Overpass export at
+# eda/research/grocery.geojson -- see eda/fetch_grocery_stores.py).
+# Tested at 1mi: $76.52 (+$1.06 vs the $75.46 baseline), clearly worse --
+# same outcome as coffee shop and MARTA density at every radius tried so
+# far. Narrowed to 0.25mi on 2026-07-15 per request (grocery stores are
+# much sparser than coffee shops, so most properties will show 0 at this
+# radius -- even Midtown center shows 0; only right next to a specific
+# store like the Whole Foods at 33.7861686/-84.3885403 would register).
+GROCERY_DENSITY_RADII: list[tuple[float, str]] = [
+    (0.25, "0.25mi"),
+]
+
+# Restaurant density radius (added 2026-07-16). Counts distinct restaurants
+# within radius -- same walkability/lifestyle-amenity motivation as
+# COFFEE_DENSITY_RADII / GROCERY_DENSITY_RADII, but restaurants are the
+# densest POI category curated so far (3638 vs. 299 coffee shops, 680
+# grocery stores, 37 MARTA stations, metro-wide), so a "dining scene"
+# signal could plausibly separate walkable retail corridors even where
+# MARTA/coffee/grocery density did not. Sourced from eda/restaurants.json
+# (curated from a cached Overpass export at
+# eda/research/restaurants_raw.geojson -- see eda/fetch_restaurants.py;
+# note that fetch's raw export was NOT reliably scoped to the MSA by
+# Overpass's area filter and required an extra bbox+addr:state safety
+# filter, see that script's docstring). 0.5mi tested $76.64 (+$1.18 vs the
+# $75.46 baseline), worse -- fourth POI category to land worse than
+# baseline (see NUMERIC_FEATURES history comment). Narrowed to 0.25mi
+# 2026-07-16 per request, matching coffee shop density's most-promising
+# (but ultimately unstable) radius.
+RESTAURANT_DENSITY_RADII: list[tuple[float, str]] = [
+    (0.25, "0.25mi"),
+]
+
+# Bar/nightclub density radius (added 2026-07-16). Counts distinct bars +
+# nightclubs within radius -- same walkability/lifestyle-amenity family as
+# COFFEE_DENSITY_RADII / GROCERY_DENSITY_RADII / RESTAURANT_DENSITY_RADII,
+# but nightlife is a more discretionary/younger-demographic amenity than
+# dining or groceries, so it may not fail the same way. Sourced from
+# eda/bars_nightclubs.json (196 named bars, curated from a pre-existing
+# cached Overpass export at eda/research/bars.geojson -- see
+# eda/fetch_bars_nightclubs.py; that cache only has amenity=bar, no
+# nightclub-tagged features, and was already scoped to the MSA). Starting
+# at 0.25mi per request, matching restaurant/coffee density's narrower
+# radius. Not yet tested against the $75.46 baseline.
+BAR_DENSITY_RADII: list[tuple[float, str]] = [
+    (0.25, "0.25mi"),
+]
+
+# Combined POI density radius (added 2026-07-16). Counts ALL POIs across
+# the 4 curated categories (coffee shops + grocery stores + restaurants +
+# bars/nightclubs -- 4813 total, see eda/coffee_shops.json /
+# eda/grocery_stores.json / eda/restaurants.json /
+# eda/bars_nightclubs.json) within radius, in one combined count rather
+# than 4 separate columns. Motivation: each category tested worse than
+# the $75.46 baseline individually, but each is also fairly sparse
+# per-category (e.g. only 196 bars metro-wide) -- combining them into one
+# "general amenity density" signal gives a much denser, less noisy count
+# (54 POIs at the densest cluster found vs. 13 for bars alone), which
+# might behave differently than any single sparse category did. Single
+# radius, matching the other POI density features' final radius.
+TOTAL_POI_DENSITY_RADII: list[tuple[float, str]] = [
+    (0.25, "0.25mi"),
+]
+
+# Distance to nearest park (added 2026-07-16). Unlike the POI density
+# features above (a count within a radius), this is a continuous
+# nearest-neighbor distance, same shape as dist_buckhead_km/
+# dist_midtown_km -- one feature, not a family of radii. Motivation
+# mirrors "green-space proximity" (distance to Piedmont Park, Beltline
+# trail) from the feature-brainstorm slide. Sourced from eda/parks.json
+# (1070 named parks, curated from a cached Overpass export at
+# eda/research/parks.geojson -- leisure=park polygons/multipolygons;
+# see eda/fetch_parks.py). Each park is represented by its polygon
+# centroid (computed via the shoelace formula, area-weighted across
+# multipolygon parts), not its boundary, so distance to a large or
+# oddly-shaped park (a long, thin one especially) can be a rougher
+# approximation than for the small POI categories above, which are true
+# points. Unlike dist_min_landmark_km (flagged earlier as a bad feature
+# because it conflates "which landmark" with "how far" across
+# directionally distinct landmarks with different rent relationships),
+# parks are a single homogeneous "green space access" category, so a
+# nearest-park distance doesn't have that same conflation problem. Not
+# yet tested against the $75.46 baseline.
 
 # ---------------------------------------------------------------------------
 # Text feature extraction (property_name + street_address)
@@ -669,7 +920,8 @@ KNN_PARAMS: dict = {
 KNN_LEAN_FEATURES: list[str] = [
     "latitude",
     "longitude",
-    "dist_buckhead_km",
+    "dist_buckhead_km",  # buckhead_near swap reverted 2026-07-15, matching
+    # NUMERIC_FEATURES above.
     "dist_midtown_km",
     # dist_downtown_km / dist_min_landmark_km removed 2026-07-15, matching
     # NUMERIC_FEATURES above.

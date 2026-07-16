@@ -1,0 +1,1796 @@
+[
+  {
+    "name": "7 Brew Coffee",
+    "lat": 33.9081672,
+    "lon": -84.003477,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Adairsville Coffe Company",
+    "lat": 34.375844,
+    "lon": -84.9323858,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Amistad Coffee",
+    "lat": 33.7891955,
+    "lon": -84.3879808,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Atlanta Coffee Roasters",
+    "lat": 33.8158394,
+    "lon": -84.3130469,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Baladi Coffee",
+    "lat": 34.0277229,
+    "lon": -84.5688499,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Baladi Coffee",
+    "lat": 34.0277228,
+    "lon": -84.5688498,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Barnes & Noble Cafe",
+    "lat": 33.8801003,
+    "lon": -84.4637817,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Barnes & Noble Cafe",
+    "lat": 33.9513008,
+    "lon": -84.6569618,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Bellwood Coffee",
+    "lat": 33.8102539,
+    "lon": -84.4769098,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Bizarre Coffee",
+    "lat": 34.2364495,
+    "lon": -84.4900509,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Blue Mountain Coffee Roasters",
+    "lat": 34.0248232,
+    "lon": -84.0436492,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Bolivar Cafe",
+    "lat": 33.8438173,
+    "lon": -84.5033661,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Bread Coffeehouse",
+    "lat": 33.7883484,
+    "lon": -84.3206959,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Bread and Butter",
+    "lat": 33.6017731,
+    "lon": -83.8424156,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Break Coffee Roasters",
+    "lat": 34.0033627,
+    "lon": -84.1458266,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Buffalo Bayou Coffee",
+    "lat": 33.7727285,
+    "lon": -84.3846655,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Buzzards Coffee",
+    "lat": 33.5787469,
+    "lon": -85.0755109,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "CAFE + VELO",
+    "lat": 33.7541996,
+    "lon": -84.3750124,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Cafe Fwi",
+    "lat": 33.7608196,
+    "lon": -84.3879394,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Cafe Lucia",
+    "lat": 33.7557155,
+    "lon": -84.3898802,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Caf\u00e9 Lucia",
+    "lat": 33.8841116,
+    "lon": -84.5156715,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Caf\u00e9 au Lait",
+    "lat": 34.0040106,
+    "lon": -84.2937292,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Capital Commons",
+    "lat": 33.7864596,
+    "lon": -84.3884829,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Caribou Coffee",
+    "lat": 33.8439407,
+    "lon": -84.3701491,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Caribou Coffee",
+    "lat": 33.7820764,
+    "lon": -84.3806365,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Caribou Coffee",
+    "lat": 33.63766,
+    "lon": -84.4392807,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Caribou Coffee",
+    "lat": 33.6408524,
+    "lon": -84.4255666,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Caribou Coffee",
+    "lat": 34.1481946,
+    "lon": -84.1740604,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Chattahoochee Coffee Company",
+    "lat": 33.8018529,
+    "lon": -84.50258,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Chattahoochee Coffee Company",
+    "lat": 33.8965632,
+    "lon": -84.4450537,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Chino Coffee",
+    "lat": 33.8860991,
+    "lon": -84.061551,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Chololat\u00e9",
+    "lat": 33.791264,
+    "lon": -84.30582,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Community Cup - Coffeehouse and Bar",
+    "lat": 34.2088181,
+    "lon": -84.1397059,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Condesa Coffee",
+    "lat": 33.7597409,
+    "lon": -84.3718563,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Cool Beans",
+    "lat": 33.9531812,
+    "lon": -84.5507353,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Corner Bakery",
+    "lat": 33.953842,
+    "lon": -84.2328864,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Corner Bakery",
+    "lat": 33.761818,
+    "lon": -84.3878388,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Corner Bakery",
+    "lat": 33.8482812,
+    "lon": -84.3673532,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Costa",
+    "lat": 33.8697945,
+    "lon": -84.3362129,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Crazy Love Coffee House",
+    "lat": 34.0282725,
+    "lon": -84.3617842,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Dancing Goats Coffee",
+    "lat": 33.78057,
+    "lon": -84.3864215,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Dancing Goats Coffee",
+    "lat": 33.7737518,
+    "lon": -84.3985677,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Dancing Goats Coffee Bar",
+    "lat": 33.7759237,
+    "lon": -84.3032546,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Ellianos",
+    "lat": 33.7355068,
+    "lon": -84.6675456,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Ellianos",
+    "lat": 33.5622709,
+    "lon": -85.1127934,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Ellianos Coffee",
+    "lat": 34.2050772,
+    "lon": -84.1193965,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Ellianos Coffee Co",
+    "lat": 33.9076192,
+    "lon": -84.8236113,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Ellianos Coffee Co",
+    "lat": 33.6900204,
+    "lon": -85.1525961,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "For Five Coffee Roasters",
+    "lat": 33.7849405,
+    "lon": -84.3875969,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Foxtail Coffee",
+    "lat": 33.4116839,
+    "lon": -84.6849936,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Foxtail Coffee",
+    "lat": 33.9293647,
+    "lon": -84.3429739,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Foxtail Coffee Co.",
+    "lat": 33.848946,
+    "lon": -84.3744733,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Foxtail Coffee Co.",
+    "lat": 33.7881478,
+    "lon": -84.3880211,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Foxtail Coffee Co.",
+    "lat": 33.7772141,
+    "lon": -84.3837546,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Gallery Row Coffee",
+    "lat": 33.5799031,
+    "lon": -85.075574,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Gold & Bold Coffee Roasters",
+    "lat": 33.7807227,
+    "lon": -84.3979786,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Gold and Bold",
+    "lat": 33.778644,
+    "lon": -84.3972171,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Golden Drops Cafe",
+    "lat": 33.8062148,
+    "lon": -84.3107979,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Ground & Pound Coffee",
+    "lat": 33.9854956,
+    "lon": -84.270438,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Harvest & Grounds",
+    "lat": 33.6413459,
+    "lon": -84.4425295,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Illy",
+    "lat": 33.7726689,
+    "lon": -84.3639126,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Inman Perk Coffee",
+    "lat": 33.7625177,
+    "lon": -84.3591397,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Jittery Joe's",
+    "lat": 33.9428553,
+    "lon": -83.7423703,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Joe's East Atlanta Coffee Shop",
+    "lat": 33.7403458,
+    "lon": -84.3454252,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Kahala Coffee Traders",
+    "lat": 33.8718462,
+    "lon": -84.0141212,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Kaldi's Coffee",
+    "lat": 33.7742268,
+    "lon": -84.3965195,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Kennesaw Coffee Co.",
+    "lat": 34.029674,
+    "lon": -84.6263684,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "LTH",
+    "lat": 33.7709071,
+    "lon": -84.3691627,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Land Of A Thousand Hills Coffee",
+    "lat": 33.7855238,
+    "lon": -84.3894384,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Land Of A Thousand Hills Coffee & Bar",
+    "lat": 33.7740897,
+    "lon": -84.3845047,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Land of 1000 Hills",
+    "lat": 33.7557965,
+    "lon": -84.3889215,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Land of a Thousand Hills Coffee House",
+    "lat": 34.008335,
+    "lon": -84.360199,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Latchstring Mercantile",
+    "lat": 34.5100731,
+    "lon": -84.5055721,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Lazy Labrador Coffee House",
+    "lat": 34.0237378,
+    "lon": -84.6128325,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Le Petit Cafe",
+    "lat": 34.1017702,
+    "lon": -83.8176354,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Lobby Market",
+    "lat": 33.7618364,
+    "lon": -84.3865094,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Lollidrops Sweet Shoppe",
+    "lat": 34.4678959,
+    "lon": -84.4294772,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Macy's Cafe",
+    "lat": 34.0488297,
+    "lon": -84.2954548,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Marietta Coffee Company",
+    "lat": 33.9528003,
+    "lon": -84.5053305,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Marlee's Coffee and Tea",
+    "lat": 33.7497186,
+    "lon": -84.3787121,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Mizizi Coffee",
+    "lat": 34.0221367,
+    "lon": -84.4271153,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Moody Brews Coffee",
+    "lat": 34.1880178,
+    "lon": -84.1451927,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Moonbird Coffee",
+    "lat": 33.8922548,
+    "lon": -84.301116,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Mr. Tombstones Coffee Emporium",
+    "lat": 33.9425425,
+    "lon": -84.5209227,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Myth & Legend Coffee House",
+    "lat": 34.2168004,
+    "lon": -84.1457994,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Opo Coffee",
+    "lat": 33.7719093,
+    "lon": -84.2921403,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "PERC Atlanta Highlands",
+    "lat": 33.7832129,
+    "lon": -84.3547385,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Perc",
+    "lat": 33.7512273,
+    "lon": -84.3094029,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Perk n Pooch",
+    "lat": 33.9379969,
+    "lon": -84.3810474,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Qamaria Yemeni Coffee",
+    "lat": 33.9757257,
+    "lon": -84.1593327,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Rev Coffee Roasters",
+    "lat": 33.8821543,
+    "lon": -84.5042073,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Roast Coffeehouse",
+    "lat": 33.6407032,
+    "lon": -84.4361886,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "SIP The Experience",
+    "lat": 33.8227339,
+    "lon": -84.3698719,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "San Francisco Coffee",
+    "lat": 33.7872621,
+    "lon": -84.3555313,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Sch\u0101f Shop",
+    "lat": 33.7791534,
+    "lon": -84.3824791,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Scooter's Coffee",
+    "lat": 34.0241332,
+    "lon": -84.5289737,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Scooter's Coffee",
+    "lat": 34.0550136,
+    "lon": -84.3777154,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Sean's Candler Park",
+    "lat": 33.764962,
+    "lon": -84.3418636,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Senoia Coffee and Cafe",
+    "lat": 33.299983,
+    "lon": -84.5539674,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Seven Brew Coffee",
+    "lat": 33.850428,
+    "lon": -84.0460801,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Smyrna Coffee",
+    "lat": 33.8979013,
+    "lon": -84.5226032,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Southern Muggs",
+    "lat": 34.1646021,
+    "lon": -84.7961551,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Spiller Park Coffee",
+    "lat": 33.7808665,
+    "lon": -84.3839395,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Spiller Park Coffee \"SP3\"",
+    "lat": 33.8193226,
+    "lon": -84.4498145,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Spiller Park Specialty Coffee",
+    "lat": 33.7523056,
+    "lon": -84.395287,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbuck's",
+    "lat": 33.8648754,
+    "lon": -84.4774639,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.9501147,
+    "lon": -84.4119289,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.7736284,
+    "lon": -84.3658943,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.7802696,
+    "lon": -84.3688365,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.9946421,
+    "lon": -84.3501507,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.8874899,
+    "lon": -84.4739493,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.8461645,
+    "lon": -84.3730923,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.945796,
+    "lon": -84.6270578,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.9056237,
+    "lon": -84.4289943,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.8442284,
+    "lon": -84.489881,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.9718198,
+    "lon": -84.5512906,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.3959708,
+    "lon": -84.7537131,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.916571,
+    "lon": -84.4668474,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.4637794,
+    "lon": -84.2187129,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.9782754,
+    "lon": -84.4193829,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.8735111,
+    "lon": -84.0134604,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 34.0037921,
+    "lon": -84.1707143,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.4219309,
+    "lon": -84.1865573,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.5572347,
+    "lon": -83.4758896,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 34.0595072,
+    "lon": -84.5930943,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 34.0502277,
+    "lon": -84.5972182,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 34.0049007,
+    "lon": -84.3898708,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 34.0866179,
+    "lon": -84.5305574,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.4309541,
+    "lon": -84.456935,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 34.0097473,
+    "lon": -84.7548095,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.8881917,
+    "lon": -84.7465603,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 34.0683844,
+    "lon": -84.2807532,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.9002727,
+    "lon": -84.0061246,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 34.1180585,
+    "lon": -84.2705289,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.5683362,
+    "lon": -85.0772875,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 34.0351196,
+    "lon": -84.5709735,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 34.0445029,
+    "lon": -84.69564,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 34.1212345,
+    "lon": -84.7457253,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.9457419,
+    "lon": -84.6270446,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.8571917,
+    "lon": -84.3436399,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.8188124,
+    "lon": -84.3883597,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.8161814,
+    "lon": -84.334636,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.9575308,
+    "lon": -84.232177,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.9877844,
+    "lon": -84.2733695,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.758453,
+    "lon": -84.39708,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.4226959,
+    "lon": -84.557945,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.4069801,
+    "lon": -84.6794156,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.8468118,
+    "lon": -84.2524988,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.855004,
+    "lon": -84.2100265,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.2764799,
+    "lon": -84.2921722,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 34.0495303,
+    "lon": -84.287065,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.650213,
+    "lon": -84.010181,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.8560224,
+    "lon": -84.5821205,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.3964801,
+    "lon": -84.5918635,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.8786096,
+    "lon": -84.3801783,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 34.1167319,
+    "lon": -84.2237742,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 34.2663521,
+    "lon": -84.0924433,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.955172,
+    "lon": -84.0524506,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.999132,
+    "lon": -84.7042854,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.6032027,
+    "lon": -83.861536,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 34.0395906,
+    "lon": -84.4599784,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.7922024,
+    "lon": -84.2867837,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.7680684,
+    "lon": -84.3494503,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.825593,
+    "lon": -84.365614,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.614965,
+    "lon": -84.6140793,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.4810535,
+    "lon": -84.2238063,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 34.1780116,
+    "lon": -84.4227214,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.7964716,
+    "lon": -83.740978,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 34.0127399,
+    "lon": -84.564289,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.8185812,
+    "lon": -84.3125155,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.9366257,
+    "lon": -84.3777267,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.8274295,
+    "lon": -84.3313378,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.786946,
+    "lon": -84.3829565,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 34.1716938,
+    "lon": -84.5478224,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.5533677,
+    "lon": -85.0755107,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.8408156,
+    "lon": -83.9063762,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.9006931,
+    "lon": -84.4778001,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 34.0432193,
+    "lon": -84.3416403,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 34.092929,
+    "lon": -84.2412818,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.949392,
+    "lon": -84.335745,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 34.0699826,
+    "lon": -83.9129841,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.6400842,
+    "lon": -84.4327328,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.6409417,
+    "lon": -84.4446612,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.8353822,
+    "lon": -84.3826938,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.6416384,
+    "lon": -84.4324901,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 34.038603,
+    "lon": -84.4625691,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.7305914,
+    "lon": -84.7365427,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 34.0743966,
+    "lon": -83.9847109,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 34.1216208,
+    "lon": -84.076634,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.9688006,
+    "lon": -84.1952273,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.9218496,
+    "lon": -84.3382863,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 34.1573876,
+    "lon": -84.818464,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 34.0890107,
+    "lon": -84.2744971,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.9669859,
+    "lon": -84.019058,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 34.1720927,
+    "lon": -84.781225,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 34.0180684,
+    "lon": -84.3118817,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.8775737,
+    "lon": -84.4655283,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.7766369,
+    "lon": -84.3883489,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 34.0009401,
+    "lon": -83.9056708,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 34.0710216,
+    "lon": -84.2731078,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.9321171,
+    "lon": -84.3484917,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.7891845,
+    "lon": -84.3267735,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.942974,
+    "lon": -83.7522711,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 34.1442849,
+    "lon": -84.5124542,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.9380727,
+    "lon": -84.5205779,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.5737271,
+    "lon": -85.0979425,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 34.0707574,
+    "lon": -84.2948685,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.8839364,
+    "lon": -84.3161221,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 34.0949705,
+    "lon": -84.1744509,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 34.3493799,
+    "lon": -84.0497446,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.7749898,
+    "lon": -84.389005,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.7603949,
+    "lon": -84.394799,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.7543665,
+    "lon": -84.3867205,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.8844626,
+    "lon": -84.0607963,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 34.0218319,
+    "lon": -84.2681064,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 34.0866271,
+    "lon": -84.4787654,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.8944926,
+    "lon": -84.3293688,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.377329,
+    "lon": -84.5640251,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.920752,
+    "lon": -84.1683173,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 34.0581814,
+    "lon": -84.3822489,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 34.0349493,
+    "lon": -84.3429182,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.7927,
+    "lon": -84.3994001,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.5752026,
+    "lon": -84.3713227,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 34.029858,
+    "lon": -84.6554291,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.9995038,
+    "lon": -84.5903633,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.8493844,
+    "lon": -84.4282459,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 34.0524783,
+    "lon": -83.9936682,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.9526396,
+    "lon": -84.5517544,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 34.0019677,
+    "lon": -84.0823898,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 34.1609078,
+    "lon": -84.1747724,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.8750644,
+    "lon": -84.0160693,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 34.2380979,
+    "lon": -84.1934154,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 34.1699119,
+    "lon": -84.1855422,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 34.1533732,
+    "lon": -84.1762373,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 34.236545,
+    "lon": -84.4553489,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.7521747,
+    "lon": -84.3823481,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.7126584,
+    "lon": -84.9359837,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.9678088,
+    "lon": -84.4908285,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.8996361,
+    "lon": -83.9606159,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.9484674,
+    "lon": -83.7534029,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.6543435,
+    "lon": -84.5031486,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.9095563,
+    "lon": -84.3547571,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 34.1800083,
+    "lon": -84.1329036,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 34.15213,
+    "lon": -84.1732824,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.6995318,
+    "lon": -84.5795268,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 34.0678494,
+    "lon": -84.2939759,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.8843181,
+    "lon": -84.3159914,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.538769,
+    "lon": -84.5763205,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.9431819,
+    "lon": -84.1230786,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.9661581,
+    "lon": -84.0089913,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 34.0386146,
+    "lon": -84.5853858,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.7227606,
+    "lon": -84.5070411,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.7618197,
+    "lon": -84.3850805,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.9084482,
+    "lon": -84.2057177,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.8059109,
+    "lon": -84.3935816,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.8469862,
+    "lon": -84.3702391,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.7835181,
+    "lon": -84.4077289,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.7554436,
+    "lon": -84.3821224,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.5113202,
+    "lon": -84.2241236,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.7784062,
+    "lon": -84.3841391,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.6438644,
+    "lon": -84.4426289,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 34.0543938,
+    "lon": -84.5570802,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.439184,
+    "lon": -84.5886415,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.4763674,
+    "lon": -84.438047,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 34.005518,
+    "lon": -84.5740603,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.7704211,
+    "lon": -84.3853427,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 34.0651879,
+    "lon": -83.9843455,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.9673272,
+    "lon": -83.8862708,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.8377974,
+    "lon": -84.3125305,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.9674959,
+    "lon": -84.4883636,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.9214366,
+    "lon": -84.3148323,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.6398909,
+    "lon": -84.4358306,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 33.8188118,
+    "lon": -84.8122344,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Starbucks",
+    "lat": 34.0172071,
+    "lon": -84.1913748,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Stout Brothers Coffee Co.",
+    "lat": 34.0990232,
+    "lon": -84.5191826,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Summit Coffee",
+    "lat": 33.859159,
+    "lon": -84.3402154,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Taproom Coffee",
+    "lat": 33.751568,
+    "lon": -84.3232107,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "The Bean Counter",
+    "lat": 33.7877417,
+    "lon": -84.3851473,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "The Coffee Bean & Tea Leaf",
+    "lat": 33.6397227,
+    "lon": -84.4392715,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "The Daily",
+    "lat": 33.8552201,
+    "lon": -84.4295548,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "The Dancing Goats Coffee Bar",
+    "lat": 33.7758103,
+    "lon": -84.3032666,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "The Dancing Goats Coffee Bar @ Ponce City Market",
+    "lat": 33.7714564,
+    "lon": -84.3673949,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "The Human Bean",
+    "lat": 34.2651783,
+    "lon": -84.0908694,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "The Ke'nekt Cooperative",
+    "lat": 33.7422951,
+    "lon": -84.4370481,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "The Nest Cafe",
+    "lat": 34.0770686,
+    "lon": -84.2967652,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "The Reading Room",
+    "lat": 33.775178,
+    "lon": -84.2946628,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Three Peaches Gelato and Coffee",
+    "lat": 33.7814304,
+    "lon": -84.3684519,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Tim Hortons",
+    "lat": 33.7706708,
+    "lon": -84.3892945,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Tim Hortons",
+    "lat": 33.5769148,
+    "lon": -84.3721769,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Tinto's Coffee House",
+    "lat": 34.0304046,
+    "lon": -84.5824472,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Tradewind Coffee",
+    "lat": 34.0044823,
+    "lon": -83.9144484,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Tuesday",
+    "lat": 33.9549971,
+    "lon": -84.5503321,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Urban Grind",
+    "lat": 33.7777018,
+    "lon": -84.4089783,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Waller's Coffee Shop",
+    "lat": 33.7822845,
+    "lon": -84.2756148,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Wave 3 Coffee",
+    "lat": 33.8398782,
+    "lon": -84.3771207,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Whitetail Coffee Company",
+    "lat": 34.2353986,
+    "lon": -84.4953795,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Woodstock Coffee Co.",
+    "lat": 34.0868096,
+    "lon": -84.519935,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "Z Beans",
+    "lat": 33.8715664,
+    "lon": -84.2671713,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  },
+  {
+    "name": "drip",
+    "lat": 33.6588707,
+    "lon": -84.4086839,
+    "source": "OpenStreetMap Overpass API (amenity=cafe, cuisine=coffee_shop); rebuilt from cached eda/research/cafes.geojson"
+  }
+]

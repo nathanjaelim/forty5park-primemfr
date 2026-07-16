@@ -1,0 +1,4762 @@
+[
+  {
+    "name": "4D's Tropical Market",
+    "lat": 33.9506158,
+    "lon": -83.9782063,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "ALDI",
+    "lat": 33.7539869,
+    "lon": -84.2708208,
+    "brand": "ALDI",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "ALDI",
+    "lat": 34.0097847,
+    "lon": -84.5704742,
+    "brand": "ALDI",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "ALDI",
+    "lat": 33.9712908,
+    "lon": -84.1472619,
+    "brand": "ALDI",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "ALDI",
+    "lat": 33.3977061,
+    "lon": -84.5982355,
+    "brand": "ALDI",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "ALDI",
+    "lat": 33.8842822,
+    "lon": -84.7345835,
+    "brand": "ALDI",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "ALDI",
+    "lat": 33.9224927,
+    "lon": -84.5787899,
+    "brand": "ALDI",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "ALDI",
+    "lat": 33.724322,
+    "lon": -84.733449,
+    "brand": "ALDI",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "ALDI",
+    "lat": 34.0302965,
+    "lon": -84.6507003,
+    "brand": "ALDI",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "ALDI",
+    "lat": 33.6815004,
+    "lon": -84.2280259,
+    "brand": "ALDI",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "ALDI",
+    "lat": 34.161103,
+    "lon": -84.1157837,
+    "brand": "ALDI",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "ALDI",
+    "lat": 34.0686498,
+    "lon": -83.9089816,
+    "brand": "ALDI",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "ALDI",
+    "lat": 33.851524,
+    "lon": -83.9262454,
+    "brand": "ALDI",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "ALDI",
+    "lat": 34.0395975,
+    "lon": -84.3475236,
+    "brand": "ALDI",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "ALDI",
+    "lat": 33.9079551,
+    "lon": -84.1110107,
+    "brand": "ALDI",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "ALDI",
+    "lat": 34.1132051,
+    "lon": -84.5671304,
+    "brand": "ALDI",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "ALDI",
+    "lat": 33.9012897,
+    "lon": -84.005877,
+    "brand": "ALDI",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "ALDI",
+    "lat": 33.6075376,
+    "lon": -83.8266755,
+    "brand": "ALDI",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "ALDI",
+    "lat": 34.1773677,
+    "lon": -84.7849974,
+    "brand": "ALDI",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "ALDI",
+    "lat": 33.3986107,
+    "lon": -84.7446273,
+    "brand": "ALDI",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "ALDI",
+    "lat": 33.8580655,
+    "lon": -84.3104007,
+    "brand": "ALDI",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "ALDI",
+    "lat": 33.9939927,
+    "lon": -83.7329238,
+    "brand": "ALDI",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "ALDI",
+    "lat": 34.0482699,
+    "lon": -84.0949753,
+    "brand": "ALDI",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "ALDI",
+    "lat": 33.2467312,
+    "lon": -84.2883459,
+    "brand": "ALDI",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "ALDI",
+    "lat": 33.4725606,
+    "lon": -84.4445339,
+    "brand": "ALDI",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "ALDI",
+    "lat": 33.4418982,
+    "lon": -84.3229309,
+    "brand": "ALDI",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "ALDI",
+    "lat": 33.4583216,
+    "lon": -84.1730243,
+    "brand": "ALDI",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "ALDI",
+    "lat": 33.5679751,
+    "lon": -84.5418758,
+    "brand": "ALDI",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "ALDI",
+    "lat": 33.5341386,
+    "lon": -84.3698083,
+    "brand": "ALDI",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "ALDI",
+    "lat": 33.5964774,
+    "lon": -84.4279943,
+    "brand": "ALDI",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "ALDI",
+    "lat": 33.6374762,
+    "lon": -84.0165392,
+    "brand": "ALDI",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "ALDI",
+    "lat": 33.8318553,
+    "lon": -84.5766691,
+    "brand": "ALDI",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "ALDI",
+    "lat": 34.0883935,
+    "lon": -84.4692767,
+    "brand": "ALDI",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "ALDI",
+    "lat": 33.7137307,
+    "lon": -84.3502531,
+    "brand": "ALDI",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "ALDI",
+    "lat": 33.7183376,
+    "lon": -84.1467645,
+    "brand": "ALDI",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "ALDI",
+    "lat": 33.8109094,
+    "lon": -84.0417416,
+    "brand": "ALDI",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "ALDI",
+    "lat": 33.9681882,
+    "lon": -84.0281979,
+    "brand": "ALDI",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "ALDI",
+    "lat": 33.9458249,
+    "lon": -84.516768,
+    "brand": "ALDI",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "ALDI",
+    "lat": 34.0998562,
+    "lon": -84.2722929,
+    "brand": "ALDI",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "ALDI",
+    "lat": 33.9674385,
+    "lon": -84.4916418,
+    "brand": "ALDI",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "ALDI",
+    "lat": 33.9525772,
+    "lon": -84.2358543,
+    "brand": "ALDI",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "ALDI",
+    "lat": 34.2456992,
+    "lon": -84.4858995,
+    "brand": "ALDI",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "ALDI",
+    "lat": 33.8410716,
+    "lon": -84.3733111,
+    "brand": "ALDI",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "ALDI",
+    "lat": 33.8456287,
+    "lon": -84.24885,
+    "brand": "ALDI",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "ALDI",
+    "lat": 33.9281364,
+    "lon": -84.3803108,
+    "brand": "ALDI",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "ALDI",
+    "lat": 34.0454884,
+    "lon": -84.2215287,
+    "brand": "ALDI",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "ALDI",
+    "lat": 34.267183,
+    "lon": -84.0932235,
+    "brand": "ALDI",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "ALDI",
+    "lat": 34.0602876,
+    "lon": -83.9938568,
+    "brand": "ALDI",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "ASSI",
+    "lat": 34.0047724,
+    "lon": -84.0830131,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Afro-Carib Market",
+    "lat": 33.9395004,
+    "lon": -84.0356357,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Al Madina Halal Market and Restaurant",
+    "lat": 33.9041218,
+    "lon": -84.2048406,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Al-Amin",
+    "lat": 33.9013934,
+    "lon": -84.2765552,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Aldi",
+    "lat": 33.8839098,
+    "lon": -84.4774056,
+    "brand": "Aldi",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Aldi",
+    "lat": 33.5510396,
+    "lon": -84.2550457,
+    "brand": "Aldi",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Aldi",
+    "lat": 33.5500427,
+    "lon": -85.0745467,
+    "brand": "Aldi",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Aldi",
+    "lat": 33.7958501,
+    "lon": -84.2853028,
+    "brand": "Aldi",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Auburn Discount Grocery",
+    "lat": 33.75567,
+    "lon": -84.3775081,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Austell International Market",
+    "lat": 33.865694,
+    "lon": -84.5919653,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Azalea Fresh Market",
+    "lat": 33.7543249,
+    "lon": -84.3893571,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Beauty Master",
+    "lat": 33.7300581,
+    "lon": -84.7560851,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Bharath Groceries",
+    "lat": 33.932038,
+    "lon": -84.3324749,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Big Bear Supermarket",
+    "lat": 33.7364844,
+    "lon": -84.4183923,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Blackwell's Red and White",
+    "lat": 33.5178495,
+    "lon": -83.7345329,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Brito Supermarket",
+    "lat": 33.618169,
+    "lon": -84.382779,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Brito Supermarket & Taqueria",
+    "lat": 33.9040672,
+    "lon": -84.5406829,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Buford Highway Farmers Market",
+    "lat": 33.9058705,
+    "lon": -84.2735453,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Carniceria Acapulco Mexican Grocery",
+    "lat": 33.5731157,
+    "lon": -85.0891047,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Carniceria Iguala",
+    "lat": 33.927599,
+    "lon": -84.4938004,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Carniceria La Perla",
+    "lat": 33.9436145,
+    "lon": -83.9834732,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Carniceria Viva Jalisco",
+    "lat": 33.9198558,
+    "lon": -84.0072019,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Carniceria Y Taqueria La Fe",
+    "lat": 33.9160478,
+    "lon": -84.2594746,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Carnicer\u00eda Hern\u00e1ndez",
+    "lat": 34.2030404,
+    "lon": -84.1394606,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Carver Neighborhood Market",
+    "lat": 33.7190716,
+    "lon": -84.3854025,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Cass Grocery",
+    "lat": 34.2496243,
+    "lon": -84.8523387,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Cayce Foods International",
+    "lat": 33.8909732,
+    "lon": -84.5039297,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Charlotteway Tropical Market",
+    "lat": 33.9576215,
+    "lon": -83.9996713,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Cherians Super Market",
+    "lat": 33.7992364,
+    "lon": -84.2784133,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "City Farmers Market",
+    "lat": 33.9475988,
+    "lon": -84.1231729,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "City Farmers Market",
+    "lat": 33.8363808,
+    "lon": -84.0680938,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "City Farmers Market",
+    "lat": 33.8881137,
+    "lon": -84.2888511,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "City Market",
+    "lat": 34.0118845,
+    "lon": -83.825926,
+    "brand": "City Market",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "DG Market",
+    "lat": 33.9648496,
+    "lon": -83.5994539,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Dollar General Market",
+    "lat": 33.2915145,
+    "lon": -83.984226,
+    "brand": "Dollar General",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Dollar General Market",
+    "lat": 33.4651877,
+    "lon": -83.906208,
+    "brand": "Dollar General Market",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Don Milas Supermercado",
+    "lat": 34.1902647,
+    "lon": -84.1367231,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Earth Fare",
+    "lat": 33.80034,
+    "lon": -84.3256783,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Eden Fresh",
+    "lat": 33.4266557,
+    "lon": -84.4006296,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "El Granero",
+    "lat": 33.5999668,
+    "lon": -84.378272,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "El Ranchito",
+    "lat": 33.9203056,
+    "lon": -83.9731882,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Farmer's Market",
+    "lat": 33.518627,
+    "lon": -84.3651682,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Farmer's market",
+    "lat": 33.6126552,
+    "lon": -84.3472433,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Farmview Market",
+    "lat": 33.5401251,
+    "lon": -83.4609715,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Food City",
+    "lat": 34.2193244,
+    "lon": -84.8415711,
+    "brand": "Food City",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Food Depot",
+    "lat": 33.5684781,
+    "lon": -84.5798051,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Food Depot",
+    "lat": 33.2482231,
+    "lon": -84.2830882,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Food Depot",
+    "lat": 33.5829125,
+    "lon": -84.150849,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Food Depot",
+    "lat": 33.8765414,
+    "lon": -84.5287585,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Food Depot",
+    "lat": 33.8683555,
+    "lon": -84.839637,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Food Depot",
+    "lat": 33.6040819,
+    "lon": -83.8745248,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Food Depot",
+    "lat": 33.8853091,
+    "lon": -84.1941605,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Food Depot",
+    "lat": 33.8683053,
+    "lon": -84.8399309,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Food Depot",
+    "lat": 33.9443364,
+    "lon": -84.5321286,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Food Depot",
+    "lat": 33.9145923,
+    "lon": -84.1649637,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Food Depot",
+    "lat": 33.7066991,
+    "lon": -84.7785333,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Food Depot",
+    "lat": 33.3899654,
+    "lon": -84.7782903,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Food Depot",
+    "lat": 33.799193,
+    "lon": -84.7559205,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Food Depot",
+    "lat": 33.7289363,
+    "lon": -84.9374616,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Food Depot",
+    "lat": 34.0861972,
+    "lon": -84.5742366,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Food Depot",
+    "lat": 33.7978565,
+    "lon": -84.640827,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Food Depot",
+    "lat": 33.4496997,
+    "lon": -84.3274648,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Food Depot",
+    "lat": 33.8566726,
+    "lon": -84.5937077,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Food Depot",
+    "lat": 33.4676205,
+    "lon": -84.444628,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Food Depot",
+    "lat": 33.5637419,
+    "lon": -85.1137696,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Food Lion",
+    "lat": 34.4176074,
+    "lon": -84.1116545,
+    "brand": "Food Lion",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Food Lion",
+    "lat": 34.3785167,
+    "lon": -84.9314268,
+    "brand": "Food Lion",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Food Mart",
+    "lat": 33.9495965,
+    "lon": -83.9858251,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Freshway",
+    "lat": 33.1132023,
+    "lon": -84.3420413,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Freshway Market",
+    "lat": 33.6750783,
+    "lon": -83.7096554,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Giant Mart",
+    "lat": 33.0520561,
+    "lon": -84.1542153,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Gidey Injera",
+    "lat": 33.8102157,
+    "lon": -84.2409216,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Goian\u00e3o Brazilian Market",
+    "lat": 33.9157086,
+    "lon": -84.4690613,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Good Nutrition",
+    "lat": 33.8575126,
+    "lon": -84.017424,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Goodness Grocery",
+    "lat": 33.8441381,
+    "lon": -84.4910566,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Great Wall Supermarket",
+    "lat": 33.9636336,
+    "lon": -84.13443,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Grocery Outlet",
+    "lat": 33.933558,
+    "lon": -84.5562044,
+    "brand": "Grocery Outlet",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Gustock International Market",
+    "lat": 34.0870418,
+    "lon": -84.5199611,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "H Mart",
+    "lat": 34.022292,
+    "lon": -84.0448932,
+    "brand": "H Mart",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "H&N Caribbean Grocery",
+    "lat": 34.0100616,
+    "lon": -84.5642039,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Happy Food Mart Grocery",
+    "lat": 34.353432,
+    "lon": -84.0748622,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Henderson's Grocery",
+    "lat": 33.5286931,
+    "lon": -83.8524746,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Hermanos Supermarkets",
+    "lat": 34.033645,
+    "lon": -84.3439469,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Hernandez Tienda Mexicana",
+    "lat": 33.5878288,
+    "lon": -85.0970603,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Hong Kong Supermarket",
+    "lat": 33.9088464,
+    "lon": -84.2041676,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Impact Window Tinting",
+    "lat": 33.8254798,
+    "lon": -84.3667238,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "India Plaza",
+    "lat": 34.089192,
+    "lon": -84.2760986,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Ingles",
+    "lat": 33.985662,
+    "lon": -84.2143004,
+    "brand": "Ingles",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Ingles",
+    "lat": 33.2940772,
+    "lon": -83.9846752,
+    "brand": "Ingles",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Ingles",
+    "lat": 34.4637117,
+    "lon": -84.4549382,
+    "brand": "Ingles",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Ingles",
+    "lat": 34.1634088,
+    "lon": -84.1736736,
+    "brand": "Ingles",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Ingles",
+    "lat": 34.2545934,
+    "lon": -84.0887006,
+    "brand": "Ingles",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Ingles",
+    "lat": 33.4278207,
+    "lon": -84.4553165,
+    "brand": "Ingles",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Ingles",
+    "lat": 34.1573942,
+    "lon": -84.8188892,
+    "brand": "Ingles",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Ingles",
+    "lat": 33.3045025,
+    "lon": -83.7050715,
+    "brand": "Ingles",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Ingles",
+    "lat": 33.0443603,
+    "lon": -84.1725086,
+    "brand": "Ingles",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Ingles",
+    "lat": 33.8333007,
+    "lon": -83.8979086,
+    "brand": "Ingles",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Ingles",
+    "lat": 33.6947596,
+    "lon": -85.1509076,
+    "brand": "Ingles",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Ingles",
+    "lat": 34.1956013,
+    "lon": -84.7914822,
+    "brand": "Ingles",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Ingles",
+    "lat": 33.7233414,
+    "lon": -85.0264131,
+    "brand": "Ingles",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Ingles",
+    "lat": 33.5739992,
+    "lon": -83.4788792,
+    "brand": "Ingles",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Ingles",
+    "lat": 33.599648,
+    "lon": -85.0810556,
+    "brand": "Ingles",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Ingles",
+    "lat": 34.0102956,
+    "lon": -83.8382036,
+    "brand": "Ingles",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Ingles",
+    "lat": 33.3522921,
+    "lon": -84.1183659,
+    "brand": "Ingles",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Ingles",
+    "lat": 33.1945212,
+    "lon": -84.2866922,
+    "brand": "Ingles",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Ingles",
+    "lat": 33.5295355,
+    "lon": -84.27274,
+    "brand": "Ingles",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Ingles",
+    "lat": 33.8371365,
+    "lon": -84.8284385,
+    "brand": "Ingles",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Ingles",
+    "lat": 33.8570791,
+    "lon": -84.1401674,
+    "brand": "Ingles",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Ingles",
+    "lat": 33.5970285,
+    "lon": -83.8322208,
+    "brand": "Ingles",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Ingles",
+    "lat": 33.6029779,
+    "lon": -83.8787231,
+    "brand": "Ingles",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Ingles",
+    "lat": 34.0769767,
+    "lon": -84.678483,
+    "brand": "Ingles",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Ingles",
+    "lat": 33.9091507,
+    "lon": -84.8003681,
+    "brand": "Ingles",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Ingles",
+    "lat": 33.5952816,
+    "lon": -84.0130184,
+    "brand": "Ingles",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Ingles",
+    "lat": 34.0035998,
+    "lon": -83.7049208,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Ingles",
+    "lat": 34.3637473,
+    "lon": -84.0405117,
+    "brand": "Ingles",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Ingles",
+    "lat": 33.7271045,
+    "lon": -84.9380225,
+    "brand": "Ingles",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Ingles",
+    "lat": 34.2159164,
+    "lon": -84.1512706,
+    "brand": "Ingles",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Ingles",
+    "lat": 34.0103285,
+    "lon": -83.8382311,
+    "brand": "Ingles",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Ingles",
+    "lat": 34.2427389,
+    "lon": -84.4910216,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "International Grocery Market",
+    "lat": 33.813014,
+    "lon": -84.2423985,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Jerusalem Market",
+    "lat": 33.9246545,
+    "lon": -84.4915516,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "John's Supermarket",
+    "lat": 33.7893079,
+    "lon": -83.7119639,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Julia's Supermercado",
+    "lat": 33.9073263,
+    "lon": -84.4884806,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kore CBD Store",
+    "lat": 34.1539225,
+    "lon": -84.1783951,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 33.8155957,
+    "lon": -84.3139257,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 34.0695325,
+    "lon": -84.1655724,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 33.7186846,
+    "lon": -84.144495,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 33.8004908,
+    "lon": -84.3730614,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 33.7243089,
+    "lon": -84.4993488,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 33.8751115,
+    "lon": -84.5336638,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 33.9202881,
+    "lon": -84.381409,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 34.0641211,
+    "lon": -84.0721501,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 33.7560669,
+    "lon": -84.348034,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 34.0400908,
+    "lon": -84.3454991,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 33.7376486,
+    "lon": -84.4330867,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 33.3769401,
+    "lon": -84.5645938,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 34.250875,
+    "lon": -84.0912166,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 33.4690587,
+    "lon": -84.4488782,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 33.6996809,
+    "lon": -84.7187773,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 33.7192663,
+    "lon": -84.7661985,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 33.7897925,
+    "lon": -84.6200123,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 34.1220109,
+    "lon": -84.0766331,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 33.9979735,
+    "lon": -84.0898742,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 34.003721,
+    "lon": -84.0386058,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 34.0864629,
+    "lon": -84.4861662,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 33.7183028,
+    "lon": -84.2175012,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 34.252524,
+    "lon": -84.3581277,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 34.0261044,
+    "lon": -84.4222814,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 33.8041964,
+    "lon": -84.3363892,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 33.9109131,
+    "lon": -84.8228687,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 34.0486803,
+    "lon": -84.6033503,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 34.0040611,
+    "lon": -84.3896219,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 33.9084559,
+    "lon": -84.6031124,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 34.0107742,
+    "lon": -84.7521221,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 33.7918894,
+    "lon": -84.2734511,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 33.4094061,
+    "lon": -84.6795174,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 33.6044864,
+    "lon": -83.8588836,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 33.6791792,
+    "lon": -84.2285433,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 33.7424235,
+    "lon": -84.3601448,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 33.7716164,
+    "lon": -84.3633523,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 33.8564522,
+    "lon": -84.3446211,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 34.1713872,
+    "lon": -84.4166804,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 34.0052873,
+    "lon": -84.294755,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 34.0496722,
+    "lon": -84.2228246,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 34.0231075,
+    "lon": -84.2715444,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 33.9533539,
+    "lon": -84.5814246,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 33.3849428,
+    "lon": -84.7877687,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 33.8553995,
+    "lon": -84.31358,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 33.4526254,
+    "lon": -84.169607,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 33.5502595,
+    "lon": -84.2714362,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 34.4666432,
+    "lon": -84.462582,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 33.8551257,
+    "lon": -84.2069932,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 34.1696049,
+    "lon": -84.1853799,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 34.1414779,
+    "lon": -84.5038186,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 33.8411461,
+    "lon": -84.1329626,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 33.9552087,
+    "lon": -84.6562559,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 33.9957924,
+    "lon": -84.7046571,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 33.9650923,
+    "lon": -84.4091661,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 33.7593581,
+    "lon": -84.1950333,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 33.8018104,
+    "lon": -84.4125016,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 33.9198134,
+    "lon": -84.4693475,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 33.8836069,
+    "lon": -84.2484495,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 34.0012224,
+    "lon": -83.9058246,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 34.0049215,
+    "lon": -83.9862906,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 33.9605553,
+    "lon": -84.3011685,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 33.5492222,
+    "lon": -84.015417,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 33.9033062,
+    "lon": -84.675167,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 34.0961549,
+    "lon": -84.2779746,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 33.8190523,
+    "lon": -84.8124866,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 33.6868738,
+    "lon": -84.4878879,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 33.5031643,
+    "lon": -84.2441819,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 34.0932345,
+    "lon": -83.9376013,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 33.4392654,
+    "lon": -84.5884403,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 34.0903165,
+    "lon": -84.5852735,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 33.8973767,
+    "lon": -83.9619281,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 34.005503,
+    "lon": -84.1732337,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 33.8898971,
+    "lon": -84.3832706,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 33.4330426,
+    "lon": -84.4586162,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 33.8313461,
+    "lon": -83.8842393,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 33.8351525,
+    "lon": -84.5744362,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 33.7224029,
+    "lon": -84.3476572,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 34.1929786,
+    "lon": -84.5072779,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 33.8391521,
+    "lon": -84.4822259,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 33.5602254,
+    "lon": -84.4160982,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 33.9667509,
+    "lon": -84.0335718,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 34.350155,
+    "lon": -84.0534139,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 34.0386957,
+    "lon": -84.5306486,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 33.9873234,
+    "lon": -84.2691968,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 34.0349556,
+    "lon": -84.4665121,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 33.9226317,
+    "lon": -84.3158085,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 33.8434032,
+    "lon": -84.2558397,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 34.036325,
+    "lon": -84.6770073,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 33.6827544,
+    "lon": -84.4091398,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 33.8465879,
+    "lon": -84.6993045,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 33.9047616,
+    "lon": -84.1211965,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 33.8831515,
+    "lon": -84.0081946,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 33.8845183,
+    "lon": -84.0606458,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 34.1451772,
+    "lon": -84.2498892,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 33.8593501,
+    "lon": -83.9545908,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 33.2450874,
+    "lon": -84.2941681,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 33.938905,
+    "lon": -83.9827096,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 33.6437688,
+    "lon": -84.0170483,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 33.4723023,
+    "lon": -84.3385206,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 33.94039,
+    "lon": -84.0830135,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 34.2384319,
+    "lon": -84.193193,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 34.0855824,
+    "lon": -84.3568489,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 33.960518,
+    "lon": -84.1436282,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 33.9034653,
+    "lon": -84.1997553,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 33.8249844,
+    "lon": -84.0331882,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 33.5941221,
+    "lon": -83.968384,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 33.506317,
+    "lon": -84.1434661,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 33.6193593,
+    "lon": -84.2389871,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 33.6002589,
+    "lon": -84.3370693,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 33.5342703,
+    "lon": -84.3663541,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 33.5658171,
+    "lon": -84.53677,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 33.5901055,
+    "lon": -84.4704273,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 33.9676622,
+    "lon": -84.488087,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 34.1124993,
+    "lon": -84.5554575,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 33.749269,
+    "lon": -84.7323434,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 34.1223001,
+    "lon": -84.1689447,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger",
+    "lat": 34.0514405,
+    "lon": -83.9301623,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger Marketplace",
+    "lat": 33.5530614,
+    "lon": -85.0750178,
+    "brand": "Kroger Marketplace",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger Marketplace",
+    "lat": 33.3771288,
+    "lon": -84.7517675,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger Marketplace",
+    "lat": 34.1715784,
+    "lon": -84.7767303,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger Marketplace",
+    "lat": 33.9430772,
+    "lon": -83.7630743,
+    "brand": "Kroger Marketplace",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger Marketplace",
+    "lat": 33.9487441,
+    "lon": -83.9246505,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Kroger Marketplace",
+    "lat": 33.5046177,
+    "lon": -84.1393614,
+    "brand": "Kroger",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "La Canasta",
+    "lat": 33.9105235,
+    "lon": -84.379872,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "La Mexicana Supermarket",
+    "lat": 33.9106297,
+    "lon": -84.1318604,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "La Tampiquena",
+    "lat": 33.6011257,
+    "lon": -83.8400485,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "La Unica",
+    "lat": 33.5872217,
+    "lon": -85.0979561,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "La Victoria",
+    "lat": 33.9595753,
+    "lon": -83.9730253,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Leonard's Farmers Market",
+    "lat": 34.2024678,
+    "lon": -84.1343909,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Lidl",
+    "lat": 33.8368345,
+    "lon": -84.577866,
+    "brand": "Lidl",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Lidl",
+    "lat": 33.9244289,
+    "lon": -84.0201249,
+    "brand": "Lidl",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Lidl",
+    "lat": 34.0202474,
+    "lon": -84.1249999,
+    "brand": "Lidl",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Lidl",
+    "lat": 34.0350051,
+    "lon": -83.9524124,
+    "brand": "Lidl",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Lidl",
+    "lat": 33.724438,
+    "lon": -84.1706468,
+    "brand": "Lidl",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Lidl",
+    "lat": 33.7468126,
+    "lon": -84.3272878,
+    "brand": "Lidl",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Lidl",
+    "lat": 33.9773511,
+    "lon": -84.4195524,
+    "brand": "Lidl",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Lidl",
+    "lat": 33.8279747,
+    "lon": -84.3332771,
+    "brand": "Lidl",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Lidl",
+    "lat": 33.9280604,
+    "lon": -84.3770753,
+    "brand": "Lidl",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Lidl",
+    "lat": 33.8678851,
+    "lon": -84.6288679,
+    "brand": "Lidl",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Lidl",
+    "lat": 33.9525045,
+    "lon": -84.5720947,
+    "brand": "Lidl",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Lidl",
+    "lat": 34.1108593,
+    "lon": -84.5824218,
+    "brand": "Lidl",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Lidl",
+    "lat": 34.0333078,
+    "lon": -84.3399027,
+    "brand": "Lidl",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Lidl",
+    "lat": 34.091481,
+    "lon": -84.1681617,
+    "brand": "Lidl",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Lidl",
+    "lat": 33.9761,
+    "lon": -84.2165966,
+    "brand": "Lidl",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Lidl",
+    "lat": 33.530624,
+    "lon": -84.3646018,
+    "brand": "Lidl",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Lidl",
+    "lat": 34.1999983,
+    "lon": -84.1954466,
+    "brand": "Lidl",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Lidl",
+    "lat": 33.7840834,
+    "lon": -84.4077714,
+    "brand": "Lidl",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Lidle",
+    "lat": 33.8413141,
+    "lon": -84.0635013,
+    "brand": "Lidl",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Little Giant Farmers Market",
+    "lat": 33.4307559,
+    "lon": -84.8623887,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Little Giant Supermaket",
+    "lat": 33.3995668,
+    "lon": -84.7934695,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Los Paisanos Mexican Supermarket",
+    "lat": 34.1037645,
+    "lon": -84.0047243,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Lucky Grocery",
+    "lat": 33.9246401,
+    "lon": -84.1132342,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Mega Mart",
+    "lat": 33.9598211,
+    "lon": -84.1260879,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Mercado Fresco",
+    "lat": 33.8623131,
+    "lon": -84.3085214,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Monterrey Supermercado & Taqueria",
+    "lat": 33.9670406,
+    "lon": -84.0369679,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Nam Dae Mun",
+    "lat": 33.8909722,
+    "lon": -84.0606688,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Nam Dae Mun Farmers Market",
+    "lat": 33.9483898,
+    "lon": -84.1354716,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Nam Dae Mun Farmers Market",
+    "lat": 33.8989154,
+    "lon": -84.5424612,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Nam Dae Mun Farmers Market",
+    "lat": 33.8945629,
+    "lon": -84.1428527,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Nam Dae Mun Farmers Market",
+    "lat": 33.7981021,
+    "lon": -84.2248443,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Nazareth Grocery",
+    "lat": 33.9385968,
+    "lon": -84.5065746,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Nourish + Bloom Market",
+    "lat": 33.7223574,
+    "lon": -84.4639831,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "O4W Market",
+    "lat": 33.7522261,
+    "lon": -84.3701827,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Oakhurst Market",
+    "lat": 33.7598927,
+    "lon": -84.3038989,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Patel Brothers",
+    "lat": 34.0164946,
+    "lon": -84.5678403,
+    "brand": "Patel Brothers",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Patel Brothers",
+    "lat": 34.0839485,
+    "lon": -84.1641944,
+    "brand": "Patel Brothers",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Patel Brothers",
+    "lat": 33.797514,
+    "lon": -84.281027,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Piggly Wiggly",
+    "lat": 33.6702722,
+    "lon": -84.4611563,
+    "brand": "Piggly Wiggly",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Piggly Wiggly",
+    "lat": 33.2786637,
+    "lon": -85.0977096,
+    "brand": "Piggly Wiggly",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Piggly Wiggly",
+    "lat": 33.8010975,
+    "lon": -85.188796,
+    "brand": "Piggly Wiggly",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Piggly Wiggly",
+    "lat": 33.2937603,
+    "lon": -83.9544947,
+    "brand": "Piggly Wiggly",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Piggly Wiggly",
+    "lat": 33.5402736,
+    "lon": -85.2521365,
+    "brand": "Piggly Wiggly",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Piggly Wiggly",
+    "lat": 33.7201191,
+    "lon": -84.3503835,
+    "brand": "Piggly Wiggly",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Piggly Wiggly",
+    "lat": 33.6241482,
+    "lon": -84.3554804,
+    "brand": "Piggly Wiggly",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Piggly Wiggly",
+    "lat": 33.7440214,
+    "lon": -85.2826701,
+    "brand": "Piggly Wiggly",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Piggly Wiggly",
+    "lat": 33.293772,
+    "lon": -83.9545081,
+    "brand": "Piggly Wiggly",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Piggly Wiggly",
+    "lat": 33.6798911,
+    "lon": -84.395946,
+    "brand": "Piggly Wiggly",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.8113718,
+    "lon": -84.274709,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.813526,
+    "lon": -84.311357,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.9609493,
+    "lon": -84.3638945,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.7728554,
+    "lon": -84.3543538,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.7703628,
+    "lon": -84.3811515,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.8185511,
+    "lon": -84.3490248,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.6796929,
+    "lon": -84.2317123,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.7990502,
+    "lon": -84.3718581,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.9940381,
+    "lon": -84.3492974,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.9686087,
+    "lon": -84.260832,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.8392491,
+    "lon": -83.9081675,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.6564101,
+    "lon": -84.5107649,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.7144069,
+    "lon": -84.7659891,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 34.038496,
+    "lon": -84.4630028,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.9936863,
+    "lon": -84.5095716,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 34.0167,
+    "lon": -84.5493251,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 34.0179341,
+    "lon": -84.3199748,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.9421732,
+    "lon": -84.7036147,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.4882513,
+    "lon": -84.5871618,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 34.130192,
+    "lon": -84.4995891,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 34.1743794,
+    "lon": -84.1871298,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 34.0897299,
+    "lon": -84.4838987,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.9228395,
+    "lon": -84.4668256,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.9350452,
+    "lon": -84.3777582,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.8626774,
+    "lon": -84.4785945,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.6890356,
+    "lon": -84.7149044,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 34.3518212,
+    "lon": -84.0447287,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.7898798,
+    "lon": -84.3045432,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.9587875,
+    "lon": -84.7876151,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.903418,
+    "lon": -84.606999,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 34.04985,
+    "lon": -84.088556,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 34.0033786,
+    "lon": -83.9125432,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 34.0309496,
+    "lon": -83.8870589,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 34.1168966,
+    "lon": -84.2714811,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.6344285,
+    "lon": -84.016935,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.5608539,
+    "lon": -85.0750293,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.8194909,
+    "lon": -84.4507774,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.6985734,
+    "lon": -84.1745513,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 34.0571625,
+    "lon": -84.1289298,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.410617,
+    "lon": -84.6876797,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 34.1673722,
+    "lon": -84.3308619,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.7458162,
+    "lon": -84.3572616,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.7927085,
+    "lon": -84.3978483,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 34.2580644,
+    "lon": -84.0711918,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.5105148,
+    "lon": -84.2199152,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.8904272,
+    "lon": -84.3245012,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.8209249,
+    "lon": -84.3865436,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.9520871,
+    "lon": -84.232338,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.342701,
+    "lon": -84.5369878,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.9982953,
+    "lon": -84.0681514,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 34.1028087,
+    "lon": -83.8121216,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 34.1779825,
+    "lon": -84.4181949,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 34.0931823,
+    "lon": -84.2064687,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.4136569,
+    "lon": -84.2025689,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.2956993,
+    "lon": -84.5444237,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.8057724,
+    "lon": -84.5255161,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.881598,
+    "lon": -84.51206,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.8434729,
+    "lon": -84.504469,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.7015734,
+    "lon": -84.5785696,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 34.2997897,
+    "lon": -84.1506369,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.9974318,
+    "lon": -84.7079271,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.8090509,
+    "lon": -84.886135,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.7391194,
+    "lon": -84.3870536,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.9324807,
+    "lon": -84.3393822,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.4375886,
+    "lon": -84.0401199,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.7776772,
+    "lon": -84.2782797,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.6239864,
+    "lon": -83.8391448,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.97741,
+    "lon": -84.4145103,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.6172216,
+    "lon": -84.0814256,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.8483406,
+    "lon": -84.4279835,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.7248615,
+    "lon": -84.5081966,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.4660473,
+    "lon": -84.2344364,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.900427,
+    "lon": -84.3021442,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.8701406,
+    "lon": -84.3342889,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.7352617,
+    "lon": -84.9062045,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.808997,
+    "lon": -84.8863471,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 34.055208,
+    "lon": -84.5537559,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 34.0232965,
+    "lon": -84.6236798,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.7352284,
+    "lon": -84.6687006,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 34.0285215,
+    "lon": -84.421021,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.4370604,
+    "lon": -84.1213309,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.8102117,
+    "lon": -84.4145863,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 34.1868901,
+    "lon": -84.1390565,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 34.1106491,
+    "lon": -84.1543863,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 34.1789191,
+    "lon": -84.5489542,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 34.0745625,
+    "lon": -84.651845,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.8643606,
+    "lon": -84.6741528,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 34.0738774,
+    "lon": -83.9156529,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 34.06405,
+    "lon": -84.7264997,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.9938127,
+    "lon": -84.5993589,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.9483617,
+    "lon": -84.6256317,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.9053213,
+    "lon": -84.4276814,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 34.0658311,
+    "lon": -84.4232002,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.919782,
+    "lon": -84.3527028,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.8511259,
+    "lon": -84.3594776,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.8351059,
+    "lon": -84.3837333,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 34.1188341,
+    "lon": -84.0749758,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.8792032,
+    "lon": -83.9383424,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.3960032,
+    "lon": -84.7640086,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.3743298,
+    "lon": -84.7523009,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.9878038,
+    "lon": -84.1686047,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.8473847,
+    "lon": -84.2570105,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 34.1639628,
+    "lon": -84.114535,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 34.0182247,
+    "lon": -84.1877314,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.5616202,
+    "lon": -84.3250285,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 34.0574041,
+    "lon": -84.2348365,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.950542,
+    "lon": -84.3379673,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 34.0616139,
+    "lon": -84.5907145,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 34.0364247,
+    "lon": -83.9900973,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 34.0730708,
+    "lon": -84.2938525,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.8830085,
+    "lon": -84.1639611,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.6841726,
+    "lon": -83.998024,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.8455819,
+    "lon": -84.3743372,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.9215405,
+    "lon": -84.0181735,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 34.1731896,
+    "lon": -84.7839012,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.8328751,
+    "lon": -84.5744621,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 34.0843239,
+    "lon": -84.1593759,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.9435363,
+    "lon": -83.7544464,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.4308992,
+    "lon": -84.454683,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 34.2527951,
+    "lon": -84.4756435,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.8770069,
+    "lon": -84.0147162,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.9697912,
+    "lon": -84.0239968,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 34.0231925,
+    "lon": -84.2676022,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 34.0610042,
+    "lon": -84.3859923,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.976347,
+    "lon": -84.4785537,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.7386786,
+    "lon": -84.3131539,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.7804479,
+    "lon": -84.3887556,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.979334,
+    "lon": -83.714131,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.871177,
+    "lon": -84.3791037,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 34.1596092,
+    "lon": -84.239567,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 34.0070638,
+    "lon": -84.1302164,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.478445,
+    "lon": -84.438522,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 34.2367743,
+    "lon": -84.2907207,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.9864713,
+    "lon": -84.4257504,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.8057758,
+    "lon": -83.7317124,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.3657938,
+    "lon": -84.1811389,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.8704317,
+    "lon": -84.0927424,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.8625167,
+    "lon": -84.2879785,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 34.2408428,
+    "lon": -84.2264345,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 34.079309,
+    "lon": -84.357383,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 34.062377,
+    "lon": -84.2133434,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 34.103226,
+    "lon": -83.9754258,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.9688961,
+    "lon": -83.8861724,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.9346642,
+    "lon": -83.9563887,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.9539153,
+    "lon": -84.055163,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.9437219,
+    "lon": -84.1281191,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.7856789,
+    "lon": -84.100297,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.8024723,
+    "lon": -84.0408903,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.576602,
+    "lon": -83.965002,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.5477967,
+    "lon": -84.1356628,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.5549539,
+    "lon": -84.2324986,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.4235737,
+    "lon": -84.5570771,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.4504491,
+    "lon": -84.7045847,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.6123628,
+    "lon": -84.6099375,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 34.2712691,
+    "lon": -84.5031871,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 34.1918723,
+    "lon": -84.5113851,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 34.0296088,
+    "lon": -84.7786023,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 34.049468,
+    "lon": -84.6102686,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 34.1269423,
+    "lon": -84.5710987,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 34.0122317,
+    "lon": -83.7063913,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.3989004,
+    "lon": -84.6283088,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix",
+    "lat": 33.8943858,
+    "lon": -84.3303976,
+    "brand": "Publix",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Publix Super Market",
+    "lat": 33.8506839,
+    "lon": -84.1995064,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Punjab Grocery & Halal Meat",
+    "lat": 33.9073185,
+    "lon": -84.4889979,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Red and White Food Store",
+    "lat": 33.3027733,
+    "lon": -83.6850492,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Sai Market",
+    "lat": 34.1130969,
+    "lon": -84.1549438,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "San Andreas Grocery & Bakery",
+    "lat": 34.0847291,
+    "lon": -84.5205031,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Savi Provisions",
+    "lat": 33.8610363,
+    "lon": -84.3323431,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Sevananda",
+    "lat": 33.7669637,
+    "lon": -84.3485126,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Shahi Bazaar",
+    "lat": 33.8880474,
+    "lon": -84.0625843,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Shopper's World",
+    "lat": 33.6556682,
+    "lon": -84.5071604,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Shopper's World",
+    "lat": 33.5684627,
+    "lon": -84.3273831,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Sprouts Farmers Market",
+    "lat": 33.8901542,
+    "lon": -84.4767432,
+    "brand": "Sprouts Farmers Market",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Sprouts Farmers Market",
+    "lat": 33.9813189,
+    "lon": -84.214004,
+    "brand": "Sprouts Farmers Market",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Sprouts Farmers Market",
+    "lat": 34.183959,
+    "lon": -84.143671,
+    "brand": "Sprouts Farmers Market",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Sprouts Farmers Market",
+    "lat": 34.1062144,
+    "lon": -84.5400366,
+    "brand": "Sprouts Farmers Market",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Sprouts Farmers Market",
+    "lat": 33.4195001,
+    "lon": -84.5605283,
+    "brand": "Sprouts Farmers Market",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Sprouts Farmers Market",
+    "lat": 33.7939709,
+    "lon": -84.2874031,
+    "brand": "Sprouts Farmers Market",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Sprouts Farmers Market",
+    "lat": 33.8498057,
+    "lon": -84.243429,
+    "brand": "Sprouts Farmers Market",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Sprouts Farmers Market",
+    "lat": 33.8815089,
+    "lon": -84.3809342,
+    "brand": "Sprouts Farmers Market",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Sprouts Farmers Market",
+    "lat": 33.8421994,
+    "lon": -84.5010644,
+    "brand": "Sprouts Farmers Market",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Sprouts Farmers Market",
+    "lat": 33.9818937,
+    "lon": -84.4318515,
+    "brand": "Sprouts Farmers Market",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Sprouts Farmers Market",
+    "lat": 33.4801142,
+    "lon": -84.2233833,
+    "brand": "Sprouts Farmers Market",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Sprouts Farmers Market",
+    "lat": 33.8060112,
+    "lon": -84.3666362,
+    "brand": "Sprouts Farmers Market",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Sprouts Farmers Market",
+    "lat": 34.0702336,
+    "lon": -84.1707786,
+    "brand": "Sprouts Farmers Market",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Sprouts Farmers Market",
+    "lat": 34.0440976,
+    "lon": -84.3423671,
+    "brand": "Sprouts Farmers Market",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Sprouts Farmers Market",
+    "lat": 33.9003996,
+    "lon": -84.003923,
+    "brand": "Sprouts Farmers Market",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Sprouts Farmers Market",
+    "lat": 34.0500711,
+    "lon": -83.9920285,
+    "brand": "Sprouts Farmers Market",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Sprouts Farmers Market",
+    "lat": 33.950149,
+    "lon": -84.6631116,
+    "brand": "Sprouts Farmers Market",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Star Mart",
+    "lat": 33.9565668,
+    "lon": -83.9765017,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Super H Mart",
+    "lat": 33.969855,
+    "lon": -84.1430273,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Super H Mart",
+    "lat": 34.0447826,
+    "lon": -84.1781905,
+    "brand": "H Mart",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Super H Mart",
+    "lat": 33.90786,
+    "lon": -84.288034,
+    "brand": "H Mart",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Super Mercado Jalisco",
+    "lat": 33.9172017,
+    "lon": -84.1152844,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Super Mercado Jalisco",
+    "lat": 33.9491589,
+    "lon": -83.9860152,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Super Mercado La Casita",
+    "lat": 33.9433497,
+    "lon": -83.9915903,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Super Mercado La Villa",
+    "lat": 34.0878699,
+    "lon": -84.5866441,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Super Mercado Lavilla",
+    "lat": 34.0221766,
+    "lon": -84.6274509,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Superett Food Mart",
+    "lat": 33.9653494,
+    "lon": -83.9856605,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Supermercado Jalisco",
+    "lat": 33.9054599,
+    "lon": -84.5418436,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Supermercado Mi Pueblo",
+    "lat": 33.9016041,
+    "lon": -84.5404345,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Supermercado Talpa",
+    "lat": 33.9026706,
+    "lon": -84.5430211,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Suvidha Indo-Pak",
+    "lat": 34.0207479,
+    "lon": -84.5564082,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Suvidha Indo-Pak Groceries",
+    "lat": 34.077433,
+    "lon": -84.1622497,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Talpa Supermercados",
+    "lat": 33.895838,
+    "lon": -84.1378646,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Tana Food Mart",
+    "lat": 33.9005942,
+    "lon": -84.1313434,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Taqwa Halal Meat & Grocery",
+    "lat": 33.9246381,
+    "lon": -84.4697244,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Target",
+    "lat": 33.4822616,
+    "lon": -84.4389417,
+    "brand": "Target",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Target",
+    "lat": 33.8853357,
+    "lon": -84.7446355,
+    "brand": "Target",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Target",
+    "lat": 33.8749632,
+    "lon": -84.016072,
+    "brand": "Target",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Target",
+    "lat": 33.8515206,
+    "lon": -84.602618,
+    "brand": "Target",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Target",
+    "lat": 34.2344385,
+    "lon": -84.4571266,
+    "brand": "Target",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Target",
+    "lat": 33.4678593,
+    "lon": -84.2170001,
+    "brand": "Target",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "The Fresh Market",
+    "lat": 33.8119901,
+    "lon": -84.3913739,
+    "brand": "The Fresh Market",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "The Fresh Market",
+    "lat": 33.948459,
+    "lon": -84.3347084,
+    "brand": "The Fresh Market",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "The Fresh Market",
+    "lat": 34.0372378,
+    "lon": -84.0997863,
+    "brand": "The Fresh Market",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "The Fresh Market",
+    "lat": 33.874471,
+    "lon": -84.3798747,
+    "brand": "The Fresh Market",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "The Fresh Market",
+    "lat": 33.4093859,
+    "lon": -84.569351,
+    "brand": "The Fresh Market",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "The Fresh Market",
+    "lat": 34.0204629,
+    "lon": -84.2726835,
+    "brand": "The Fresh Market",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "The Grocery Spot",
+    "lat": 33.7760303,
+    "lon": -84.4719121,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Thriftown",
+    "lat": 33.8101214,
+    "lon": -84.242426,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Tomato Japanese Grocery",
+    "lat": 33.9050391,
+    "lon": -84.4852091,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Trader Joe's",
+    "lat": 34.0593841,
+    "lon": -84.3796637,
+    "brand": "Trader Joe's",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Trader Joe's",
+    "lat": 33.7797895,
+    "lon": -84.3678804,
+    "brand": "Trader Joe's",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Trader Joe's",
+    "lat": 33.9831695,
+    "lon": -84.4262326,
+    "brand": "Trader Joe's",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Trader Joe's",
+    "lat": 33.9789035,
+    "lon": -84.2198002,
+    "brand": "Trader Joe's",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Trader Joe's",
+    "lat": 33.8408678,
+    "lon": -84.3751232,
+    "brand": "Trader Joe's",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Trader Joe's",
+    "lat": 33.9262493,
+    "lon": -84.3782039,
+    "brand": "Trader Joe's",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Trader Joe's",
+    "lat": 34.10862,
+    "lon": -84.2190108,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Trader Joe's",
+    "lat": 33.39597,
+    "lon": -84.5938863,
+    "brand": "Trader Joe's",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Turner Feed Center",
+    "lat": 33.742061,
+    "lon": -84.777344,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Vayal Foods",
+    "lat": 34.1648645,
+    "lon": -84.1755393,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Wagaya Groceries",
+    "lat": 33.7863606,
+    "lon": -84.3983997,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Walmart Neighborhood Market",
+    "lat": 33.8837379,
+    "lon": -84.2184696,
+    "brand": "Walmart",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Walmart Neighborhood Market",
+    "lat": 33.7558545,
+    "lon": -84.4135888,
+    "brand": "Walmart",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Walmart Neighborhood Market",
+    "lat": 33.8529944,
+    "lon": -84.0342178,
+    "brand": "Walmart",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Walmart Neighborhood Market",
+    "lat": 33.922428,
+    "lon": -84.085591,
+    "brand": "Walmart",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Walmart Neighborhood Market",
+    "lat": 33.94189,
+    "lon": -84.269679,
+    "brand": "Walmart",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Walmart Neighborhood Market",
+    "lat": 33.8826076,
+    "lon": -84.5866856,
+    "brand": "Walmart",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Walmart Supercenter",
+    "lat": 33.7191174,
+    "lon": -84.3129115,
+    "brand": "Walmart",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Walmart Supercenter",
+    "lat": 34.0936564,
+    "lon": -84.2744363,
+    "brand": "Walmart",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Walmart Supercenter",
+    "lat": 33.7079521,
+    "lon": -85.1635113,
+    "brand": "Walmart",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Walmart Supercenter",
+    "lat": 33.7984448,
+    "lon": -83.7422731,
+    "brand": "Walmart",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Walmart Supercenter",
+    "lat": 33.7572209,
+    "lon": -84.2684319,
+    "brand": "Walmart",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Walmart Supercenter",
+    "lat": 33.5432166,
+    "lon": -85.0772682,
+    "brand": "Walmart",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Walmart Supercenter",
+    "lat": 33.9099021,
+    "lon": -84.4886113,
+    "brand": "Walmart",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Walmart Supercenter",
+    "lat": 33.9458486,
+    "lon": -84.5216263,
+    "brand": "Walmart",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Walmart Supercenter",
+    "lat": 33.9700416,
+    "lon": -84.150358,
+    "brand": "Walmart",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Walmart Supercenter",
+    "lat": 33.6783291,
+    "lon": -84.4165858,
+    "brand": "Walmart",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Walmart Supercenter",
+    "lat": 34.0453263,
+    "lon": -84.3334235,
+    "brand": "Walmart",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Walmart Supercenter",
+    "lat": 33.4011765,
+    "lon": -84.599898,
+    "brand": "Walmart",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Walmart Supercenter",
+    "lat": 33.8672533,
+    "lon": -84.6363075,
+    "brand": "Walmart",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Walmart Supercenter",
+    "lat": 34.0487595,
+    "lon": -84.6979951,
+    "brand": "Walmart",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Walmart Supercenter",
+    "lat": 33.8409061,
+    "lon": -83.9112285,
+    "brand": "Walmart",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Walmart Supercenter",
+    "lat": 33.5868546,
+    "lon": -84.4721959,
+    "brand": "Walmart",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Walmart Supercenter",
+    "lat": 33.5732076,
+    "lon": -84.5418485,
+    "brand": "Walmart",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Walmart Supercenter",
+    "lat": 33.7325042,
+    "lon": -84.7564591,
+    "brand": "Walmart",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Walmart Supercenter",
+    "lat": 34.4762138,
+    "lon": -84.4600745,
+    "brand": "Walmart",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Walmart Supercenter",
+    "lat": 34.02331,
+    "lon": -84.4226077,
+    "brand": "Walmart",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Walmart Supercenter",
+    "lat": 34.0193741,
+    "lon": -84.557081,
+    "brand": "Walmart",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Walmart Supercenter",
+    "lat": 34.088841,
+    "lon": -83.9899957,
+    "brand": "Walmart",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Walmart Supercenter",
+    "lat": 34.1839434,
+    "lon": -84.129029,
+    "brand": "Walmart",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Walmart Supercenter",
+    "lat": 34.3549264,
+    "lon": -84.0416283,
+    "brand": "Walmart",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Walmart Supercenter",
+    "lat": 33.8249008,
+    "lon": -84.1259402,
+    "brand": "Walmart",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Walmart Supercenter",
+    "lat": 34.1001449,
+    "lon": -84.1737493,
+    "brand": "Walmart",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Walmart Supercenter",
+    "lat": 34.1503463,
+    "lon": -84.2493465,
+    "brand": "Walmart",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Walmart Supercenter",
+    "lat": 33.8908322,
+    "lon": -84.758848,
+    "brand": "Walmart",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Walmart Supercenter",
+    "lat": 33.8885252,
+    "lon": -84.3115502,
+    "brand": "Walmart",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Walmart Supercenter",
+    "lat": 34.2029775,
+    "lon": -84.7874359,
+    "brand": "Walmart",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Walmart Supercenter",
+    "lat": 33.4812918,
+    "lon": -84.4433407,
+    "brand": "Walmart",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Walmart Supercenter",
+    "lat": 33.7201975,
+    "lon": -84.93494,
+    "brand": "Walmart",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Walmart Supercenter",
+    "lat": 33.5661585,
+    "lon": -83.479878,
+    "brand": "Walmart",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Walmart Supercenter",
+    "lat": 33.9367855,
+    "lon": -84.0253168,
+    "brand": "Walmart",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Walmart Supercenter",
+    "lat": 33.9029529,
+    "lon": -84.1105451,
+    "brand": "Walmart",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Walmart Supercenter",
+    "lat": 33.8864027,
+    "lon": -84.0075762,
+    "brand": "Walmart",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Walmart Supercenter",
+    "lat": 33.6108707,
+    "lon": -83.8301752,
+    "brand": "Walmart",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Walmart Supercenter",
+    "lat": 33.6528275,
+    "lon": -83.9966151,
+    "brand": "Walmart",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Walmart Supercenter",
+    "lat": 33.6945785,
+    "lon": -84.084824,
+    "brand": "Walmart",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Walmart Supercenter",
+    "lat": 33.3935395,
+    "lon": -84.7435842,
+    "brand": "Walmart",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Walmart Supercenter",
+    "lat": 33.5074421,
+    "lon": -84.2356462,
+    "brand": "Walmart",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Walmart Supercenter",
+    "lat": 34.2667751,
+    "lon": -84.0870956,
+    "brand": "Walmart",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Walmart Supercenter",
+    "lat": 33.4328195,
+    "lon": -84.1849752,
+    "brand": "Walmart",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Walmart Supercenter",
+    "lat": 33.5895575,
+    "lon": -84.340324,
+    "brand": "Walmart",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Walmart Supercenter",
+    "lat": 33.6363658,
+    "lon": -84.292887,
+    "brand": "Walmart",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Walmart Supercenter",
+    "lat": 33.8557401,
+    "lon": -84.2050254,
+    "brand": "Walmart",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Walmart Supercenter",
+    "lat": 33.799265,
+    "lon": -84.1950605,
+    "brand": "Walmart",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Walmart Supercenter",
+    "lat": 33.7744448,
+    "lon": -84.6010822,
+    "brand": "Walmart",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Walmart Supercenter",
+    "lat": 33.7922453,
+    "lon": -84.2889265,
+    "brand": "Walmart",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Walmart Supercenter",
+    "lat": 33.989994,
+    "lon": -83.75655,
+    "brand": "Walmart",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Walmart Supercenter",
+    "lat": 33.5624313,
+    "lon": -84.4103177,
+    "brand": "Walmart",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Walmart Supercenter",
+    "lat": 34.0284735,
+    "lon": -84.657911,
+    "brand": "Walmart",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Walmart Supercenter",
+    "lat": 33.272429,
+    "lon": -84.2967574,
+    "brand": "Walmart",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Walmart Supercenter",
+    "lat": 34.0840679,
+    "lon": -84.4813558,
+    "brand": "Walmart",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Walmart Supercenter",
+    "lat": 33.8555746,
+    "lon": -84.5868466,
+    "brand": "Walmart",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Walmart Supercenter",
+    "lat": 33.3581427,
+    "lon": -84.1205589,
+    "brand": "Walmart",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Walmart Supercenter",
+    "lat": 33.8025746,
+    "lon": -84.4106416,
+    "brand": "Walmart",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Walmart Supercenter",
+    "lat": 33.4425188,
+    "lon": -84.325713,
+    "brand": "Walmart",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Walmart Supercenter",
+    "lat": 34.0784401,
+    "lon": -83.9219635,
+    "brand": "Walmart",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Walmart Supercenter",
+    "lat": 34.1128128,
+    "lon": -84.5844805,
+    "brand": "Walmart",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Walmart Supercenter",
+    "lat": 34.0368709,
+    "lon": -84.0506042,
+    "brand": "Walmart",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Walmart Supercenter",
+    "lat": 33.9353795,
+    "lon": -84.730318,
+    "brand": "Walmart",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Walmart Supercenter",
+    "lat": 33.553185,
+    "lon": -84.25538,
+    "brand": "Walmart",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Walmart Supercenter",
+    "lat": 34.185397,
+    "lon": -84.50442,
+    "brand": "Walmart",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Walmart Supercenter",
+    "lat": 33.971139,
+    "lon": -83.996583,
+    "brand": "Walmart",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Walmart Supercenter",
+    "lat": 34.255416,
+    "lon": -84.461178,
+    "brand": "Walmart",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Walmart Supercenter",
+    "lat": 33.577117,
+    "lon": -83.959197,
+    "brand": "Walmart",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Walmart Supercenter",
+    "lat": 33.72837,
+    "lon": -84.507908,
+    "brand": "Walmart",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Walmart Supercenter",
+    "lat": 33.807876,
+    "lon": -84.046785,
+    "brand": "Walmart",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Walmart Supercenter",
+    "lat": 33.894961,
+    "lon": -84.194157,
+    "brand": "Walmart",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Walmart Supercenter",
+    "lat": 33.700533,
+    "lon": -84.166977,
+    "brand": "Walmart",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Watan International",
+    "lat": 34.0155323,
+    "lon": -84.5614683,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Wayfield Foods",
+    "lat": 33.5156097,
+    "lon": -84.365015,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Wayfield Foods",
+    "lat": 33.7392583,
+    "lon": -84.253396,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Wayfields",
+    "lat": 33.6877824,
+    "lon": -84.4545796,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Wayfields",
+    "lat": 33.6609467,
+    "lon": -84.4480736,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Westview Corner Grocery",
+    "lat": 33.7437451,
+    "lon": -84.4386055,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Whole Foods Market",
+    "lat": 33.8408775,
+    "lon": -84.3813716,
+    "brand": "Whole Foods Market",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Whole Foods Market",
+    "lat": 33.7861686,
+    "lon": -84.3885403,
+    "brand": "Whole Foods Market",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Whole Foods Market",
+    "lat": 34.069479,
+    "lon": -84.2784452,
+    "brand": "Whole Foods Market",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Whole Foods Market",
+    "lat": 34.0129851,
+    "lon": -84.1834939,
+    "brand": "Whole Foods Market",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Whole Foods Market",
+    "lat": 33.9177311,
+    "lon": -84.3797756,
+    "brand": "Whole Foods Market",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Whole Foods Market",
+    "lat": 33.9810093,
+    "lon": -84.427864,
+    "brand": "Whole Foods Market",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Whole Foods Market",
+    "lat": 33.9975419,
+    "lon": -84.5895603,
+    "brand": "Whole Foods Market",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Whole Foods Market",
+    "lat": 33.8501261,
+    "lon": -84.4295004,
+    "brand": "Whole Foods Market",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Whole Foods Market",
+    "lat": 33.792619,
+    "lon": -84.2842545,
+    "brand": "Whole Foods Market",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Whole Foods Market",
+    "lat": 33.7751411,
+    "lon": -84.3658985,
+    "brand": "Whole Foods Market",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Whole Foods Market",
+    "lat": 33.88506,
+    "lon": -84.314301,
+    "brand": "Whole Foods",
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Yorkville Market",
+    "lat": 33.9278551,
+    "lon": -84.9963877,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Your Dekalb Farmers Market",
+    "lat": 33.7868589,
+    "lon": -84.2694654,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "Zoin Market",
+    "lat": 33.9640727,
+    "lon": -84.1373495,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  },
+  {
+    "name": "al-Rahman Grocery",
+    "lat": 33.8086923,
+    "lon": -84.2406899,
+    "brand": null,
+    "source": "OpenStreetMap Overpass API (shop=supermarket or shop=grocery); rebuilt from cached eda/research/grocery.geojson"
+  }
+]

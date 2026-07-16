@@ -1,0 +1,1374 @@
+[
+  {
+    "name": "1231 Rooftop Bar",
+    "lat": 33.7884018,
+    "lon": -84.3876231,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "529 Bar",
+    "lat": 33.7399078,
+    "lon": -84.3452623,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "97 Estoria",
+    "lat": 33.7520114,
+    "lon": -84.3634553,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "ACE Atlanta",
+    "lat": 33.8679603,
+    "lon": -84.3015484,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Admirals Club",
+    "lat": 33.6415916,
+    "lon": -84.4425403,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Aisle 5",
+    "lat": 33.7642272,
+    "lon": -84.3502481,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Atlanta Eagle",
+    "lat": 33.7961866,
+    "lon": -84.3711336,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Atmosphere Sports Bar",
+    "lat": 33.8542803,
+    "lon": -83.9346981,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Aveline",
+    "lat": 33.7909073,
+    "lon": -84.3880018,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "BJ Rooster's",
+    "lat": 33.8112738,
+    "lon": -84.3559755,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Bar 44",
+    "lat": 34.018704,
+    "lon": -84.528414,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Bar Margot",
+    "lat": 33.7863823,
+    "lon": -84.3855115,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Bar Moxy",
+    "lat": 33.7858797,
+    "lon": -84.385988,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Beer Growler",
+    "lat": 33.860942,
+    "lon": -84.331313,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Beez Freeze",
+    "lat": 33.3019488,
+    "lon": -84.5538118,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Bernie's Social Bar",
+    "lat": 34.0224788,
+    "lon": -84.6155608,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Bev's Place",
+    "lat": 33.8110893,
+    "lon": -84.1713816,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Big Al's Down the Hatch Saloon",
+    "lat": 33.9893224,
+    "lon": -84.96217,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Big Shots Billiards",
+    "lat": 34.087192,
+    "lon": -84.5478404,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Blackjack Bar Tapas",
+    "lat": 33.7842037,
+    "lon": -84.3842587,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Blake's on the Park",
+    "lat": 33.7816659,
+    "lon": -84.3799211,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Blu Lagoon Bar and Bistro",
+    "lat": 33.8170292,
+    "lon": -84.3517492,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Bo's Tavern",
+    "lat": 33.8188045,
+    "lon": -84.8134174,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Boggs Social & Supply",
+    "lat": 33.7373438,
+    "lon": -84.4303675,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Buckhead Saloon",
+    "lat": 33.8431541,
+    "lon": -84.3787746,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Bulldog's Bar",
+    "lat": 33.7790254,
+    "lon": -84.3840397,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Burn by Rocky Patel",
+    "lat": 33.8894703,
+    "lon": -84.4699866,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Bury the Hatchet",
+    "lat": 33.9313641,
+    "lon": -84.3807318,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Buteco",
+    "lat": 33.7250431,
+    "lon": -84.3770507,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "CRU Hookah Lounge",
+    "lat": 33.7465075,
+    "lon": -84.4029379,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "CR\u00da Food & Wine Bar",
+    "lat": 33.8885991,
+    "lon": -84.4700409,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Castleberry Ale House",
+    "lat": 34.173431,
+    "lon": -84.1890731,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Chamblee Tap & Market",
+    "lat": 33.8951386,
+    "lon": -84.2981568,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Church Annex",
+    "lat": 33.7541932,
+    "lon": -84.371551,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Churchill's",
+    "lat": 33.8426095,
+    "lon": -84.3802558,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Cirque - Daiquiri Bar & Grill",
+    "lat": 33.8109643,
+    "lon": -84.3700338,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Clues and Cocktails",
+    "lat": 33.7556724,
+    "lon": -84.3773329,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Cockpit",
+    "lat": 33.7418767,
+    "lon": -84.3684433,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Confetis Restaurant & Bar",
+    "lat": 33.8368578,
+    "lon": -84.335485,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Cue's Billiards",
+    "lat": 34.0337767,
+    "lon": -84.5264083,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Dad's",
+    "lat": 33.7783348,
+    "lon": -84.3530248,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Dads",
+    "lat": 33.7783236,
+    "lon": -84.3530496,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Dark Horse Tavern",
+    "lat": 33.7768237,
+    "lon": -84.3526593,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Delightful Eatz",
+    "lat": 33.7541488,
+    "lon": -84.3737738,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Dive Bar",
+    "lat": 33.8420845,
+    "lon": -84.3792025,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Don Burrito Grill",
+    "lat": 33.6206623,
+    "lon": -84.397113,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "East Andrews",
+    "lat": 33.8430408,
+    "lon": -84.3807236,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "East Side Lounge",
+    "lat": 33.7407694,
+    "lon": -84.3462601,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "El Malo",
+    "lat": 33.7460275,
+    "lon": -84.3605017,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "El Ocho Billiards",
+    "lat": 33.8364657,
+    "lon": -84.3351095,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Embr Lounge",
+    "lat": 33.7856916,
+    "lon": -84.3843546,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Euclid Yacht Club",
+    "lat": 33.7648449,
+    "lon": -84.3501136,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Felix's",
+    "lat": 33.7966008,
+    "lon": -84.3710687,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Fellaship ATL",
+    "lat": 33.752088,
+    "lon": -84.3990701,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Five O'clock Sports Bar & Grill",
+    "lat": 33.6035241,
+    "lon": -83.8789182,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Five Paces Inn",
+    "lat": 33.8415191,
+    "lon": -84.3802229,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Furnace 41",
+    "lat": 33.5438841,
+    "lon": -84.3660747,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Gaja",
+    "lat": 33.740555,
+    "lon": -84.3463186,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Glacier Ice Bar & Kitchen",
+    "lat": 33.9658636,
+    "lon": -84.2558398,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Goat Island Tavern",
+    "lat": 33.2953822,
+    "lon": -83.9672298,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Halfway Crooks Beer",
+    "lat": 33.7370413,
+    "lon": -84.3858166,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Hammer's Good Time Emporium",
+    "lat": 33.6585984,
+    "lon": -84.4186154,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Hangovers",
+    "lat": 33.8422245,
+    "lon": -84.3792318,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "High Card Brewery",
+    "lat": 33.8528753,
+    "lon": -84.2148413,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "High Note Food & Drink",
+    "lat": 33.7860804,
+    "lon": -84.3859379,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Highball",
+    "lat": 33.7587257,
+    "lon": -84.4009327,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Hippin' Hops",
+    "lat": 33.7402333,
+    "lon": -84.3447766,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Hop City Bar",
+    "lat": 33.7570559,
+    "lon": -84.3638692,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Humidor Cigar Bar & Lounge",
+    "lat": 33.8018909,
+    "lon": -84.0439965,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "J's Lounge",
+    "lat": 33.8982127,
+    "lon": -84.496582,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Joe's Sports Bar and Grill",
+    "lat": 34.071004,
+    "lon": -84.2048618,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Johnny's Bar",
+    "lat": 33.7439152,
+    "lon": -85.2877596,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Joystick Game Bar",
+    "lat": 33.7541471,
+    "lon": -84.3736152,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Kat's Cafe",
+    "lat": 33.781105,
+    "lon": -84.3808443,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Kramer's",
+    "lat": 33.8415663,
+    "lon": -84.3786478,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Krog Bar",
+    "lat": 33.7562632,
+    "lon": -84.3645264,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Laird's Bar and Grill",
+    "lat": 34.1753679,
+    "lon": -84.5084916,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Lingering Shade Social Club",
+    "lat": 33.7577819,
+    "lon": -84.3650448,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Locker Club",
+    "lat": 33.7540764,
+    "lon": -84.3716369,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Lore",
+    "lat": 33.7545333,
+    "lon": -84.3724915,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Madeira Park",
+    "lat": 33.7718177,
+    "lon": -84.3527277,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Maison Mathis",
+    "lat": 33.6378353,
+    "lon": -84.4199673,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "May Peel",
+    "lat": 33.7903082,
+    "lon": -84.3883445,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Mazzy's",
+    "lat": 33.9715456,
+    "lon": -84.4884944,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Mazzy's Sports Tavern",
+    "lat": 33.9512515,
+    "lon": -84.1402088,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Milltown Arms Tavern",
+    "lat": 33.7496308,
+    "lon": -84.3679145,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Mixx Atlanta",
+    "lat": 33.7960373,
+    "lon": -84.3710344,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "MoonShadow Tavern",
+    "lat": 33.8506411,
+    "lon": -84.2190632,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Mr. Cue's II Billiards",
+    "lat": 33.8845018,
+    "lon": -84.2482745,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Mutation Brewing",
+    "lat": 33.9143848,
+    "lon": -84.3789206,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "My Sister's Room",
+    "lat": 33.7848437,
+    "lon": -84.3846032,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Nest on Four",
+    "lat": 33.7589621,
+    "lon": -84.4005164,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Nineteeth Hole",
+    "lat": 33.800421,
+    "lon": -84.3764999,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Noni's",
+    "lat": 33.7542642,
+    "lon": -84.3758902,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Northside Tavern",
+    "lat": 33.7835945,
+    "lon": -84.4120473,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Northside Tavern",
+    "lat": 33.7836184,
+    "lon": -84.4120813,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Oak & Vine",
+    "lat": 33.7943443,
+    "lon": -83.7132656,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Oasis Goodtime Emporium",
+    "lat": 33.9213441,
+    "lon": -84.2815314,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Old Fourth",
+    "lat": 33.7541737,
+    "lon": -84.3716339,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Old Havana Cigar Bar",
+    "lat": 34.1647607,
+    "lon": -84.7960415,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Ormsby\u2019s",
+    "lat": 33.7857639,
+    "lon": -84.4120393,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Owlz Pub",
+    "lat": 34.0429909,
+    "lon": -84.6026216,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "PBR Atlanta: A Coors Banquet Bar",
+    "lat": 33.8893661,
+    "lon": -84.4691952,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "PK-TUNN Lounge Bar & Grille",
+    "lat": 34.0326495,
+    "lon": -84.0498237,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Painted Pickle",
+    "lat": 33.811608,
+    "lon": -84.3776527,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Pal's Lounge",
+    "lat": 33.7557156,
+    "lon": -84.3793233,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Park Bar",
+    "lat": 33.7581942,
+    "lon": -84.392804,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Park Bench",
+    "lat": 33.8410023,
+    "lon": -84.3806558,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Peachtree Sports Club",
+    "lat": 33.7595697,
+    "lon": -84.3871329,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Piano Bar",
+    "lat": 33.6409209,
+    "lon": -84.4397203,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Pontoon Brewing Company The Lodge",
+    "lat": 33.8384773,
+    "lon": -84.1966246,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Popup Atlanta",
+    "lat": 33.7789289,
+    "lon": -84.3671662,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Porterdale Bar and Grill",
+    "lat": 33.5658693,
+    "lon": -83.9031664,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Pour Taproom",
+    "lat": 33.7562599,
+    "lon": -84.365444,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Pour Taproom Atlanta",
+    "lat": 33.7869191,
+    "lon": -84.3835498,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Prime Cigar Bar",
+    "lat": 33.7828952,
+    "lon": -84.3835811,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Pulse Bar",
+    "lat": 33.76166,
+    "lon": -84.384881,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Pure Taqueria",
+    "lat": 34.02972,
+    "lon": -84.3547673,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "RPM Full Service Patio Pub & Grill",
+    "lat": 33.3762125,
+    "lon": -84.800082,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Red Brick Brewing Company",
+    "lat": 33.8183895,
+    "lon": -84.4346126,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Red Phone Booth",
+    "lat": 33.7595892,
+    "lon": -84.386898,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Reserve on Spring Taproom and Wine Bar",
+    "lat": 33.748597,
+    "lon": -84.7500425,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Royal Peacock Lounge",
+    "lat": 33.7556803,
+    "lon": -84.3816274,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Sakura Sake Bar",
+    "lat": 33.7311658,
+    "lon": -84.4209331,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Sammy's Midnite Bar & Grill",
+    "lat": 33.5728164,
+    "lon": -85.0916212,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Seven Midtown",
+    "lat": 33.7846865,
+    "lon": -84.3845616,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Shawn O'Brian's",
+    "lat": 33.3846808,
+    "lon": -83.9018456,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Sidebar",
+    "lat": 33.7568094,
+    "lon": -84.3898315,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Sister Louisa's Church of the Living Room & Ping Pong Emporium",
+    "lat": 33.7544819,
+    "lon": -84.3723533,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Sivas Tavern",
+    "lat": 34.007644,
+    "lon": -84.5688392,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "SixesTavern",
+    "lat": 34.175342,
+    "lon": -84.5483132,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Skylounge At Glenn",
+    "lat": 33.7570711,
+    "lon": -84.3930425,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Slingshot Social Game Club",
+    "lat": 33.7785625,
+    "lon": -84.4107161,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Smith's Olde Bar",
+    "lat": 33.7977064,
+    "lon": -84.3688018,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Snook's Grill & Cocktails",
+    "lat": 33.98806,
+    "lon": -84.2710535,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Soundtable",
+    "lat": 33.7541221,
+    "lon": -84.3718028,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Speakeasy Lounge",
+    "lat": 33.7502683,
+    "lon": -84.3952481,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Sportsline Bar & Grille",
+    "lat": 33.9045982,
+    "lon": -84.4856754,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Stadium Lounge",
+    "lat": 33.8130005,
+    "lon": -83.6801515,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Stagecoach",
+    "lat": 33.8409934,
+    "lon": -84.38055,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Standard at Roswell",
+    "lat": 34.0256327,
+    "lon": -84.3605738,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Star Community Bar",
+    "lat": 33.7662837,
+    "lon": -84.348824,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Stem Wine Bar",
+    "lat": 33.9798055,
+    "lon": -84.4282788,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Stone Mountain Public House",
+    "lat": 33.8074847,
+    "lon": -84.1703844,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "SuBourbon Bar & Social Club",
+    "lat": 34.019886,
+    "lon": -84.6135396,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Suds & Bottles",
+    "lat": 34.2354256,
+    "lon": -84.4953238,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "SweetWater Brewing Company",
+    "lat": 33.8080357,
+    "lon": -84.3811482,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "TAPS@PH'EAST",
+    "lat": 33.8879092,
+    "lon": -84.4705825,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Taco Mac",
+    "lat": 33.7244287,
+    "lon": -84.7652236,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Taco Mac Mall of Geogia",
+    "lat": 34.0682296,
+    "lon": -83.9838089,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "The Alamo",
+    "lat": 33.3750968,
+    "lon": -84.8007048,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "The Bar",
+    "lat": 33.6407275,
+    "lon": -84.4256742,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "The Bar",
+    "lat": 33.8030045,
+    "lon": -84.4125757,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "The Beer Growler",
+    "lat": 33.7758276,
+    "lon": -84.2713655,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "The Earl",
+    "lat": 33.7409828,
+    "lon": -84.3459052,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "The Gaslight",
+    "lat": 34.0226599,
+    "lon": -84.3621772,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "The Glenwood",
+    "lat": 33.7400514,
+    "lon": -84.3461245,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "The Heretic",
+    "lat": 33.8114485,
+    "lon": -84.3552782,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "The Hideaway",
+    "lat": 33.7982222,
+    "lon": -84.371752,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "The IVY",
+    "lat": 33.8564562,
+    "lon": -84.3819611,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "The James Room",
+    "lat": 33.7564632,
+    "lon": -84.3653939,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "The Local 7",
+    "lat": 33.8527018,
+    "lon": -84.2144507,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "The Lost Dog Tavern",
+    "lat": 33.8420382,
+    "lon": -84.3794731,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "The Marquee Club",
+    "lat": 33.772791,
+    "lon": -84.3850877,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "The Monticello",
+    "lat": 33.9060508,
+    "lon": -84.4651441,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "The Office Bar",
+    "lat": 33.7850567,
+    "lon": -84.3876001,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "The Pink Pony",
+    "lat": 33.8349061,
+    "lon": -84.3370728,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "The Pool Hall",
+    "lat": 33.840966,
+    "lon": -84.3803742,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "The Pool Turtle",
+    "lat": 33.769958,
+    "lon": -84.2530953,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "The Red Door Tavern",
+    "lat": 33.8419446,
+    "lon": -84.3792438,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "The Righteous Room",
+    "lat": 33.8925083,
+    "lon": -84.3257718,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "The Righteous Room",
+    "lat": 33.7734475,
+    "lon": -84.3529817,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "The Rusty Barrel Bar & Grill",
+    "lat": 33.9482385,
+    "lon": -84.5070535,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "The SOS Tiki Bar",
+    "lat": 33.7742331,
+    "lon": -84.2951547,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "The Side Bar",
+    "lat": 33.7567323,
+    "lon": -84.3899455,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "The Stout Brothers",
+    "lat": 33.88378,
+    "lon": -84.5153322,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "The Tap",
+    "lat": 33.7730641,
+    "lon": -84.3663093,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "The Vibrary",
+    "lat": 33.8083331,
+    "lon": -84.1707561,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "The Village Hideout",
+    "lat": 33.8844507,
+    "lon": -84.5161764,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "The Well",
+    "lat": 34.2171397,
+    "lon": -84.1462575,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Tongue & Groove",
+    "lat": 33.8223388,
+    "lon": -84.3687794,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Topps Bar",
+    "lat": 33.7252694,
+    "lon": -84.7648465,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Towerhouse Brewing",
+    "lat": 33.0944169,
+    "lon": -84.57387,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Trophy Room",
+    "lat": 33.7400225,
+    "lon": -84.3450572,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Tubby Tom's Sports Bar & Grill",
+    "lat": 33.5985501,
+    "lon": -83.8325737,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Twisted Tavern",
+    "lat": 34.0974035,
+    "lon": -84.0159789,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Veranda",
+    "lat": 33.7858799,
+    "lon": -84.384547,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Viking Alchemist Meadery",
+    "lat": 33.877943,
+    "lon": -84.5040998,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Vino Volo",
+    "lat": 33.6440036,
+    "lon": -84.4426473,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Vintage Tasting Room",
+    "lat": 33.956289,
+    "lon": -83.9873131,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Vintage Tavern",
+    "lat": 33.8837384,
+    "lon": -84.5148887,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Wet Willies",
+    "lat": 33.8229551,
+    "lon": -84.3676558,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Wicked Wolf Atlanta",
+    "lat": 33.7834469,
+    "lon": -84.3844496,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Wild Heaven Beer",
+    "lat": 33.7764682,
+    "lon": -84.275718,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Woofs Sports Bar",
+    "lat": 33.8116248,
+    "lon": -84.3726225,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  },
+  {
+    "name": "Wynn Club \u6c38\u5229\u6703\u6240",
+    "lat": 33.8913655,
+    "lon": -84.285667,
+    "amenity": "bar",
+    "source": "OpenStreetMap Overpass API (amenity=bar); cached export at eda/research/bars.geojson, see eda/fetch_bars_nightclubs.py"
+  }
+]

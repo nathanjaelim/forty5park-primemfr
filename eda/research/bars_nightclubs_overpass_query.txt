@@ -1,0 +1,18 @@
+// Overpass Turbo query: all bars and nightclubs in the Atlanta MSA
+// Paste into https://overpass-turbo.eu/ and run, then Export > GeoJSON
+// to eda/research/bars_nightclubs_raw.geojson.
+//
+// Uses a bbox directly (not a county area-union) because the county
+// area-union approach used for the restaurants query did NOT reliably
+// scope results to the MSA in practice -- see eda/fetch_restaurants.py's
+// docstring for that finding. This bbox generously covers the 29-county
+// Atlanta MSA (same box used to safety-filter the restaurants export).
+
+[out:json][timeout:180][bbox:33.00,-85.45,34.65,-83.45];
+(
+  node["amenity"="bar"];
+  node["amenity"="nightclub"];
+  way["amenity"="bar"];
+  way["amenity"="nightclub"];
+);
+out center tags;

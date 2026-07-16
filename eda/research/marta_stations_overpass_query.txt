@@ -1,0 +1,6 @@
+// Overpass Turbo query: all MARTA rail stations
+// Paste into https://overpass-turbo.eu/ and run.
+
+[out:json][timeout:60];
+node["railway"="station"]["network"="MARTA"];
+out;
