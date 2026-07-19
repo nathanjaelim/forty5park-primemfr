@@ -10,19 +10,22 @@ import pytest
 
 from prime_mfr.features.engineering import (
     add_airport_zone_feature,
+    add_bar_density,
     add_buckhead_near_flag,
     add_coffee_shop_density,
     add_grocery_density,
     add_h3_cells,
+    add_highway_distance,
     add_landmark_distances,
     add_marta_distance,
     add_marta_distance_zone,
     add_marta_station_density,
-    add_bar_density,
     add_marta_walkable_flag,
+    add_named_park_distance,
     add_park_distance,
     add_restaurant_density,
     add_total_poi_density,
+    add_travel_time_features,
     haversine_km,
 )
 
@@ -889,11 +892,171 @@ def test_park_distance_missing_coords_handled():
     assert np.isnan(out["dist_nearest_park_km"].iloc[1])
 
 
-def test_park_distance_in_numeric_config():
-    """dist_nearest_park_km must live in NUMERIC_FEATURES."""
+def test_park_distance_not_in_numeric_config():
+    """dist_nearest_park_km (nearest of 1070) was tested and removed --
+    dist_nearest_named_park_km (curated set of 5) replaced it."""
     import prime_mfr.config as config
 
-    assert "dist_nearest_park_km" in config.NUMERIC_FEATURES
+    assert "dist_nearest_park_km" not in config.NUMERIC_FEATURES
+
+
+# ---------------------------------------------------------------------------
+# Nearest named-park distance (curated set of 5, replaces the above)
+# ---------------------------------------------------------------------------
+
+# Real coords, verified directly against eda/park_landmarks.json.
+_MIDTOWN_NAMED_PARK = (33.7868014, -84.3795169)  # 0.574km to Piedmont Park
+_RURAL_FAR_NAMED_PARK = (33.10, -85.10)  # 97.816km to Grant Park (nearest)
+
+
+def test_add_named_park_distance_adds_column():
+    df = _atlanta_df(10)
+    out = add_named_park_distance(df)
+    assert "dist_nearest_named_park_km" in out.columns
+
+
+def test_named_park_distance_urban_closer_than_rural():
+    """Midtown is ~0.57km from Piedmont Park; a rural point is ~97.8km
+    from its nearest curated park (verified against
+    eda/park_landmarks.json)."""
+    df = pd.DataFrame(
+        {
+            "latitude": [_MIDTOWN_NAMED_PARK[0], _RURAL_FAR_NAMED_PARK[0]],
+            "longitude": [_MIDTOWN_NAMED_PARK[1], _RURAL_FAR_NAMED_PARK[1]],
+            "rent": [2200.0, 1400.0],
+        }
+    )
+    out = add_named_park_distance(df)
+    urban_dist = out["dist_nearest_named_park_km"].iloc[0]
+    rural_dist = out["dist_nearest_named_park_km"].iloc[1]
+    assert urban_dist == pytest.approx(0.574, abs=0.01)
+    assert rural_dist == pytest.approx(97.816, abs=0.01)
+    assert urban_dist < rural_dist
+
+
+def test_named_park_distance_missing_coords_handled():
+    """Rows with NaN lat/lon get NaN, not a crash."""
+    df = pd.DataFrame(
+        {
+            "latitude": [_MIDTOWN_NAMED_PARK[0], np.nan],
+            "longitude": [_MIDTOWN_NAMED_PARK[1], -84.40],
+            "rent": [2200.0, 1800.0],
+        }
+    )
+    out = add_named_park_distance(df)
+    assert np.isnan(out["dist_nearest_named_park_km"].iloc[1])
+
+
+def test_named_park_distance_in_numeric_config():
+    """dist_nearest_named_park_km must live in NUMERIC_FEATURES."""
+    import prime_mfr.config as config
+
+    assert "dist_nearest_named_park_km" in config.NUMERIC_FEATURES
+
+
+# ---------------------------------------------------------------------------
+# Drive-time-to-landmark features
+# ---------------------------------------------------------------------------
+
+# eda/travel_times.json generated 2026-07-16 via eda/fetch_travel_times.py
+# (989 h3_res6 cells, real OSRM drive times -- this sandbox can't run that
+# script itself: no network, and h3 is a compiled macOS extension here
+# that won't load). The lookup tests below set h3_res6 directly to known
+# cell IDs from the real eda/travel_times.json rather than computing it
+# from lat/lon via add_h3_cells(), since a working h3 install isn't
+# available in this sandbox to verify that half of the pipeline -- the
+# join/lookup logic itself is fully exercised regardless.
+_KNOWN_CELL = "8644c1a8fffffff"  # verified: {buckhead: 8.19, midtown: 2.99, downtown: 6.39, atl_airport: 20.25} (minutes)
+_UNKNOWN_CELL = "__not_in_table__"
+
+
+def test_add_travel_time_features_adds_columns():
+    df = _atlanta_df(10)
+    df = add_h3_cells(df)
+    out = add_travel_time_features(df)
+    for key in ("buckhead", "midtown", "downtown", "atl_airport"):
+        assert f"{key}_drive_min" in out.columns
+
+
+def test_travel_time_features_missing_h3_column_noop():
+    """Without h3_res6 already computed, this is a no-op (not a crash)."""
+    df = _atlanta_df(5)
+    out = add_travel_time_features(df)
+    assert "buckhead_drive_min" not in out.columns
+
+
+def test_travel_time_features_real_lookup():
+    """h3_res6 cell 8644c1a8fffffff has known, verified drive times in
+    eda/travel_times.json; a cell not in the table gets NaN."""
+    df = pd.DataFrame({"h3_res6": [_KNOWN_CELL, _UNKNOWN_CELL]})
+    out = add_travel_time_features(df)
+    assert out["midtown_drive_min"].iloc[0] == pytest.approx(2.99, abs=0.01)
+    assert out["buckhead_drive_min"].iloc[0] == pytest.approx(8.19, abs=0.01)
+    assert out["downtown_drive_min"].iloc[0] == pytest.approx(6.39, abs=0.01)
+    assert out["atl_airport_drive_min"].iloc[0] == pytest.approx(20.25, abs=0.01)
+    assert np.isnan(out["midtown_drive_min"].iloc[1])
+
+
+def test_travel_time_features_in_numeric_config():
+    """The 4 drive-time columns must live in NUMERIC_FEATURES."""
+    import prime_mfr.config as config
+
+    for key in ("buckhead", "midtown", "downtown", "atl_airport"):
+        assert f"{key}_drive_min" in config.NUMERIC_FEATURES
+
+
+# ---------------------------------------------------------------------------
+# Nearest highway distance (I-285 / GA-400)
+# ---------------------------------------------------------------------------
+
+# Real coords, verified directly against eda/highways.json (2125 points
+# resampled every 0.25km along both routes' OSM geometry).
+_BUCKHEAD_HIGHWAY = (33.83942, -84.37992)  # 1.428km to nearest highway point (GA-400)
+_RURAL_FAR_HIGHWAY = (33.10, -85.10)  # 81.15km to nearest highway point
+
+
+def test_add_highway_distance_adds_column():
+    df = _atlanta_df(10)
+    out = add_highway_distance(df)
+    assert "dist_nearest_highway_km" in out.columns
+
+
+def test_highway_distance_urban_closer_than_rural():
+    """Buckhead is ~1.43km from the nearest highway point (GA-400); a
+    rural point is ~81.2km (verified against eda/highways.json)."""
+    df = pd.DataFrame(
+        {
+            "latitude": [_BUCKHEAD_HIGHWAY[0], _RURAL_FAR_HIGHWAY[0]],
+            "longitude": [_BUCKHEAD_HIGHWAY[1], _RURAL_FAR_HIGHWAY[1]],
+            "rent": [2200.0, 1400.0],
+        }
+    )
+    out = add_highway_distance(df)
+    urban_dist = out["dist_nearest_highway_km"].iloc[0]
+    rural_dist = out["dist_nearest_highway_km"].iloc[1]
+    assert urban_dist == pytest.approx(1.428, abs=0.01)
+    assert rural_dist == pytest.approx(81.15, abs=0.1)
+    assert urban_dist < rural_dist
+
+
+def test_highway_distance_missing_coords_handled():
+    """Rows with NaN lat/lon get NaN, not a crash."""
+    df = pd.DataFrame(
+        {
+            "latitude": [_BUCKHEAD_HIGHWAY[0], np.nan],
+            "longitude": [_BUCKHEAD_HIGHWAY[1], -84.40],
+            "rent": [2200.0, 1800.0],
+        }
+    )
+    out = add_highway_distance(df)
+    assert np.isnan(out["dist_nearest_highway_km"].iloc[1])
+
+
+def test_highway_distance_in_numeric_config():
+    """dist_nearest_highway_km must live in NUMERIC_FEATURES."""
+    import prime_mfr.config as config
+
+    assert "dist_nearest_highway_km" in config.NUMERIC_FEATURES
 
 
 # ---------------------------------------------------------------------------

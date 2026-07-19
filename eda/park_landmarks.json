@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Piedmont Park",
+    "lat": 33.7865787,
+    "lon": -84.3733086,
+    "source": "OpenStreetMap Overpass API (leisure=park); polygon centroid, curated small set of well-known intown Atlanta parks -- see eda/fetch_parks.py"
+  },
+  {
+    "name": "Grant Park",
+    "lat": 33.7354441,
+    "lon": -84.3711921,
+    "source": "OpenStreetMap Overpass API (leisure=park); polygon centroid, curated small set of well-known intown Atlanta parks -- see eda/fetch_parks.py"
+  },
+  {
+    "name": "Centennial Olympic Park",
+    "lat": 33.7603691,
+    "lon": -84.3933365,
+    "source": "OpenStreetMap Overpass API (leisure=park); polygon centroid, curated small set of well-known intown Atlanta parks -- see eda/fetch_parks.py"
+  },
+  {
+    "name": "Historic Fourth Ward Park",
+    "lat": 33.7681282,
+    "lon": -84.3649201,
+    "source": "OpenStreetMap Overpass API (leisure=park); polygon centroid, curated small set of well-known intown Atlanta parks -- see eda/fetch_parks.py"
+  },
+  {
+    "name": "Candler Park",
+    "lat": 33.7682446,
+    "lon": -84.3377047,
+    "source": "OpenStreetMap Overpass API (leisure=park); polygon centroid, curated small set of well-known intown Atlanta parks -- see eda/fetch_parks.py"
+  }
+]

@@ -168,6 +168,55 @@ def _load_parks() -> list[tuple[float, float]]:
     return [(float(s["lat"]), float(s["lon"])) for s in raw]
 
 
+def _load_park_landmarks() -> list[tuple[float, float]]:
+    """
+    Read the small curated set of named-park landmarks (eda/park_landmarks.json
+    -- Piedmont Park, Grant Park, Centennial Olympic Park, Historic Fourth
+    Ward Park, Candler Park; see config.py's PARK_LANDMARKS_JSON comment
+    for provenance/rationale). Returns an empty list (rather than raising)
+    if the file is missing, matching the other POI loaders'
+    graceful-degradation pattern.
+    """
+    path = Path(config.PARK_LANDMARKS_JSON)
+    if not path.exists():
+        return []
+    raw = json.loads(path.read_text())
+    return [(float(s["lat"]), float(s["lon"])) for s in raw]
+
+
+def _load_travel_times() -> dict[str, dict[str, float]]:
+    """
+    Read the precomputed h3_res6-cell -> drive-time-to-landmark lookup
+    table (eda/travel_times.json, a dict keyed by h3_res6 cell ID -- see
+    eda/fetch_travel_times.py for provenance). Returns an empty dict
+    (rather than raising) if the file is missing, matching the other POI
+    loaders' graceful-degradation pattern -- notably, this file doesn't
+    exist yet as of 2026-07-16 (needs a live OSRM fetch run outside this
+    sandbox), so add_travel_time_features() currently returns all-NaN
+    columns.
+    """
+    path = Path(config.TRAVEL_TIMES_JSON)
+    if not path.exists():
+        return {}
+    return json.loads(path.read_text())
+
+
+def _load_highways() -> list[tuple[float, float]]:
+    """
+    Read the resampled highway points (eda/highways.json, a list of
+    {route, lat, lon} entries -- 2125 points every 0.25km along I-285 and
+    GA-400's OSM way geometry; see the HIGHWAYS_JSON comment in config.py
+    for provenance). Returns an empty list (rather than raising) if the
+    file is missing, matching the other POI loaders' graceful-degradation
+    pattern.
+    """
+    path = Path(config.HIGHWAYS_JSON)
+    if not path.exists():
+        return []
+    raw = json.loads(path.read_text())
+    return [(float(s["lat"]), float(s["lon"])) for s in raw]
+
+
 # ---------------------------------------------------------------------------
 # Static features (no target leakage, no fold awareness)
 # ---------------------------------------------------------------------------
@@ -743,6 +792,135 @@ def add_park_distance(df: pd.DataFrame) -> pd.DataFrame:
     return df
 
 
+def add_named_park_distance(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Add great-circle distance (km) to the nearest of a small curated set
+    of well-known intown Atlanta parks (see eda/park_landmarks.json --
+    Piedmont Park, Grant Park, Centennial Olympic Park, Historic Fourth
+    Ward Park, Candler Park), replacing the "nearest of 1070" version in
+    add_park_distance() (which tested worse than baseline, see
+    NUMERIC_FEATURES history comment).
+
+    Same "small curated landmark set" pattern as config.LANDMARKS
+    (buckhead/midtown/downtown/airport) rather than "nearest of many" --
+    the theory being that treating every OSM-tagged leisure=park polygon
+    as equally significant (including tiny pocket parks) diluted the
+    signal, and this narrower, hand-picked set of genuinely notable green
+    spaces should behave more like the buckhead/midtown distances that do
+    work than like the failed all-parks version.
+
+    Adds:
+        dist_nearest_named_park_km : float32, or NaN if lat/lon missing or
+                                       eda/park_landmarks.json is missing.
+    """
+    if "latitude" not in df.columns or "longitude" not in df.columns:
+        return df
+    df = df.copy()
+    parks = _load_park_landmarks()
+
+    if not parks:
+        df["dist_nearest_named_park_km"] = np.nan
+        return df
+
+    dists_km = np.stack(
+        [
+            haversine_km(df["latitude"].values, df["longitude"].values, lat, lon)
+            for lat, lon in parks
+        ]
+    )  # shape (n_parks, n_rows)
+
+    with warnings.catch_warnings():
+        warnings.filterwarnings("ignore", message="All-NaN slice encountered")
+        nearest = np.nanmin(dists_km, axis=0)
+    df["dist_nearest_named_park_km"] = nearest.astype("float32")
+    return df
+
+
+def add_travel_time_features(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Add drive time (minutes) to each of config.LANDMARKS, looked up via
+    each row's h3_res6 cell against the precomputed eda/travel_times.json
+    table (see eda/fetch_travel_times.py -- real OSRM road-network drive
+    times, not haversine distance).
+
+    MUST run after add_h3_cells() in the pipeline (needs the h3_res6
+    column already populated). If h3_res6 is missing, or
+    eda/travel_times.json hasn't been generated yet, or a specific row's
+    cell isn't in the table (e.g. just outside the fetched bbox), the
+    corresponding column is NaN rather than raising -- this is a lookup
+    join, not a live routing call, so there's no way to compute a value
+    for a cell that wasn't precomputed.
+
+    Adds (one column per config.LANDMARKS entry):
+        {landmark}_drive_min : float32
+    e.g. buckhead_drive_min, midtown_drive_min, downtown_drive_min,
+    atl_airport_drive_min.
+    """
+    if "h3_res6" not in df.columns:
+        return df
+    df = df.copy()
+    travel_times = _load_travel_times()
+    cols = [f"{key}_drive_min" for key in config.LANDMARKS]
+
+    if not travel_times:
+        for col in cols:
+            df[col] = np.nan
+        return df
+
+    for key, col in zip(config.LANDMARKS, cols):
+        df[col] = (
+            df["h3_res6"]
+            .map(lambda cell: travel_times.get(cell, {}).get(f"{key}_min"))
+            .astype("float32")
+        )
+    return df
+
+
+def add_highway_distance(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Add great-circle distance (km) to the nearest point along I-285 or
+    GA-400, using 2125 points resampled every 0.25km along each route's
+    OSM way geometry (see eda/highways.json / HIGHWAYS_JSON comment in
+    config.py for provenance).
+
+    Starts as a plain continuous distance, same shape as dist_buckhead_km.
+    The original idea ("convenient at 1mi, noisy at 0.1mi") suggests the
+    real relationship may be non-monotonic, which would favor a zone-style
+    categorical encoding instead (mirroring dist_atl_airport_zone) --
+    revisit if the continuous version doesn't help.
+
+    Uses the same direct vectorized haversine distance matrix as the
+    density features (min across highway points instead of a threshold
+    count). Rows with missing lat/lon, or if eda/highways.json is missing,
+    get NaN (not 0 -- 0 isn't a meaningful default for a distance).
+
+    Adds:
+        dist_nearest_highway_km : float32, or NaN if lat/lon missing or no
+                                    highway points loaded.
+    """
+    if "latitude" not in df.columns or "longitude" not in df.columns:
+        return df
+    df = df.copy()
+    highway_points = _load_highways()
+
+    if not highway_points:
+        df["dist_nearest_highway_km"] = np.nan
+        return df
+
+    dists_km = np.stack(
+        [
+            haversine_km(df["latitude"].values, df["longitude"].values, lat, lon)
+            for lat, lon in highway_points
+        ]
+    )  # shape (n_highway_points, n_rows)
+
+    with warnings.catch_warnings():
+        warnings.filterwarnings("ignore", message="All-NaN slice encountered")
+        nearest = np.nanmin(dists_km, axis=0)
+    df["dist_nearest_highway_km"] = nearest.astype("float32")
+    return df
+
+
 def add_h3_cells(
     df: pd.DataFrame, resolutions: Iterable[int] = config.H3_RESOLUTIONS
 ) -> pd.DataFrame:
@@ -1293,7 +1471,10 @@ def add_static_features(df: pd.DataFrame) -> pd.DataFrame:
     df = add_bar_density(df)
     df = add_total_poi_density(df)
     df = add_park_distance(df)
+    df = add_named_park_distance(df)
     df = add_h3_cells(df)
+    df = add_travel_time_features(df)
+    df = add_highway_distance(df)
     df = add_text_features(df)
     df = add_geo_aggregates(df)
     df = add_zscore_deviations(df)

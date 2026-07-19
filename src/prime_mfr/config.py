@@ -38,6 +38,9 @@ GROCERY_STORES_JSON: Path = PROJECT_DIR / "eda" / "grocery_stores.json"
 RESTAURANTS_JSON: Path = PROJECT_DIR / "eda" / "restaurants.json"
 BARS_NIGHTCLUBS_JSON: Path = PROJECT_DIR / "eda" / "bars_nightclubs.json"
 PARKS_JSON: Path = PROJECT_DIR / "eda" / "parks.json"
+PARK_LANDMARKS_JSON: Path = PROJECT_DIR / "eda" / "park_landmarks.json"
+TRAVEL_TIMES_JSON: Path = PROJECT_DIR / "eda" / "travel_times.json"
+HIGHWAYS_JSON: Path = PROJECT_DIR / "eda" / "highways.json"
 
 # Historical rent panel (April-2026 enriched, single-snapshot dump 2026-04-20).
 # 708,825 rows × 7 cols at (property_id, unit_type, period) granularity, monthly
@@ -149,10 +152,10 @@ NUMERIC_FEATURES: list[str] = [
     "latitude",
     "longitude",
     "dist_buckhead_km",
-    # ^ buckhead_near (binary <6mi flag) tried 2026-07-15 as a replacement,
-    # then reverted same day before testing -- back to the continuous
-    # $75.46-baseline version. add_buckhead_near_flag() /
-    # BUCKHEAD_NEAR_THRESHOLD_MI stay in place, just unused here.
+    # ^ buckhead_near (binary flag, thresholds 6/7/8mi tried 2026-07-16)
+    # reverted back to baseline before a result was reported.
+    # add_buckhead_near_flag() / BUCKHEAD_NEAR_THRESHOLD_MI stay in place,
+    # just unused here.
     "dist_midtown_km",
     # dist_atl_airport_km (continuous) removed again 2026-07-15: tested
     # against the $76.38 baseline in 3 configurations -- zone only $75.46
@@ -244,6 +247,44 @@ NUMERIC_FEATURES: list[str] = [
     # can sit meaningfully off from its actual boundary) may add its own
     # extra noise on top of that. add_park_distance() / eda/parks.json /
     # eda/fetch_parks.py all stay in place, just unused here.
+    # Nearest named-park distance tested 2026-07-16 and removed: $76.45
+    # (+$0.99 vs the $75.46 baseline) -- still worse, though clearly
+    # better than the "nearest of 1070" version's +$1.92, confirming the
+    # curated-landmark-set idea helped some. Not enough to beat baseline,
+    # though. At this point every green-space/POI framing tried this
+    # session (individual categories, combined, nearest-of-many, nearest-
+    # of-curated-few) has landed worse than dist_buckhead_km/
+    # dist_midtown_km/h3_res8/sub_market/zipcode already capturing this
+    # signal. add_named_park_distance() / eda/park_landmarks.json all stay
+    # in place, just unused here.
+    # Drive-time-to-landmark features tested 2026-07-16 and removed: $77.04
+    # (+$1.58 vs the $75.46 baseline) -- worse, despite being the first
+    # feature this session that wasn't just another haversine proxy for
+    # location (real OSRM road-network minutes via h3_res6 lookup against
+    # eda/travel_times.json). Likely explanation: h3_res6 is exactly the
+    # join key used to compute these drive times, so within a given
+    # h3_res6 cell every property gets an IDENTICAL drive-time value --
+    # this is really a (coarser) re-encoding of h3_res6 itself, not new
+    # information, and h3_res6's own target encoding already captures
+    # local rent premiums more directly (from observed rent, not an
+    # indirect routing proxy). A per-property or finer-grained lookup
+    # (e.g. h3_res8 cells, or the property's own coordinates via a live
+    # per-row routing call) might avoid this collapse, but wasn't tried.
+    # add_travel_time_features() / eda/travel_times.json /
+    # eda/fetch_travel_times.py all stay in place, just unused here.
+    # downtown_drive_min tested standalone 2026-07-16 and reverted (see
+    # user request to go back to baseline before a result was reported).
+    # Nearest-highway distance tested 2026-07-16 and removed: $76.97
+    # (+$1.51 vs the $75.46 baseline), worse. Consistent with the real
+    # rent-vs-distance scatter plot the user shared: a nearly flat trend
+    # line across the whole range (~$1900 near 0 miles drifting to ~$1550
+    # at 40+), with high variance concentrated near the highways rather
+    # than a distinct level shift -- unlike dist_atl_airport_zone's clear
+    # regime change, there's no strong signal here for a continuous (or
+    # zone) distance feature to extract; the noise near 0 isn't a
+    # different level, just more spread. add_highway_distance() /
+    # eda/highways.json / eda/research/highways_overpass_query.txt all
+    # stay in place, just unused here.
     # Engineered (added later)
     "property_age",
     # Hist-rent lag features (added 2026-05-01). Per (property_id, unit_type)
@@ -485,9 +526,10 @@ MARTA_WALKABLE_THRESHOLD_MI: float = 2.0
 
 # Binary "near Buckhead" flag threshold (miles). Added 2026-07-15 to
 # replace the continuous dist_buckhead_km with a single cutoff, mirroring
-# marta_walkable's pattern. Untested -- new candidate, not validated
-# against the $75.46 baseline yet.
-BUCKHEAD_NEAR_THRESHOLD_MI: float = 6.0
+# marta_walkable's pattern. Changed 6.0mi -> 8.0mi -> 7.0mi 2026-07-16 per
+# request. Untested -- new candidate, not validated against the $75.46
+# baseline yet.
+BUCKHEAD_NEAR_THRESHOLD_MI: float = 7.0
 
 # ---------------------------------------------------------------------------
 # Property structural / BTR-typology features (added 2026-05-01)
@@ -656,8 +698,79 @@ TOTAL_POI_DENSITY_RADII: list[tuple[float, str]] = [
 # because it conflates "which landmark" with "how far" across
 # directionally distinct landmarks with different rent relationships),
 # parks are a single homogeneous "green space access" category, so a
-# nearest-park distance doesn't have that same conflation problem. Not
-# yet tested against the $75.46 baseline.
+# nearest-park distance doesn't have that same conflation problem. Tested
+# 2026-07-16: $77.38 (+$1.92 vs baseline), the worst result of any feature
+# tried this session -- removed. Two likely causes: (1) treats all 1070
+# OSM-tagged parks as equally meaningful, including tiny pocket parks and
+# HOA green spaces, diluting the signal with noise from insignificant
+# ones; (2) the polygon-centroid approximation is roughest for large or
+# irregularly shaped parks, which are exactly the ones most likely to be
+# genuinely significant.
+
+# Distance to nearest NAMED park (added 2026-07-16), replacing the "nearest
+# of 1070" version above. Sourced from eda/park_landmarks.json -- a small
+# curated set of 5 well-known, unambiguous, single-polygon intown Atlanta
+# parks (Piedmont Park, Grant Park, Centennial Olympic Park, Historic
+# Fourth Ward Park, Candler Park), the same "small curated landmark set"
+# pattern as config.LANDMARKS (buckhead/midtown/downtown/airport) rather
+# than "nearest of many." Deliberately excludes the Beltline (not a single
+# leisure=park polygon in OSM -- it's tagged as a route/cycleway, no clean
+# single point to anchor on) and Chastain Park (not present in the cached
+# eda/research/parks.geojson export under a matching name). Also excludes
+# "Freedom Park": 4 same-named entries exist in eda/parks.json, 3 of which
+# cluster in intown Atlanta (likely disjoint segments of the real Freedom
+# Park/Freedom Parkway corridor) but a 4th sits ~40km north near
+# Forsyth/Cherokee county -- a different, unrelated park with a name
+# collision. Rather than guess which of the 3 intown segments to use,
+# Freedom Park was left out entirely to keep this set unambiguous. Not yet
+# tested against the $75.46 baseline.
+
+# Drive-time-to-landmark features (added 2026-07-16). Unlike every
+# distance/POI feature tried this session (all haversine-based, all
+# landed worse than baseline), this measures actual road-network drive
+# time in minutes rather than crow-flies distance -- mechanically
+# distinct from dist_buckhead_km/dist_midtown_km, which the model may
+# already capture via h3_res8/sub_market/zipcode target encodings. Two
+# properties equidistant by straight line from Midtown can have very
+# different real commute times depending on highway access, so this could
+# carry information the existing distance features structurally can't.
+# Sourced from eda/travel_times.json (drive time in minutes from every
+# h3_res6 cell centroid in the MSA to each of the 4 config.LANDMARKS
+# entries, fetched via OSRM's public routing demo server -- see
+# eda/fetch_travel_times.py; requires live network + a working h3 install,
+# neither available in the sandbox this was built in, so
+# eda/travel_times.json does not exist yet until that script is run
+# externally). Joined onto each row via its h3_res6 cell (already computed
+# earlier in add_static_features), not a live per-property routing call --
+# add_travel_time_features() degrades to NaN columns until the JSON
+# exists, same graceful-degradation pattern as the other POI loaders.
+# eda/travel_times.json generated 2026-07-16 (989 h3_res6 cells covering
+# the MSA bbox via OSRM's public demo server; sanity-checked -- no nulls,
+# median ~75min reflecting the large bbox, cells near the urban core show
+# single-digit-to-teens minutes as expected, e.g. 2.99min to Midtown for
+# a near-Midtown cell). Not yet tested against the $75.46 baseline.
+
+# Distance to nearest highway (added 2026-07-16). Covers I-285 (the
+# perimeter loop) and GA-400 -- the two highways named in the original
+# feature-brainstorm slide ("convenient at 1mi, noisy at 0.1mi"). Sourced
+# from eda/highways.json: both routes' OSM way geometries (663 line
+# segments, fetched via eda/research/highways_overpass_query.txt --
+# highway=motorway with ref matching "I 285" / "GA 400") resampled to
+# points every 0.25km along each line (raw OSM vertices are unevenly
+# spaced -- dense on curves, sparse on straightaways -- so resampling at a
+# fixed interval avoids biasing "nearest point" distance toward the curvy
+# stretches). 2125 resampled points total (1361 on I-285, 764 on GA-400;
+# combined line length ~327km, longer than the real one-way route
+# distance because OSM maps divided highways as separate lines per
+# direction of travel). This starts as a plain continuous distance, same
+# shape as dist_buckhead_km -- the slide's own framing suggests the real
+# relationship may be non-monotonic (bad right next to it, good a mile
+# away, flat further out), which if true would favor a zone-style
+# categorical encoding instead, mirroring dist_atl_airport_zone. That
+# would need real EDA on the actual rent-vs-highway-distance relationship
+# to pick sensible bucket edges (same as how the airport zone edges were
+# derived), which wasn't done here -- start with continuous distance and
+# revisit as a zone if useful. Not yet tested against the $75.46 baseline.
 
 # ---------------------------------------------------------------------------
 # Text feature extraction (property_name + street_address)
@@ -920,7 +1033,7 @@ KNN_PARAMS: dict = {
 KNN_LEAN_FEATURES: list[str] = [
     "latitude",
     "longitude",
-    "dist_buckhead_km",  # buckhead_near swap reverted 2026-07-15, matching
+    "dist_buckhead_km",  # buckhead_near swap reverted 2026-07-16, matching
     # NUMERIC_FEATURES above.
     "dist_midtown_km",
     # dist_downtown_km / dist_min_landmark_km removed 2026-07-15, matching

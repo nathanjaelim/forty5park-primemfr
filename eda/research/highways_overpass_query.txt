@@ -1,0 +1,20 @@
+// Overpass Turbo query: I-285 and GA-400 highway centerlines
+// Paste into https://overpass-turbo.eu/ and run, then Export > GeoJSON
+// to eda/research/highways_raw.geojson.
+//
+// Uses a bbox directly (lesson from the restaurants/bars fetches: a
+// county area-union does NOT reliably scope Overpass results, and isn't
+// needed here anyway since we want the specific route, not everything in
+// the MSA). Matches "ref" with a regex rather than an exact string
+// because co-signed routes are common in OSM (e.g. a segment of I-285 may
+// carry ref="I 285;US 78;US 278"), and returns full way geometry
+// (out geom) rather than just center points, since these are long linear
+// features -- eda/fetch_highways.py samples points along each way's
+// geometry afterward to approximate distance-to-line.
+
+[out:json][timeout:180][bbox:33.00,-85.45,34.65,-83.45];
+(
+  way["highway"="motorway"]["ref"~"I 285"];
+  way["highway"="motorway"]["ref"~"GA 400"];
+);
+out geom;
