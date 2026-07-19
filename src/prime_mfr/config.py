@@ -41,6 +41,8 @@ PARKS_JSON: Path = PROJECT_DIR / "eda" / "parks.json"
 PARK_LANDMARKS_JSON: Path = PROJECT_DIR / "eda" / "park_landmarks.json"
 TRAVEL_TIMES_JSON: Path = PROJECT_DIR / "eda" / "travel_times.json"
 HIGHWAYS_JSON: Path = PROJECT_DIR / "eda" / "highways.json"
+HIGHWAY_GA400_JSON: Path = PROJECT_DIR / "eda" / "highway_ga400.json"
+HIGHWAY_I285_JSON: Path = PROJECT_DIR / "eda" / "highway_i285.json"
 
 # Historical rent panel (April-2026 enriched, single-snapshot dump 2026-04-20).
 # 708,825 rows × 7 cols at (property_id, unit_type, period) granularity, monthly
@@ -152,11 +154,85 @@ NUMERIC_FEATURES: list[str] = [
     "latitude",
     "longitude",
     "dist_buckhead_km",
-    # ^ buckhead_near (binary flag, thresholds 6/7/8mi tried 2026-07-16)
-    # reverted back to baseline before a result was reported.
-    # add_buckhead_near_flag() / BUCKHEAD_NEAR_THRESHOLD_MI stay in place,
-    # just unused here.
     "dist_midtown_km",
+    "num_restaurants_within_0.5mi",
+    # ^ reverted 2026-07-18: num_dining_grocery_within_0.5mi removed
+    # (result never reported), back to the plain $75.35 trio, then
+    # re-added restaurant density at 0.5mi per request -- this re-
+    # establishes the best confirmed POI config found this session
+    # ($74.59, see RESTAURANT_DENSITY_RADII history).
+    # dist_ga400_km / ga400_near / marta_walkable /
+    # num_marta_stations_within_2mi / num_restaurants_within_0.25mi /
+    # num_restaurants_within_0.5mi / num_restaurants_within_1mi /
+    # num_grocery_stores_within_0.5mi / num_coffee_shops_within_0.5mi /
+    # num_coffee_shops_within_0.25mi / num_bars_nightclubs_within_0.5mi
+    # all stay defined, just unused here.
+    # Widened restaurant density radius to 1mi 2026-07-18 per request, on
+    # top of the $74.59 best config -- untested, checking if the wider-is-
+    # better trend (0.25mi -> 0.5mi improved) continues at 1mi.
+    # Widened restaurant density radius 0.25mi -> 0.5mi 2026-07-18, per
+    # request, on top of the $74.87 best config (0.5mi lost badly under
+    # OLD default hyperparams, see RESTAURANT_DENSITY_RADII history).
+    # Result: $74.59 -- NEW best MAE this session, -$0.28 vs $74.87 and
+    # -$0.76 vs $75.35. Reverses the 0.5mi-radius verdict too, and beats
+    # the 0.25mi version -- opposite ranking from the OLD default-
+    # hyperparam results (0.25mi beat 0.5mi there). Strong confirmation
+    # that hyperparams and features interact enough to flip which radius
+    # wins, not just whether a feature helps at all.
+    # reverted to base 2026-07-18 -- both marta_walkable+marta_density
+    # pairings tried on top of this trio (0.5mi/1mi = $75.47, 1mi/2mi =
+    # $76.25) came in worse than the plain $75.35 best config, so back to
+    # just the trio + hyperparams retuned for it. dist_ga400_km /
+    # ga400_near / marta_walkable / num_marta_stations_within_2mi all
+    # stay defined, just unused here.
+    # num_restaurants_within_0.25mi added 2026-07-18 on top of the $75.35
+    # best config, per request. This exact feature already tested worse
+    # than the OLD $75.46 baseline earlier this session ($76.24, +$0.78,
+    # see restaurant-density history below) using default hyperparams and
+    # the original 3-feature trio -- re-tested here with the trio-tuned
+    # hyperparams. Result: $74.87 -- NEW best MAE this session, -$0.48 vs
+    # $75.35. Reverses the earlier "restaurant density doesn't help"
+    # finding, at least in this hyperparam regime -- consistent with the
+    # marta_walkable/density lesson that hyperparams and features interact
+    # (a feature that lost with one hyperparam set can win with another).
+    # Current best config: baseline trio + num_restaurants_within_0.25mi +
+    # hyperparams tuned for the plain trio (not yet re-tuned for THIS
+    # 4-feature combo -- a fresh retune here might do even better).
+    # marta_walkable(2mi) + marta_density(1mi) on top of this
+    # trio, combined with retuned LGBM/CatBoost hyperparams, hit $75.37
+    # (best MAE this session, -$0.09 vs the $75.46 default-hyperparam
+    # baseline) -- but that wasn't a clean comparison since hyperparams
+    # and features changed together. marta_walkable / num_marta_stations_
+    # within_1mi removed here (ablation): retuned hyperparams (still
+    # loaded from best_params.json / best_catboost_params.json) + this
+    # plain baseline trio only, no MARTA, to isolate how much of the
+    # $75.37 came from the retune alone vs. the MARTA features.
+    # dist_ga400_km / ga400_near / marta_walkable /
+    # num_marta_stations_within_1mi all stay defined, just unused here.
+    # Ablation result: retuned hyperparams + this plain trio (no MARTA) =
+    # $76.90 -- MUCH worse than both $75.37 (retuned + MARTA) and the
+    # $75.46 default-hyperparam baseline (+$1.44 vs. default). Conclusion:
+    # the retuned hyperparams don't generalize across feature sets -- they
+    # were tuned (tuning/lightgbm.py + tuning/catboost.py) against
+    # whichever fold cache existed at tuning time, which likely still had
+    # marta_walkable/marta_density in it (see each script's docstring
+    # caveat: "whatever feature set was used for the most recent CV is
+    # what gets tuned"). Same hyperparams, minus those 2 features, blow up
+    # by +$1.44. So $75.37 was NOT "retuning helps" -- it's a hyperparam
+    # set co-adapted to the MARTA feature combo specifically, and it's
+    # actively harmful without those features. Do not treat best_params
+    # .json / best_catboost_params.json as a general-purpose improvement
+    # until re-tuned against whatever the final feature set actually is.
+    # Confirms the hypothesis: after re-running `prep`/`foldprep` on THIS
+    # plain baseline trio (no MARTA) and re-tuning fresh against it,
+    # MAE = $75.35 -- the best result this session, -$0.11 vs the $75.46
+    # default-hyperparam baseline, and better than the $75.37 MARTA+
+    # mismatched-retune number too. So: retuning genuinely helps when it's
+    # tuned against the feature set actually being used -- the earlier
+    # $76.90 disaster was purely a stale-cache mismatch, not evidence
+    # against retuning itself. Current best config: plain baseline trio
+    # (buckhead + midtown + airport zone) + hyperparams tuned specifically
+    # for this feature set.
     # dist_atl_airport_km (continuous) removed again 2026-07-15: tested
     # against the $76.38 baseline in 3 configurations -- zone only $75.46
     # (best, -$0.92), distance only $76.78 (+$0.40), both together $76.97
@@ -285,6 +361,16 @@ NUMERIC_FEATURES: list[str] = [
     # different level, just more spread. add_highway_distance() /
     # eda/highways.json / eda/research/highways_overpass_query.txt all
     # stay in place, just unused here.
+    # GA-400/I-285 highway distances tested in 3 configurations, all worse
+    # than the $75.46 baseline: combined nearest-of-either $76.97 (+$1.51),
+    # GA-400+I-285 together $77.56 (+$2.10, worst of any feature this
+    # session), GA-400 alone $75.99 (+$0.53, by far the best of the three
+    # -- confirms GA-400 carries more real signal than I-285, matching the
+    # real scatter plots, but still not enough to clear baseline). Fully
+    # reverted 2026-07-16. add_highway_distance() /
+    # add_highway_route_distances() / eda/highways.json /
+    # eda/highway_ga400.json / eda/highway_i285.json all stay in place,
+    # just unused here.
     # Engineered (added later)
     "property_age",
     # Hist-rent lag features (added 2026-05-01). Per (property_id, unit_type)
@@ -320,13 +406,21 @@ CATEGORICAL_FEATURES: list[str] = [
     "brand",  # extracted from property_name first token(s)
     "street_type",  # extracted from street_address suffix
     "addr_dir",  # NE/NW/SE/SW/N/S/E/W
-    "dist_atl_airport_zone",  # added 2026-07-15: near/hot_zone/far bucketing
-    # of dist_atl_airport_km (see ATL_AIRPORT_ZONE_EDGES above). Categorical,
-    # not ordinal, because the relationship is non-monotonic. Only reaches
-    # lgbm_l1/cat_q50 -- the KNN trainer doesn't consume CATEGORICAL_FEATURES.
+    "dist_atl_airport_zone",
+    # ^ restored 2026-07-18 -- reverted to the $75.46 baseline (buckhead +
+    # midtown in NUMERIC_FEATURES, airport zone here) after the untested
+    # GA-400 + MARTA walkable/density combo.
     # dist_marta_zone removed 2026-07-15 to isolate the walkable(1mi) +
     # density(2mi) test. See the MARTA test history comment in
     # NUMERIC_FEATURES above.
+    # dist_i285_zone (0-4mi/4-7mi/7mi+ bucketing, isolating the unexplained
+    # 4-7mi high-rent-outlier cluster) tested 2026-07-16 and removed:
+    # $77.44 (+$1.98 vs the $75.46 baseline), worse -- one of the worst
+    # results this session. The 4-7mi cluster (verified to include both
+    # Buckhead at 4.95mi and Downtown at 5.92mi -- likely "core Atlanta"
+    # broadly, not a real I-285 effect) doesn't hold up as a genuine
+    # signal once binned. add_i285_zone_feature() / I285_ZONE_EDGES_MI
+    # stay in place, just unused here.
 ]
 
 # Boolean text-derived flags (will be added to BOOLEAN_FEATURES at module load
@@ -486,6 +580,20 @@ AGE_BUCKET_EDGES: tuple[float, ...] = (5.0, 15.0, 30.0, 50.0)
 ATL_AIRPORT_ZONE_EDGES: tuple[float, float] = (9.0, 15.0)
 ATL_AIRPORT_ZONE_LABELS: tuple[str, str, str] = ("near", "hot_zone", "far")
 
+# dist_i285_km zone edges (right edges, MILES). Added 2026-07-16 based on
+# the real rent-vs-I-285-distance scatter plot (user-shared): trend line
+# is nearly flat overall, but there's an unusual cluster of high-rent
+# outliers concentrated specifically in a ~4-7mi band (likely capturing
+# Buckhead/Sandy Springs riding along the same distance axis, not a real
+# I-285 effect). Continuous dist_i285_km already tested worse than
+# baseline both alone-with-GA400 and combined ($77.56 and $76.97) -- this
+# bins into 0-4mi / 4-7mi / 7mi+ to isolate that specific band as its own
+# category, same "genuine categorical, not ordinal" reasoning as
+# ATL_AIRPORT_ZONE_EDGES (the 4-7mi band isn't "more" than the other two,
+# it's a different, unexplained cluster). Not yet tested.
+I285_ZONE_EDGES_MI: tuple[float, float] = (4.0, 7.0)
+I285_ZONE_LABELS: tuple[str, str, str] = ("0-4mi", "4-7mi", "7mi_plus")
+
 # dist_marta_km zone edges (right edges, MILES -- matches the original EDA
 # notebook's bins exactly: eda/research/Yardi EDA - New Geospatial
 # Features.ipynb, cell 22, `bins = [0, 0.5, 2.5, 5, 20, inf]`). That
@@ -522,7 +630,19 @@ MARTA_ZONE_LABELS: tuple[str, str, str, str, str] = (
 # jumped to $75.88 (+$0.42), a large swing from a tiny threshold change.
 # Back to 2.0mi on 2026-07-15, now paired with density widened to 2mi too
 # (see MARTA_DENSITY_RADII) to check if matching radii is more stable.
-MARTA_WALKABLE_THRESHOLD_MI: float = 2.0
+# Tightened to 0.5mi on 2026-07-18, paired first with density(1mi) then
+# density(2mi) -- individual base-learner MAEs dropped but the stacked MAE
+# rose (likely correlated-error / reduced-diversity effect across the 4
+# bases, or noise -- see chat). Back to 2.0mi on 2026-07-18, re-paired with
+# density(1mi) -- this was the best combo found earlier this session
+# ($75.54, +$0.08 vs baseline); paired with retuned hyperparams + this
+# trio it hit $75.37 (not a clean comparison, see NUMERIC_FEATURES
+# comment). Tightened to 0.5mi again on 2026-07-18, re-paired with
+# density(1mi), on top of the $75.35 best config: $75.47 (+$0.12 vs
+# $75.35, worse but closest of this round). Widened to 1.0mi 2026-07-18,
+# re-paired with density(2mi): $76.25 (+$0.90 vs $75.35, worse still).
+# Both used the trio-tuned hyperparams as-is, no fresh retune.
+MARTA_WALKABLE_THRESHOLD_MI: float = 1.0
 
 # Binary "near Buckhead" flag threshold (miles). Added 2026-07-15 to
 # replace the continuous dist_buckhead_km with a single cutoff, mirroring
@@ -530,6 +650,17 @@ MARTA_WALKABLE_THRESHOLD_MI: float = 2.0
 # request. Untested -- new candidate, not validated against the $75.46
 # baseline yet.
 BUCKHEAD_NEAR_THRESHOLD_MI: float = 7.0
+
+# Binary "near GA-400" flag threshold (miles). Added 2026-07-18, mirroring
+# marta_walkable's pattern. Rationale: the real rent-vs-GA-400-distance
+# scatter (shared by the user) showed a clean monotonic decline rather
+# than MARTA's near-cluster-then-flat shape, so a single near/far cutoff
+# is a rougher approximation here than for MARTA -- worth testing anyway
+# since dist_ga400_km alone already beat baseline on one run ($75.99).
+# Changed 4.0mi -> 6.0mi 2026-07-18 per request, before any result on
+# 4.0mi was reported. Untested -- new candidate, not validated against
+# the $75.46 baseline yet.
+GA400_NEAR_THRESHOLD_MI: float = 6.0
 
 # ---------------------------------------------------------------------------
 # Property structural / BTR-typology features (added 2026-05-01)
@@ -585,6 +716,17 @@ COMPETITOR_RADII: list[tuple[float, str]] = [
 # combo jumped to $75.88. Widened to 2.0mi again on 2026-07-15, now paired
 # with walkable also at 2.0mi (see MARTA_WALKABLE_THRESHOLD_MI), matching
 # both radii to test whether that's more stable than mismatched radii.
+# Back to 1.0mi on 2026-07-18, paired with walkable(2mi) -- this was the
+# best-performing combo found this session ($75.54, +$0.08 vs baseline).
+# Widened to 2.0mi 2026-07-18, paired with a tightened walkable(0.5mi) --
+# per-base MAEs dropped but stacked MAE rose (see chat). Back to 1.0mi
+# 2026-07-18, re-paired with walkable(2mi) to re-test the original
+# best-known combo on top of the current baseline trio -- result never
+# reported. Still at 1.0mi, paired with a tightened walkable(0.5mi), on
+# top of the $75.35 best config: $75.47 (+$0.12 vs $75.35). Widened to
+# 2.0mi 2026-07-18, re-paired with a widened walkable(1mi): $76.25
+# (+$0.90 vs $75.35, worse still). Both worse than $75.35, no fresh
+# retune done for either.
 MARTA_DENSITY_RADII: list[tuple[float, str]] = [
     (2.0, "2mi"),
 ]
@@ -608,8 +750,20 @@ MARTA_DENSITY_RADII: list[tuple[float, str]] = [
 # marta_walkable's threshold sensitivity -- the promising 0.25mi result
 # didn't hold up, so coffee density was removed from NUMERIC_FEATURES
 # 2026-07-15 (this radius list itself left as-is, just unused).
+# 0.5mi's $77.15 was the worst of the 4 radii tested, under OLD default
+# hyperparams. Set to 0.5mi 2026-07-18 per request, re-testing under the
+# trio-tuned hyperparams that already reversed the restaurant/grocery
+# density verdicts. Result: $75.00 (-$0.35 vs the $75.35 plain trio) --
+# ALSO reverses under tuned hyperparams (same pattern as restaurant/
+# grocery), though weaker than restaurant's $74.59 or grocery's $74.73.
+# Narrowed back to 0.25mi 2026-07-18 per request -- this was coffee's
+# best-looking (but unstable, see above) radius under the OLD default
+# hyperparams ($75.78); re-testing under the trio-tuned hyperparams --
+# result never reported. Back to 0.5mi 2026-07-18 (its best confirmed
+# result this session, $75.00) as part of a combined-POI-at-0.5mi test
+# (restaurants+bars+cafes+grocery all together, see NUMERIC_FEATURES).
 COFFEE_DENSITY_RADII: list[tuple[float, str]] = [
-    (0.35, "0.35mi"),
+    (0.5, "0.5mi"),
 ]
 
 # Grocery store density radius (added 2026-07-15). Counts distinct
@@ -626,8 +780,16 @@ COFFEE_DENSITY_RADII: list[tuple[float, str]] = [
 # much sparser than coffee shops, so most properties will show 0 at this
 # radius -- even Midtown center shows 0; only right next to a specific
 # store like the Whole Foods at 33.7861686/-84.3885403 would register).
+# 0.25mi tested $76.97 (+$1.51 vs the $75.46 baseline), worse still, under
+# OLD default hyperparams (see NUMERIC_FEATURES/RESTAURANT_DENSITY_RADII
+# history for context). Widened to 0.5mi 2026-07-18 per request, re-testing
+# under the trio-tuned hyperparams that already reversed the restaurant-
+# density verdict. Result: $74.73 (+$0.14 vs the $74.59 restaurant-0.5mi
+# best, but -$0.62 vs the $75.35 plain trio) -- grocery density ALSO
+# reverses under the tuned hyperparams, same pattern as restaurants,
+# though it doesn't beat restaurant density at the same radius.
 GROCERY_DENSITY_RADII: list[tuple[float, str]] = [
-    (0.25, "0.25mi"),
+    (0.5, "0.5mi"),
 ]
 
 # Restaurant density radius (added 2026-07-16). Counts distinct restaurants
@@ -645,9 +807,20 @@ GROCERY_DENSITY_RADII: list[tuple[float, str]] = [
 # $75.46 baseline), worse -- fourth POI category to land worse than
 # baseline (see NUMERIC_FEATURES history comment). Narrowed to 0.25mi
 # 2026-07-16 per request, matching coffee shop density's most-promising
-# (but ultimately unstable) radius.
+# (but ultimately unstable) radius. Re-tested 0.25mi 2026-07-18 on top of
+# the trio-tuned-hyperparams $75.35 config: $74.87, new best MAE this
+# session (see NUMERIC_FEATURES comment) -- reverses the earlier verdict
+# in this hyperparam regime. Widened back to 0.5mi 2026-07-18 per request,
+# to re-check the radius that lost badly ($76.64) under the OLD default
+# hyperparams: $74.59, new best MAE this session, beats 0.25mi too (see
+# NUMERIC_FEATURES comment). Widened further to 1mi 2026-07-18 per
+# request, continuing to check if the tuned-hyperparam regime keeps
+# favoring wider radii -- result never reported. Back to 0.5mi 2026-07-18
+# (its best confirmed result this session, $74.59) as part of a
+# combined-POI-at-0.5mi test (restaurants+bars+cafes+grocery all
+# together, see NUMERIC_FEATURES).
 RESTAURANT_DENSITY_RADII: list[tuple[float, str]] = [
-    (0.25, "0.25mi"),
+    (0.5, "0.5mi"),
 ]
 
 # Bar/nightclub density radius (added 2026-07-16). Counts distinct bars +
@@ -660,9 +833,17 @@ RESTAURANT_DENSITY_RADII: list[tuple[float, str]] = [
 # eda/fetch_bars_nightclubs.py; that cache only has amenity=bar, no
 # nightclub-tagged features, and was already scoped to the MSA). Starting
 # at 0.25mi per request, matching restaurant/coffee density's narrower
-# radius. Not yet tested against the $75.46 baseline.
+# radius. Tested 2026-07-16 under OLD default hyperparams: $76.30 (+$0.84
+# vs the $75.46 baseline), worse, removed from NUMERIC_FEATURES. Widened
+# to 0.5mi 2026-07-18 per request, re-testing under the trio-tuned
+# hyperparams that already reversed restaurant/grocery density's verdicts.
+# Result: $75.41 (+$0.06 vs the $75.35 plain trio, essentially flat/within
+# noise) -- the one POI category so far that does NOT clearly reverse
+# under the tuned hyperparams (coffee/grocery/restaurant all improved on
+# the trio; bars roughly ties it). Consistent with nightlife being a more
+# discretionary/less location-premium-correlated amenity than the others.
 BAR_DENSITY_RADII: list[tuple[float, str]] = [
-    (0.25, "0.25mi"),
+    (0.5, "0.5mi"),
 ]
 
 # Combined POI density radius (added 2026-07-16). Counts ALL POIs across
@@ -676,9 +857,33 @@ BAR_DENSITY_RADII: list[tuple[float, str]] = [
 # "general amenity density" signal gives a much denser, less noisy count
 # (54 POIs at the densest cluster found vs. 13 for bars alone), which
 # might behave differently than any single sparse category did. Single
-# radius, matching the other POI density features' final radius.
+# radius, matching the other POI density features' final radius. Tested
+# at 0.25mi 2026-07-16 under OLD default hyperparams: $77.00 (+$1.54 vs
+# the $75.46 baseline), worse than every individual category -- see
+# NUMERIC_FEATURES history. Widened to 0.5mi 2026-07-18 per request,
+# re-testing under the trio-tuned hyperparams that already reversed every
+# individual POI category's verdict. Result: $74.95 (-$0.40 vs the $75.35
+# plain trio -- beats baseline and beats the 4-separate-columns combo
+# ($75.21), but still worse than restaurant density alone ($74.59) or
+# grocery alone ($74.73)). So collapsing to one combined count is better
+# than keeping 4 separate correlated columns, but still not as good as
+# just using the single strongest category alone -- consistent with the
+# dilution pattern seen throughout this POI re-test round.
 TOTAL_POI_DENSITY_RADII: list[tuple[float, str]] = [
-    (0.25, "0.25mi"),
+    (0.5, "0.5mi"),
+]
+
+# Dining + grocery combined density radius (added 2026-07-18). Counts
+# ONLY restaurants + grocery stores within radius, as one combined column
+# -- narrower than TOTAL_POI_DENSITY_RADII (which also includes coffee
+# shops and bars). Motivation: restaurant density ($74.59) and grocery
+# density ($74.73) were the two strongest individual POI categories this
+# session, both clearly ahead of coffee ($75.00) and bars ($75.41) --
+# combining just these two, rather than all 4, avoids diluting the signal
+# with the two weaker categories the way TOTAL_POI_DENSITY_RADII's full
+# combine did ($74.95, worse than restaurant alone). Untested.
+DINING_GROCERY_DENSITY_RADII: list[tuple[float, str]] = [
+    (0.5, "0.5mi"),
 ]
 
 # Distance to nearest park (added 2026-07-16). Unlike the POI density
@@ -770,7 +975,34 @@ TOTAL_POI_DENSITY_RADII: list[tuple[float, str]] = [
 # would need real EDA on the actual rent-vs-highway-distance relationship
 # to pick sensible bucket edges (same as how the airport zone edges were
 # derived), which wasn't done here -- start with continuous distance and
-# revisit as a zone if useful. Not yet tested against the $75.46 baseline.
+# revisit as a zone if useful. Tested 2026-07-16: $76.97 (+$1.51 vs
+# baseline), worse. The real rent-vs-distance scatter plots (user-shared,
+# split by route) explain why: GA-400 shows a genuine, fairly clean
+# monotonic decline (~$1900 near the highway down to ~$1000 at 40+ miles),
+# but I-285 is essentially flat across its whole range with an unusual
+# cluster of high-rent outliers specifically in a 4-7mi band (likely
+# capturing Buckhead/Sandy Springs riding along the same axis, not a real
+# I-285 effect). Combining both routes into one "nearest highway" distance
+# diluted GA-400's real signal with I-285's flat noise -- same
+# "collapsing heterogeneous categories destroys signal" problem as
+# dist_min_landmark_km earlier this session. add_highway_distance() /
+# eda/highways.json stay in place, just unused here.
+
+# Distance to GA-400 and I-285 as SEPARATE features (added 2026-07-16),
+# replacing the combined dist_nearest_highway_km above for exactly the
+# reason described in that comment -- keeping heterogeneous distances
+# separate rather than collapsing them into one nearest-of-both distance,
+# the same pattern as dist_buckhead_km/dist_midtown_km staying separate
+# rather than merged. Sourced from eda/highway_ga400.json (764 points) /
+# eda/highway_i285.json (1361 points) -- same 0.25km resampling as the
+# combined version, just split by route before resampling (see
+# eda/research/highway_points_ga400.geojson /
+# eda/research/highway_points_i285.geojson, filtered from the same raw
+# Overpass export by the "ref" tag). Given the real scatter plots, GA-400
+# is the one actually worth testing (I-285's flat trend line predicts it
+# won't help) -- dist_ga400_km is active below; dist_i285_km is built
+# (add_highway_route_distances()) but left out of NUMERIC_FEATURES for
+# now given the low expectation, easy to add if useful later.
 
 # ---------------------------------------------------------------------------
 # Text feature extraction (property_name + street_address)

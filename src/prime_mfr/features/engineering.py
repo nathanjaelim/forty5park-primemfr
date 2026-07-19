@@ -217,6 +217,22 @@ def _load_highways() -> list[tuple[float, float]]:
     return [(float(s["lat"]), float(s["lon"])) for s in raw]
 
 
+def _load_highway_route(path_config_attr: str) -> list[tuple[float, float]]:
+    """
+    Read a single route's resampled highway points (eda/highway_ga400.json
+    or eda/highway_i285.json, each a list of {lat, lon} entries -- see the
+    "Distance to GA-400 and I-285 as SEPARATE features" comment in
+    config.py for provenance). Returns an empty list (rather than raising)
+    if the file is missing, matching the other POI loaders'
+    graceful-degradation pattern.
+    """
+    path = Path(getattr(config, path_config_attr))
+    if not path.exists():
+        return []
+    raw = json.loads(path.read_text())
+    return [(float(s["lat"]), float(s["lon"])) for s in raw]
+
+
 # ---------------------------------------------------------------------------
 # Static features (no target leakage, no fold awareness)
 # ---------------------------------------------------------------------------
@@ -745,6 +761,52 @@ def add_total_poi_density(df: pd.DataFrame) -> pd.DataFrame:
     return df
 
 
+def add_dining_grocery_density(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Count restaurants + grocery stores ONLY (not coffee shops or bars)
+    within each radius in config.DINING_GROCERY_DENSITY_RADII, as one
+    combined column.
+
+    Narrower than add_total_poi_density(): restaurant density and grocery
+    density were the two strongest individual POI categories this session
+    (both under the trio-tuned hyperparams), clearly ahead of coffee shops
+    and bars/nightclubs. Combining just these two avoids diluting the
+    signal with the two weaker categories, unlike the full 4-category
+    combine in add_total_poi_density().
+
+    Same direct vectorized haversine distance matrix approach as the other
+    density features. Rows with missing lat/lon naturally get a count of 0
+    (NaN distances fail every "<= radius" comparison).
+
+    Adds (one column per radius):
+        num_dining_grocery_within_{label} : int16
+    e.g. num_dining_grocery_within_0.5mi.
+    """
+    if "latitude" not in df.columns or "longitude" not in df.columns:
+        return df
+    df = df.copy()
+    poi = _load_restaurants() + _load_grocery_stores()
+
+    if not poi:
+        for _, label in config.DINING_GROCERY_DENSITY_RADII:
+            df[f"num_dining_grocery_within_{label}"] = np.int16(0)
+        return df
+
+    dists_km = np.stack(
+        [
+            haversine_km(df["latitude"].values, df["longitude"].values, lat, lon)
+            for lat, lon in poi
+        ]
+    )  # shape (n_poi, n_rows)
+
+    for radius_mi, label in config.DINING_GROCERY_DENSITY_RADII:
+        radius_km = radius_mi * 1.609344
+        within = dists_km <= radius_km  # NaN comparisons -> False
+        df[f"num_dining_grocery_within_{label}"] = within.sum(axis=0).astype("int16")
+
+    return df
+
+
 def add_park_distance(df: pd.DataFrame) -> pd.DataFrame:
     """
     Add great-circle distance (km) to the nearest park, using each park's
@@ -918,6 +980,144 @@ def add_highway_distance(df: pd.DataFrame) -> pd.DataFrame:
         warnings.filterwarnings("ignore", message="All-NaN slice encountered")
         nearest = np.nanmin(dists_km, axis=0)
     df["dist_nearest_highway_km"] = nearest.astype("float32")
+    return df
+
+
+def add_highway_route_distances(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Add great-circle distance (km) to GA-400 and I-285 as SEPARATE
+    columns, rather than one combined "nearest of either" distance (see
+    add_highway_distance() above, which tested worse -- combining the two
+    routes diluted GA-400's real monotonic rent relationship with I-285's
+    flat one; see the config.py comment for the real-data evidence).
+
+    Same resampled-point approach as add_highway_distance() (764 GA-400
+    points, 1361 I-285 points, both at 0.25km spacing), just kept as two
+    separate haversine distance matrices instead of one combined list.
+
+    Adds:
+        dist_ga400_km : float32, or NaN if lat/lon missing or
+                         eda/highway_ga400.json is missing.
+        dist_i285_km  : float32, or NaN if lat/lon missing or
+                         eda/highway_i285.json is missing.
+    """
+    if "latitude" not in df.columns or "longitude" not in df.columns:
+        return df
+    df = df.copy()
+
+    for col, attr in (
+        ("dist_ga400_km", "HIGHWAY_GA400_JSON"),
+        ("dist_i285_km", "HIGHWAY_I285_JSON"),
+    ):
+        points = _load_highway_route(attr)
+        if not points:
+            df[col] = np.nan
+            continue
+        dists_km = np.stack(
+            [
+                haversine_km(df["latitude"].values, df["longitude"].values, lat, lon)
+                for lat, lon in points
+            ]
+        )
+        with warnings.catch_warnings():
+            warnings.filterwarnings("ignore", message="All-NaN slice encountered")
+            nearest = np.nanmin(dists_km, axis=0)
+        df[col] = nearest.astype("float32")
+
+    return df
+
+
+def add_i285_zone_feature(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Bucket nearest-I-285-distance into a categorical zone: 0-4mi / 4-7mi /
+    7mi+ (edges + labels in config.I285_ZONE_EDGES_MI / _LABELS).
+
+    Based on the real rent-vs-I-285-distance scatter plot: the overall
+    trend is nearly flat, but there's an unusual concentration of
+    high-rent outliers specifically in a ~4-7mi band (likely capturing
+    Buckhead/Sandy Springs riding along the same axis, not a genuine
+    I-285 effect). Encoded as a genuine categorical (not ordinal), same
+    reasoning as add_airport_zone_feature()/add_marta_distance_zone() --
+    the 4-7mi band isn't "more" than the other two bands, it's a
+    different, unexplained cluster.
+
+    Computes distance internally via _load_highway_route() (doesn't
+    require add_highway_route_distances() to have run first, and
+    independent of whether dist_i285_km is currently in NUMERIC_FEATURES).
+
+    Adds:
+        dist_i285_zone : category dtype, one of config.I285_ZONE_LABELS,
+                           or NaN if lat/lon missing or no highway points.
+    """
+    if "latitude" not in df.columns or "longitude" not in df.columns:
+        return df
+    df = df.copy()
+    points = _load_highway_route("HIGHWAY_I285_JSON")
+    labels = list(config.I285_ZONE_LABELS)
+
+    if not points:
+        df["dist_i285_zone"] = pd.Categorical([np.nan] * len(df), categories=labels)
+        return df
+
+    dists_km = np.stack(
+        [
+            haversine_km(df["latitude"].values, df["longitude"].values, lat, lon)
+            for lat, lon in points
+        ]
+    )
+    with warnings.catch_warnings():
+        warnings.filterwarnings("ignore", message="All-NaN slice encountered")
+        dist_mi = (np.nanmin(dists_km, axis=0) * 0.6213712).astype("float64")  # km -> mi
+
+    edges = np.asarray(config.I285_ZONE_EDGES_MI, dtype="float64")
+    valid = ~np.isnan(dist_mi)
+
+    zone = np.full(len(df), np.nan, dtype=object)
+    idx = np.digitize(dist_mi[valid], bins=edges)  # 0..len(labels)-1
+    zone[valid] = np.asarray(labels, dtype=object)[idx]
+
+    df["dist_i285_zone"] = pd.Categorical(zone, categories=labels)
+    return df
+
+
+def add_ga400_near_flag(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Binary flag: 1.0 if the nearest GA-400 point is within
+    config.GA400_NEAR_THRESHOLD_MI (default 6.0mi), else 0.0.
+
+    Same "collapse to a single cutoff" pattern as add_marta_walkable_flag()
+    / add_buckhead_near_flag(), applied to GA-400. Computes distance
+    internally via _load_highway_route() (self-contained -- doesn't
+    require add_highway_route_distances() to have run first, and
+    independent of whether dist_ga400_km is currently in NUMERIC_FEATURES).
+
+    Adds:
+        ga400_near : float32, 1.0/0.0, or NaN if lat/lon missing or
+                           eda/highway_ga400.json is missing.
+    """
+    if "latitude" not in df.columns or "longitude" not in df.columns:
+        return df
+    df = df.copy()
+    points = _load_highway_route("HIGHWAY_GA400_JSON")
+
+    if not points:
+        df["ga400_near"] = np.float32(np.nan)
+        return df
+
+    dists_km = np.stack(
+        [
+            haversine_km(df["latitude"].values, df["longitude"].values, lat, lon)
+            for lat, lon in points
+        ]
+    )
+    with warnings.catch_warnings():
+        warnings.filterwarnings("ignore", message="All-NaN slice encountered")
+        dist_mi = (np.nanmin(dists_km, axis=0) * 0.6213712).astype("float64")  # km -> mi
+
+    flag = np.full(len(df), np.nan, dtype="float64")
+    valid = ~np.isnan(dist_mi)
+    flag[valid] = (dist_mi[valid] < config.GA400_NEAR_THRESHOLD_MI).astype("float64")
+    df["ga400_near"] = flag.astype("float32")
     return df
 
 
@@ -1470,11 +1670,15 @@ def add_static_features(df: pd.DataFrame) -> pd.DataFrame:
     df = add_restaurant_density(df)
     df = add_bar_density(df)
     df = add_total_poi_density(df)
+    df = add_dining_grocery_density(df)
     df = add_park_distance(df)
     df = add_named_park_distance(df)
     df = add_h3_cells(df)
     df = add_travel_time_features(df)
     df = add_highway_distance(df)
+    df = add_highway_route_distances(df)
+    df = add_i285_zone_feature(df)
+    df = add_ga400_near_flag(df)
     df = add_text_features(df)
     df = add_geo_aggregates(df)
     df = add_zscore_deviations(df)

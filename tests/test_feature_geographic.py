@@ -16,6 +16,7 @@ from prime_mfr.features.engineering import (
     add_grocery_density,
     add_h3_cells,
     add_highway_distance,
+    add_highway_route_distances,
     add_landmark_distances,
     add_marta_distance,
     add_marta_distance_zone,
@@ -1052,11 +1053,77 @@ def test_highway_distance_missing_coords_handled():
     assert np.isnan(out["dist_nearest_highway_km"].iloc[1])
 
 
-def test_highway_distance_in_numeric_config():
-    """dist_nearest_highway_km must live in NUMERIC_FEATURES."""
+def test_highway_distance_not_in_numeric_config():
+    """dist_nearest_highway_km (combined) was tested and removed --
+    dist_ga400_km/dist_i285_km (separate) replaced it."""
     import prime_mfr.config as config
 
-    assert "dist_nearest_highway_km" in config.NUMERIC_FEATURES
+    assert "dist_nearest_highway_km" not in config.NUMERIC_FEATURES
+
+
+# ---------------------------------------------------------------------------
+# GA-400 / I-285 as separate distance features
+# ---------------------------------------------------------------------------
+
+# Real coords, verified directly against eda/highway_ga400.json /
+# eda/highway_i285.json.
+_BUCKHEAD_ROUTES = (33.83942, -84.37992)  # 1.428km to GA-400, 7.973km to I-285
+_RURAL_FAR_ROUTES = (33.10, -85.10)  # 104.901km to GA-400, 81.15km to I-285
+
+
+def test_add_highway_route_distances_adds_columns():
+    df = _atlanta_df(10)
+    out = add_highway_route_distances(df)
+    assert "dist_ga400_km" in out.columns
+    assert "dist_i285_km" in out.columns
+
+
+def test_highway_route_distances_real_values():
+    """Buckhead is ~1.43km from GA-400 and ~7.97km from I-285; a rural
+    point is ~104.9km / ~81.2km respectively (verified against
+    eda/highway_ga400.json / eda/highway_i285.json)."""
+    df = pd.DataFrame(
+        {
+            "latitude": [_BUCKHEAD_ROUTES[0], _RURAL_FAR_ROUTES[0]],
+            "longitude": [_BUCKHEAD_ROUTES[1], _RURAL_FAR_ROUTES[1]],
+            "rent": [2200.0, 1400.0],
+        }
+    )
+    out = add_highway_route_distances(df)
+    assert out["dist_ga400_km"].iloc[0] == pytest.approx(1.428, abs=0.01)
+    assert out["dist_i285_km"].iloc[0] == pytest.approx(7.973, abs=0.01)
+    assert out["dist_ga400_km"].iloc[1] == pytest.approx(104.901, abs=0.1)
+    assert out["dist_i285_km"].iloc[1] == pytest.approx(81.15, abs=0.1)
+
+
+def test_highway_route_distances_missing_coords_handled():
+    """Rows with NaN lat/lon get NaN, not a crash."""
+    df = pd.DataFrame(
+        {
+            "latitude": [_BUCKHEAD_ROUTES[0], np.nan],
+            "longitude": [_BUCKHEAD_ROUTES[1], -84.40],
+            "rent": [2200.0, 1800.0],
+        }
+    )
+    out = add_highway_route_distances(df)
+    assert np.isnan(out["dist_ga400_km"].iloc[1])
+    assert np.isnan(out["dist_i285_km"].iloc[1])
+
+
+def test_ga400_distance_in_numeric_config():
+    """dist_ga400_km must live in NUMERIC_FEATURES."""
+    import prime_mfr.config as config
+
+    assert "dist_ga400_km" in config.NUMERIC_FEATURES
+
+
+def test_i285_distance_in_numeric_config():
+    """dist_i285_km added alongside dist_ga400_km to test both together,
+    despite its flat real-data trend predicting it won't help on its own
+    (see config.py comment)."""
+    import prime_mfr.config as config
+
+    assert "dist_i285_km" in config.NUMERIC_FEATURES
 
 
 # ---------------------------------------------------------------------------
