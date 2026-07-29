@@ -1,0 +1,1584 @@
+[
+  {
+    "name": "ADP",
+    "lat": 34.0906544,
+    "lon": -84.2557248,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "AT&T Drive Studio",
+    "lat": 33.7760127,
+    "lon": -84.3871088,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "ATL Courier, Inc",
+    "lat": 33.9342005,
+    "lon": -84.1860779,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "AccuSentry Inc.",
+    "lat": 33.9373656,
+    "lon": -84.5052308,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Advance Medical Designs, Inc.",
+    "lat": 33.9798604,
+    "lon": -84.5348491,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Aftercar",
+    "lat": 33.7677668,
+    "lon": -84.360746,
+    "office": "coworking",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Allstate Construction",
+    "lat": 34.2105076,
+    "lon": -84.1366606,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Amazing Kitchens Renovation",
+    "lat": 34.0686752,
+    "lon": -84.5208436,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Anderson Windows & Doors",
+    "lat": 33.3702132,
+    "lon": -84.1390492,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "AquaGuard Foundation Solutions",
+    "lat": 33.9723663,
+    "lon": -84.5277706,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Argo Systems Inc",
+    "lat": 33.8356795,
+    "lon": -84.3828269,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Assurant",
+    "lat": 33.9001485,
+    "lon": -84.4633833,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Atlanta Beverage Company",
+    "lat": 33.9820175,
+    "lon": -84.5361155,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Atlanta Community Services",
+    "lat": 34.1708904,
+    "lon": -84.1884441,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Atlanta Office Suites",
+    "lat": 33.9495603,
+    "lon": -84.5090484,
+    "office": "coworking",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Atlanta Tech Village",
+    "lat": 33.8485549,
+    "lon": -84.3734219,
+    "office": "coworking",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Austin Technology Group",
+    "lat": 33.998026,
+    "lon": -84.5302659,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Automated Logic Solutions Center",
+    "lat": 34.0058117,
+    "lon": -84.5851085,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Avalon Tree Services",
+    "lat": 33.8832373,
+    "lon": -84.1640178,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Azalea Regional Office",
+    "lat": 33.5952693,
+    "lon": -83.453081,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "B & Z Contracting",
+    "lat": 33.9691416,
+    "lon": -84.257711,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "B&F Iron Co",
+    "lat": 33.6280046,
+    "lon": -84.4715655,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "BTD Manufacturing",
+    "lat": 34.3588131,
+    "lon": -84.0529924,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Bank of America Mortgage",
+    "lat": 34.0427284,
+    "lon": -84.5695799,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Birla Carbon - Technology Center",
+    "lat": 33.9833956,
+    "lon": -84.5198842,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "BitPay Headquarters",
+    "lat": 33.8486648,
+    "lon": -84.3734664,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Boomerang",
+    "lat": 33.7839065,
+    "lon": -84.3923458,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Boston Consulting Group",
+    "lat": 33.7838879,
+    "lon": -84.3828621,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Boston Consulting Group",
+    "lat": 33.7723214,
+    "lon": -84.3653476,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Boyzo Trucks",
+    "lat": 33.8858835,
+    "lon": -84.2582837,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Brasfield & Gorrie General Contractor",
+    "lat": 33.8952379,
+    "lon": -84.4699307,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Brookside",
+    "lat": 33.4007666,
+    "lon": -84.5923122,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Buckhead America Hospitality",
+    "lat": 33.882973,
+    "lon": -84.4733269,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "C&C Market Research",
+    "lat": 33.924726,
+    "lon": -84.3407873,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "CGI Analytics",
+    "lat": 33.8493599,
+    "lon": -84.3102271,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "CMIT",
+    "lat": 33.4034149,
+    "lon": -84.7074691,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Capella Apartment Homes",
+    "lat": 33.8939249,
+    "lon": -84.2092664,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Care Guide Inc.",
+    "lat": 33.8869445,
+    "lon": -84.2386351,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Carestream Dental",
+    "lat": 33.8843902,
+    "lon": -84.4535123,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Cartoon Network",
+    "lat": 33.7837125,
+    "lon": -84.3923552,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Centergy Management",
+    "lat": 33.77722,
+    "lon": -84.389825,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Chick-fil-A, Inc. Headquarters",
+    "lat": 33.6136602,
+    "lon": -84.4893953,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Chick-fil-A: 5300A",
+    "lat": 33.6115767,
+    "lon": -84.4984199,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Chick-fil-A: 5300B",
+    "lat": 33.6105389,
+    "lon": -84.4982922,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Chick-fil-A: Lincoln 100",
+    "lat": 33.6120831,
+    "lon": -84.5020543,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Chick-fil-A: Lincoln 200",
+    "lat": 33.6110677,
+    "lon": -84.5021214,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Chick-fil-A: Lincoln 300",
+    "lat": 33.6100096,
+    "lon": -84.5025794,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Chick-fil-A: Oakmont A",
+    "lat": 33.6139178,
+    "lon": -84.5010114,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Chick-fil-A: Oakmont B",
+    "lat": 33.6140186,
+    "lon": -84.5023211,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Christian Brothers Mechanical LLC",
+    "lat": 33.7647901,
+    "lon": -84.5949113,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "ClassOne Equipment",
+    "lat": 33.7097645,
+    "lon": -84.1729492,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Cleanstar National",
+    "lat": 33.9919828,
+    "lon": -84.5346713,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Comcast",
+    "lat": 34.234932,
+    "lon": -84.4993546,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Companies Estate Sales",
+    "lat": 33.9505979,
+    "lon": -84.507708,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Computacenter US Integration Center",
+    "lat": 34.1215499,
+    "lon": -84.2091918,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Cornerstone Coworking",
+    "lat": 33.9559966,
+    "lon": -83.9909763,
+    "office": "coworking",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Cornerstone Support, Inc.",
+    "lat": 34.0411033,
+    "lon": -84.3311149,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Cox Enterprises",
+    "lat": 33.9249597,
+    "lon": -84.3501604,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Creative Career",
+    "lat": 34.0355088,
+    "lon": -84.3401451,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Crisp",
+    "lat": 33.8062305,
+    "lon": -84.4253425,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Crowne Office Suites Cumberland",
+    "lat": 33.9059851,
+    "lon": -84.4786352,
+    "office": "coworking",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Custom Disposal",
+    "lat": 33.9825722,
+    "lon": -84.531297,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Custom Mufflers",
+    "lat": 33.7872359,
+    "lon": -84.6981315,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "D2 Development",
+    "lat": 33.9073512,
+    "lon": -84.3611693,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "DashMart By Doordash",
+    "lat": 33.9703166,
+    "lon": -84.4902786,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Delta Trainf Center",
+    "lat": 33.658327,
+    "lon": -84.4220866,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Development and Support Center",
+    "lat": 33.9250885,
+    "lon": -84.2468185,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Dimension Data",
+    "lat": 34.0588234,
+    "lon": -84.2896082,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Dornier MedTech America, Inc.",
+    "lat": 34.003371,
+    "lon": -84.5854867,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "ESI Steam & Power Special Forces",
+    "lat": 34.0051705,
+    "lon": -84.589709,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "EdenFantasys",
+    "lat": 33.6022917,
+    "lon": -84.4087265,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Edwin Jarvis",
+    "lat": 33.8080245,
+    "lon": -84.2397613,
+    "office": "coworking",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Erbe, USA",
+    "lat": 33.9188779,
+    "lon": -84.4860921,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Execucourt",
+    "lat": 34.1115697,
+    "lon": -84.5623385,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Ferguson Fire and Fabricatin",
+    "lat": 33.8921449,
+    "lon": -84.1138913,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "FlightWorks",
+    "lat": 34.0156276,
+    "lon": -84.6036764,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Flock Safety Corporate Office",
+    "lat": 33.7857688,
+    "lon": -84.412237,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Fontis Mountain Spring Water",
+    "lat": 34.0466058,
+    "lon": -84.5299509,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Forsyth County Schools Support Services",
+    "lat": 34.2173516,
+    "lon": -84.1498396,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Fresh\u00ebns",
+    "lat": 33.9087141,
+    "lon": -84.4826634,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Fuel Core",
+    "lat": 33.7741103,
+    "lon": -84.3840951,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Futren Hospitality",
+    "lat": 33.9043005,
+    "lon": -84.4797419,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "GE Vernova",
+    "lat": 33.8853066,
+    "lon": -84.4611818,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Generation Orbit",
+    "lat": 33.8927855,
+    "lon": -84.2658742,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Generation Orbit",
+    "lat": 33.8918445,
+    "lon": -84.2647331,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Georgia Correctional industries",
+    "lat": 33.6914511,
+    "lon": -84.2742802,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Georgia Family Care",
+    "lat": 33.9198375,
+    "lon": -84.0156627,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Georgia Portable Buildings Inc.",
+    "lat": 33.7878225,
+    "lon": -84.6976143,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Georgia Power",
+    "lat": 33.7757073,
+    "lon": -84.2950592,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Georgia Tree Company",
+    "lat": 33.8120009,
+    "lon": -84.3357748,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Google Atlanta",
+    "lat": 33.7850478,
+    "lon": -84.3873825,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Graphic Packaging PDC",
+    "lat": 33.9079829,
+    "lon": -84.4354299,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "HD Supply",
+    "lat": 33.8787647,
+    "lon": -84.453401,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Hawthorne Global Aviation Services",
+    "lat": 34.0153057,
+    "lon": -84.6011792,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Heidelberg, USA, Inc.",
+    "lat": 34.027075,
+    "lon": -84.5806095,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Heraeus Quartz America Optics",
+    "lat": 34.1039991,
+    "lon": -84.0071841,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Herbert Construction Company",
+    "lat": 33.9762589,
+    "lon": -84.5577248,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Hermeus",
+    "lat": 33.8895611,
+    "lon": -84.3055183,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Honeywell Building Technologies",
+    "lat": 33.7741222,
+    "lon": -84.3843122,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Hopewell International, Inc.",
+    "lat": 33.9060955,
+    "lon": -84.4652328,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Hyundai - Southern Regional Office",
+    "lat": 34.0242875,
+    "lon": -84.5541286,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "ICAP Health Practices",
+    "lat": 34.0348774,
+    "lon": -84.3401217,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Immersive Display Solutions, Inc.",
+    "lat": 34.0239792,
+    "lon": -84.5536934,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Impulse Training Systems",
+    "lat": 33.4001206,
+    "lon": -84.786711,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "In Touch Studios",
+    "lat": 33.8911601,
+    "lon": -84.2637062,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Ingenics Consulting",
+    "lat": 33.7626029,
+    "lon": -84.386377,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Inspire Brands Global Support Center",
+    "lat": 33.9353992,
+    "lon": -84.3599421,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Integrated Science & Engineering, Inc",
+    "lat": 33.4032851,
+    "lon": -84.7076461,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Interactive Technologies",
+    "lat": 34.2497464,
+    "lon": -84.0573426,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Interface Global Headquarters",
+    "lat": 33.7897108,
+    "lon": -84.3881233,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Interfor",
+    "lat": 33.403179,
+    "lon": -84.5922873,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Invesco",
+    "lat": 33.7913599,
+    "lon": -84.388868,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "J Lancaster and Associates",
+    "lat": 33.9512329,
+    "lon": -84.4137087,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "J&J Construction",
+    "lat": 34.0325401,
+    "lon": -84.5284469,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "JLS Contracting, Inc.",
+    "lat": 33.9795917,
+    "lon": -84.5415019,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "JackBilt Development",
+    "lat": 33.7879524,
+    "lon": -84.3693406,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "JeDunn Construction",
+    "lat": 33.8685043,
+    "lon": -84.4769338,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Juneau Construction Company",
+    "lat": 33.8569005,
+    "lon": -84.4296644,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Karam Jameel Mooore",
+    "lat": 33.8242088,
+    "lon": -84.2290786,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Kemi Construction",
+    "lat": 33.6268437,
+    "lon": -84.4729291,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "La Mara Holdings Human Resoutces",
+    "lat": 34.0124326,
+    "lon": -84.5267246,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Lance Oil Company",
+    "lat": 34.0316752,
+    "lon": -84.6153507,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Lendingpoint",
+    "lat": 34.0035374,
+    "lon": -84.5877374,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Locklear Interiors",
+    "lat": 34.0213074,
+    "lon": -84.2876411,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Logic Speak",
+    "lat": 34.0485526,
+    "lon": -84.3420044,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Lucid Private Offices",
+    "lat": 34.0731077,
+    "lon": -84.258046,
+    "office": "coworking",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Lucid Private Offices",
+    "lat": 33.8977922,
+    "lon": -84.4637977,
+    "office": "coworking",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Lucid Private Offices",
+    "lat": 33.8477962,
+    "lon": -84.3657292,
+    "office": "coworking",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Lumien Lighting",
+    "lat": 33.9869258,
+    "lon": -84.5539543,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "MAD Industries",
+    "lat": 33.7971167,
+    "lon": -84.5128181,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "MNA Design",
+    "lat": 33.986637,
+    "lon": -84.577766,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "MOBA Corporation",
+    "lat": 33.3452061,
+    "lon": -84.545107,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "MORE NORTH AMERICA CORPORATION",
+    "lat": 34.0108632,
+    "lon": -84.6131743,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Made Mercantile",
+    "lat": 34.1004244,
+    "lon": -84.5200048,
+    "office": "coworking",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Mallaghan Ground Support Equipment",
+    "lat": 33.4056385,
+    "lon": -84.748226,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Maruho Medical",
+    "lat": 34.0232847,
+    "lon": -84.5531115,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "McKinsey & Company",
+    "lat": 33.7573947,
+    "lon": -84.387343,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Mercedes-Benz USA",
+    "lat": 33.9334593,
+    "lon": -84.3629758,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Meridian Restoration",
+    "lat": 34.0088248,
+    "lon": -84.5262001,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Microsoft Corp.",
+    "lat": 33.7908661,
+    "lon": -84.3944094,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Midway Limousine Services",
+    "lat": 33.9017736,
+    "lon": -84.4826789,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Moore Power Inc.",
+    "lat": 33.9451261,
+    "lon": -83.991454,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Moreira Team",
+    "lat": 33.7847518,
+    "lon": -84.3836801,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Multi Serv Express",
+    "lat": 34.0355648,
+    "lon": -84.3398694,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "NAPA Auto Parts Genuine Parts Company",
+    "lat": 33.9580003,
+    "lon": -84.2103777,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "NSI-MI TECHNOLOGY",
+    "lat": 34.0143495,
+    "lon": -84.0709958,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Northwest Exterminating",
+    "lat": 33.9180639,
+    "lon": -84.002954,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Novelis Global Research & Technology Center",
+    "lat": 34.0073502,
+    "lon": -84.5892681,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "ON Services, a GES company",
+    "lat": 33.9094512,
+    "lon": -84.2332355,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Oasis Management Systems",
+    "lat": 34.2507386,
+    "lon": -84.0562141,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Odyssey Managed Services",
+    "lat": 34.0027117,
+    "lon": -84.5913277,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Oldcastle Infrastructure",
+    "lat": 34.0581872,
+    "lon": -84.6389208,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "OmniCall Receptionist",
+    "lat": 33.5838996,
+    "lon": -85.0574857,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "One Phipps Plaza",
+    "lat": 33.8537891,
+    "lon": -84.362915,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Osmose Utilities",
+    "lat": 33.361762,
+    "lon": -84.5636938,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "PBD Worldwide",
+    "lat": 34.1146133,
+    "lon": -84.2358377,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Pacesetter Steel",
+    "lat": 34.0228558,
+    "lon": -84.58063,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Peachtree Offices",
+    "lat": 33.7846416,
+    "lon": -84.3835428,
+    "office": "coworking",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Peppers Construction",
+    "lat": 34.3447212,
+    "lon": -84.0504904,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Pexco",
+    "lat": 34.0604278,
+    "lon": -84.2857973,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Phoenix Fire Systems",
+    "lat": 33.8522974,
+    "lon": -84.2594396,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Pike Electric - Atlanta Regional Office",
+    "lat": 33.9871997,
+    "lon": -84.5810694,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Pop.In",
+    "lat": 34.217071,
+    "lon": -84.145481,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Porsche Cars North America",
+    "lat": 33.6519705,
+    "lon": -84.3988547,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Power Delivery Products, Inc.",
+    "lat": 33.9982717,
+    "lon": -84.2842788,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Pro Painting & Remodeling, LLC",
+    "lat": 34.0278292,
+    "lon": -84.3339282,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Promove",
+    "lat": 33.8358578,
+    "lon": -84.3826597,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Publix Atlanta Division Office",
+    "lat": 33.9219447,
+    "lon": -84.4776034,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Pyramid Concrete Construction",
+    "lat": 33.7780191,
+    "lon": -83.8520571,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Quest Diagnostics",
+    "lat": 33.8321338,
+    "lon": -84.255262,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "RaceTrac",
+    "lat": 33.8858841,
+    "lon": -84.4635828,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Randstad",
+    "lat": 33.8842154,
+    "lon": -84.4533849,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Randstad Engineering",
+    "lat": 33.9542623,
+    "lon": -84.2387051,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Regus",
+    "lat": 33.8967738,
+    "lon": -84.0043171,
+    "office": "coworking",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Regus Coworking",
+    "lat": 33.8743618,
+    "lon": -84.4579031,
+    "office": "coworking",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Rentmoney;Iberiabank",
+    "lat": 33.8362542,
+    "lon": -84.3822791,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "RestoPros of Northeast Georgia",
+    "lat": 33.9583876,
+    "lon": -83.9731329,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Riverline Transfer",
+    "lat": 33.7964065,
+    "lon": -84.5138357,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Rocket Farm Restaurants",
+    "lat": 33.8023999,
+    "lon": -84.4262223,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "SAP Ariba Office",
+    "lat": 34.0705606,
+    "lon": -84.2740783,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Saia LTL Freight Corporate Office",
+    "lat": 34.0592042,
+    "lon": -84.1669471,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "SharedSpace Cobb",
+    "lat": 33.8929988,
+    "lon": -84.4746322,
+    "office": "coworking",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Shaw Stainless & Alloy - Value Added Service Center",
+    "lat": 33.9866695,
+    "lon": -84.578348,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Shred Nations",
+    "lat": 33.8585108,
+    "lon": -84.3420796,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Southern Company Gas",
+    "lat": 33.7810859,
+    "lon": -84.3871496,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Southern Pipe and Supply",
+    "lat": 33.8911155,
+    "lon": -84.1131349,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Southwire - Tools Division",
+    "lat": 33.6184404,
+    "lon": -85.100649,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Spaces",
+    "lat": 33.8898893,
+    "lon": -84.46986,
+    "office": "coworking",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Spaces Colony Square",
+    "lat": 33.787525,
+    "lon": -84.3828297,
+    "office": "coworking",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Spaces Peachtree",
+    "lat": 33.7919374,
+    "lon": -84.3863598,
+    "office": "coworking",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Spectrum Plastics Group",
+    "lat": 34.0601256,
+    "lon": -84.2854856,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Steve Edison Homes Inc.",
+    "lat": 33.9502643,
+    "lon": -84.4133274,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Stovall Nursery",
+    "lat": 34.0822096,
+    "lon": -83.8243195,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Sunbelt Business Brokers",
+    "lat": 33.9210477,
+    "lon": -84.317245,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Switchyards",
+    "lat": 33.7586042,
+    "lon": -84.3900045,
+    "office": "coworking",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Switchyards",
+    "lat": 33.7469923,
+    "lon": -84.3653449,
+    "office": "coworking",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Synovus",
+    "lat": 33.8887644,
+    "lon": -84.4577408,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "TBS Network",
+    "lat": 33.7833162,
+    "lon": -84.392359,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "TE Certified, Electrical, Plumbing, Heating & Cooling",
+    "lat": 33.9266663,
+    "lon": -84.0377778,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "TNT",
+    "lat": 33.7841142,
+    "lon": -84.3923365,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Taylor Construction Company",
+    "lat": 33.9245286,
+    "lon": -84.5036104,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Team Novo Nordisk",
+    "lat": 33.8140819,
+    "lon": -84.4315544,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "The Buckhead Group",
+    "lat": 34.0352979,
+    "lon": -84.3406837,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "The Charles H. Kirbo Building - The Carter Center",
+    "lat": 33.7736046,
+    "lon": -84.3497283,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "The Geary T Newman Agency",
+    "lat": 34.034903,
+    "lon": -84.3399299,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "The Hive Collaborative Coworking",
+    "lat": 34.0233107,
+    "lon": -84.6155518,
+    "office": "coworking",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "The Maxim Clinic \u00b7 Norcross",
+    "lat": 33.9117705,
+    "lon": -84.1998719,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "The Summit",
+    "lat": 33.9679721,
+    "lon": -84.220257,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "The Whorter Companies",
+    "lat": 34.0352963,
+    "lon": -84.340653,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Thrive Canton at The Jones Building",
+    "lat": 34.2370194,
+    "lon": -84.490414,
+    "office": "coworking",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Ticket Alternative",
+    "lat": 33.7876056,
+    "lon": -84.3895633,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Timberland Investment Group",
+    "lat": 33.7869218,
+    "lon": -84.3837717,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Town & Country Office Cleaning",
+    "lat": 33.914765,
+    "lon": -84.3422983,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "TruTV",
+    "lat": 33.7838231,
+    "lon": -84.3923575,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "UPS Corporate Headquarters",
+    "lat": 33.9434854,
+    "lon": -84.3598103,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "United Contractor Services",
+    "lat": 34.0466702,
+    "lon": -84.6115621,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "VOLO Events Agency, LLC",
+    "lat": 33.9341993,
+    "lon": -84.3599162,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Visa",
+    "lat": 33.7878222,
+    "lon": -84.3843415,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Vision Logistics LLC",
+    "lat": 33.9358338,
+    "lon": -84.2054758,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "WeWork",
+    "lat": 33.8473722,
+    "lon": -84.3709701,
+    "office": "coworking",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "WeWork",
+    "lat": 33.7869081,
+    "lon": -84.3827241,
+    "office": "coworking",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Williams Street Productions, LLC.",
+    "lat": 33.7837771,
+    "lon": -84.3901905,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Woolard Attman Construction, Inc.",
+    "lat": 33.9870815,
+    "lon": -84.575699,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Yamaha Motor Corporation, USA - Kennesaw",
+    "lat": 34.0279213,
+    "lon": -84.5881468,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "Zwick / Rowell",
+    "lat": 34.0007468,
+    "lon": -84.5803139,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  },
+  {
+    "name": "gCurv Technologies",
+    "lat": 34.0232949,
+    "lon": -84.1558685,
+    "office": "company",
+    "source": "OpenStreetMap Overpass API (office=*); bbox+addr:state filtered to the Atlanta MSA; rebuilt from cached eda/research/offices.geojson"
+  }
+]

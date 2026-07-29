@@ -37,6 +37,7 @@ COFFEE_SHOPS_JSON: Path = PROJECT_DIR / "eda" / "coffee_shops.json"
 GROCERY_STORES_JSON: Path = PROJECT_DIR / "eda" / "grocery_stores.json"
 RESTAURANTS_JSON: Path = PROJECT_DIR / "eda" / "restaurants.json"
 BARS_NIGHTCLUBS_JSON: Path = PROJECT_DIR / "eda" / "bars_nightclubs.json"
+OFFICES_JSON: Path = PROJECT_DIR / "eda" / "offices.json"
 PARKS_JSON: Path = PROJECT_DIR / "eda" / "parks.json"
 PARK_LANDMARKS_JSON: Path = PROJECT_DIR / "eda" / "park_landmarks.json"
 TRAVEL_TIMES_JSON: Path = PROJECT_DIR / "eda" / "travel_times.json"
@@ -156,7 +157,66 @@ NUMERIC_FEATURES: list[str] = [
     "dist_buckhead_km",
     "dist_midtown_km",
     "num_restaurants_within_0.5mi",
-    # ^ reverted 2026-07-18: num_dining_grocery_within_0.5mi removed
+    # ^ reverted to base 2026-07-19 -- dist_i285_km / dist_i285_zone both
+    # removed (see CATEGORICAL_FEATURES for the zone version's history).
+    # Back to buckhead + midtown + airport zone + restaurant density 0.5mi.
+    # Confirmed $74.59. I-285 distance alone: $74.90. Distance+zone
+    # together: conflicting reads of $75.10 then $74.79 -- unresolved, see
+    # CATEGORICAL_FEATURES comment.
+    # ^ base + I-285 distance only (no MARTA): $74.90 (+$0.31 vs the $74.59
+    # base config) -- worse, but close, and notably the best isolated
+    # highway-distance result found this session (edges out GA-400 alone's
+    # earlier $75.99/+$0.53 on the plain baseline trio, though that was a
+    # different base config so not a perfectly clean comparison). Earlier
+    # this session (against the plain baseline trio, no airport zone/
+    # restaurant density/MARTA): combined nearest-of-either-highway $76.97
+    # (+$1.51), GA-400+I-285 together $77.56 (+$2.10, worst of any feature
+    # that session), GA-400 alone $75.99 (+$0.53) -- I-285 alone specifically
+    # was not isolated in that round. dist_marta_km stays defined, just
+    # unused here.
+    # ^ swapped 2026-07-19 per request: num_marta_stations_within_2mi
+    # (density-only) removed, nearest-MARTA distance added instead -- base +
+    # MARTA distance only now. num_marta_stations_within_2mi stays defined,
+    # just unused here.
+    # MARTA distance only (this exact config): $74.89 (+$0.30 vs the $74.59
+    # base config) -- still worse than baseline, but the best single MARTA
+    # encoding found this session, ahead of density-only ($75.24),
+    # distance+density ($75.43), and even all-3-encodings ($75.04).
+    # MARTA density(2mi) only (on top of this same base config): $75.24
+    # (+$0.65 vs the $74.59 base config), worse -- lands between
+    # distance+density together ($75.43) and all-3-encodings ($75.04),
+    # confirming density alone carries some of the signal but not all of
+    # it. Nearest-MARTA distance + MARTA density(2mi) together: $75.43
+    # (+$0.84). All-3-MARTA-encodings (distance + density(2mi) + zone):
+    # $75.04 (+$0.45) -- the best MARTA combo found, still worse than
+    # baseline. MARTA features have underperformed baseline throughout
+    # this session regardless of encoding.
+    # ^ reverted to the BASE CONFIG 2026-07-19 -- buckhead + midtown +
+    # airport zone (see CATEGORICAL_FEATURES) + restaurant density 0.5mi.
+    # Confirmed $74.59. num_offices_within_0.5mi / dist_atl_airport_km all
+    # stay defined, just unused here -- also reverted in CATEGORICAL_FEATURES
+    # / KNN_LEAN_FEATURES below to match.
+    # Prior state: num_restaurants_within_0.5mi removed, office POI density
+    # widened back to 0.5mi and now the sole POI feature -- buckhead +
+    # midtown + airport zone + office density 0.5mi (no restaurant
+    # density). eda/offices.json now exists (226 curated offices, built
+    # 2026-07-19 from the cached eda/research/offices.geojson via
+    # `fetch_offices.py --from-cache`), so this column has real counts, not
+    # all zeros.
+    # num_restaurants_within_0.5mi stays defined, just unused here.
+    # testing, otherwise this column will be all zeros. Untested.
+    # Prior state (the BASE CONFIG, confirmed $74.59): buckhead + midtown +
+    # airport zone + restaurant density 0.5mi, no office density.
+    # dist_downtown_km / dist_atl_airport_km / dist_min_landmark_km /
+    # num_restaurant_cafe_within_0.5mi all stay defined, just unused here.
+    # ^ swapped 2026-07-19: standalone num_restaurants_within_0.5mi replaced
+    # with the combined restaurant+coffee-shop count (see
+    # RESTAURANT_CAFE_DENSITY_RADII / add_restaurant_cafe_density()).
+    # Untested.
+    # ^ reverted 2026-07-18: dist_piedmont_park_km removed (result never
+    # reported), back to the base config. add_piedmont_park_distance() /
+    # config.PIEDMONT_PARK stay in place, just unused here.
+    # Historical note: num_dining_grocery_within_0.5mi removed
     # (result never reported), back to the plain $75.35 trio, then
     # re-added restaurant density at 0.5mi per request -- this re-
     # establishes the best confirmed POI config found this session
@@ -407,20 +467,32 @@ CATEGORICAL_FEATURES: list[str] = [
     "street_type",  # extracted from street_address suffix
     "addr_dir",  # NE/NW/SE/SW/N/S/E/W
     "dist_atl_airport_zone",
+    # ^ re-added 2026-07-19 -- reverted to the BASE CONFIG (buckhead +
+    # midtown + airport zone + restaurant density 0.5mi, $74.59). Was
+    # temporarily removed for the "74.32 model" (continuous
+    # dist_atl_airport_km instead).
     # ^ restored 2026-07-18 -- reverted to the $75.46 baseline (buckhead +
     # midtown in NUMERIC_FEATURES, airport zone here) after the untested
     # GA-400 + MARTA walkable/density combo.
+    # dist_marta_zone removed again 2026-07-19 per request -- config is now
+    # base + nearest-MARTA distance + MARTA density(2mi) only (no zone).
+    # All-3-encodings result (with zone, on this same base config): $75.04
+    # (+$0.45 vs $74.59), worse. See NUMERIC_FEATURES history above.
     # dist_marta_zone removed 2026-07-15 to isolate the walkable(1mi) +
     # density(2mi) test. See the MARTA test history comment in
     # NUMERIC_FEATURES above.
-    # dist_i285_zone (0-4mi/4-7mi/7mi+ bucketing, isolating the unexplained
-    # 4-7mi high-rent-outlier cluster) tested 2026-07-16 and removed:
-    # $77.44 (+$1.98 vs the $75.46 baseline), worse -- one of the worst
-    # results this session. The 4-7mi cluster (verified to include both
-    # Buckhead at 4.95mi and Downtown at 5.92mi -- likely "core Atlanta"
-    # broadly, not a real I-285 effect) doesn't hold up as a genuine
-    # signal once binned. add_i285_zone_feature() / I285_ZONE_EDGES_MI
-    # stay in place, just unused here.
+    "dist_i285_zone",
+    # ^ base + dist_i285_zone at the narrowed 4-6mi bins (see
+    # I285_ZONE_EDGES_MI): $74.56 (-$0.03 vs the $74.59 base config) --
+    # NEW BEST MAE this session, and the first I-285 encoding of any kind
+    # to beat baseline. Narrowing 4-7mi -> 4-6mi appears to have tightened
+    # the bin around the real outlier cluster (recall the old 4-7mi band
+    # was found to include both Buckhead at 4.95mi and Downtown at 5.92mi,
+    # diluting it with "core Atlanta" rows that aren't a real I-285 effect;
+    # cutting the top edge to 6mi excludes some of that dilution). Prior
+    # results at the old 4-7mi edges: $77.44 standalone (older baseline
+    # config), and $75.10/$74.79 (conflicting reads) when combined with
+    # continuous dist_i285_km on top of this same base config.
 ]
 
 # Boolean text-derived flags (will be added to BOOLEAN_FEATURES at module load
@@ -591,8 +663,11 @@ ATL_AIRPORT_ZONE_LABELS: tuple[str, str, str] = ("near", "hot_zone", "far")
 # category, same "genuine categorical, not ordinal" reasoning as
 # ATL_AIRPORT_ZONE_EDGES (the 4-7mi band isn't "more" than the other two,
 # it's a different, unexplained cluster). Not yet tested.
-I285_ZONE_EDGES_MI: tuple[float, float] = (4.0, 7.0)
-I285_ZONE_LABELS: tuple[str, str, str] = ("0-4mi", "4-7mi", "7mi_plus")
+I285_ZONE_EDGES_MI: tuple[float, float] = (4.0, 6.0)
+I285_ZONE_LABELS: tuple[str, str, str] = ("0-4mi", "4-6mi", "6mi_plus")
+# ^ narrowed 4-7mi -> 4-6mi 2026-07-19 per request. Untested at this
+# edge -- prior $77.44 standalone result (see CATEGORICAL_FEATURES /
+# NUMERIC_FEATURES history) was measured at the old 4-7mi edges.
 
 # dist_marta_km zone edges (right edges, MILES -- matches the original EDA
 # notebook's bins exactly: eda/research/Yardi EDA - New Geospatial
@@ -883,6 +958,33 @@ TOTAL_POI_DENSITY_RADII: list[tuple[float, str]] = [
 # with the two weaker categories the way TOTAL_POI_DENSITY_RADII's full
 # combine did ($74.95, worse than restaurant alone). Untested.
 DINING_GROCERY_DENSITY_RADII: list[tuple[float, str]] = [
+    (0.5, "0.5mi"),
+]
+
+# Restaurant + coffee shop combined density radius (added 2026-07-19).
+# Counts ONLY restaurants + coffee shops within radius, as one combined
+# column -- replaces the standalone RESTAURANT_DENSITY_RADII feature in the
+# base config. Motivation: restaurant density alone was the strongest
+# individual POI feature this session ($74.59 on the base trio); coffee
+# shops are the next-most walkability/lifestyle-correlated category ahead
+# of grocery/bars, so combining the two broadens the "dining and cafe
+# scene" signal without diluting it with less-correlated categories the
+# way TOTAL_POI_DENSITY_RADII's full 4-category combine did. Untested.
+RESTAURANT_CAFE_DENSITY_RADII: list[tuple[float, str]] = [
+    (0.5, "0.5mi"),
+]
+
+# Office POI density radius (added 2026-07-19). Counts distinct office
+# POIs (OSM office=* tag -- company/coworking/government/insurance/etc.)
+# within radius. Different motivation than the dining/lifestyle-amenity
+# family above: office density is a proxy for "employment center" / job
+# proximity rather than walkable retail, so it may not share the walkable-
+# amenity features' failure mode (h3_res8/sub_market/zipcode target
+# encodings already seem to capture retail-amenity-driven rent premiums,
+# but employment-center proximity is a distinct signal). Sourced from
+# eda/offices.json (see eda/fetch_offices.py -- needs a live Overpass
+# fetch on the user's machine; not run in this sandbox). Untested.
+OFFICE_DENSITY_RADII: list[tuple[float, str]] = [
     (0.5, "0.5mi"),
 ]
 
@@ -1268,8 +1370,8 @@ KNN_LEAN_FEATURES: list[str] = [
     "dist_buckhead_km",  # buckhead_near swap reverted 2026-07-16, matching
     # NUMERIC_FEATURES above.
     "dist_midtown_km",
-    # dist_downtown_km / dist_min_landmark_km removed 2026-07-15, matching
-    # NUMERIC_FEATURES above.
+    # ^ reverted to the BASE CONFIG 2026-07-19, matching NUMERIC_FEATURES
+    # above -- dist_atl_airport_km removed.
     "sqft",
     "beds",
     "baths",
@@ -1299,6 +1401,15 @@ H3_RESOLUTIONS: list[int] = [6, 8]
 
 # Atlanta landmark keys (must exist in atlanta_landmarks.json).
 LANDMARKS: list[str] = ["buckhead", "midtown", "downtown", "atl_airport"]
+
+# Piedmont Park centroid (added 2026-07-18) -- pulled from the "name":
+# "Piedmont Park" entry already in eda/park_landmarks.json (used by
+# add_named_park_distance() for the nearest-of-5-curated-parks feature).
+# This is a SEPARATE single-park distance feature, not the nearest-of-5
+# version -- Piedmont Park specifically is Midtown's flagship park and a
+# well-known premium-adjacent landmark in its own right, distinct from
+# "nearest named park" which could resolve to any of the 5.
+PIEDMONT_PARK: tuple[float, float] = (33.7865787, -84.3733086)
 
 # ---------------------------------------------------------------------------
 # Hyperparameter search space (LightGBM via Optuna)

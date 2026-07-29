@@ -153,6 +153,25 @@ def _load_bars_nightclubs() -> list[tuple[float, float]]:
     return [(float(s["lat"]), float(s["lon"])) for s in raw]
 
 
+def _load_offices() -> list[tuple[float, float]]:
+    """
+    Read office POI coordinates from the JSON reference file
+    (eda/offices.json, a list of {name, lat, lon, office, source} entries —
+    see eda/fetch_offices.py for provenance). Returns an empty list
+    (rather than raising) if the file is missing, matching
+    _load_marta_stations() / _load_coffee_shops() / _load_grocery_stores()
+    / _load_restaurants() / _load_bars_nightclubs()'s graceful-degradation
+    pattern -- this file doesn't exist yet as of 2026-07-19 (needs a live
+    Overpass fetch via eda/fetch_offices.py, run on the user's machine),
+    so add_office_density() currently returns all-zero columns.
+    """
+    path = Path(config.OFFICES_JSON)
+    if not path.exists():
+        return []
+    raw = json.loads(path.read_text())
+    return [(float(s["lat"]), float(s["lon"])) for s in raw]
+
+
 def _load_parks() -> list[tuple[float, float]]:
     """
     Read park polygon-centroid coordinates from the JSON reference file
@@ -710,6 +729,53 @@ def add_bar_density(df: pd.DataFrame) -> pd.DataFrame:
     return df
 
 
+def add_office_density(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Count distinct office POIs within each radius in
+    config.OFFICE_DENSITY_RADII.
+
+    Different motivation from the dining/lifestyle-amenity density family
+    (add_coffee_shop_density / add_grocery_density / add_restaurant_density
+    / add_bar_density) -- office density is an "employment center" / job
+    proximity proxy rather than a walkable-retail signal, so it may not
+    share those features' failure mode against baseline. Sourced from
+    eda/offices.json (OSM office=* tag, curated via eda/fetch_offices.py).
+    Uses the same direct vectorized haversine distance matrix as the other
+    density features. Rows with missing lat/lon naturally get a count of 0
+    (NaN distances fail every "<= radius" comparison), matching the
+    existing convention in add_competitor_count_features /
+    add_marta_station_density / add_coffee_shop_density / add_grocery_density
+    / add_restaurant_density / add_bar_density.
+
+    Adds (one column per radius):
+        num_offices_within_{label} : int16
+    e.g. num_offices_within_0.5mi.
+    """
+    if "latitude" not in df.columns or "longitude" not in df.columns:
+        return df
+    df = df.copy()
+    offices = _load_offices()
+
+    if not offices:
+        for _, label in config.OFFICE_DENSITY_RADII:
+            df[f"num_offices_within_{label}"] = np.int16(0)
+        return df
+
+    dists_km = np.stack(
+        [
+            haversine_km(df["latitude"].values, df["longitude"].values, lat, lon)
+            for lat, lon in offices
+        ]
+    )  # shape (n_offices, n_rows)
+
+    for radius_mi, label in config.OFFICE_DENSITY_RADII:
+        radius_km = radius_mi * 1.609344
+        within = dists_km <= radius_km  # NaN comparisons -> False
+        df[f"num_offices_within_{label}"] = within.sum(axis=0).astype("int16")
+
+    return df
+
+
 def add_total_poi_density(df: pd.DataFrame) -> pd.DataFrame:
     """
     Count ALL POIs across the 4 curated categories (coffee shops + grocery
@@ -807,6 +873,54 @@ def add_dining_grocery_density(df: pd.DataFrame) -> pd.DataFrame:
     return df
 
 
+def add_restaurant_cafe_density(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Count restaurants + coffee shops ONLY (not grocery stores or bars)
+    within each radius in config.RESTAURANT_CAFE_DENSITY_RADII, as one
+    combined column.
+
+    Motivation: replaces the standalone restaurant-density feature in the
+    base config with a slightly broader "dining and cafe scene" signal --
+    restaurant density alone was the single best individual POI feature
+    this session ($74.59 on the base trio), and coffee shops are the next
+    most walkability-correlated discretionary-dining category (ahead of
+    grocery/bars). Combining just these two mirrors add_dining_grocery_density()
+    but swaps grocery (an essential, less lifestyle-driven category) for
+    coffee shops (a more clearly walkability/lifestyle-driven one).
+
+    Same direct vectorized haversine distance matrix approach as the other
+    density features. Rows with missing lat/lon naturally get a count of 0
+    (NaN distances fail every "<= radius" comparison).
+
+    Adds (one column per radius):
+        num_restaurant_cafe_within_{label} : int16
+    e.g. num_restaurant_cafe_within_0.5mi.
+    """
+    if "latitude" not in df.columns or "longitude" not in df.columns:
+        return df
+    df = df.copy()
+    poi = _load_restaurants() + _load_coffee_shops()
+
+    if not poi:
+        for _, label in config.RESTAURANT_CAFE_DENSITY_RADII:
+            df[f"num_restaurant_cafe_within_{label}"] = np.int16(0)
+        return df
+
+    dists_km = np.stack(
+        [
+            haversine_km(df["latitude"].values, df["longitude"].values, lat, lon)
+            for lat, lon in poi
+        ]
+    )  # shape (n_poi, n_rows)
+
+    for radius_mi, label in config.RESTAURANT_CAFE_DENSITY_RADII:
+        radius_km = radius_mi * 1.609344
+        within = dists_km <= radius_km  # NaN comparisons -> False
+        df[f"num_restaurant_cafe_within_{label}"] = within.sum(axis=0).astype("int16")
+
+    return df
+
+
 def add_park_distance(df: pd.DataFrame) -> pd.DataFrame:
     """
     Add great-circle distance (km) to the nearest park, using each park's
@@ -895,6 +1009,27 @@ def add_named_park_distance(df: pd.DataFrame) -> pd.DataFrame:
         warnings.filterwarnings("ignore", message="All-NaN slice encountered")
         nearest = np.nanmin(dists_km, axis=0)
     df["dist_nearest_named_park_km"] = nearest.astype("float32")
+    return df
+
+
+def add_piedmont_park_distance(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Add great-circle distance (km) to Piedmont Park specifically (config
+    .PIEDMONT_PARK), rather than the nearest of the 5 curated parks (see
+    add_named_park_distance()). Same single-fixed-point pattern as
+    add_landmark_distances() (buckhead/midtown/downtown/airport) -- a
+    dedicated distance to one well-known landmark, not an aggregate.
+
+    Adds:
+        dist_piedmont_park_km : float32, or NaN if lat/lon missing.
+    """
+    if "latitude" not in df.columns or "longitude" not in df.columns:
+        return df
+    df = df.copy()
+    lat, lon = config.PIEDMONT_PARK
+    df["dist_piedmont_park_km"] = haversine_km(
+        df["latitude"].values, df["longitude"].values, lat, lon
+    ).astype("float32")
     return df
 
 
@@ -1669,10 +1804,13 @@ def add_static_features(df: pd.DataFrame) -> pd.DataFrame:
     df = add_grocery_density(df)
     df = add_restaurant_density(df)
     df = add_bar_density(df)
+    df = add_office_density(df)
     df = add_total_poi_density(df)
     df = add_dining_grocery_density(df)
+    df = add_restaurant_cafe_density(df)
     df = add_park_distance(df)
     df = add_named_park_distance(df)
+    df = add_piedmont_park_distance(df)
     df = add_h3_cells(df)
     df = add_travel_time_features(df)
     df = add_highway_distance(df)
